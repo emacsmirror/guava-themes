@@ -1,0 +1,53 @@
+# guava-themes (WIP)
+A few Emacs themes inspired by guavas (and other plants).
+
+<img src="./img/guava-flower-drawing-2.png" width="400" height="400" alt="guava-drawing">
+<!-- ![guava-drawing](./img/guava-flower-drawing-2.png) -->
+
+### Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Introduction
+This package began as an specific idea: *what if I could create an Emacs theme based on my favorite fruit? And what if it was a light theme, but not **too light**?*  
+So here it is. My first Emacs theme(s) / package.  
+Although I intend for each commit to be at least on a working state, for now this is a WIP project so you should expect things to go not so smoothly.
+
+## Installation
+- Download the repository into ~/.emacs.d/elpa/  
+I recommend you use this Emacs code:
+```
+(use-package guava-themes
+  :vc (:url "https://github.com/bormoge/guava-themes"
+       :rev :newest
+       :branch "main"
+       :vc-backend Git)
+  :ensure t
+  )
+```
+
+## Screenshots
+For now there is none, but I expect that to change when I actually have something written.
+
+## Contributions
+Issues, pull requests, and forks are welcome.
+
+## License
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
