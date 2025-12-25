@@ -39,6 +39,13 @@ For now there is none, but I expect that to change when I actually have somethin
 ## Contributions
 Issues, pull requests, and forks are welcome.
 
+Here is a tentative list of things to consider when contributing:
+
+
+* When adding or modifying something that changes the visuals of Emacs (e.g. a face), make sure to include screenshots of the original and changed versions.
+* When making a pull request, make sure the commits adhere to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+* Make sure commits are modular; one feat/fix/doc/etc at a time.
+
 ## License
 
 SPDX-License-Identifier: GPL-3.0-or-later
