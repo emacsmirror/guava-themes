@@ -39,14 +39,15 @@
       (guava-psidium-cream         "#F1EECE");F7DEB6
       (guava-psidium-yellow        "#FFE582")
 
-      ;; (guava-psidium-green         "#048704");pending removal
       (guava-psidium-light-green   "#D0F4BC");B9FFA8
       (guava-psidium-green         "#599F48")
       (guava-psidium-chartreuse    "#7F8263")
       (guava-psidium-guava-green   "#AED734");AECA41,AED234
+      (guava-psidium-deep-green    "#097d2c");09662c
 
-      (guava-psidium-red           "#FF7D5F")
-      (guava-psidium-orange        "#F87C4A")
+      (guava-psidium-orange        "#FF7D5F")
+      (guava-psidium-deep-orange   "#D43D1A")
+      (guava-psidium-red           "#f02d1b")
       (guava-psidium-light-pink    "#FCD0C9");F8917C
       (guava-psidium-pink          "#F8767C");F84865,F8767C,F88686,F85A65
 
@@ -55,8 +56,12 @@
       (guava-psidium-brown         "#55422A")
 
       (guava-psidium-light-blue    "#41C3CA")
-      (guava-psidium-blue          "#008B8B")
-      (guava-psidium-deep-blue     "#004F5D")
+      (guava-psidium-blue          "#008B8B");245feb
+      (guava-psidium-deep-blue     "#483d8b");004F5D
+      (guava-psidium-antaric-blue  "#8d76ca");6a5997
+
+      (guava-psidium-light-purple  "#a62d90");D7137C,C0137C,B00CE0
+      (guava-psidium-purple        "#8f307e");852f56,a63d6d
 
       (guava-psidium-error         "#FF0000")
       (guava-psidium-warning       "#F68511");FF8C00,f08020,f68511
@@ -64,7 +69,7 @@
 
       (guava-psidium-vc-change     guava-psidium-light-blue)
       (guava-psidium-vc-insert     guava-psidium-green)
-      (guava-psidium-vc-delete     guava-psidium-red)
+      (guava-psidium-vc-delete     guava-psidium-orange)
       )
 
   (custom-theme-set-faces
@@ -87,13 +92,15 @@
    `(diff-hl-insert ((,guava-psidium-class (:background ,guava-psidium-vc-insert :foreground ,guava-psidium-vc-insert))))
    `(diff-hl-delete ((,guava-psidium-class (:background ,guava-psidium-vc-delete :foreground ,guava-psidium-vc-delete))))
 
-   ;; ;; line-number
+   ;; line-number
    `(line-number ((,guava-psidium-class (:foreground ,guava-psidium-brown :height 1.35))))
    `(line-number-current-line ((,guava-psidium-class (:foreground ,guava-psidium-black :background ,guava-psidium-light-pink :weight bold :height 1.35))))
 
-   ;; background
-   `(region ((,guava-psidium-class (:background ,guava-psidium-green :foreground ,guava-psidium-black))))
+   ;; hl-line
    `(hl-line ((,guava-psidium-class (:background ,guava-psidium-light-pink))))
+
+   ;; region
+   `(region ((,guava-psidium-class (:background ,guava-psidium-green :foreground ,guava-psidium-black))))
 
    ;; mode-line
    `(mode-line ((,guava-psidium-class (:background ,guava-psidium-guava-green :foreground ,guava-psidium-black))))
@@ -125,23 +132,23 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,guava-psidium-class (:foreground ,guava-psidium-green :weight medium))))
-   `(font-lock-string-face ((,guava-psidium-class (:foreground ,guava-psidium-alt-brown :weight medium))))
-   ;; `(font-lock-bracket-face ((,guava-psidium-class (:foreground ,guava-psidium-black :background ,guava-psidium-light-grey))))
-   ;; `(font-lock-function-name-face ((,guava-psidium-class (:foreground ,guava-psidium-black :background ,guava-psidium-light-grey))))
-   ;; `(font-lock-builtin-face ((,guava-psidium-class (:foreground ,guava-psidium-blue))))
-   ;; `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-br-magenta))))
-   ;; `(font-lock-keyword-face ((,guava-psidium-class (:foreground ,guava-psidium-blue))))
-   ;; `(font-lock-type-face ((,guava-psidium-class (:foreground ,guava-psidium-brown))))
-   ;; `(font-lock-variable-name-face ((,guava-psidium-class (:foreground ,guava-psidium-black))))
-   ;; `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-br-red :background ,guava-psidium-yellow :weight bold))))
+   `(font-lock-string-face ((,guava-psidium-class (:foreground ,guava-psidium-alt-brown :weight bold))))
+   `(font-lock-keyword-face ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :weight medium))))
+   `(font-lock-builtin-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-red :weight medium))))
+   `(font-lock-type-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-green :weight medium))))
+   `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-antaric-blue :weight medium))))
+   `(font-lock-function-name-face ((,guava-psidium-class (:foreground ,guava-psidium-blue :weight medium))))
+   `(font-lock-bracket-face ((,guava-psidium-class (:weight medium))))
+   `(font-lock-variable-name-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-orange :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-psidium-class (:background ,guava-psidium-red))))
+   `(show-paren-match ((,guava-psidium-class (:background ,guava-psidium-orange))))
 
-   ;; ;; buttons
-   ;; `(link ((,guava-psidium-class (:foreground ,guava-psidium-red :underline t :weight bold))))
-   ;; `(link-visited ((,guava-psidium-class (:foreground ,guava-psidium-brown :underline t))))
-   ;; `(button ((,guava-psidium-class (:background ,guava-psidium-light-grey :foreground ,guava-psidium-black :box (:style released-button)))))
+   ;; buttons
+   `(link ((,guava-psidium-class (:foreground ,guava-psidium-light-blue :underline t :weight bold))))
+   `(link-visited ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :underline t :weight bold))))
+   `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :weight bold))))
    ))
 
 ;;;###autoload
