@@ -148,7 +148,7 @@
    ;; buttons
    `(link ((,guava-psidium-class (:foreground ,guava-psidium-light-blue :underline t :weight bold))))
    `(link-visited ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :underline t :weight bold))))
-   `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :weight bold))))
+   `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :underline t :weight bold))))
    ))
 
 ;;;###autoload
