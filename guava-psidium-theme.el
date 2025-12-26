@@ -52,8 +52,7 @@
       (guava-psidium-pink          "#F8767C");F84865,F8767C,F88686,F85A65
 
       (guava-psidium-light-brown   "#735944")
-      (guava-psidium-alt-brown     "#7D5E45")
-      (guava-psidium-brown         "#55422A")
+      (guava-psidium-brown         "#7D5E45")
 
       (guava-psidium-light-blue    "#41C3CA")
       (guava-psidium-blue          "#008B8B");245feb
@@ -105,7 +104,7 @@
    ;; mode-line
    `(mode-line ((,guava-psidium-class (:background ,guava-psidium-guava-green :foreground ,guava-psidium-black))))
    `(mode-line-inactive ((,guava-psidium-class (:background ,guava-psidium-light-brown :foreground ,guava-psidium-white))))
-   `(guava-visible-bell ((,guava-psidium-class (:background ,guava-psidium-light-brown :foreground ,guava-psidium-white))))
+   `(guava-visible-bell ((,guava-psidium-class (:background ,guava-psidium-deep-green :foreground ,guava-psidium-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,guava-psidium-class (:foreground ,guava-psidium-black))))
@@ -132,7 +131,7 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,guava-psidium-class (:foreground ,guava-psidium-green :weight medium))))
-   `(font-lock-string-face ((,guava-psidium-class (:foreground ,guava-psidium-alt-brown :weight bold))))
+   `(font-lock-string-face ((,guava-psidium-class (:foreground ,guava-psidium-brown :weight bold))))
    `(font-lock-keyword-face ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-blue :weight medium))))
    `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-red :weight medium))))
