@@ -1,7 +1,7 @@
 # guava-themes (WIP)
 A few Emacs themes inspired by guavas (and other plants).
 
-<img src="./img/guava-flower-drawing-2.png" width="300" height="300" alt="guava-drawing">
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/logo/guava-flower-drawing-2.png" width="300" height="300" alt="guava-drawing">
 <!-- ![guava-drawing](./img/guava-flower-drawing-2.png) -->
 
 ### Table of Contents
@@ -27,7 +27,7 @@ I recommend you use this Emacs code:
             :vc-backend Git)
   :ensure t
   :config
-  (setq ring-bell-function #guava-change-visible-bell)
+  (setq ring-bell-function #'guava-change-visible-bell)
   (setq visible-bell t)
   (load-theme 'guava-psidium t)
   )
