@@ -34,7 +34,17 @@ I recommend you use this Emacs code:
 ```
 
 ## Screenshots
-For now there is none, but I expect that to change when I actually have something written.
+- Guava Psidium Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-psidium-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
+
+- Guava Prunus Theme  
+
+TBC
+
+- Guava Jacaranda Theme  
+
+TBC
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
