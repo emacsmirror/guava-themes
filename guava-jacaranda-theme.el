@@ -33,44 +33,43 @@
 
 (let* (
       (guava-jacaranda-class '((class color) (min-colors 257)))
-      (guava-jacaranda-black         "#000000")
+      (guava-jacaranda-black             "#000000")
 
-      (guava-jacaranda-white         "#FFFFFF")
-      (guava-jacaranda-cream         "#e9d9f9");e9e4f9
-      (guava-jacaranda-yellow        "#")
+      (guava-jacaranda-white             "#FFFFFF")
+      (guava-jacaranda-cream             "#e9d9f9");e9e4f9
+      (guava-jacaranda-yellow            "#")
 
-      (guava-jacaranda-light-green   "#52bc63")
-      (guava-jacaranda-green         "#8ec654")
-      (guava-jacaranda-chartreuse    "#")
-      (guava-jacaranda-guava-green   "#")
-      (guava-jacaranda-deep-green    "#")
+      (guava-jacaranda-light-green       "#52bc63")
+      (guava-jacaranda-green             "#8ec654")
+      (guava-jacaranda-chartreuse        "#")
+      (guava-jacaranda-guava-green       "#")
+      (guava-jacaranda-deep-green        "#")
 
-      (guava-jacaranda-orange        "#ff9535")
-      (guava-jacaranda-deep-orange   "#c46935")
-      (guava-jacaranda-red           "#")
-      (guava-jacaranda-light-pink    "#")
-      (guava-jacaranda-pink          "#")
+      (guava-jacaranda-orange            "#ff9535")
+      (guava-jacaranda-deep-orange       "#c46935")
+      (guava-jacaranda-red               "#")
+      (guava-jacaranda-light-pink        "#")
+      (guava-jacaranda-pink              "#")
 
-      (guava-jacaranda-light-brown   "#")
-      (guava-jacaranda-brown         "#")
+      (guava-jacaranda-light-brown       "#")
+      (guava-jacaranda-brown             "#")
 
-      (guava-jacaranda-light-blue    "#C0B4E4")
-      (guava-jacaranda-blue          "#")
-      (guava-jacaranda-deep-blue     "#655db0")
-      (guava-jacaranda-antaric-blue  "#")
+      (guava-jacaranda-light-blue        "#C0B4E4")
+      (guava-jacaranda-blue              "#")
+      (guava-jacaranda-deep-blue         "#655db0")
+      (guava-jacaranda-antarctic-blue    "#8d76ca")
 
-      (guava-jacaranda-light-purple  "#dbd0fd")
-      (guava-jacaranda-purple        "#aa69e6");984ee6
-      (guava-jacaranda-deep-purple   "#740cbe")
-      (guava-jacaranda-antaric-blue  "#8d76ca");6a5997
+      (guava-jacaranda-light-purple      "#dbd0fd")
+      (guava-jacaranda-purple            "#aa69e6");984ee6
+      (guava-jacaranda-deep-purple       "#740cbe")
 
-      (guava-jacaranda-error         "#FF0000")
-      (guava-jacaranda-warning       "#F68511")
-      (guava-jacaranda-success       "#228B22")
+      (guava-jacaranda-error             "#FF0000")
+      (guava-jacaranda-warning           "#F68511")
+      (guava-jacaranda-success           "#228B22")
 
-      ;; (guava-jacaranda-vc-change     guava-jacaranda-light-blue)
-      ;; (guava-jacaranda-vc-insert     guava-jacaranda-green)
-      ;; (guava-jacaranda-vc-delete     guava-jacaranda-orange)
+      ;; (guava-jacaranda-vc-change         guava-jacaranda-light-blue)
+      ;; (guava-jacaranda-vc-insert         guava-jacaranda-green)
+      ;; (guava-jacaranda-vc-delete         guava-jacaranda-orange)
       )
 
   (custom-theme-set-faces
@@ -94,7 +93,7 @@
    ;; `(diff-hl-delete ((,guava-jacaranda-class (:background ,guava-jacaranda-vc-delete :foreground ,guava-jacaranda-vc-delete))))
 
    ;; line-number
-   `(line-number ((,guava-jacaranda-class (:foreground ,guava-jacaranda-antaric-blue :height 1.35))))
+   `(line-number ((,guava-jacaranda-class (:foreground ,guava-jacaranda-antarctic-blue :height 1.35))))
    `(line-number-current-line ((,guava-jacaranda-class (:foreground ,guava-jacaranda-black :background ,guava-jacaranda-light-pink :weight bold :height 1.35))))
 
    ;; hl-line
@@ -138,7 +137,7 @@
    ;; `(font-lock-builtin-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-deep-blue :weight medium))))
    ;; `(font-lock-warning-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-red :weight medium))))
    ;; `(font-lock-type-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-deep-green :weight medium))))
-   ;; `(font-lock-constant-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-antaric-blue :weight medium))))
+   ;; `(font-lock-constant-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-antarctic-blue :weight medium))))
    ;; `(font-lock-function-name-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-blue :weight medium))))
    ;; `(font-lock-bracket-face ((,guava-jacaranda-class (:weight medium))))
    ;; `(font-lock-variable-name-face ((,guava-jacaranda-class (:foreground ,guava-jacaranda-deep-orange :weight medium))))

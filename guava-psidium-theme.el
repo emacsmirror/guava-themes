@@ -33,42 +33,42 @@
 
 (let* (
       (guava-psidium-class '((class color) (min-colors 257)))
-      (guava-psidium-black         "#000000")
+      (guava-psidium-black             "#000000")
 
-      (guava-psidium-white         "#FFFFFF")
-      (guava-psidium-cream         "#F1EECE");F7DEB6
-      (guava-psidium-yellow        "#FFE582")
+      (guava-psidium-white             "#FFFFFF")
+      (guava-psidium-cream             "#F1EECE");F7DEB6
+      (guava-psidium-yellow            "#FFE582")
 
-      (guava-psidium-light-green   "#D0F4BC");B9FFA8
-      (guava-psidium-green         "#599F48")
-      (guava-psidium-chartreuse    "#7F8263")
-      (guava-psidium-guava-green   "#AED734");AECA41,AED234
-      (guava-psidium-deep-green    "#097d2c");09662c
+      (guava-psidium-light-green       "#D0F4BC");B9FFA8
+      (guava-psidium-green             "#599F48")
+      (guava-psidium-chartreuse        "#7F8263")
+      (guava-psidium-guava-green       "#AED734");AECA41,AED234
+      (guava-psidium-deep-green        "#097d2c");09662c
 
-      (guava-psidium-orange        "#FF7D5F")
-      (guava-psidium-deep-orange   "#D43D1A")
-      (guava-psidium-red           "#f02d1b")
-      (guava-psidium-light-pink    "#FCD0C9");F8917C
-      (guava-psidium-pink          "#F8767C");F84865,F8767C,F88686,F85A65
+      (guava-psidium-orange            "#FF7D5F")
+      (guava-psidium-deep-orange       "#D43D1A")
+      (guava-psidium-red               "#f02d1b")
+      (guava-psidium-light-pink        "#FCD0C9");F8917C
+      (guava-psidium-pink              "#F8767C");F84865,F8767C,F88686,F85A65
 
-      (guava-psidium-light-brown   "#735944")
-      (guava-psidium-brown         "#7D5E45")
+      (guava-psidium-light-brown       "#735944")
+      (guava-psidium-brown             "#7D5E45")
 
-      (guava-psidium-light-blue    "#41C3CA")
-      (guava-psidium-blue          "#008B8B");245feb
-      (guava-psidium-deep-blue     "#483d8b");004F5D
-      (guava-psidium-antaric-blue  "#8d76ca");6a5997
+      (guava-psidium-light-blue        "#41C3CA")
+      (guava-psidium-blue              "#008B8B");245feb
+      (guava-psidium-deep-blue         "#483d8b");004F5D
+      (guava-psidium-antarctic-blue    "#8d76ca");6a5997
 
-      (guava-psidium-light-purple  "#a62d90");D7137C,C0137C,B00CE0
-      (guava-psidium-purple        "#8f307e");852f56,a63d6d
+      (guava-psidium-light-purple      "#a62d90");D7137C,C0137C,B00CE0
+      (guava-psidium-purple            "#8f307e");852f56,a63d6d
 
-      (guava-psidium-error         "#FF0000")
-      (guava-psidium-warning       "#F68511");FF8C00,f08020,f68511
-      (guava-psidium-success       "#228B22")
+      (guava-psidium-error             "#FF0000")
+      (guava-psidium-warning           "#F68511");FF8C00,f08020,f68511
+      (guava-psidium-success           "#228B22")
 
-      (guava-psidium-vc-change     guava-psidium-light-blue)
-      (guava-psidium-vc-insert     guava-psidium-green)
-      (guava-psidium-vc-delete     guava-psidium-orange)
+      (guava-psidium-vc-change         guava-psidium-light-blue)
+      (guava-psidium-vc-insert         guava-psidium-green)
+      (guava-psidium-vc-delete         guava-psidium-orange)
       )
 
   (custom-theme-set-faces
@@ -136,7 +136,7 @@
    `(font-lock-builtin-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-blue :weight medium))))
    `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-red :weight medium))))
    `(font-lock-type-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-green :weight medium))))
-   `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-antaric-blue :weight medium))))
+   `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-antarctic-blue :weight medium))))
    `(font-lock-function-name-face ((,guava-psidium-class (:foreground ,guava-psidium-blue :weight medium))))
    `(font-lock-bracket-face ((,guava-psidium-class (:weight medium))))
    `(font-lock-variable-name-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-orange :weight medium))))
