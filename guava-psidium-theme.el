@@ -99,7 +99,7 @@
    `(hl-line ((,guava-psidium-class (:background ,guava-psidium-light-pink))))
 
    ;; region
-   `(region ((,guava-psidium-class (:background ,guava-psidium-green :foreground ,guava-psidium-black))))
+   `(region ((,guava-psidium-class (:background ,guava-psidium-green))))
 
    ;; mode-line
    `(mode-line ((,guava-psidium-class (:background ,guava-psidium-guava-green :foreground ,guava-psidium-black))))
