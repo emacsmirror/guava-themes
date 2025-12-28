@@ -41,7 +41,7 @@
 
       (guava-psidium-light-green       "#D0F4BC");B9FFA8
       (guava-psidium-green             "#599F48")
-      (guava-psidium-chartreuse        "#7F8263")
+      (guava-psidium-oceanic-green     "#3ab992");13765e,13845e,139570,3ab488
       (guava-psidium-guava-green       "#AED734");AECA41,AED234
       (guava-psidium-deep-green        "#097d2c");09662c
 
@@ -99,7 +99,7 @@
    `(hl-line ((,guava-psidium-class (:background ,guava-psidium-light-pink))))
 
    ;; region
-   `(region ((,guava-psidium-class (:background ,guava-psidium-green))))
+   `(region ((,guava-psidium-class (:background ,guava-psidium-oceanic-green))))
 
    ;; mode-line
    `(mode-line ((,guava-psidium-class (:background ,guava-psidium-guava-green :foreground ,guava-psidium-black))))
