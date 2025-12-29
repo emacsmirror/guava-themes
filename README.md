@@ -17,8 +17,7 @@ So here it is. My first Emacs theme(s) / package.
 Although I intend for each commit to be at least on a working state, for now this is a WIP project so you should expect things to go not so smoothly.
 
 ## Installation
-- Download the repository into ~/.emacs.d/elpa/  
-I recommend you use this Emacs code:
+- I recommend you use this Emacs code to automatically install **guava-themes**. This should work on Emacs 30:
 ```
 (use-package guava-themes
   :vc (:url "https://github.com/bormoge/guava-themes"
@@ -31,6 +30,17 @@ I recommend you use this Emacs code:
   (setq visible-bell t)
   (load-theme 'guava-psidium t)
   )
+```
+- If it doesn't work you can also try using this code:
+```
+(unless (package-installed-p 'guava-themes)
+  (package-vc-install "https://github.com/bormoge/guava-themes" nil nil 'guava-themes))
+
+(require 'guava-themes)
+
+(setq ring-bell-function #'guava-change-visible-bell)
+(setq visible-bell t)
+(load-theme 'guava-psidium t)
 ```
 
 ## Screenshots
