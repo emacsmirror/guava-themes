@@ -37,9 +37,7 @@
 
       (guava-psidium-white             "#FFFFFF")
       (guava-psidium-cream             "#F1EECE");F7DEB6
-      (guava-psidium-yellow            "#FFE582")
 
-      (guava-psidium-light-green       "#D0F4BC");B9FFA8
       (guava-psidium-green             "#599F48")
       (guava-psidium-oceanic-green     "#3ab992");13765e,13845e,139570,3ab488
       (guava-psidium-guava-green       "#AED734");AECA41,AED234
@@ -60,7 +58,6 @@
       (guava-psidium-antarctic-blue    "#8d76ca");6a5997
 
       (guava-psidium-light-purple      "#a62d90");D7137C,C0137C,B00CE0
-      (guava-psidium-purple            "#8f307e");852f56,a63d6d
 
       (guava-psidium-error             "#FF0000")
       (guava-psidium-warning           "#F68511");FF8C00,f08020,f68511
