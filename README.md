@@ -1,4 +1,4 @@
-# guava-themes (WIP)
+# guava-themes
 A few Emacs themes inspired by guavas (and other plants).
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/logo/guava-flower-drawing-2.png" width="300" height="300" alt="guava-drawing">
@@ -13,8 +13,7 @@ A few Emacs themes inspired by guavas (and other plants).
 
 ## Introduction
 This package began as an specific idea: *what if I could create an Emacs theme based on my favorite fruit? And what if it was a light theme, but not **too light**?*  
-So here it is. My first Emacs theme(s) / package.  
-Although I intend for each commit to be at least on a working state, for now this is a WIP project so you should expect things to go not so smoothly.
+So here it is. My first Emacs package / pack of themes.  
 
 ## Installation
 - I recommend you use this Emacs code to automatically install **guava-themes**. This should work on Emacs 30:
@@ -50,7 +49,7 @@ Although I intend for each commit to be at least on a working state, for now thi
 
 - Guava Prunus Theme  
 
-TBC
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
 
 - Guava Jacaranda Theme  
 
