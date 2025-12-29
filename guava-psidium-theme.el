@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 07, 2025
-;; Version: 0.2.0
+;; Version: 0.2.1
 ;; Keywords: themes faces
 ;; URL: http://github.com/bormoge/guava-themes.el
 
@@ -85,7 +85,7 @@
    ;; cursor
    `(cursor ((,guava-psidium-class (:background ,guava-psidium-green :foreground ,guava-psidium-white))))
 
-   ;; fridge
+   ;; fringe
    `(fringe ((,guava-psidium-class (:background ,guava-psidium-cream :foreground ,guava-psidium-cream))))
    `(diff-hl-change ((,guava-psidium-class (:background ,guava-psidium-vc-change :foreground ,guava-psidium-vc-change))))
    `(diff-hl-insert ((,guava-psidium-class (:background ,guava-psidium-vc-insert :foreground ,guava-psidium-vc-insert))))
