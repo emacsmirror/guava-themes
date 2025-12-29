@@ -44,7 +44,7 @@ TBC
 
 - Guava Jacaranda Theme  
 
-TBC
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-jacaranda-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
