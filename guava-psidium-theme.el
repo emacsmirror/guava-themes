@@ -156,4 +156,10 @@
                    (file-name-directory load-file-name))))
 
 (provide-theme 'guava-psidium)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
+
 ;;; guava-psidium-theme.el ends here

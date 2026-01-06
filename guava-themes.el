@@ -60,4 +60,10 @@ Set `ring-bell-function' with this function as its value to use it."
                         (force-mode-line-update))))))
 
 (provide 'guava-themes)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
+
 ;;; guava-themes.el ends here

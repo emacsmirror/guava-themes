@@ -155,4 +155,10 @@
                    (file-name-directory load-file-name))))
 
 (provide-theme 'guava-jacaranda)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
+
 ;;; guava-jacaranda-theme.el ends here

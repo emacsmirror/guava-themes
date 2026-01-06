@@ -160,4 +160,10 @@
                    (file-name-directory load-file-name))))
 
 (provide-theme 'guava-dracaena)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
+
 ;;; guava-dracaena-theme.el ends here

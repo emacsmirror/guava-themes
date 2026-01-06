@@ -153,4 +153,10 @@
                    (file-name-directory load-file-name))))
 
 (provide-theme 'guava-prunus)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
+
 ;;; guava-prunus-theme.el ends here
