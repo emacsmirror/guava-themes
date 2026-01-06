@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 06, 2026
-;; Version: 0.4.0
+;; Version: 0.4.1
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
 ;; SPDX-License-Identifier: GPL-3.0-or-later
@@ -39,63 +39,59 @@
 
       (guava-dracaena-light-gray        "#4f4f4f")
       (guava-dracaena-gray              "#424845");404242,3e4040,3d3f3f,424545
+      (guava-dracaena-dark-gray         "#353838")
 
-      (guava-dracaena-light-green       "#98a24b");627736,8f9a4e
-      (guava-dracaena-green             "#")
-      (guava-dracaena-oceanic-green     "#")
-      (guava-dracaena-guava-green       "#")
+      (guava-dracaena-guava-green       "#AED734")
       (guava-dracaena-deep-green        "#298e25")
 
-      (guava-dracaena-orange            "#")
-      (guava-dracaena-deep-orange       "#")
-      (guava-dracaena-red               "#e92333");c91628,cc192a,d7192a,ed2725
+      (guava-dracaena-snakeplant-yellow "#d9d389")
+
+      (guava-dracaena-light-orange      "#ffa07a")
+      (guava-dracaena-red               "#d32333");c91628,cc192a,d7192a,ed2725,e92333,db2333
       (guava-dracaena-deep-red          "#792725")
-      (guava-dracaena-light-pink        "#")
-      (guava-dracaena-pink              "#")
 
-      (guava-dracaena-light-brown       "#ffa07a")
-      (guava-dracaena-brown             "#7b5c3e");7b5c3d,977750
+      (guava-dracaena-light-brown       "#8b6c4d")
 
-      (guava-dracaena-light-blue        "#")
+      (guava-dracaena-light-blue        "#425fd5")
       (guava-dracaena-blue              "#2134d5")
-      (guava-dracaena-deep-blue         "#")
-      (guava-dracaena-antarctic-blue    "#4f62be")
-      (guava-dracaena-steel-blue        "#bacce4");b0c4de
+      (guava-dracaena-antarctic-blue    "#bacce4");4f62be
+      (guava-dracaena-steel-blue        "#4f94cd");b0c4de
 
-      (guava-dracaena-light-purple      "#")
+      (guava-dracaena-pink-purple       "#b7125c");961250
+      (guava-dracaena-deep-purple       "#8f1ac8")
 
       (guava-dracaena-error             "#FF0000")
       (guava-dracaena-warning           "#F68511")
       (guava-dracaena-success           "#29d925")
 
-      (guava-dracaena-vc-change         guava-dracaena-light-blue)
-      (guava-dracaena-vc-insert         guava-dracaena-green)
-      (guava-dracaena-vc-delete         guava-dracaena-orange)
+      (guava-dracaena-vc-change         guava-dracaena-blue)
+      (guava-dracaena-vc-insert         guava-dracaena-deep-green)
+      (guava-dracaena-vc-delete         guava-dracaena-error)
       )
 
   (custom-theme-set-faces
    'guava-dracaena
 
    ;; default for guava-dracaena
-   `(default ((,guava-dracaena-class (:foreground ,guava-dracaena-steel-blue :background ,guava-dracaena-gray))))
+   `(default ((,guava-dracaena-class (:foreground ,guava-dracaena-antarctic-blue :background ,guava-dracaena-gray))))
 
    ;; error, warning, success
    `(error ((,guava-dracaena-class (:foreground ,guava-dracaena-error :weight bold))))
    `(warning ((,guava-dracaena-class (:foreground ,guava-dracaena-warning :weight bold))))
    `(success ((,guava-dracaena-class (:foreground ,guava-dracaena-success :weight bold))))
 
-   ;; ;; cursor
-   `(cursor ((,guava-dracaena-class (:background ,guava-dracaena-light-green :foreground ,guava-dracaena-white))))
+   ;; cursor
+   `(cursor ((,guava-dracaena-class (:background ,guava-dracaena-light-orange :foreground ,guava-dracaena-white))))
 
-   ;; ;; fringe
-   ;; `(fringe ((,guava-dracaena-class (:background ,guava-dracaena-cream :foreground ,guava-dracaena-cream))))
-   ;; `(diff-hl-change ((,guava-dracaena-class (:background ,guava-dracaena-vc-change :foreground ,guava-dracaena-vc-change))))
-   ;; `(diff-hl-insert ((,guava-dracaena-class (:background ,guava-dracaena-vc-insert :foreground ,guava-dracaena-vc-insert))))
-   ;; `(diff-hl-delete ((,guava-dracaena-class (:background ,guava-dracaena-vc-delete :foreground ,guava-dracaena-vc-delete))))
+   ;; fringe
+   `(fringe ((,guava-dracaena-class (:background ,guava-dracaena-gray :foreground ,guava-dracaena-gray))))
+   `(diff-hl-change ((,guava-dracaena-class (:background ,guava-dracaena-vc-change :foreground ,guava-dracaena-vc-change))))
+   `(diff-hl-insert ((,guava-dracaena-class (:background ,guava-dracaena-vc-insert :foreground ,guava-dracaena-vc-insert))))
+   `(diff-hl-delete ((,guava-dracaena-class (:background ,guava-dracaena-vc-delete :foreground ,guava-dracaena-vc-delete))))
 
-   ;; ;; line-number
-   ;; `(line-number ((,guava-dracaena-class (:foreground ,guava-dracaena-brown :height 1.35))))
-   ;; `(line-number-current-line ((,guava-dracaena-class (:foreground ,guava-dracaena-black :background ,guava-dracaena-light-pink :weight bold :height 1.35))))
+   ;; line-number
+   `(line-number ((,guava-dracaena-class (:foreground ,guava-dracaena-antarctic-blue :height 1.35))))
+   `(line-number-current-line ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange :background ,guava-dracaena-light-gray :weight bold :height 1.35))))
 
    ;; hl-line
    `(hl-line ((,guava-dracaena-class (:background ,guava-dracaena-light-gray))))
@@ -105,51 +101,51 @@
 
    ;; mode-line
    `(mode-line ((,guava-dracaena-class (:background ,guava-dracaena-deep-red :foreground ,guava-dracaena-white))))
-   `(mode-line-inactive ((,guava-dracaena-class (:background ,guava-dracaena-antarctic-blue :foreground ,guava-dracaena-white))))
-   ;; `(guava-visible-bell ((,guava-dracaena-class (:background ,guava-dracaena-deep-green :foreground ,guava-dracaena-white))))
+   `(mode-line-inactive ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white))))
+   `(guava-visible-bell ((,guava-dracaena-class (:background ,guava-dracaena-light-orange :foreground ,guava-dracaena-white))))
 
-   ;; ;; minibuffer
-   ;; `(minibuffer-prompt ((,guava-dracaena-class (:foreground ,guava-dracaena-black))))
+   ;; minibuffer
+   `(minibuffer-prompt ((,guava-dracaena-class (:foreground ,guava-dracaena-antarctic-blue))))
 
-   ;; ;;borders
-   ;; `(vertical-border ((,guava-dracaena-class (:foreground ,guava-dracaena-light-brown))))
+   ;; borders
+   `(vertical-border ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange))))
 
-   ;; ;; header-line
-   ;; `(header-line ((,guava-dracaena-class (:background ,guava-dracaena-pink :foreground ,guava-dracaena-white))))
-   ;; `(which-func ((,guava-dracaena-class (:background ,guava-dracaena-pink :foreground ,guava-dracaena-white))))
+   ;; header-line
+   `(header-line ((,guava-dracaena-class (:background ,guava-dracaena-deep-red :foreground ,guava-dracaena-white))))
+   `(which-func ((,guava-dracaena-class (:background ,guava-dracaena-deep-red :foreground ,guava-dracaena-white))))
 
    ;; tab-bar
-   `(tab-bar ((,guava-dracaena-class (:background ,guava-dracaena-brown :foreground ,guava-dracaena-white))))
+   `(tab-bar ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white))))
    `(tab-bar-tab ((,guava-dracaena-class (:background ,guava-dracaena-deep-red :foreground ,guava-dracaena-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,guava-dracaena-class (:background ,guava-dracaena-brown :foreground ,guava-dracaena-white :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,guava-dracaena-class (:background ,guava-dracaena-brown :foreground ,guava-dracaena-white))))
-   `(tab-line-tab ((,guava-dracaena-class (:background ,guava-dracaena-brown :foreground ,guava-dracaena-white :weight bold :height 0.9))))
+   `(tab-line ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white))))
+   `(tab-line-tab ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,guava-dracaena-class (:background ,guava-dracaena-deep-red :foreground ,guava-dracaena-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,guava-dracaena-class (:background ,guava-dracaena-brown :foreground ,guava-dracaena-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,guava-dracaena-class (:background ,guava-dracaena-dark-gray :foreground ,guava-dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,guava-dracaena-class (:foreground ,guava-dracaena-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,guava-dracaena-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
    `(font-lock-comment-face ((,guava-dracaena-class (:foreground ,guava-dracaena-deep-green :weight medium))))
-   `(font-lock-string-face ((,guava-dracaena-class (:foreground ,guava-dracaena-light-brown :weight bold))))
-   ;; `(font-lock-keyword-face ((,guava-dracaena-class (:foreground ,guava-dracaena-light-purple :weight medium))))
+   `(font-lock-string-face ((,guava-dracaena-class (:foreground ,guava-dracaena-snakeplant-yellow :weight bold))))
+   `(font-lock-keyword-face ((,guava-dracaena-class (:foreground ,guava-dracaena-pink-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-dracaena-class (:foreground ,guava-dracaena-red :weight medium))))
-   ;; `(font-lock-warning-face ((,guava-dracaena-class (:foreground ,guava-dracaena-red :weight medium))))
-   ;; `(font-lock-type-face ((,guava-dracaena-class (:foreground ,guava-dracaena-deep-green :weight medium))))
-   ;; `(font-lock-constant-face ((,guava-dracaena-class (:foreground ,guava-dracaena-antarctic-blue :weight medium))))
-   ;; `(font-lock-function-name-face ((,guava-dracaena-class (:foreground ,guava-dracaena-blue :weight medium))))
-   ;; `(font-lock-bracket-face ((,guava-dracaena-class (:weight medium))))
-   ;; `(font-lock-variable-name-face ((,guava-dracaena-class (:foreground ,guava-dracaena-deep-orange :weight medium))))
+   `(font-lock-warning-face ((,guava-dracaena-class (:foreground ,guava-dracaena-error :weight medium))))
+   `(font-lock-type-face ((,guava-dracaena-class (:foreground ,guava-dracaena-guava-green :weight medium))))
+   `(font-lock-constant-face ((,guava-dracaena-class (:foreground ,guava-dracaena-light-blue :weight medium))))
+   `(font-lock-function-name-face ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange :weight medium))))
+   `(font-lock-bracket-face ((,guava-dracaena-class (:weight medium))))
+   `(font-lock-variable-name-face ((,guava-dracaena-class (:foreground ,guava-dracaena-deep-purple :weight medium))))
 
-   ;; ;; parentheses
-   ;; `(show-paren-match ((,guava-dracaena-class (:background ,guava-dracaena-orange))))
+   ;; parentheses
+   `(show-paren-match ((,guava-dracaena-class (:background ,guava-dracaena-steel-blue))))
 
-   ;; ;; buttons
-   ;; `(link ((,guava-dracaena-class (:foreground ,guava-dracaena-light-blue :underline t :weight bold))))
-   ;; `(link-visited ((,guava-dracaena-class (:foreground ,guava-dracaena-light-purple :underline t :weight bold))))
-   ;; `(button ((,guava-dracaena-class (:foreground ,guava-dracaena-blue :underline t :weight bold))))
+   ;; buttons
+   `(link ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))
+   `(link-visited ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange :underline t :weight bold))))
+   `(button ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))
    ))
 
 ;;;###autoload
