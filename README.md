@@ -49,11 +49,15 @@ So here it is. My first Emacs package / pack of themes.
 
 - Guava Prunus Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-prunus-screenshot">
 
 - Guava Jacaranda Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-jacaranda-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-jacaranda-theme.png" width="780" height="400" alt="guava-jacaranda-screenshot">
+
+- Guava Dracaena Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-dracaena-theme.png" width="780" height="400" alt="guava-dracaena-screenshot">
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
