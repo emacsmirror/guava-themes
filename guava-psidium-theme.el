@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 07, 2025
-;; Version: 0.4.1
+;; Version: 0.4.2
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
 ;; SPDX-License-Identifier: GPL-3.0-or-later
@@ -46,7 +46,7 @@
 
       (guava-psidium-orange            "#FF7D5F")
       (guava-psidium-deep-orange       "#D43D1A")
-      (guava-psidium-red               "#f02d1b")
+      (guava-psidium-red               "#c1153b");f02d1b
       (guava-psidium-light-pink        "#FCD0C9");F8917C
       (guava-psidium-pink              "#F8767C");F84865,F8767C,F88686,F85A65
 
@@ -55,10 +55,12 @@
 
       (guava-psidium-light-blue        "#41C3CA")
       (guava-psidium-blue              "#008B8B");245feb
+      (guava-psidium-oceanic-blue      "#2a4ad9")
       (guava-psidium-deep-blue         "#483d8b");004F5D
       (guava-psidium-antarctic-blue    "#8d76ca");6a5997
 
       (guava-psidium-light-purple      "#a62d90");D7137C,C0137C,B00CE0
+      (guava-psidium-purple            "#a62db2")
 
       (guava-psidium-error             "#FF0000")
       (guava-psidium-warning           "#F68511");FF8C00,f08020,f68511
@@ -101,7 +103,7 @@
 
    ;; mode-line
    `(mode-line ((,guava-psidium-class (:background ,guava-psidium-guava-green :foreground ,guava-psidium-black))))
-   `(mode-line-inactive ((,guava-psidium-class (:background ,guava-psidium-light-brown :foreground ,guava-psidium-white))))
+   `(mode-line-inactive ((,guava-psidium-class (:background ,guava-psidium-green :foreground ,guava-psidium-white))))
    `(guava-visible-bell ((,guava-psidium-class (:background ,guava-psidium-deep-green :foreground ,guava-psidium-white))))
 
    ;; minibuffer
@@ -130,14 +132,14 @@
    ;; font-lock
    `(font-lock-comment-face ((,guava-psidium-class (:foreground ,guava-psidium-green :weight medium))))
    `(font-lock-string-face ((,guava-psidium-class (:foreground ,guava-psidium-brown :weight bold))))
-   `(font-lock-keyword-face ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :weight medium))))
+   `(font-lock-keyword-face ((,guava-psidium-class (:foreground ,guava-psidium-red :weight medium))))
    `(font-lock-builtin-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-red :weight medium))))
+   `(font-lock-warning-face ((,guava-psidium-class (:foreground ,guava-psidium-error :weight medium))))
    `(font-lock-type-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-green :weight medium))))
-   `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-antarctic-blue :weight medium))))
+   `(font-lock-constant-face ((,guava-psidium-class (:foreground ,guava-psidium-oceanic-blue :weight medium))))
    `(font-lock-function-name-face ((,guava-psidium-class (:foreground ,guava-psidium-blue :weight medium))))
    `(font-lock-bracket-face ((,guava-psidium-class (:weight medium))))
-   `(font-lock-variable-name-face ((,guava-psidium-class (:foreground ,guava-psidium-deep-orange :weight medium))))
+   `(font-lock-variable-name-face ((,guava-psidium-class (:foreground ,guava-psidium-purple :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,guava-psidium-class (:background ,guava-psidium-orange))))
