@@ -1,4 +1,4 @@
-;;; guava-dracaena-theme.el --- An Emacs theme inspired by guava and dragon tree colors. -*- lexical-binding: t; -*-
+;;; guava-dracaena-theme.el --- An Emacs theme inspired by guava and dragon tree colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 

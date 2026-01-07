@@ -1,4 +1,4 @@
-;;; guava-psidium-theme.el --- An Emacs theme purely inspired by guava colors. -*- lexical-binding: t; -*-
+;;; guava-psidium-theme.el --- An Emacs theme purely inspired by guava colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 

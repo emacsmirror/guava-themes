@@ -1,4 +1,4 @@
-;;; guava-themes.el --- A pack of guava-colored themes for Emacs. -*- lexical-binding: t; -*-
+;;; guava-themes.el --- A pack of guava-colored themes for Emacs -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 

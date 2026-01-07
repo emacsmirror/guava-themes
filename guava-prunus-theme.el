@@ -1,4 +1,4 @@
-;;; guava-prunus-theme.el --- An Emacs theme inspired by guava and cherry colors. -*- lexical-binding: t; -*-
+;;; guava-prunus-theme.el --- An Emacs theme inspired by guava and cherry colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 

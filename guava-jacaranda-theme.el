@@ -1,4 +1,4 @@
-;;; guava-jacaranda-theme.el --- An Emacs theme inspired by guava and jacaranda colors. -*- lexical-binding: t; -*-
+;;; guava-jacaranda-theme.el --- An Emacs theme inspired by guava and jacaranda colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
