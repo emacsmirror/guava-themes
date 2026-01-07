@@ -57,7 +57,7 @@
       (guava-dracaena-antarctic-blue    "#bacce4");4f62be
       (guava-dracaena-steel-blue        "#4f94cd");b0c4de
 
-      (guava-dracaena-pink-purple       "#b7125c");961250
+      (guava-dracaena-pink-purple       "#a5225c");961250,b7125c
       (guava-dracaena-deep-purple       "#8f1ac8")
 
       (guava-dracaena-error             "#FF0000")
