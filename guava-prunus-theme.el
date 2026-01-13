@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-prunus "A theme inspired by guava and cherry colors." :group 'guava)
+(deftheme guava-prunus "A theme inspired by guava and cherry colors.")
 
 (let* (
       (guava-prunus-class '((class color) (min-colors 257)))
