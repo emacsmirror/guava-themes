@@ -41,6 +41,21 @@ The theme has to be reloaded after changing anything in this group."
   "Face to use as a replacement for `visible-bell'."
   :group 'guava)
 
+;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
+;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
+;; Copyright (c) 2016-2024 Henrik Lissner.
+
+;; Permission is hereby granted, free of charge, to any person obtaining
+;; a copy of this software and associated documentation files (the
+;; "Software"), to deal in the Software without restriction, including
+;; without limitation the rights to use, copy, modify, merge, publish,
+;; distribute, sublicense, and/or sell copies of the Software, and to
+;; permit persons to whom the Software is furnished to do so, subject to
+;; the following conditions:
+
+;; The above copyright notice and this permission notice shall be
+;; included in all copies or substantial portions of the Software.
+
 (defun guava-change-visible-bell ()
   "Change the blink of the minibuffer with a blink for the mode-line.
 Set `ring-bell-function' with this function as its value to use it."
