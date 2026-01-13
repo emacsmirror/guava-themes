@@ -59,6 +59,10 @@ So here it is. My first Emacs package / pack of themes.
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-dracaena-theme.png" width="780" height="400" alt="guava-dracaena-screenshot">
 
+- Guava Acer Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-acer-theme.png" width="780" height="400" alt="guava-acer-screenshot">
+
 ## Contributions
 Issues, pull requests, and forks are welcome.
 
