@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-acer "A theme inspired by guava and maple colors.")
+(deftheme guava-acer "A theme inspired by guava and maple colors." :group 'guava)
 
 (let* (
       (guava-acer-class '((class color) (min-colors 257)))
@@ -144,13 +144,6 @@
    `(link-visited ((,guava-acer-class (:foreground ,guava-acer-light-purple :underline t :weight bold))))
    `(button ((,guava-acer-class (:foreground ,guava-acer-oceanic-blue :underline t :weight bold))))
    ))
-
-;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
 
 (provide-theme 'guava-acer)
 

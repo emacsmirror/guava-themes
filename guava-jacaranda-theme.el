@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-jacaranda "A theme inspired by guava and jacaranda colors.")
+(deftheme guava-jacaranda "A theme inspired by guava and jacaranda colors." :group 'guava)
 
 (let* (
       (guava-jacaranda-class '((class color) (min-colors 257)))
@@ -146,13 +146,6 @@
    `(link-visited ((,guava-jacaranda-class (:foreground ,guava-jacaranda-deep-green :underline t :weight bold))))
    `(button ((,guava-jacaranda-class (:foreground ,guava-jacaranda-blue :underline t :weight bold))))
    ))
-
-;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
 
 (provide-theme 'guava-jacaranda)
 

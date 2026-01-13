@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-psidium "A theme inspired by guava colors.")
+(deftheme guava-psidium "A theme inspired by guava colors." :group 'guava)
 
 (let* (
       (guava-psidium-class '((class color) (min-colors 257)))
@@ -149,13 +149,6 @@
    `(link-visited ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :underline t :weight bold))))
    `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :underline t :weight bold))))
    ))
-
-;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
 
 (provide-theme 'guava-psidium)
 

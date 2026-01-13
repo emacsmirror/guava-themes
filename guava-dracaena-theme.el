@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-dracaena "A theme inspired by guava and dragon tree colors.")
+(deftheme guava-dracaena "A theme inspired by guava and dragon tree colors." :group 'guava)
 
 (let* (
       (guava-dracaena-class '((class color) (min-colors 257)))
@@ -147,13 +147,6 @@
    `(link-visited ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange :underline t :weight bold))))
    `(button ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))
    ))
-
-;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
 
 (provide-theme 'guava-dracaena)
 

@@ -30,7 +30,7 @@
 
 (require 'guava-themes)
 
-(deftheme guava-prunus "A theme inspired by guava and cherry colors.")
+(deftheme guava-prunus "A theme inspired by guava and cherry colors." :group 'guava)
 
 (let* (
       (guava-prunus-class '((class color) (min-colors 257)))
@@ -144,13 +144,6 @@
    `(link-visited ((,guava-prunus-class (:foreground ,guava-prunus-oceanic-green :underline t :weight bold))))
    `(button ((,guava-prunus-class (:foreground ,guava-prunus-blue :underline t :weight bold))))
    ))
-
-;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
 
 (provide-theme 'guava-prunus)
 

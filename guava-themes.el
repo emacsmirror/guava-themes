@@ -37,7 +37,7 @@
 (defgroup guava nil
   "Guava theme options.
 The theme has to be reloaded after changing anything in this group."
-  :group 'faces)
+  :prefix "guava-" :group 'faces)
 
 (defface guava-visible-bell '()
   "Face to use as a replacement for `visible-bell'."
@@ -75,6 +75,13 @@ Set `ring-bell-function' with this function as its value to use it."
                       (with-current-buffer buf
                         (mapc #'face-remap-remove-relative cookies)
                         (force-mode-line-update))))))
+
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide 'guava-themes)
 
