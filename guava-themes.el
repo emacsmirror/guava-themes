@@ -29,6 +29,8 @@
 ;;
 ;;; Code:
 
+(require 'face-remap)
+
 (unless (>= emacs-major-version 29)
   (error "A version of Emacs equal or superior to 29 is required"))
 
