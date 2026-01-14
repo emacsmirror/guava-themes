@@ -1,4 +1,4 @@
-;;; guava-dracaena-theme.el --- An Emacs theme inspired by guava and dragon tree colors -*- lexical-binding: t; -*-
+;;; guava-dracaena-theme.el --- A theme inspired by dragon tree colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -7,6 +7,7 @@
 ;; Version: 0.5.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
+;; Package-Requires: ((emacs "29.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -24,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by guava and dragon tree colors.
+;; A theme inspired by dragon tree colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-dracaena "A theme inspired by guava and dragon tree colors.")
+(deftheme guava-dracaena "A theme inspired by dragon tree colors.")
 
 (let* (
       (guava-dracaena-class '((class color) (min-colors 257)))
@@ -66,8 +67,7 @@
 
       (guava-dracaena-vc-change         guava-dracaena-blue)
       (guava-dracaena-vc-insert         guava-dracaena-deep-green)
-      (guava-dracaena-vc-delete         guava-dracaena-error)
-      )
+      (guava-dracaena-vc-delete         guava-dracaena-error))
 
   (custom-theme-set-faces
    'guava-dracaena
@@ -145,8 +145,7 @@
    ;; buttons
    `(link ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))
    `(link-visited ((,guava-dracaena-class (:foreground ,guava-dracaena-light-orange :underline t :weight bold))))
-   `(button ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))
-   ))
+   `(button ((,guava-dracaena-class (:foreground ,guava-dracaena-red :underline t :weight bold))))))
 
 (provide-theme 'guava-dracaena)
 

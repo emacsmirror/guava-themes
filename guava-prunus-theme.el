@@ -1,4 +1,4 @@
-;;; guava-prunus-theme.el --- An Emacs theme inspired by guava and cherry colors -*- lexical-binding: t; -*-
+;;; guava-prunus-theme.el --- A theme inspired by cherry colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -7,6 +7,7 @@
 ;; Version: 0.5.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
+;; Package-Requires: ((emacs "29.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -24,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by guava and cherry colors.
+;; A theme inspired by cherry colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-prunus "A theme inspired by guava and cherry colors.")
+(deftheme guava-prunus "A theme inspired by cherry colors.")
 
 (let* (
       (guava-prunus-class '((class color) (min-colors 257)))
@@ -63,8 +64,7 @@
 
       (guava-prunus-vc-change         guava-prunus-blue)
       (guava-prunus-vc-insert         guava-prunus-success)
-      (guava-prunus-vc-delete         guava-prunus-error)
-      )
+      (guava-prunus-vc-delete         guava-prunus-error))
 
   (custom-theme-set-faces
    'guava-prunus
@@ -142,8 +142,7 @@
    ;; buttons
    `(link ((,guava-prunus-class (:foreground ,guava-prunus-blue :underline t :weight bold))))
    `(link-visited ((,guava-prunus-class (:foreground ,guava-prunus-oceanic-green :underline t :weight bold))))
-   `(button ((,guava-prunus-class (:foreground ,guava-prunus-blue :underline t :weight bold))))
-   ))
+   `(button ((,guava-prunus-class (:foreground ,guava-prunus-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-prunus)
 

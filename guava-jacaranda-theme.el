@@ -1,4 +1,4 @@
-;;; guava-jacaranda-theme.el --- An Emacs theme inspired by guava and jacaranda colors -*- lexical-binding: t; -*-
+;;; guava-jacaranda-theme.el --- A theme inspired by jacaranda colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -7,6 +7,7 @@
 ;; Version: 0.5.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
+;; Package-Requires: ((emacs "29.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -24,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by guava and jacaranda colors.
+;; A theme inspired by jacaranda colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-jacaranda "A theme inspired by guava and jacaranda colors.")
+(deftheme guava-jacaranda "A theme inspired by jacaranda colors.")
 
 (let* (
       (guava-jacaranda-class '((class color) (min-colors 257)))
@@ -65,8 +66,7 @@
 
       (guava-jacaranda-vc-change         guava-jacaranda-blue)
       (guava-jacaranda-vc-insert         guava-jacaranda-green)
-      (guava-jacaranda-vc-delete         guava-jacaranda-red)
-      )
+      (guava-jacaranda-vc-delete         guava-jacaranda-red))
 
   (custom-theme-set-faces
    'guava-jacaranda
@@ -144,8 +144,7 @@
    ;; buttons
    `(link ((,guava-jacaranda-class (:foreground ,guava-jacaranda-oceanic-green :underline t :weight bold))))
    `(link-visited ((,guava-jacaranda-class (:foreground ,guava-jacaranda-deep-green :underline t :weight bold))))
-   `(button ((,guava-jacaranda-class (:foreground ,guava-jacaranda-blue :underline t :weight bold))))
-   ))
+   `(button ((,guava-jacaranda-class (:foreground ,guava-jacaranda-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-jacaranda)
 

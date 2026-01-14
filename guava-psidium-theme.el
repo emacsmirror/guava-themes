@@ -1,4 +1,4 @@
-;;; guava-psidium-theme.el --- An Emacs theme purely inspired by guava colors -*- lexical-binding: t; -*-
+;;; guava-psidium-theme.el --- A theme inspired by guava colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -7,6 +7,7 @@
 ;; Version: 0.5.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
+;; Package-Requires: ((emacs "29.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -68,8 +69,7 @@
 
       (guava-psidium-vc-change         guava-psidium-light-blue)
       (guava-psidium-vc-insert         guava-psidium-green)
-      (guava-psidium-vc-delete         guava-psidium-orange)
-      )
+      (guava-psidium-vc-delete         guava-psidium-orange))
 
   (custom-theme-set-faces
    'guava-psidium
@@ -147,8 +147,7 @@
    ;; buttons
    `(link ((,guava-psidium-class (:foreground ,guava-psidium-light-blue :underline t :weight bold))))
    `(link-visited ((,guava-psidium-class (:foreground ,guava-psidium-light-purple :underline t :weight bold))))
-   `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :underline t :weight bold))))
-   ))
+   `(button ((,guava-psidium-class (:foreground ,guava-psidium-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-psidium)
 

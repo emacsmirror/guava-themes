@@ -1,4 +1,4 @@
-;;; guava-themes.el --- A pack of guava-colored themes for Emacs -*- lexical-binding: t; -*-
+;;; guava-themes.el --- A pack of plant-inspired themes -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -25,7 +25,11 @@
 
 ;;; Commentary:
 ;;
-;; A bunch of guava-inspired themes for GNU Emacs.
+;; A pack of plant-inspired themes for GNU Emacs.
+;; Originally conceived as single theme in tribute of the guava fruit,
+;; this pack of themes ended up being inspired by different genus of plants.
+;; And so, the package name became an Artifact Title, as is known
+;; in the tropes community.
 ;;
 ;;; Code:
 
@@ -34,17 +38,18 @@
 (unless (>= emacs-major-version 29)
   (error "A version of Emacs equal or superior to 29 is required"))
 
-(defgroup guava nil
+(defgroup guava-themes nil
   "Guava theme options.
 The theme has to be reloaded after changing anything in this group."
   :prefix "guava-" :group 'faces)
 
-(defface guava-visible-bell '()
+(defface guava-themes-visible-bell '()
   "Face to use as a replacement for `visible-bell'."
   :group 'guava)
 
 ;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
 ;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
+
 ;; Copyright (c) 2016-2024 Henrik Lissner.
 
 ;; Permission is hereby granted, free of charge, to any person obtaining
@@ -58,7 +63,7 @@ The theme has to be reloaded after changing anything in this group."
 ;; The above copyright notice and this permission notice shall be
 ;; included in all copies or substantial portions of the Software.
 
-(defun guava-change-visible-bell ()
+(defun guava-themes-change-visible-bell ()
   "Change the blink of the minibuffer with a blink for the mode-line.
 Set `ring-bell-function' with this function as its value to use it."
   (let* ((buf (current-buffer))
@@ -67,7 +72,7 @@ Set `ring-bell-function' with this function as its value to use it."
                  '(mode-line)))
          (cookies (mapcar (lambda (face)
                             (when (facep face)
-                              (face-remap-add-relative face 'guava-visible-bell)))
+                              (face-remap-add-relative face 'guava-themes-visible-bell)))
                           faces)))
     (force-mode-line-update)
     (run-with-timer 0.15 nil

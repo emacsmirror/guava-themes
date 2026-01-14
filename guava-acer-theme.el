@@ -1,4 +1,4 @@
-;;; guava-acer-theme.el --- An Emacs theme inspired by guava and maple colors -*- lexical-binding: t; -*-
+;;; guava-acer-theme.el --- A theme inspired by maple colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -7,6 +7,7 @@
 ;; Version: 0.5.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
+;; Package-Requires: ((emacs "24.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -24,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by guava and maple colors.
+;; A theme inspired by maple colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-acer "A theme inspired by guava and maple colors.")
+(deftheme guava-acer "A theme inspired by maple colors.")
 
 (let* (
       (guava-acer-class '((class color) (min-colors 257)))
@@ -63,8 +64,7 @@
 
       (guava-acer-vc-change         guava-acer-blue)
       (guava-acer-vc-insert         guava-acer-success)
-      (guava-acer-vc-delete         guava-acer-error)
-      )
+      (guava-acer-vc-delete         guava-acer-error))
 
   (custom-theme-set-faces
    'guava-acer
@@ -142,8 +142,7 @@
    ;; buttons
    `(link ((,guava-acer-class (:foreground ,guava-acer-oceanic-blue :underline t :weight bold))))
    `(link-visited ((,guava-acer-class (:foreground ,guava-acer-light-purple :underline t :weight bold))))
-   `(button ((,guava-acer-class (:foreground ,guava-acer-oceanic-blue :underline t :weight bold))))
-   ))
+   `(button ((,guava-acer-class (:foreground ,guava-acer-oceanic-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-acer)
 
