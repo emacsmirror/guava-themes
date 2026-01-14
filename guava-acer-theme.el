@@ -99,7 +99,7 @@
    ;; mode-line
    `(mode-line ((,guava-acer-class (:background ,guava-acer-purple-red :foreground ,guava-acer-white))))
    `(mode-line-inactive ((,guava-acer-class (:background ,guava-acer-deep-purple :foreground ,guava-acer-white))))
-   `(guava-visible-bell ((,guava-acer-class (:background ,guava-acer-maple :foreground ,guava-acer-white))))
+   `(guava-themes-visible-bell ((,guava-acer-class (:background ,guava-acer-maple :foreground ,guava-acer-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,guava-acer-class (:foreground ,guava-acer-black))))

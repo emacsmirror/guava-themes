@@ -101,7 +101,7 @@
    ;; mode-line
    `(mode-line ((,guava-jacaranda-class (:background ,guava-jacaranda-purple :foreground ,guava-jacaranda-white))))
    `(mode-line-inactive ((,guava-jacaranda-class (:background ,guava-jacaranda-light-blue :foreground ,guava-jacaranda-white))))
-   `(guava-visible-bell ((,guava-jacaranda-class (:background ,guava-jacaranda-orange :foreground ,guava-jacaranda-white))))
+   `(guava-themes-visible-bell ((,guava-jacaranda-class (:background ,guava-jacaranda-orange :foreground ,guava-jacaranda-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,guava-jacaranda-class (:foreground ,guava-jacaranda-black))))
