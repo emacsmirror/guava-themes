@@ -25,7 +25,7 @@ So here it is. My first Emacs package / pack of themes.
             :vc-backend Git)
   :ensure t
   :config
-  (setq ring-bell-function #'guava-change-visible-bell)
+  (setq ring-bell-function #'guava-themes-change-visible-bell)
   (setq visible-bell t)
   (load-theme 'guava-psidium t)
   )
@@ -37,7 +37,7 @@ So here it is. My first Emacs package / pack of themes.
 
 (require 'guava-themes)
 
-(setq ring-bell-function #'guava-change-visible-bell)
+(setq ring-bell-function #'guava-themes-change-visible-bell)
 (setq visible-bell t)
 (load-theme 'guava-psidium t)
 ```
@@ -62,6 +62,10 @@ So here it is. My first Emacs package / pack of themes.
 - Guava Acer Theme  
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-acer-theme.png" width="780" height="400" alt="guava-acer-screenshot">
+
+- Guava Cordyline Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-cordyline-theme.png" width="780" height="400" alt="guava-acer-screenshot">
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
