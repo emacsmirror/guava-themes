@@ -47,13 +47,13 @@ So here it is. My first Emacs package / pack of themes.
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-psidium-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
 
-- Guava Prunus Theme  
-
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-prunus-screenshot">
-
 - Guava Jacaranda Theme  
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-jacaranda-theme.png" width="780" height="400" alt="guava-jacaranda-screenshot">
+
+- Guava Prunus Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-prunus-screenshot">
 
 - Guava Dracaena Theme  
 
@@ -65,7 +65,7 @@ So here it is. My first Emacs package / pack of themes.
 
 - Guava Cordyline Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-cordyline-theme.png" width="780" height="400" alt="guava-acer-screenshot">
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-cordyline-theme.png" width="780" height="400" alt="guava-cordyline-screenshot">
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
