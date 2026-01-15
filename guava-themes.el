@@ -41,7 +41,7 @@
 (defgroup guava-themes nil
   "Guava theme options.
 The theme has to be reloaded after changing anything in this group."
-  :prefix "guava-" :group 'faces)
+  :prefix "guava-themes-" :group 'faces)
 
 (defface guava-themes-visible-bell '()
   "Face to use as a replacement for `visible-bell'."
