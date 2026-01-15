@@ -51,7 +51,7 @@
       (guava-cordyline-purple            "#703aaf");54366d,583675,583683,583d83,59338f,673b94
       (guava-cordyline-deep-purple       "#392b38");3f323c
       (guava-cordyline-alt-purple        "#473b4c");433640,43364c
-      (guava-cordyline-purple-red        "#8d2a46")
+      (guava-cordyline-purple-red        "#982a51");8d2a46,982a46,982a51
       (guava-cordyline-dark-purple       "#211730")
 
       (guava-cordyline-error             "#FF0000")
