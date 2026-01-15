@@ -82,11 +82,12 @@ Set `ring-bell-function' with this function as its value to use it."
                         (force-mode-line-update))))))
 
 ;;;###autoload
-(and load-file-name
-     (boundp 'custom-theme-load-path)
-     (add-to-list 'custom-theme-load-path
-                  (file-name-as-directory
-                   (file-name-directory load-file-name))))
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (let* ((base (file-name-directory load-file-name))
+                      (dir (expand-file-name "themes/" base)))
+                 (or (and (file-directory-p dir) dir)
+                     base))))
 
 (provide 'guava-themes)
 
