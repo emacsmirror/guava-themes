@@ -26,10 +26,6 @@
 ;;; Commentary:
 ;;
 ;; A pack of plant-inspired themes for GNU Emacs.
-;; Originally conceived as single theme in tribute of the guava fruit,
-;; this pack of themes ended up being inspired by different genus of plants.
-;; And so, the package name became an Artifact Title, as is known
-;; in the tropes community.
 ;;
 ;;; Code:
 

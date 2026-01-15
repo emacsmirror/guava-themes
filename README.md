@@ -14,6 +14,8 @@ A few Emacs themes inspired by guavas (and other plants).
 ## Introduction
 This package began as an specific idea: *what if I could create an Emacs theme based on my favorite fruit? And what if it was a light theme, but not **too light**?*  
 So here it is. My first Emacs package / pack of themes.  
+Originally conceived as a tribute to the [guava fruit](https://en.wikipedia.org/wiki/Guava), this pack of themes ended up being inspired by different types of plants I found eye-catching.  
+And so, the package name became an Artifact Title, as is known in the tropes community.  
 
 ## Installation
 - I recommend you use this Emacs code to automatically install **guava-themes**. This should work on Emacs 30:
