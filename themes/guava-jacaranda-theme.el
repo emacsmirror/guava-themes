@@ -7,7 +7,7 @@
 ;; Version: 0.6.1
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes.el
-;; Package-Requires: ((emacs "29.1"))
+;; Package-Requires: ((emacs "24.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
