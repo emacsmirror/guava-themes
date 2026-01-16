@@ -41,7 +41,7 @@ The theme has to be reloaded after changing anything in this group."
 
 (defface guava-themes-visible-bell '()
   "Face to use as a replacement for `visible-bell'."
-  :group 'guava)
+  :group 'guava-themes)
 
 ;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
 ;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
