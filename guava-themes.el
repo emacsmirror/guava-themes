@@ -6,7 +6,7 @@
 ;; Created: Dec 07, 2025
 ;; Version: 0.6.1
 ;; Keywords: themes, faces, color
-;; URL: http://github.com/bormoge/guava-themes.el
+;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 

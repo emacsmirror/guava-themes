@@ -29,7 +29,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
   :config
   (setq ring-bell-function #'guava-themes-change-visible-bell)
   (setq visible-bell t)
-  (load-theme 'guava-psidium t)
+  (load-theme 'guava-themes-psidium t)
   )
 ```
 - If it doesn't work you can also try using this code:
@@ -41,7 +41,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 (setq ring-bell-function #'guava-themes-change-visible-bell)
 (setq visible-bell t)
-(load-theme 'guava-psidium t)
+(load-theme 'guava-themes-psidium t)
 ```
 
 ## Screenshots
