@@ -81,6 +81,10 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 <img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-cordyline-theme.png" width="780" height="400" alt="guava-cordyline-screenshot">
 
+- Guava Rhododendron Theme  
+
+<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-rhododendron-theme.png" width="780" height="400" alt="guava-rhododendron-screenshot">
+
 ## Contributions
 Issues, pull requests, and forks are welcome.
 
