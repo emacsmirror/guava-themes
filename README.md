@@ -1,3 +1,5 @@
+[![MELPA](https://melpa.org/packages/guava-themes-badge.svg)](https://melpa.org/#/guava-themes)
+
 # guava-themes
 A few Emacs themes inspired by guavas (and other plants).
 
