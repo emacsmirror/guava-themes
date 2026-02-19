@@ -138,9 +138,7 @@
    ;; buttons
    `(link ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-light-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-blue :underline t :weight bold))))
-   `(button ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-light-blue :underline t :weight bold))))
-   )
-  )
+   `(button ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-light-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-themes-citrus)
 
