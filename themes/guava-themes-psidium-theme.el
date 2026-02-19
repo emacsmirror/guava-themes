@@ -95,8 +95,8 @@
    `(line-number ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-brown :height 1.35))))
    `(line-number-current-line ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-black :background ,guava-themes-psidium-light-pink :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-psidium-class (:background ,guava-themes-psidium-light-pink))))
+   ;; highlight
+   `(highlight ((,guava-themes-psidium-class (:background ,guava-themes-psidium-light-pink))))
 
    ;; region
    `(region ((,guava-themes-psidium-class (:background ,guava-themes-psidium-oceanic-green))))

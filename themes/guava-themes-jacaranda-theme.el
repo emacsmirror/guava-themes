@@ -92,8 +92,8 @@
    `(line-number ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-antarctic-blue :height 1.35))))
    `(line-number-current-line ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black :background ,guava-themes-jacaranda-light-purple :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-purple))))
+   ;; highlight
+   `(highlight ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-purple))))
 
    ;; region
    `(region ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-blue))))

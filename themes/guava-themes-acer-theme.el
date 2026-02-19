@@ -90,8 +90,8 @@
    `(line-number ((,guava-themes-acer-class (:foreground ,guava-themes-acer-black :height 1.35))))
    `(line-number-current-line ((,guava-themes-acer-class (:foreground ,guava-themes-acer-red :background ,guava-themes-acer-cream :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-acer-class (:background ,guava-themes-acer-cream))))
+   ;; highlight
+   `(highlight ((,guava-themes-acer-class (:background ,guava-themes-acer-cream))))
 
    ;; region
    `(region ((,guava-themes-acer-class (:background ,guava-themes-acer-deep-orange))))

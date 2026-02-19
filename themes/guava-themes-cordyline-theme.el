@@ -86,8 +86,8 @@
    `(line-number ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-white :height 1.35))))
    `(line-number-current-line ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-light-blue :background ,guava-themes-cordyline-alt-purple :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-alt-purple))))
+   ;; highlight
+   `(highlight ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-alt-purple))))
 
    ;; region
    `(region ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-dark-purple))))

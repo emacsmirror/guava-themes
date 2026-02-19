@@ -91,8 +91,8 @@
    `(line-number ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-light-gray :height 1.35))))
    `(line-number-current-line ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-deep-green :background ,guava-themes-ceiba-gray :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-gray))))
+   ;; highlight
+   `(highlight ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-gray))))
 
    ;; region
    `(region ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-gray-blue))))

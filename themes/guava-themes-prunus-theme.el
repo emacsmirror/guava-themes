@@ -90,8 +90,8 @@
    `(line-number ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-purple-red :height 1.35))))
    `(line-number-current-line ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cream :background ,guava-themes-prunus-brown :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-prunus-class (:background ,guava-themes-prunus-brown))))
+   ;; highlight
+   `(highlight ((,guava-themes-prunus-class (:background ,guava-themes-prunus-brown))))
 
    ;; region
    `(region ((,guava-themes-prunus-class (:background ,guava-themes-prunus-light-brown))))

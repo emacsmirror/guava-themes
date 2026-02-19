@@ -90,8 +90,8 @@
    `(line-number ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-black :height 1.35))))
    `(line-number-current-line ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-red :background ,guava-themes-rhododendron-light-purple :weight bold :height 1.35))))
 
-   ;; hl-line
-   `(hl-line ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-light-purple))))
+   ;; highlight
+   `(highlight ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-light-purple))))
 
    ;; region
    `(region ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-alt-bright-pink))))
