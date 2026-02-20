@@ -36,8 +36,10 @@
 (let* (
       (guava-themes-psidium-class '((class color) (min-colors 257)))
       (guava-themes-psidium-black             "#000000")
-
       (guava-themes-psidium-white             "#FFFFFF")
+
+      (guava-themes-psidium-shadow            "#7f7f7f")
+
       (guava-themes-psidium-cream             "#F1EECE");F7DEB6
 
       (guava-themes-psidium-green             "#599F48")
@@ -97,6 +99,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-psidium-class (:background ,guava-themes-psidium-light-pink))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-shadow))))
 
    ;; region
    `(region ((,guava-themes-psidium-class (:background ,guava-themes-psidium-oceanic-green))))

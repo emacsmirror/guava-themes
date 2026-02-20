@@ -38,6 +38,8 @@
       (guava-themes-rhododendron-black             "#000000")
       (guava-themes-rhododendron-white             "#FFFFFF")
 
+      (guava-themes-rhododendron-shadow            "#7f7f7f")
+
       (guava-themes-rhododendron-forest-green      "#228b22")
       (guava-themes-rhododendron-deep-green        "#3e7411");3e7011
 
@@ -92,6 +94,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-light-purple))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-shadow))))
 
    ;; region
    `(region ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-alt-bright-pink))))

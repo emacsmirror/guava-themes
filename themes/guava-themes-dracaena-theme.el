@@ -38,6 +38,8 @@
       (guava-themes-dracaena-black             "#000000")
       (guava-themes-dracaena-white             "#FFFFFF")
 
+      (guava-themes-dracaena-shadow            "#b3b3b3")
+
       (guava-themes-dracaena-light-gray        "#4f4f4f")
       (guava-themes-dracaena-gray              "#424845");404242,3e4040,3d3f3f,424545
       (guava-themes-dracaena-dark-gray         "#353838")
@@ -95,6 +97,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-dracaena-class (:background ,guava-themes-dracaena-light-gray))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-shadow))))
 
    ;; region
    `(region ((,guava-themes-dracaena-class (:background ,guava-themes-dracaena-deep-red))))

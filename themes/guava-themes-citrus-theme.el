@@ -38,6 +38,8 @@
       (guava-themes-citrus-black                   "#000000")
       (guava-themes-citrus-white                   "#f1f0f5");FFFFFF,eeeeee,f0eff5
 
+      (guava-themes-citrus-shadow                  "#7f7f7f")
+
       (guava-themes-citrus-lime-green              "#589337");589337
       (guava-themes-citrus-green                   "#136b16")
 
@@ -88,6 +90,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-citrus-class (:background ,guava-themes-citrus-lemon-light-yellow))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-shadow))))
 
    ;; region
    `(region ((,guava-themes-citrus-class (:background ,guava-themes-citrus-lemon-yellow))))

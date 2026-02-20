@@ -38,6 +38,8 @@
       (guava-themes-cordyline-black             "#000000")
       (guava-themes-cordyline-white             "#FFFFFF")
 
+      (guava-themes-cordyline-shadow            "#b3b3b3")
+
       (guava-themes-cordyline-pink              "#CB5F68")
       (guava-themes-cordyline-pink-purple       "#da70d6")
 
@@ -88,6 +90,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-alt-purple))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-shadow))))
 
    ;; region
    `(region ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-dark-purple))))

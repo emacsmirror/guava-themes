@@ -38,6 +38,8 @@
       (guava-themes-ceiba-black             "#000000")
       (guava-themes-ceiba-white             "#FFFFFF")
 
+      (guava-themes-ceiba-shadow            "#b3b3b3")
+
       (guava-themes-ceiba-light-gray        "#d4d4d4");dcdcdc
       (guava-themes-ceiba-gray-green        "#817a6a");8c857b,8d8d8b,8c7f76,817a68
       (guava-themes-ceiba-gray              "#787882");dcdcdc,656865,7f7f89
@@ -93,6 +95,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-gray))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-shadow))))
 
    ;; region
    `(region ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-gray-blue))))

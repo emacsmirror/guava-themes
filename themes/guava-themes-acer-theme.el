@@ -38,6 +38,8 @@
       (guava-themes-acer-black             "#000000")
       (guava-themes-acer-white             "#FFFFFF")
 
+      (guava-themes-acer-shadow            "#7f7f7f")
+
       (guava-themes-acer-cream             "#dc8e64"); f68e64
 
       (guava-themes-acer-deep-green        "#239834")
@@ -92,6 +94,9 @@
 
    ;; highlight
    `(highlight ((,guava-themes-acer-class (:background ,guava-themes-acer-cream))))
+
+   ;; shadow
+   `(shadow ((,guava-themes-acer-class (:foreground ,guava-themes-acer-shadow))))
 
    ;; region
    `(region ((,guava-themes-acer-class (:background ,guava-themes-acer-deep-orange))))
