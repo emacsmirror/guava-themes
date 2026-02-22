@@ -3,7 +3,7 @@
 # guava-themes
 A few Emacs themes inspired by guavas (and other plants).
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/logo/guava-flower-drawing-2.png" width="300" height="300" alt="guava-drawing">
+<img src="https://lh3.googleusercontent.com/d/1ZKZnxku77rHpd4gtwaHQrRSyxvEigEYD=s1000?authuser=0" width="300" height="300" alt="guava-drawing">
 <!-- ![guava-drawing](./img/guava-flower-drawing-2.png) -->
 
 ### Table of Contents
@@ -59,39 +59,43 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 ## Screenshots
 - Guava Psidium Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-psidium-theme.png" width="780" height="400" alt="guava-psidium-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1QsF8BYDOQVuZtYLNLsx37xLU5Sy61u-r=s1000?authuser=0" width="550" height="300" alt="guava-psidium-screenshot">
 
 - Guava Jacaranda Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-jacaranda-theme.png" width="780" height="400" alt="guava-jacaranda-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1nb0vKfenZ71xiMX1dRUesRjyv8vO57uN=s1000?authuser=0" width="550" height="300" alt="guava-jacaranda-screenshot">
 
 - Guava Prunus Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-prunus-theme.png" width="780" height="400" alt="guava-prunus-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1BEw98NECyXg-3usnNgVSQmIPm35WVH_j=s1000?authuser=0" width="550" height="300" alt="guava-prunus-screenshot">
 
 - Guava Dracaena Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-dracaena-theme.png" width="780" height="400" alt="guava-dracaena-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1X0U_WplmrT5GSC9RbdWEr4eNyaXaMwYD=s1000?authuser=0" width="550" height="400" alt="guava-dracaena-screenshot">
 
 - Guava Acer Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-acer-theme.png" width="780" height="400" alt="guava-acer-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1GYlVrQ8LVFZaq9NgrKFx4lDYiQZmv0L6=s1000?authuser=0" width="550" height="400" alt="guava-acer-screenshot">
 
 - Guava Cordyline Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-cordyline-theme.png" width="780" height="400" alt="guava-cordyline-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1r-SISsE3T1dGEPTlPlgAoEosWDOoop80=s1000?authuser=0" width="550" height="300" alt="guava-cordyline-screenshot">
 
 - Guava Rhododendron Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-rhododendron-theme.png" width="780" height="400" alt="guava-rhododendron-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1bZV-RHCFdBenz-N2iavYP9jU17gk_26i=s1000?authuser=0" width="550" height="300" alt="guava-rhododendron-screenshot">
 
 - Guava Ceiba Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-ceiba-theme.png" width="780" height="400" alt="guava-ceiba-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1oFT7KqA_2zoj0SP1dqR50c77Dx4kt_it=s1000?authuser=0" width="550" height="300" alt="guava-ceiba-screenshot">
 
 - Guava Citrus Theme  
 
-<img src="https://raw.githubusercontent.com/bormoge/guava-themes/refs/heads/images/screenshots/guava-citrus-theme.png" width="780" height="400" alt="guava-citrus-screenshot">
+<img src="https://lh3.googleusercontent.com/d/11tkWDpTO0TY9t4LCqT9pZK0FxgEu3WqL=s1000?authuser=0" width="550" height="300" alt="guava-citrus-screenshot">
+
+- Guava Solanum Theme  
+
+<img src="https://lh3.googleusercontent.com/d/1KhIEiBG_ac71NtwBUbcUpXDsklWXRiTD=s1000?authuser=0" width="550" height="300" alt="guava-solanum-screenshot">
 
 ## TODO
 - Guava Psidium Theme: minor color rework (mostly font-locks).
@@ -103,7 +107,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 - Guava Rhododendron Theme: nothing for now.
 - Guava Ceiba Theme: major color rework.
 - Guava Citrus Theme: nothing for now.
-
+- Guava Solanum Theme: nothing for now.
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
