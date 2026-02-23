@@ -1,9 +1,9 @@
-;;; guava-themes-solanum-theme.el --- A theme inspired by solanum colors -*- lexical-binding: t; -*-
+;;; guava-themes-solanum-theme.el --- A theme inspired by eggplant colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
-;; Created: Jan 12, 2026
+;; Created: Feb 22, 2026
 ;; Version: 0.11.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
