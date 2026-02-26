@@ -87,7 +87,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 - Guava Ceiba Theme  
 
-<img src="https://lh3.googleusercontent.com/d/1oFT7KqA_2zoj0SP1dqR50c77Dx4kt_it=s1000?authuser=0" width="550" height="300" alt="guava-ceiba-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1GAYVitdjkOmiqTLq-oWEfCwCkbL5de0G=s1000?authuser=0" width="550" height="300" alt="guava-ceiba-screenshot">
 
 - Guava Citrus Theme  
 
@@ -105,7 +105,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 - Guava Acer Theme: change background color and some font-locks.
 - Guava Cordyline Theme: nothing for now.
 - Guava Rhododendron Theme: nothing for now.
-- Guava Ceiba Theme: major color rework.
+- Guava Ceiba Theme: nothing for now.
 - Guava Citrus Theme: nothing for now.
 - Guava Solanum Theme: nothing for now.
 
