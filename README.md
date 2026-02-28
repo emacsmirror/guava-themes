@@ -99,15 +99,8 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 ## TODO
 - Guava Psidium Theme: minor color rework (mostly font-locks).
-- Guava Jacaranda Theme: minor font-lock changes.
-- Guava Prunus Theme: nothing for now.
-- Guava Dracaena Theme: nothing for now.
+- Guava Jacaranda Theme: change some font-locks.
 - Guava Acer Theme: change background color and some font-locks.
-- Guava Cordyline Theme: nothing for now.
-- Guava Rhododendron Theme: nothing for now.
-- Guava Ceiba Theme: nothing for now.
-- Guava Citrus Theme: nothing for now.
-- Guava Solanum Theme: nothing for now.
 
 ## Contributions
 Issues, pull requests, and forks are welcome.

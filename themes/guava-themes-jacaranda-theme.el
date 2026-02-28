@@ -62,9 +62,9 @@
       (guava-themes-jacaranda-deep-purple       "#740cbe");800080
       (guava-themes-jacaranda-purple-red        "#8b2252")
 
-      (guava-themes-jacaranda-error             "#bc0000");FF0000
+      (guava-themes-jacaranda-error             "#FF0000");FF0000
       (guava-themes-jacaranda-warning           "#ffc333");F68511
-      (guava-themes-jacaranda-success           "#007900");228B22
+      (guava-themes-jacaranda-success           "#00c200");228B22,007900
 
       (guava-themes-jacaranda-vc-change         guava-themes-jacaranda-blue)
       (guava-themes-jacaranda-vc-insert         guava-themes-jacaranda-green)
@@ -104,7 +104,7 @@
    `(region ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-blue))))
 
    ;; mode-line
-   `(mode-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white))))
+   `(mode-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white))))
    `(mode-line-inactive ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-blue :foreground ,guava-themes-jacaranda-white))))
    `(guava-themes-visible-bell ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-orange :foreground ,guava-themes-jacaranda-white))))
 
@@ -144,7 +144,8 @@
    `(font-lock-variable-name-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-orange :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-orange))))
+   `(show-paren-match ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-white :background ,guava-themes-jacaranda-blue))))
+   `(show-paren-mismatch ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-white :background ,guava-themes-jacaranda-error))))
 
    ;; buttons
    `(link ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-oceanic-green :underline t :weight bold))))

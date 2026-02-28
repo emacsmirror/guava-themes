@@ -139,7 +139,8 @@
    `(font-lock-variable-name-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-green :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-solanum-class (:background ,guava-themes-solanum-light-blue))))
+   `(show-paren-match ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-purple-black :background ,guava-themes-solanum-light-blue))))
+   `(show-paren-mismatch ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-white :background ,guava-themes-solanum-error))))
 
    ;; buttons
    `(link ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))

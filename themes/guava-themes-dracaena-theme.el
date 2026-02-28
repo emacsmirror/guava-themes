@@ -50,7 +50,7 @@
       (guava-themes-dracaena-snakeplant-yellow "#d9d389")
 
       (guava-themes-dracaena-light-orange      "#ffa07a")
-      (guava-themes-dracaena-red               "#d32333");c91628,cc192a,d7192a,ed2725,e92333,db2333
+      (guava-themes-dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
       (guava-themes-dracaena-deep-red          "#792725")
 
       (guava-themes-dracaena-light-brown       "#8b6c4d")
@@ -145,7 +145,8 @@
    `(font-lock-variable-name-face ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-deep-purple :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-dracaena-class (:background ,guava-themes-dracaena-steel-blue))))
+   `(show-paren-match ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-black :background ,guava-themes-dracaena-steel-blue))))
+   `(show-paren-mismatch ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-white :background ,guava-themes-dracaena-error))))
 
    ;; buttons
    `(link ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-red :underline t :weight bold))))

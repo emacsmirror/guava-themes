@@ -62,7 +62,7 @@
       (guava-themes-ceiba-light-brown       "#6d4b30");6b492e
       (guava-themes-ceiba-brown-wood        "#53453d");9c6d85,bf8987,514141,53423e
 
-      (guava-themes-ceiba-error             "#d70000");ff0000
+      (guava-themes-ceiba-error             "#ff0000");ff0000,d70000
       (guava-themes-ceiba-warning           "#f6c911");F68511
       (guava-themes-ceiba-success           "#29c825")
 
@@ -144,7 +144,8 @@
    `(font-lock-variable-name-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-light-green :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-ceiba-class (:background ,guava-themes-ceiba-deep-green))))
+   `(show-paren-match ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-white :background ,guava-themes-ceiba-deep-green))))
+   `(show-paren-mismatch ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-white :background ,guava-themes-ceiba-error))))
 
    ;; buttons
    `(link ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-purple :underline t :weight bold))))

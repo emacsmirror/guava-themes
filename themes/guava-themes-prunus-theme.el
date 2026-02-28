@@ -61,7 +61,7 @@
       (guava-themes-prunus-purple-red        "#8B2252")
 
       (guava-themes-prunus-error             "#FF0000");FF0000,bc0000,890014
-      (guava-themes-prunus-warning           "#F68511");F68511,ffc333
+      (guava-themes-prunus-warning           "#f6d911");F68511,ffc333,F68511
       (guava-themes-prunus-success           "#23D734");228B22,007900
 
       (guava-themes-prunus-vc-change         guava-themes-prunus-blue)
@@ -133,16 +133,17 @@
    `(font-lock-comment-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green :weight medium))))
    `(font-lock-string-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-purple-red :weight bold))))
    `(font-lock-keyword-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-blue :weight medium))))
+   `(font-lock-builtin-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :weight medium))))
    `(font-lock-warning-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-error :weight medium))))
    `(font-lock-type-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-antarctic-blue :weight medium))))
    `(font-lock-constant-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cyan :weight medium))))
-   `(font-lock-function-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :weight medium))))
+   `(font-lock-function-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-blue :weight medium))))
    `(font-lock-bracket-face ((,guava-themes-prunus-class (:weight medium))))
    `(font-lock-variable-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-orange :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-prunus-class (:background ,guava-themes-prunus-deep-orange))))
+   `(show-paren-match ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-oceanic-green))))
+   `(show-paren-mismatch ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-error))))
 
    ;; buttons
    `(link ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
