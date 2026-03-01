@@ -148,6 +148,9 @@
    `(show-paren-match ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-black :background ,guava-themes-dracaena-steel-blue))))
    `(show-paren-mismatch ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-white :background ,guava-themes-dracaena-error))))
 
+   ;; trailing whitespaces
+   `(trailing-whitespace ((,guava-themes-dracaena-class (:background ,guava-themes-dracaena-error))))
+
    ;; buttons
    `(link ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-red :underline t :weight bold))))
    `(link-visited ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-light-orange :underline t :weight bold))))

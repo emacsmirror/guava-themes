@@ -141,6 +141,9 @@
    `(show-paren-match ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-white :background ,guava-themes-cordyline-steel-blue))))
    `(show-paren-mismatch ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-white :background ,guava-themes-cordyline-error))))
 
+   ;; trailing whitespaces
+   `(trailing-whitespace ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-error))))
+
    ;; buttons
    `(link ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-purple :underline t :weight bold))))

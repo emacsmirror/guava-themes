@@ -145,6 +145,9 @@
    `(show-paren-match ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-white :background ,guava-themes-rhododendron-blue))))
    `(show-paren-mismatch ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-white :background ,guava-themes-rhododendron-error))))
 
+   ;; trailing whitespaces
+   `(trailing-whitespace ((,guava-themes-rhododendron-class (:background ,guava-themes-rhododendron-error))))
+
    ;; buttons
    `(link ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-pink :underline t :weight bold))))

@@ -145,6 +145,9 @@
    `(show-paren-match ((,guava-themes-acer-class (:foreground ,guava-themes-acer-white :background ,guava-themes-acer-purple))))
    `(show-paren-mismatch ((,guava-themes-acer-class (:foreground ,guava-themes-acer-white :background ,guava-themes-acer-error))))
 
+   ;; trailing whitespaces
+   `(trailing-whitespace ((,guava-themes-acer-class (:background ,guava-themes-acer-error))))
+
    ;; buttons
    `(link ((,guava-themes-acer-class (:foreground ,guava-themes-acer-oceanic-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-acer-class (:foreground ,guava-themes-acer-light-purple :underline t :weight bold))))

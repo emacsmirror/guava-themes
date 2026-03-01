@@ -145,6 +145,9 @@
    `(show-paren-match ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-oceanic-green))))
    `(show-paren-mismatch ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-error))))
 
+   ;; trailing whitespaces
+   `(trailing-whitespace ((,guava-themes-prunus-class (:background ,guava-themes-prunus-error))))
+
    ;; buttons
    `(link ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-oceanic-green :underline t :weight bold))))
