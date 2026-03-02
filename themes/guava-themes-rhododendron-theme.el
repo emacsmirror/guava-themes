@@ -1,4 +1,4 @@
-;;; guava-themes-rhododendron-theme.el --- A theme inspired by azalea colors -*- lexical-binding: t; -*-
+;;; guava-themes-rhododendron-theme.el --- A theme inspired by the azalea tree colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -25,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by azalea colors.
+;; A theme inspired by the azalea tree colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-themes-rhododendron "A theme inspired by azalea tree colors.")
+(deftheme guava-themes-rhododendron "A theme inspired by the azalea tree colors.")
 
 (let* (
       (guava-themes-rhododendron-class '((class color) (min-colors 257)))

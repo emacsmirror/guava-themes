@@ -1,4 +1,4 @@
-;;; guava-themes-dracaena-theme.el --- A theme inspired by dragon tree colors -*- lexical-binding: t; -*-
+;;; guava-themes-dracaena-theme.el --- A theme inspired by the dragon tree colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 
@@ -25,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by dragon tree colors.
+;; A theme inspired by the dragon tree colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-themes-dracaena "A theme inspired by dragon tree colors.")
+(deftheme guava-themes-dracaena "A theme inspired by the dragon tree colors.")
 
 (let* (
       (guava-themes-dracaena-class '((class color) (min-colors 257)))

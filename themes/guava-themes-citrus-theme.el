@@ -1,4 +1,4 @@
-;;; guava-themes-citrus-theme.el --- A theme inspired by citrus colors -*- lexical-binding: t; -*-
+;;; guava-themes-citrus-theme.el --- A theme inspired by orange colors -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025-2026
 

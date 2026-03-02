@@ -25,13 +25,13 @@
 
 ;;; Commentary:
 ;;
-;; A theme inspired by potato, tomato, and eggplant colors.
+;; A theme inspired by eggplant, potato, and tomato colors.
 ;;
 ;;; Code:
 
 (require 'guava-themes)
 
-(deftheme guava-themes-solanum "A theme inspired by potato, tomato, and eggplant colors.")
+(deftheme guava-themes-solanum "A theme inspired by eggplant, potato, and tomato colors.")
 
 (let* (
       (guava-themes-solanum-class '((class color) (min-colors 257)))
