@@ -43,7 +43,7 @@
       (guava-themes-psidium-cream             "#F1EECE");F7DEB6
 
       (guava-themes-psidium-green             "#599F48")
-      (guava-themes-psidium-oceanic-green     "#28bb6b");13765e,13845e,139570,3ab488,3ab992
+      (guava-themes-psidium-light-green       "#28bb6b");13765e,13845e,139570,3ab488,3ab992
       (guava-themes-psidium-guava-green       "#AED734");AECA41,AED234
       (guava-themes-psidium-deep-green        "#097d2c");09662c
 
@@ -137,7 +137,7 @@
    `(font-lock-warning-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-error :weight medium))))
    `(font-lock-type-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-green :weight medium))))
    `(font-lock-constant-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-oceanic-blue :weight medium))))
-   `(font-lock-function-name-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-oceanic-green :weight medium))))
+   `(font-lock-function-name-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-green :weight medium))))
    `(font-lock-bracket-face ((,guava-themes-psidium-class (:weight medium))))
    `(font-lock-variable-name-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-purple :weight medium))))
 
@@ -151,7 +151,7 @@
    ;; buttons
    `(link ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-purple :underline t :weight bold))))
-   `(button ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-oceanic-green :underline t :weight bold))))))
+   `(button ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-themes-psidium)
 
