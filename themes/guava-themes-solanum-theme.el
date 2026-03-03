@@ -86,8 +86,8 @@
    `(diff-hl-delete ((,guava-themes-solanum-class (:background ,guava-themes-solanum-vc-delete :foreground ,guava-themes-solanum-vc-delete))))
 
    ;; line-number
-   `(line-number ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-white :height 1.35))))
-   `(line-number-current-line ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-green :background ,guava-themes-solanum-purple-red :weight bold :height 1.35))))
+   `(line-number ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-white))))
+   `(line-number-current-line ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-green :background ,guava-themes-solanum-purple-red :weight bold))))
 
    ;; highlight
    `(highlight ((,guava-themes-solanum-class (:background ,guava-themes-solanum-purple-red))))

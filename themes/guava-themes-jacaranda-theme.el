@@ -91,8 +91,8 @@
    `(diff-hl-delete ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-vc-delete :foreground ,guava-themes-jacaranda-vc-delete))))
 
    ;; line-number
-   `(line-number ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-antarctic-blue :height 1.35))))
-   `(line-number-current-line ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black :background ,guava-themes-jacaranda-light-purple :weight bold :height 1.35))))
+   `(line-number ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-antarctic-blue))))
+   `(line-number-current-line ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black :background ,guava-themes-jacaranda-light-purple :weight bold))))
 
    ;; highlight
    `(highlight ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-purple))))
