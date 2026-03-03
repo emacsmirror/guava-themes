@@ -75,7 +75,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 - Guava Acer Theme  
 
-<img src="https://lh3.googleusercontent.com/d/1GYlVrQ8LVFZaq9NgrKFx4lDYiQZmv0L6=s1000?authuser=0" width="550" height="400" alt="guava-acer-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1e1xfRa3zWdDODCGe0rEoV8EpX0Dg0S41=s1000?authuser=0" width="550" height="400" alt="guava-acer-screenshot">
 
 - Guava Cordyline Theme  
 
@@ -100,7 +100,6 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 ## TODO
 - Guava Psidium Theme: minor color rework (mostly font-locks).
 - Guava Jacaranda Theme: change some font-locks.
-- Guava Acer Theme: change background color and some font-locks.
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
