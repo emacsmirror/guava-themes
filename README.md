@@ -76,7 +76,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 - Guava Acer Theme  
 
-<img src="https://lh3.googleusercontent.com/d/1e1xfRa3zWdDODCGe0rEoV8EpX0Dg0S41=s2000?authuser=0" width="750" height="400" alt="guava-acer-screenshot">
+<img src="https://lh3.googleusercontent.com/d/1zXa6R7uJr5j7BX2U7Da6jisb2F_DPL9T=s2000?authuser=0" width="750" height="400" alt="guava-acer-screenshot">
 
 - Guava Cordyline Theme  
 

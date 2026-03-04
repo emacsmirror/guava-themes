@@ -40,25 +40,24 @@
 
       (guava-themes-acer-shadow            "#7f7f7f")
 
-      (guava-themes-acer-cream             "#dc8e64");f68e64
-
-      (guava-themes-acer-light-green       "#108968");a6c924,54c924,6b8e23
-      (guava-themes-acer-deep-green        "#237c34");239834,237c34,3b7b27
+      (guava-themes-acer-green             "#237c34");239834,237c34,3b7b27
+      (guava-themes-acer-green-cyan        "#277a6a")
+      (guava-themes-acer-deep-green        "#006041");8a8a8a,828282,787878,746c72,747474,606060,60607e,59597e,505069
 
       (guava-themes-acer-orange            "#e76144");fe7457
       (guava-themes-acer-deep-orange       "#d44400")
       (guava-themes-acer-orange-pink       "#cd475f");ec31a3,ff514a,ff474a,ff475f
-      (guava-themes-acer-yellow            "#f5a44e");fca148,fca347,f5a24e
+      (guava-themes-acer-yellow            "#f7a95a");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a
       (guava-themes-acer-autumn            "#ff8c4e");c14c5c,f46157,db3d32,e14337,ed7038,f77b44,f3814f,e8674a,ed674a,f68b47
 
-      (guava-themes-acer-brown             "#754014");7d4826
+      (guava-themes-acer-cream             "#dc9964");f68e64,dc8e64,dc9964
+      (guava-themes-acer-brown             "#c88550");7d4826,754014,a58464,a07f5f
 
       (guava-themes-acer-blue              "#2134d5")
-      (guava-themes-acer-blue-gray         "#505069");8a8a8a,828282,787878,746c72,747474,606060,60607e,59597e
 
       (guava-themes-acer-purple            "#9e4d76")
       (guava-themes-acer-deep-purple       "#663c6c")
-      (guava-themes-acer-purple-red        "#9f234b")
+      (guava-themes-acer-purple-red        "#9b234b");9f234b
 
       (guava-themes-acer-error             "#c80000");FF0000
       (guava-themes-acer-warning           "#f2e16b");F68511
@@ -80,7 +79,7 @@
    `(success ((,guava-themes-acer-class (:foreground ,guava-themes-acer-success :weight bold))))
 
    ;; cursor
-   `(cursor ((,guava-themes-acer-class (:background ,guava-themes-acer-deep-green :foreground ,guava-themes-acer-black))))
+   `(cursor ((,guava-themes-acer-class (:background ,guava-themes-acer-green :foreground ,guava-themes-acer-black))))
 
    ;; fringe
    `(fringe ((,guava-themes-acer-class (:background ,guava-themes-acer-yellow :foreground ,guava-themes-acer-black))))
@@ -99,12 +98,12 @@
    `(shadow ((,guava-themes-acer-class (:foreground ,guava-themes-acer-shadow))))
 
    ;; region
-   `(region ((,guava-themes-acer-class (:background ,guava-themes-acer-orange))))
+   `(region ((,guava-themes-acer-class (:background ,guava-themes-acer-brown))))
 
    ;; mode-line
    `(mode-line ((,guava-themes-acer-class (:background ,guava-themes-acer-orange :foreground ,guava-themes-acer-white))))
    `(mode-line-inactive ((,guava-themes-acer-class (:background ,guava-themes-acer-purple-red :foreground ,guava-themes-acer-white))))
-   `(guava-themes-visible-bell ((,guava-themes-acer-class (:background ,guava-themes-acer-deep-green :foreground ,guava-themes-acer-white))))
+   `(guava-themes-visible-bell ((,guava-themes-acer-class (:background ,guava-themes-acer-green :foreground ,guava-themes-acer-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,guava-themes-acer-class (:foreground ,guava-themes-acer-black))))
@@ -130,19 +129,19 @@
    `(tab-line-tab-special ((,guava-themes-acer-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue-gray :weight medium))))
+   `(font-lock-comment-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-green :weight medium))))
    `(font-lock-string-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-orange :weight bold))))
    `(font-lock-keyword-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple :weight medium))))
    `(font-lock-warning-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-error :weight medium))))
-   `(font-lock-type-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-green :weight medium))))
-   `(font-lock-constant-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-brown :weight medium))))
+   `(font-lock-type-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green :weight medium))))
+   `(font-lock-constant-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green-cyan :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple-red :weight medium))))
    `(font-lock-bracket-face ((,guava-themes-acer-class (:weight medium))))
    `(font-lock-variable-name-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-orange-pink :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-acer-class (:foreground ,guava-themes-acer-white :background ,guava-themes-acer-deep-green))))
+   `(show-paren-match ((,guava-themes-acer-class (:foreground ,guava-themes-acer-white :background ,guava-themes-acer-green))))
    `(show-paren-mismatch ((,guava-themes-acer-class (:foreground ,guava-themes-acer-white :background ,guava-themes-acer-error))))
 
    ;; trailing whitespaces
@@ -150,7 +149,7 @@
 
    ;; buttons
    `(link ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue :underline t :weight bold))))
-   `(link-visited ((,guava-themes-acer-class (:foreground ,guava-themes-acer-light-green :underline t :weight bold))))
+   `(link-visited ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green-cyan :underline t :weight bold))))
    `(button ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue :underline t :weight bold))))))
 
 (provide-theme 'guava-themes-acer)
