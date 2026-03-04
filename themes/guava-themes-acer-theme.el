@@ -56,7 +56,7 @@
       (guava-themes-acer-blue              "#2134d5")
 
       (guava-themes-acer-purple            "#9e4d76")
-      (guava-themes-acer-deep-purple       "#663c6c")
+      (guava-themes-acer-deep-purple       "#60366e");663c6c,62386c
       (guava-themes-acer-purple-red        "#9b234b");9f234b
 
       (guava-themes-acer-error             "#c80000");FF0000
