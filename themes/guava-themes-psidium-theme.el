@@ -131,7 +131,7 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-green :weight medium))))
-   `(font-lock-string-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-brown :weight bold))))
+   `(font-lock-string-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-brown :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-red :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-blue :weight medium))))
    `(font-lock-warning-face ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-error :weight medium))))

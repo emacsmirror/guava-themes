@@ -133,7 +133,7 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green :weight medium))))
-   `(font-lock-string-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-purple-red :weight bold))))
+   `(font-lock-string-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-purple-red :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-blue :weight medium))))
    `(font-lock-warning-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-red :weight medium))))
