@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 19, 2026
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -151,7 +151,15 @@
    ;; buttons
    `(link ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-pink :underline t :weight bold))))
-   `(button ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-purple-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-light-purple))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-light-purple))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-bright-orange))))))
 
 (provide-theme 'guava-themes-rhododendron)
 

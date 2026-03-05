@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -150,7 +150,15 @@
    ;; buttons
    `(link ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green-cyan :underline t :weight bold))))
-   `(button ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-acer-class (:foreground ,guava-themes-acer-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple))))))
 
 (provide-theme 'guava-themes-acer)
 

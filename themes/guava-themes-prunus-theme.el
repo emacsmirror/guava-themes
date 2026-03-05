@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 29, 2025
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -151,7 +151,15 @@
    ;; buttons
    `(link ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-oceanic-green :underline t :weight bold))))
-   `(button ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-shadow))))))
 
 (provide-theme 'guava-themes-prunus)
 

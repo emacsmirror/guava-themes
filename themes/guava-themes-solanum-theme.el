@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Feb 22, 2026
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -148,7 +148,15 @@
    ;; buttons
    `(link ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))
    `(link-visited ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-dark-purple :underline t :weight bold))))
-   `(button ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))))
+   `(button ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-red-tomato))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-red-tomato))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-yellow-potato))))))
 
 (provide-theme 'guava-themes-solanum)
 

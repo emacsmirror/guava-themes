@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 27, 2025
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -153,7 +153,15 @@
    ;; buttons
    `(link ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-oceanic-green :underline t :weight bold))))
    `(link-visited ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-green :underline t :weight bold))))
-   `(button ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-blue))))))
 
 (provide-theme 'guava-themes-jacaranda)
 

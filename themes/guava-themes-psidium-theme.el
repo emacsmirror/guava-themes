@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 07, 2025
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -151,7 +151,15 @@
    ;; buttons
    `(link ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-purple :underline t :weight bold))))
-   `(button ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-light-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-blue))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-blue))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-shadow))))))
 
 (provide-theme 'guava-themes-psidium)
 

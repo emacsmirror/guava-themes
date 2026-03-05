@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 06, 2026
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -154,7 +154,15 @@
    ;; buttons
    `(link ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-red :underline t :weight bold))))
    `(link-visited ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-light-orange :underline t :weight bold))))
-   `(button ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-red :underline t :weight bold))))))
+   `(button ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-red :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-snakeplant-yellow))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-snakeplant-yellow))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-deep-green))))))
 
 (provide-theme 'guava-themes-dracaena)
 

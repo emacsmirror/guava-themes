@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.2
+;; Version: 0.11.3
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -122,7 +122,7 @@
    `(tab-line-tab ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-deep-purple :foreground ,guava-themes-cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-purple-red :foreground ,guava-themes-cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,guava-themes-cordyline-class (:background ,guava-themes-cordyline-deep-purple :foreground ,guava-themes-cordyline-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-light-blue :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,guava-themes-cordyline-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
@@ -147,7 +147,15 @@
    ;; buttons
    `(link ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue :underline t :weight bold))))
    `(link-visited ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-purple :underline t :weight bold))))
-   `(button ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue :underline t :weight bold))))))
+   `(button ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue :underline t :weight bold))))
+
+
+   ;; external packages
+
+   ;; doom-modeline
+   `(doom-modeline-project-name ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue))))
+   `(doom-modeline-project-parent-dir ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-steel-blue))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-pink))))))
 
 (provide-theme 'guava-themes-cordyline)
 
