@@ -136,7 +136,7 @@
    `(font-lock-string-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-light-brown :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-alt-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-green-blue :weight medium))))
    `(font-lock-constant-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-orange :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-brown-wood :weight medium))))

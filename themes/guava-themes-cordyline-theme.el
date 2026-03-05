@@ -130,7 +130,7 @@
    `(font-lock-string-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-pink :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-purple-red :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-light-purple :weight medium))))
    `(font-lock-constant-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-dark-cyan :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-cordyline-class (:foreground ,guava-themes-cordyline-pink-purple :weight medium))))

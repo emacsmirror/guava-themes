@@ -130,7 +130,7 @@
    `(font-lock-string-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-success :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-deep-orange :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-purple-red :weight medium))))
    `(font-lock-constant-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-light-blue :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-brown :weight medium))))

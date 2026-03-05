@@ -133,7 +133,7 @@
    `(font-lock-string-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-orange :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green :weight medium))))
    `(font-lock-constant-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-green-cyan :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple-red :weight medium))))

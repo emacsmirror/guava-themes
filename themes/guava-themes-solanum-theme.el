@@ -131,7 +131,7 @@
    `(font-lock-string-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-yellow-potato :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-green :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-orange :weight medium))))
    `(font-lock-constant-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-purple :weight medium))))

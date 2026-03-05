@@ -136,7 +136,7 @@
    `(font-lock-string-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-purple-red :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-red :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-oceanic-green :weight medium))))
    `(font-lock-constant-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-cyan :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-blue :weight medium))))

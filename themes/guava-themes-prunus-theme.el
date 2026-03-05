@@ -134,7 +134,7 @@
    `(font-lock-string-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-purple-red :weight medium))))
    `(font-lock-keyword-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-error :weight medium))))
+   `(font-lock-warning-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-error :weight bold))))
    `(font-lock-type-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-antarctic-blue :weight medium))))
    `(font-lock-constant-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cyan :weight medium))))
    `(font-lock-function-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-blue :weight medium))))
