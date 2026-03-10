@@ -136,7 +136,7 @@
    `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-light-brown :weight medium))))
    `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
    `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
-   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
+   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
    `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
    `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
    `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))

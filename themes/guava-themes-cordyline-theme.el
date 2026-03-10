@@ -130,7 +130,7 @@
    `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink :weight medium))))
    `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
    `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
-   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-error :weight bold))))
+   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
    `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
    `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
    `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))

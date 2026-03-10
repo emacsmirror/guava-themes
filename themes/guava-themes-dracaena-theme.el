@@ -64,7 +64,7 @@
       (dracaena-deep-purple       "#8f1ac8")
 
       (dracaena-error             "#FF0000")
-      (dracaena-warning           "#F68511")
+      (dracaena-warning           "#f6ad11");F68511
       (dracaena-success           "#29d925")
 
       (dracaena-vc-change         dracaena-blue)
@@ -137,7 +137,7 @@
    `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
    `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
    `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
-   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-error :weight bold))))
+   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
    `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
    `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
    `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))

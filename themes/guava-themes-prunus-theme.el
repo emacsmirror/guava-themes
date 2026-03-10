@@ -134,7 +134,7 @@
    `(font-lock-string-face ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
    `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-blue :weight medium))))
-   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-error :weight bold))))
+   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-warning :weight bold))))
    `(font-lock-type-face ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
    `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
    `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))

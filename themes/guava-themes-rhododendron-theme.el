@@ -134,7 +134,7 @@
    `(font-lock-string-face ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
    `(font-lock-keyword-face ((,rhododendron-class (:foreground ,rhododendron-bright-pink :weight medium))))
    `(font-lock-builtin-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-error :weight bold))))
+   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-warning :weight bold))))
    `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
    `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
    `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))

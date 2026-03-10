@@ -60,7 +60,7 @@
       (acer-purple-red        "#9b234b");9f234b
 
       (acer-error             "#c80000");FF0000
-      (acer-warning           "#f2e16b");F68511
+      (acer-warning           "#f0dc67");F68511,f2e16b
       (acer-success           "#237c34");23D734,239834
 
       (acer-vc-change         acer-blue)
@@ -133,7 +133,7 @@
    `(font-lock-string-face ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
    `(font-lock-keyword-face ((,acer-class (:foreground ,acer-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,acer-class (:foreground ,acer-purple :weight medium))))
-   `(font-lock-warning-face ((,acer-class (:foreground ,acer-error :weight bold))))
+   `(font-lock-warning-face ((,acer-class (:foreground ,acer-warning :weight bold))))
    `(font-lock-type-face ((,acer-class (:foreground ,acer-green :weight medium))))
    `(font-lock-constant-face ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
    `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))

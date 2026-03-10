@@ -63,7 +63,7 @@
       (jacaranda-purple-red        "#8b2252")
 
       (jacaranda-error             "#FF0000");FF0000
-      (jacaranda-warning           "#ffc333");F68511
+      (jacaranda-warning           "#ebb515");F68511,ffc333
       (jacaranda-success           "#00c200");228B22,007900
 
       (jacaranda-vc-change         jacaranda-blue)
@@ -136,7 +136,7 @@
    `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
    `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
+   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
    `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
    `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
    `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))

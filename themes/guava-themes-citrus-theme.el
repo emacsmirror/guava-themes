@@ -130,7 +130,7 @@
    `(font-lock-string-face ((,citrus-class (:foreground ,citrus-success :weight medium))))
    `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
    `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
-   `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-error :weight bold))))
+   `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
    `(font-lock-type-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
    `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-light-blue :weight medium))))
    `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))

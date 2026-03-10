@@ -61,7 +61,7 @@
       (psidium-purple            "#812db2");D7137C,C0137C,B00CE0,a62db2,8e2db2
 
       (psidium-error             "#FF0000")
-      (psidium-warning           "#dfe300");FF8C00,f08020,f68511
+      (psidium-warning           "#d6c800");FF8C00,f08020,f68511,dfe300
       (psidium-success           "#228B22")
 
       (psidium-vc-change         psidium-light-blue)
@@ -134,7 +134,7 @@
    `(font-lock-string-face ((,psidium-class (:foreground ,psidium-brown :weight medium))))
    `(font-lock-keyword-face ((,psidium-class (:foreground ,psidium-red :weight medium))))
    `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-error :weight bold))))
+   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-warning :weight bold))))
    `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
    `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
    `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))

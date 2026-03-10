@@ -131,7 +131,7 @@
    `(font-lock-string-face ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
    `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-green :weight medium))))
    `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
-   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-error :weight bold))))
+   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-warning :weight bold))))
    `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))
    `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
    `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
