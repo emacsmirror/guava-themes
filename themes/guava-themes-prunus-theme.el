@@ -34,136 +34,136 @@
 (deftheme guava-themes-prunus "A theme inspired by cherry colors.")
 
 (let* (
-      (guava-themes-prunus-class '((class color) (min-colors 257)))
-      ;;(guava-themes-prunus-black             "#000000")
-      (guava-themes-prunus-white             "#FFFFFF")
+      (prunus-class '((class color) (min-colors 257)))
+      ;;(prunus-black             "#000000")
+      (prunus-white             "#FFFFFF")
 
-      (guava-themes-prunus-shadow            "#b3b3b3")
+      (prunus-shadow            "#b3b3b3")
 
-      (guava-themes-prunus-cream             "#DEA2BD");fffef5,EBDCF5
-      (guava-themes-prunus-light-brown       "#735944")
-      (guava-themes-prunus-brown             "#4A301B");583c25,
-      (guava-themes-prunus-dark-brown        "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
+      (prunus-cream             "#DEA2BD");fffef5,EBDCF5
+      (prunus-light-brown       "#735944")
+      (prunus-brown             "#4A301B");583c25,
+      (prunus-dark-brown        "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
 
-      (guava-themes-prunus-light-green       "#52BC63")
-      (guava-themes-prunus-oceanic-green     "#3AC3A2")
+      (prunus-light-green       "#52BC63")
+      (prunus-oceanic-green     "#3AC3A2")
 
-      (guava-themes-prunus-deep-orange       "#C46935");a0522d
-      (guava-themes-prunus-red               "#88190C");cb001e,d2191e
-      (guava-themes-prunus-pink              "#CD2788");dc6199,cd4f88
+      (prunus-deep-orange       "#C46935");a0522d
+      (prunus-red               "#88190C");cb001e,d2191e
+      (prunus-pink              "#CD2788");dc6199,cd4f88
 
-      (guava-themes-prunus-blue              "#4534E3");4534e3,120cdc
-      (guava-themes-prunus-deep-blue         "#655DB0")
-      (guava-themes-prunus-antarctic-blue    "#8D76CA")
-      (guava-themes-prunus-cyan              "#008B8B")
+      (prunus-blue              "#4534E3");4534e3,120cdc
+      (prunus-deep-blue         "#655DB0")
+      (prunus-antarctic-blue    "#8D76CA")
+      (prunus-cyan              "#008B8B")
 
-      (guava-themes-prunus-deep-purple       "#740CBE");800080
-      (guava-themes-prunus-purple-red        "#8B2252")
+      (prunus-deep-purple       "#740CBE");800080
+      (prunus-purple-red        "#8B2252")
 
-      (guava-themes-prunus-error             "#FF0000");FF0000,bc0000,890014
-      (guava-themes-prunus-warning           "#f6d911");F68511,ffc333,F68511
-      (guava-themes-prunus-success           "#23D734");228B22,007900
+      (prunus-error             "#FF0000");FF0000,bc0000,890014
+      (prunus-warning           "#f6d911");F68511,ffc333,F68511
+      (prunus-success           "#23D734");228B22,007900
 
-      (guava-themes-prunus-vc-change         guava-themes-prunus-blue)
-      (guava-themes-prunus-vc-insert         guava-themes-prunus-success)
-      (guava-themes-prunus-vc-delete         guava-themes-prunus-error))
+      (prunus-vc-change         prunus-blue)
+      (prunus-vc-insert         prunus-success)
+      (prunus-vc-delete         prunus-error))
 
   (custom-theme-set-faces
    'guava-themes-prunus
 
-   ;; default for guava-themes-prunus
-   `(default ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cream :background ,guava-themes-prunus-dark-brown))))
+   ;; default for prunus
+   `(default ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
 
    ;; error, warning, success
-   `(error ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-error :weight bold))))
-   `(warning ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-warning :weight bold))))
-   `(success ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-success :weight bold))))
+   `(error ((,prunus-class (:foreground ,prunus-error :weight bold))))
+   `(warning ((,prunus-class (:foreground ,prunus-warning :weight bold))))
+   `(success ((,prunus-class (:foreground ,prunus-success :weight bold))))
 
    ;; cursor
-   `(cursor ((,guava-themes-prunus-class (:background ,guava-themes-prunus-deep-blue :foreground ,guava-themes-prunus-white))))
+   `(cursor ((,prunus-class (:background ,prunus-deep-blue :foreground ,prunus-white))))
 
    ;; fringe
-   `(fringe ((,guava-themes-prunus-class (:background ,guava-themes-prunus-dark-brown :foreground ,guava-themes-prunus-cream))))
-   `(diff-hl-change ((,guava-themes-prunus-class (:background ,guava-themes-prunus-vc-change :foreground ,guava-themes-prunus-vc-change))))
-   `(diff-hl-insert ((,guava-themes-prunus-class (:background ,guava-themes-prunus-vc-insert :foreground ,guava-themes-prunus-vc-insert))))
-   `(diff-hl-delete ((,guava-themes-prunus-class (:background ,guava-themes-prunus-vc-delete :foreground ,guava-themes-prunus-vc-delete))))
+   `(fringe ((,prunus-class (:background ,prunus-dark-brown :foreground ,prunus-cream))))
+   `(diff-hl-change ((,prunus-class (:background ,prunus-vc-change :foreground ,prunus-vc-change))))
+   `(diff-hl-insert ((,prunus-class (:background ,prunus-vc-insert :foreground ,prunus-vc-insert))))
+   `(diff-hl-delete ((,prunus-class (:background ,prunus-vc-delete :foreground ,prunus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-purple-red))))
-   `(line-number-current-line ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cream :background ,guava-themes-prunus-brown :weight bold))))
+   `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
+   `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :background ,prunus-brown :weight bold))))
 
    ;; highlight
-   `(highlight ((,guava-themes-prunus-class (:background ,guava-themes-prunus-brown))))
+   `(highlight ((,prunus-class (:background ,prunus-brown))))
 
    ;; shadow
-   `(shadow ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-shadow))))
+   `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
 
    ;; region
-   `(region ((,guava-themes-prunus-class (:background ,guava-themes-prunus-light-brown))))
+   `(region ((,prunus-class (:background ,prunus-light-brown))))
 
    ;; mode-line
-   `(mode-line ((,guava-themes-prunus-class (:background ,guava-themes-prunus-red :foreground ,guava-themes-prunus-white))))
-   `(mode-line-inactive ((,guava-themes-prunus-class (:background ,guava-themes-prunus-deep-orange :foreground ,guava-themes-prunus-white))))
-   `(guava-themes-visible-bell ((,guava-themes-prunus-class (:background ,guava-themes-prunus-antarctic-blue :foreground ,guava-themes-prunus-white))))
+   `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
+   `(mode-line-inactive ((,prunus-class (:background ,prunus-deep-orange :foreground ,prunus-white))))
+   `(visible-bell ((,prunus-class (:background ,prunus-antarctic-blue :foreground ,prunus-white))))
 
    ;; minibuffer
-   `(minibuffer-prompt ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white))))
+   `(minibuffer-prompt ((,prunus-class (:foreground ,prunus-white))))
 
    ;; borders
-   `(vertical-border ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-pink))))
+   `(vertical-border ((,prunus-class (:foreground ,prunus-pink))))
 
    ;; header-line
-   `(header-line ((,guava-themes-prunus-class (:background ,guava-themes-prunus-red :foreground ,guava-themes-prunus-white))))
-   `(which-func ((,guava-themes-prunus-class (:background ,guava-themes-prunus-red :foreground ,guava-themes-prunus-white))))
+   `(header-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
+   `(which-func ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,guava-themes-prunus-class (:background ,guava-themes-prunus-pink :foreground ,guava-themes-prunus-white))))
-   `(tab-bar-tab ((,guava-themes-prunus-class (:background ,guava-themes-prunus-red :foreground ,guava-themes-prunus-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,guava-themes-prunus-class (:background ,guava-themes-prunus-pink :foreground ,guava-themes-prunus-white :weight bold :height 1.0))))
+   `(tab-bar ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white))))
+   `(tab-bar-tab ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,guava-themes-prunus-class (:background ,guava-themes-prunus-pink :foreground ,guava-themes-prunus-white))))
-   `(tab-line-tab ((,guava-themes-prunus-class (:background ,guava-themes-prunus-pink :foreground ,guava-themes-prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,guava-themes-prunus-class (:background ,guava-themes-prunus-red :foreground ,guava-themes-prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,guava-themes-prunus-class (:background ,guava-themes-prunus-pink :foreground ,guava-themes-prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :weight bold :height 0.9))))
-   `(tab-line-tab-special ((,guava-themes-prunus-class (:slant italic :weight bold :height 0.9))))
+   `(tab-line ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white))))
+   `(tab-line-tab ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-blue :weight bold :height 0.9))))
+   `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green :weight medium))))
-   `(font-lock-string-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-error :weight bold))))
-   `(font-lock-type-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-antarctic-blue :weight medium))))
-   `(font-lock-constant-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-cyan :weight medium))))
-   `(font-lock-function-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-blue :weight medium))))
-   `(font-lock-bracket-face ((,guava-themes-prunus-class (:weight medium))))
-   `(font-lock-variable-name-face ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-deep-orange :weight medium))))
+   `(font-lock-comment-face ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
+   `(font-lock-string-face ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
+   `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
+   `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-blue :weight medium))))
+   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-error :weight bold))))
+   `(font-lock-type-face ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
+   `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
+   `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
+   `(font-lock-bracket-face ((,prunus-class (:weight medium))))
+   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-deep-orange :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-oceanic-green))))
-   `(show-paren-mismatch ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-white :background ,guava-themes-prunus-error))))
+   `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-oceanic-green))))
+   `(show-paren-mismatch ((,prunus-class (:foreground ,prunus-white :background ,prunus-error))))
 
    ;; trailing whitespaces
-   `(trailing-whitespace ((,guava-themes-prunus-class (:background ,guava-themes-prunus-error))))
+   `(trailing-whitespace ((,prunus-class (:background ,prunus-error))))
 
    ;; buttons
-   `(link ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
-   `(link-visited ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-oceanic-green :underline t :weight bold))))
-   `(button ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-blue :underline t :weight bold))))
+   `(link ((,prunus-class (:foreground ,prunus-blue :underline t :weight bold))))
+   `(link-visited ((,prunus-class (:foreground ,prunus-oceanic-green :underline t :weight bold))))
+   `(button ((,prunus-class (:foreground ,prunus-blue :underline t :weight bold))))
 
 
    ;; external packages
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green))))
-   `(doom-modeline-project-parent-dir ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-light-green))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-prunus-class (:foreground ,guava-themes-prunus-shadow))))
+   `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green))))
+   `(doom-modeline-project-parent-dir ((,prunus-class (:foreground ,prunus-light-green))))
+   `(doom-modeline-buffer-minor-mode ((,prunus-class (:foreground ,prunus-shadow))))
 
    ;; nerd-icons
    ;; nerd-icons-completion
-   `(nerd-icons-completion-dir-face ((,guava-themes-prunus-class (:foreground unspecified :inherit font-lock-function-name-face))))))
+   `(nerd-icons-completion-dir-face ((,prunus-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-prunus)
 

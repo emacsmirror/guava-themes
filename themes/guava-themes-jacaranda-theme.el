@@ -34,138 +34,138 @@
 (deftheme guava-themes-jacaranda "A theme inspired by jacaranda colors.")
 
 (let* (
-      (guava-themes-jacaranda-class '((class color) (min-colors 257)))
-      (guava-themes-jacaranda-black             "#000000")
-      (guava-themes-jacaranda-white             "#FFFFFF")
+      (jacaranda-class '((class color) (min-colors 257)))
+      (jacaranda-black             "#000000")
+      (jacaranda-white             "#FFFFFF")
 
-      (guava-themes-jacaranda-shadow            "#7f7f7f")
+      (jacaranda-shadow            "#7f7f7f")
 
-      (guava-themes-jacaranda-cream             "#e9d9f9");e9e4f9
+      (jacaranda-cream             "#e9d9f9");e9e4f9
 
-      (guava-themes-jacaranda-light-green       "#52bc63")
-      (guava-themes-jacaranda-green             "#8ec654")
-      (guava-themes-jacaranda-deep-green        "#267a63")
-      (guava-themes-jacaranda-oceanic-green     "#3ab992")
+      (jacaranda-light-green       "#52bc63")
+      (jacaranda-green             "#8ec654")
+      (jacaranda-deep-green        "#267a63")
+      (jacaranda-oceanic-green     "#3ab992")
 
-      (guava-themes-jacaranda-orange            "#ff9f79");ff9535
-      (guava-themes-jacaranda-deep-orange       "#c46935");a0522d
-      (guava-themes-jacaranda-red               "#ca0036")
+      (jacaranda-orange            "#ff9f79");ff9535
+      (jacaranda-deep-orange       "#c46935");a0522d
+      (jacaranda-red               "#ca0036")
 
-      (guava-themes-jacaranda-light-blue        "#C0B4E4")
-      (guava-themes-jacaranda-blue              "#4534e3")
-      (guava-themes-jacaranda-deep-blue         "#655db0")
-      (guava-themes-jacaranda-antarctic-blue    "#8d76ca")
-      (guava-themes-jacaranda-cyan              "#008b8b")
+      (jacaranda-light-blue        "#C0B4E4")
+      (jacaranda-blue              "#4534e3")
+      (jacaranda-deep-blue         "#655db0")
+      (jacaranda-antarctic-blue    "#8d76ca")
+      (jacaranda-cyan              "#008b8b")
 
-      (guava-themes-jacaranda-light-purple      "#dbd0fd")
-      (guava-themes-jacaranda-purple            "#aa69e6");984ee6
-      (guava-themes-jacaranda-deep-purple       "#740cbe");800080
-      (guava-themes-jacaranda-purple-red        "#8b2252")
+      (jacaranda-light-purple      "#dbd0fd")
+      (jacaranda-purple            "#aa69e6");984ee6
+      (jacaranda-deep-purple       "#740cbe");800080
+      (jacaranda-purple-red        "#8b2252")
 
-      (guava-themes-jacaranda-error             "#FF0000");FF0000
-      (guava-themes-jacaranda-warning           "#ffc333");F68511
-      (guava-themes-jacaranda-success           "#00c200");228B22,007900
+      (jacaranda-error             "#FF0000");FF0000
+      (jacaranda-warning           "#ffc333");F68511
+      (jacaranda-success           "#00c200");228B22,007900
 
-      (guava-themes-jacaranda-vc-change         guava-themes-jacaranda-blue)
-      (guava-themes-jacaranda-vc-insert         guava-themes-jacaranda-green)
-      (guava-themes-jacaranda-vc-delete         guava-themes-jacaranda-red))
+      (jacaranda-vc-change         jacaranda-blue)
+      (jacaranda-vc-insert         jacaranda-green)
+      (jacaranda-vc-delete         jacaranda-red))
 
   (custom-theme-set-faces
    'guava-themes-jacaranda
 
-   ;; default for guava-themes-jacaranda
-   `(default ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black :background ,guava-themes-jacaranda-cream))))
+   ;; default for jacaranda
+   `(default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
 
    ;; error, warning, success
-   `(error ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-error :weight bold))))
-   `(warning ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-warning :weight bold))))
-   `(success ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-success :weight bold))))
+   `(error ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
+   `(warning ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
+   `(success ((,jacaranda-class (:foreground ,jacaranda-success :weight bold))))
 
    ;; cursor
-   `(cursor ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white))))
+   `(cursor ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white))))
 
    ;; fringe
-   `(fringe ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-cream :foreground ,guava-themes-jacaranda-cream))))
-   `(diff-hl-change ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-vc-change :foreground ,guava-themes-jacaranda-vc-change))))
-   `(diff-hl-insert ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-vc-insert :foreground ,guava-themes-jacaranda-vc-insert))))
-   `(diff-hl-delete ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-vc-delete :foreground ,guava-themes-jacaranda-vc-delete))))
+   `(fringe ((,jacaranda-class (:background ,jacaranda-cream :foreground ,jacaranda-cream))))
+   `(diff-hl-change ((,jacaranda-class (:background ,jacaranda-vc-change :foreground ,jacaranda-vc-change))))
+   `(diff-hl-insert ((,jacaranda-class (:background ,jacaranda-vc-insert :foreground ,jacaranda-vc-insert))))
+   `(diff-hl-delete ((,jacaranda-class (:background ,jacaranda-vc-delete :foreground ,jacaranda-vc-delete))))
 
    ;; line-number
-   `(line-number ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-antarctic-blue))))
-   `(line-number-current-line ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black :background ,guava-themes-jacaranda-light-purple :weight bold))))
+   `(line-number ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
+   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-light-purple :weight bold))))
 
    ;; highlight
-   `(highlight ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-purple))))
+   `(highlight ((,jacaranda-class (:background ,jacaranda-light-purple))))
 
    ;; shadow
-   `(shadow ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-shadow))))
+   `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
 
    ;; region
-   `(region ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-blue))))
+   `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
 
    ;; mode-line
-   `(mode-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white))))
-   `(mode-line-inactive ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-light-blue :foreground ,guava-themes-jacaranda-white))))
-   `(guava-themes-visible-bell ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-orange :foreground ,guava-themes-jacaranda-white))))
+   `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
+   `(mode-line-inactive ((,jacaranda-class (:background ,jacaranda-light-blue :foreground ,jacaranda-white))))
+   `(visible-bell ((,jacaranda-class (:background ,jacaranda-orange :foreground ,jacaranda-white))))
 
    ;; minibuffer
-   `(minibuffer-prompt ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-black))))
+   `(minibuffer-prompt ((,jacaranda-class (:foreground ,jacaranda-black))))
 
    ;; borders
-   `(vertical-border ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-purple))))
+   `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-light-purple))))
 
    ;; header-line
-   `(header-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white))))
-   `(which-func ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white))))
+   `(header-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
+   `(which-func ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
 
    ;; tab-bar
-   `(tab-bar ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white))))
-   `(tab-bar-tab ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white :weight bold :height 1.0))))
+   `(tab-bar ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white))))
+   `(tab-bar-tab ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white))))
-   `(tab-line-tab ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-deep-blue :foreground ,guava-themes-jacaranda-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-purple :foreground ,guava-themes-jacaranda-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-orange :weight bold :height 0.9))))
-   `(tab-line-tab-special ((,guava-themes-jacaranda-class (:slant italic :weight bold :height 0.9))))
+   `(tab-line ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white))))
+   `(tab-line-tab ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
+   `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green :weight medium))))
-   `(font-lock-string-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-error :weight bold))))
-   `(font-lock-type-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-oceanic-green :weight medium))))
-   `(font-lock-constant-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-cyan :weight medium))))
-   `(font-lock-function-name-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-blue :weight medium))))
-   `(font-lock-bracket-face ((,guava-themes-jacaranda-class (:weight medium))))
-   `(font-lock-variable-name-face ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-orange :weight medium))))
+   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
+   `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
+   `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
+   `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
+   `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
+   `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
+   `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
+   `(font-lock-bracket-face ((,jacaranda-class (:weight medium))))
+   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-deep-orange :weight medium))))
 
    ;; parentheses
-   `(show-paren-match ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-white :background ,guava-themes-jacaranda-blue))))
-   `(show-paren-mismatch ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-white :background ,guava-themes-jacaranda-error))))
+   `(show-paren-match ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-blue))))
+   `(show-paren-mismatch ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-error))))
 
    ;; trailing whitespaces
-   `(trailing-whitespace ((,guava-themes-jacaranda-class (:background ,guava-themes-jacaranda-error))))
+   `(trailing-whitespace ((,jacaranda-class (:background ,jacaranda-error))))
 
    ;; buttons
-   `(link ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-oceanic-green :underline t :weight bold))))
-   `(link-visited ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-deep-green :underline t :weight bold))))
-   `(button ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-blue :underline t :weight bold))))
+   `(link ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :underline t :weight bold))))
+   `(link-visited ((,jacaranda-class (:foreground ,jacaranda-deep-green :underline t :weight bold))))
+   `(button ((,jacaranda-class (:foreground ,jacaranda-blue :underline t :weight bold))))
 
 
    ;; external packages
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green))))
-   `(doom-modeline-project-parent-dir ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-green))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-jacaranda-class (:foreground ,guava-themes-jacaranda-light-blue))))
+   `(doom-modeline-project-name ((,jacaranda-class (:foreground ,jacaranda-light-green))))
+   `(doom-modeline-project-parent-dir ((,jacaranda-class (:foreground ,jacaranda-light-green))))
+   `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-light-blue))))
 
    ;; nerd-icons
    ;; nerd-icons-completion
-   `(nerd-icons-completion-dir-face ((,guava-themes-jacaranda-class (:foreground unspecified :inherit font-lock-function-name-face))))))
+   `(nerd-icons-completion-dir-face ((,jacaranda-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-jacaranda)
 
