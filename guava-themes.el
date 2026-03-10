@@ -40,8 +40,23 @@ The theme has to be reloaded after changing anything in this group."
   :prefix "guava-themes-" :group 'faces)
 
 (defface guava-themes-visible-bell '()
-  "Face to use as a replacement for `visible-bell'."
+  "Face used on `guava-themes-change-visible-bell' as a replacement for `visible-bell'."
   :group 'guava-themes)
+
+(defcustom guava-themes-visible-bell-idle-delay 0.0
+  "Number of seconds to wait before displaying `guava-themes-visible-bell'.
+
+If this variable is set to 0.0, display `guava-themes-visible-bell' without any delay."
+  :group 'guava-themes
+  :type 'float)
+
+(defcustom guava-themes-visible-bell-duration 0.15
+  "Number of seconds used to display `guava-themes-visible-bell'.
+
+If this variable is set to 0.0, the function `guava-themes-change-visible-bell'
+is still called but it doesn't display `guava-themes-visible-bell'."
+  :group 'guava-themes
+  :type 'float)
 
 ;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
 ;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
@@ -59,9 +74,10 @@ The theme has to be reloaded after changing anything in this group."
 ;; The above copyright notice and this permission notice shall be
 ;; included in all copies or substantial portions of the Software.
 
-(defun guava-themes-change-visible-bell ()
+(defun guava-themes-change-visible-bell () ;; Note: think about putting some hooks on this function.
   "Change the blink of the minibuffer with a blink for the mode-line.
 Set `ring-bell-function' with this function as its value to use it."
+  (sit-for guava-themes-visible-bell-idle-delay)
   (let* ((buf (current-buffer))
          (faces (if (facep 'mode-line-active)
                     '(mode-line-active)
@@ -71,7 +87,7 @@ Set `ring-bell-function' with this function as its value to use it."
                               (face-remap-add-relative face 'guava-themes-visible-bell)))
                           faces)))
     (force-mode-line-update)
-    (run-with-timer 0.15 nil
+    (run-with-timer guava-themes-visible-bell-duration nil
                     (lambda ()
                       (with-current-buffer buf
                         (mapc #'face-remap-remove-relative cookies)
