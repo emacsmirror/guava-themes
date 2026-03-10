@@ -162,13 +162,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-snakeplant-yellow))))
    `(doom-modeline-project-parent-dir ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-snakeplant-yellow))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-deep-green))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-dracaena-class (:foreground ,guava-themes-dracaena-deep-green))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-dracaena-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-dracaena)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-dracaena-theme.el ends here

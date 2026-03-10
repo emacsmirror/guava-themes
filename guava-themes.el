@@ -106,6 +106,7 @@ Set `ring-bell-function' with this function as its value to use it."
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes.el ends here

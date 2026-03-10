@@ -156,13 +156,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-red-tomato))))
    `(doom-modeline-project-parent-dir ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-red-tomato))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-yellow-potato))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-yellow-potato))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-solanum-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-solanum)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-solanum-theme.el ends here

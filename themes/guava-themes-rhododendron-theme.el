@@ -44,7 +44,7 @@
       (guava-themes-rhododendron-deep-green        "#3e7411");3e7011
 
       (guava-themes-rhododendron-red               "#c00353")
-      
+
       (guava-themes-rhododendron-bright-orange     "#ff5b4c")
 
       (guava-themes-rhododendron-blue              "#3c3cee")
@@ -54,7 +54,7 @@
       (guava-themes-rhododendron-bright-pink       "#fd3aae");fd31ae
       (guava-themes-rhododendron-alt-bright-pink   "#f197f5");f194f5
       (guava-themes-rhododendron-deep-pink         "#c00e88");d00e88
-      
+
       (guava-themes-rhododendron-light-purple      "#e0bde7")
       (guava-themes-rhododendron-purple-pink       "#ad20f0");a020f0
       (guava-themes-rhododendron-purple-blue       "#5346cc");534bcc
@@ -159,13 +159,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-light-purple))))
    `(doom-modeline-project-parent-dir ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-light-purple))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-bright-orange))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-rhododendron-class (:foreground ,guava-themes-rhododendron-bright-orange))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-rhododendron-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-rhododendron)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-rhododendron-theme.el ends here

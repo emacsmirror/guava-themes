@@ -161,13 +161,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-steel-blue))))
    `(doom-modeline-project-parent-dir ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-steel-blue))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-shadow))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-ceiba-class (:foreground ,guava-themes-ceiba-shadow))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-ceiba-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-ceiba)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-ceiba-theme.el ends here

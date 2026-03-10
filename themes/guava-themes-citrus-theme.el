@@ -155,13 +155,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-purple-red))))
    `(doom-modeline-project-parent-dir ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-purple-red))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-lemon-light-yellow))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-citrus-class (:foreground ,guava-themes-citrus-lemon-light-yellow))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-citrus-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-citrus)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-citrus-theme.el ends here

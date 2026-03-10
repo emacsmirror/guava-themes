@@ -158,13 +158,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple))))
    `(doom-modeline-project-parent-dir ((,guava-themes-acer-class (:foreground ,guava-themes-acer-deep-purple))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-acer-class (:foreground ,guava-themes-acer-purple))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-acer-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-acer)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-acer-theme.el ends here

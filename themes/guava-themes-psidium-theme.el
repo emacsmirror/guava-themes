@@ -159,13 +159,18 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-blue))))
    `(doom-modeline-project-parent-dir ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-deep-blue))))
-   `(doom-modeline-buffer-minor-mode ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-shadow))))))
+   `(doom-modeline-buffer-minor-mode ((,guava-themes-psidium-class (:foreground ,guava-themes-psidium-shadow))))
+
+   ;; nerd-icons
+   ;; nerd-icons-completion
+   `(nerd-icons-completion-dir-face ((,guava-themes-psidium-class (:foreground unspecified :inherit font-lock-function-name-face))))))
 
 (provide-theme 'guava-themes-psidium)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
+;; eval: (when (featurep 'package-lint-flymake) (package-lint-flymake-setup))
 ;; End:
 
 ;;; guava-themes-psidium-theme.el ends here

@@ -100,7 +100,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 ## TODO
 - Guava Jacaranda Theme: change some font-locks.
-- Guava Prunus Theme: change some font-locks.
+- Guava Prunus Theme: change some font-locks and region.
 - Guava Dracaena Theme: slightly change font-lock-variable-name-face, tab-line-tab-modified, region, highlight, warning, and maybe some other face.
 
 ## Contributions
