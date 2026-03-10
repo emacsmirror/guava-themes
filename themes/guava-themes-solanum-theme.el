@@ -52,7 +52,7 @@
       (guava-themes-solanum-blue              "#0d62b2")
 
       (guava-themes-solanum-light-purple      "#d4cbff");c4aeff,ccbcff
-      (guava-themes-solanum-purple            "#9e7ae8")
+      (guava-themes-solanum-purple            "#9c69e8");9e7ae8,9c69e8
       (guava-themes-solanum-purple-red        "#64143d");6a143d
       (guava-themes-solanum-dark-purple       "#672b5f");41143d
       (guava-themes-solanum-purple-black      "#130d1a")
@@ -147,7 +147,7 @@
 
    ;; buttons
    `(link ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))
-   `(link-visited ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-dark-purple :underline t :weight bold))))
+   `(link-visited ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-purple :underline t :weight bold))))
    `(button ((,guava-themes-solanum-class (:foreground ,guava-themes-solanum-light-purple :underline t :weight bold))))
 
 
