@@ -104,7 +104,7 @@
    ;; mode-line
    `(mode-line ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))
    `(mode-line-inactive ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white))))
-   `(visible-bell ((,rhododendron-class (:background ,rhododendron-purple-blue :foreground ,rhododendron-white))))
+   `(guava-themes-visible-bell ((,rhododendron-class (:background ,rhododendron-purple-blue :foreground ,rhododendron-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rhododendron-class (:foreground ,rhododendron-black))))

@@ -106,7 +106,7 @@
    ;; mode-line
    `(mode-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
    `(mode-line-inactive ((,ceiba-class (:background ,ceiba-gray-blue :foreground ,ceiba-white))))
-   `(visible-bell ((,ceiba-class (:background ,ceiba-steel-blue :foreground ,ceiba-white))))
+   `(guava-themes-visible-bell ((,ceiba-class (:background ,ceiba-steel-blue :foreground ,ceiba-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,ceiba-class (:foreground ,ceiba-black))))

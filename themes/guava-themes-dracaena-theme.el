@@ -107,7 +107,7 @@
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
    `(mode-line-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white))))
-   `(visible-bell ((,dracaena-class (:background ,dracaena-light-orange :foreground ,dracaena-white))))
+   `(guava-themes-visible-bell ((,dracaena-class (:background ,dracaena-light-orange :foreground ,dracaena-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))

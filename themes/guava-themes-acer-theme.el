@@ -103,7 +103,7 @@
    ;; mode-line
    `(mode-line ((,acer-class (:background ,acer-orange :foreground ,acer-white))))
    `(mode-line-inactive ((,acer-class (:background ,acer-purple-red :foreground ,acer-white))))
-   `(visible-bell ((,acer-class (:background ,acer-green :foreground ,acer-white))))
+   `(guava-themes-visible-bell ((,acer-class (:background ,acer-green :foreground ,acer-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,acer-class (:foreground ,acer-black))))

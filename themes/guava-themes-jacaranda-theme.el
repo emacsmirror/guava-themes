@@ -106,7 +106,7 @@
    ;; mode-line
    `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
    `(mode-line-inactive ((,jacaranda-class (:background ,jacaranda-light-blue :foreground ,jacaranda-white))))
-   `(visible-bell ((,jacaranda-class (:background ,jacaranda-orange :foreground ,jacaranda-white))))
+   `(guava-themes-visible-bell ((,jacaranda-class (:background ,jacaranda-orange :foreground ,jacaranda-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,jacaranda-class (:foreground ,jacaranda-black))))

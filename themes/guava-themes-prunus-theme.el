@@ -104,7 +104,7 @@
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
    `(mode-line-inactive ((,prunus-class (:background ,prunus-deep-orange :foreground ,prunus-white))))
-   `(visible-bell ((,prunus-class (:background ,prunus-antarctic-blue :foreground ,prunus-white))))
+   `(guava-themes-visible-bell ((,prunus-class (:background ,prunus-antarctic-blue :foreground ,prunus-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,prunus-class (:foreground ,prunus-white))))

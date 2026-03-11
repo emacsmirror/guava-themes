@@ -100,7 +100,7 @@
    ;; mode-line
    `(mode-line ((,citrus-class (:background ,citrus-lime-green :foreground ,citrus-white))))
    `(mode-line-inactive ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white))))
-   `(visible-bell ((,citrus-class (:background ,citrus-orange-red :foreground ,citrus-white))))
+   `(guava-themes-visible-bell ((,citrus-class (:background ,citrus-orange-red :foreground ,citrus-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,citrus-class (:foreground ,citrus-black))))

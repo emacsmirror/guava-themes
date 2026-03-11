@@ -104,7 +104,7 @@
    ;; mode-line
    `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))
    `(mode-line-inactive ((,psidium-class (:background ,psidium-green :foreground ,psidium-white))))
-   `(visible-bell ((,psidium-class (:background ,psidium-deep-green :foreground ,psidium-white))))
+   `(guava-themes-visible-bell ((,psidium-class (:background ,psidium-deep-green :foreground ,psidium-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))

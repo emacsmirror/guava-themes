@@ -100,7 +100,7 @@
    ;; mode-line
    `(mode-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
    `(mode-line-inactive ((,cordyline-class (:background ,cordyline-dark-purple :foreground ,cordyline-white))))
-   `(visible-bell ((,cordyline-class (:background ,cordyline-light-blue :foreground ,cordyline-white))))
+   `(guava-themes-visible-bell ((,cordyline-class (:background ,cordyline-light-blue :foreground ,cordyline-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,cordyline-class (:foreground ,cordyline-white))))
