@@ -35,11 +35,12 @@
   (error "A version of Emacs equal or superior to 24 is required"))
 
 (defgroup guava-themes nil
-  "Guava theme options.
+  "Guava Themes options.
 The theme has to be reloaded after changing anything in this group."
   :prefix "guava-themes-" :group 'faces)
 
-(defface guava-themes-visible-bell '()
+(defface guava-themes-visible-bell
+  '((t (:foreground "#FFFFFF" :background "#808080")))
   "Face used on `guava-themes-change-visible-bell' as a replacement for `visible-bell'."
   :group 'guava-themes)
 
