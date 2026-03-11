@@ -158,6 +158,11 @@
    `(doom-modeline-project-parent-dir ((,solanum-class (:foreground ,solanum-red-tomato))))
    `(doom-modeline-buffer-minor-mode ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,solanum-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,solanum-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,solanum-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,solanum-class (:foreground unspecified :inherit font-lock-function-name-face))))))

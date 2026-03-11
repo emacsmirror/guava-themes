@@ -157,6 +157,11 @@
    `(doom-modeline-project-parent-dir ((,citrus-class (:foreground ,citrus-purple-red))))
    `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-lemon-light-yellow))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,citrus-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,citrus-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,citrus-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,citrus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

@@ -161,6 +161,11 @@
    `(doom-modeline-project-parent-dir ((,prunus-class (:foreground ,prunus-light-green))))
    `(doom-modeline-buffer-minor-mode ((,prunus-class (:foreground ,prunus-shadow))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,prunus-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,prunus-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,prunus-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,prunus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

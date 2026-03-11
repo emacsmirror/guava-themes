@@ -164,6 +164,11 @@
    `(doom-modeline-project-parent-dir ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
    `(doom-modeline-buffer-minor-mode ((,dracaena-class (:foreground ,dracaena-deep-green))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,dracaena-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,dracaena-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,dracaena-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,dracaena-class (:foreground unspecified :inherit font-lock-function-name-face))))))

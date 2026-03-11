@@ -160,6 +160,11 @@
    `(doom-modeline-project-parent-dir ((,acer-class (:foreground ,acer-deep-purple))))
    `(doom-modeline-buffer-minor-mode ((,acer-class (:foreground ,acer-purple))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,acer-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,acer-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,acer-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,acer-class (:foreground unspecified :inherit font-lock-function-name-face))))))

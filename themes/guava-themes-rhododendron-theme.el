@@ -161,6 +161,11 @@
    `(doom-modeline-project-parent-dir ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
    `(doom-modeline-buffer-minor-mode ((,rhododendron-class (:foreground ,rhododendron-bright-orange))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,rhododendron-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,rhododendron-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,rhododendron-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,rhododendron-class (:foreground unspecified :inherit font-lock-function-name-face))))))

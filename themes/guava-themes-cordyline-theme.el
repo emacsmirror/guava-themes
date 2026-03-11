@@ -157,6 +157,11 @@
    `(doom-modeline-project-parent-dir ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,cordyline-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,cordyline-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,cordyline-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,cordyline-class (:foreground unspecified :inherit font-lock-function-name-face))))))

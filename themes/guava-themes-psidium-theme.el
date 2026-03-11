@@ -161,6 +161,11 @@
    `(doom-modeline-project-parent-dir ((,psidium-class (:foreground ,psidium-deep-blue))))
    `(doom-modeline-buffer-minor-mode ((,psidium-class (:foreground ,psidium-shadow))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,psidium-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,psidium-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,psidium-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,psidium-class (:foreground unspecified :inherit font-lock-function-name-face))))))

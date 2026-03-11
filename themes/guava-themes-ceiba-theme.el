@@ -163,6 +163,11 @@
    `(doom-modeline-project-parent-dir ((,ceiba-class (:foreground ,ceiba-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,ceiba-class (:foreground ,ceiba-shadow))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,ceiba-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,ceiba-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,ceiba-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,ceiba-class (:foreground unspecified :inherit font-lock-function-name-face))))))

@@ -163,6 +163,11 @@
    `(doom-modeline-project-parent-dir ((,jacaranda-class (:foreground ,jacaranda-light-green))))
    `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-light-blue))))
 
+   ;; envrc
+   `(envrc-mode-line-error-face ((,jacaranda-class (:inherit error))))
+   `(envrc-mode-line-none-face ((,jacaranda-class (:inherit warning))))
+   `(envrc-mode-line-on-face ((,jacaranda-class (:inherit success))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,jacaranda-class (:foreground unspecified :inherit font-lock-function-name-face))))))
