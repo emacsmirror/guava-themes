@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 07, 2025
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -160,6 +160,12 @@
    `(doom-modeline-project-name ((,psidium-class (:foreground ,psidium-deep-blue))))
    `(doom-modeline-project-parent-dir ((,psidium-class (:foreground ,psidium-deep-blue))))
    `(doom-modeline-buffer-minor-mode ((,psidium-class (:foreground ,psidium-shadow))))
+
+   ;; corfu
+   `(corfu-default ((,psidium-class (:foreground ,psidium-black :background ,psidium-cream))))
+   `(corfu-current ((,psidium-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,psidium-class (:background ,psidium-shadow))))
+   `(corfu-border ((,psidium-class (:background ,psidium-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,psidium-class (:inherit error))))

@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 29, 2025
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -160,6 +160,12 @@
    `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green))))
    `(doom-modeline-project-parent-dir ((,prunus-class (:foreground ,prunus-light-green))))
    `(doom-modeline-buffer-minor-mode ((,prunus-class (:foreground ,prunus-shadow))))
+
+   ;; corfu
+   `(corfu-default ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
+   `(corfu-current ((,prunus-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,prunus-class (:background ,prunus-shadow))))
+   `(corfu-border ((,prunus-class (:background ,prunus-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,prunus-class (:inherit error))))

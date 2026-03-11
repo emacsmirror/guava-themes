@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 27, 2025
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -162,6 +162,12 @@
    `(doom-modeline-project-name ((,jacaranda-class (:foreground ,jacaranda-light-green))))
    `(doom-modeline-project-parent-dir ((,jacaranda-class (:foreground ,jacaranda-light-green))))
    `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-light-blue))))
+
+   ;; corfu
+   `(corfu-default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
+   `(corfu-current ((,jacaranda-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,jacaranda-class (:background ,jacaranda-shadow))))
+   `(corfu-border ((,jacaranda-class (:background ,jacaranda-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,jacaranda-class (:inherit error))))

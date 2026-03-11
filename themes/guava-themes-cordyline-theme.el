@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -156,6 +156,12 @@
    `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-project-parent-dir ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink))))
+
+   ;; corfu
+   `(corfu-default ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
+   `(corfu-current ((,cordyline-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,cordyline-class (:background ,cordyline-shadow))))
+   `(corfu-border ((,cordyline-class (:background ,cordyline-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,cordyline-class (:inherit error))))

@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 19, 2026
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -160,6 +160,12 @@
    `(doom-modeline-project-name ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
    `(doom-modeline-project-parent-dir ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
    `(doom-modeline-buffer-minor-mode ((,rhododendron-class (:foreground ,rhododendron-bright-orange))))
+
+   ;; corfu
+   `(corfu-default ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-light-pink))))
+   `(corfu-current ((,rhododendron-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,rhododendron-class (:background ,rhododendron-shadow))))
+   `(corfu-border ((,rhododendron-class (:background ,rhododendron-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,rhododendron-class (:inherit error))))

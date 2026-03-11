@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 21, 2026
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -162,6 +162,12 @@
    `(doom-modeline-project-name ((,ceiba-class (:foreground ,ceiba-steel-blue))))
    `(doom-modeline-project-parent-dir ((,ceiba-class (:foreground ,ceiba-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,ceiba-class (:foreground ,ceiba-shadow))))
+
+   ;; corfu
+   `(corfu-default ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
+   `(corfu-current ((,ceiba-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,ceiba-class (:background ,ceiba-shadow))))
+   `(corfu-border ((,ceiba-class (:background ,ceiba-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,ceiba-class (:inherit error))))

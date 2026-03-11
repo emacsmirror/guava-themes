@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 06, 2026
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -163,6 +163,12 @@
    `(doom-modeline-project-name ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
    `(doom-modeline-project-parent-dir ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
    `(doom-modeline-buffer-minor-mode ((,dracaena-class (:foreground ,dracaena-deep-green))))
+
+   ;; corfu
+   `(corfu-default ((,dracaena-class (:foreground ,dracaena-antarctic-blue :background ,dracaena-gray))))
+   `(corfu-current ((,dracaena-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,dracaena-class (:background ,dracaena-shadow))))
+   `(corfu-border ((,dracaena-class (:background ,dracaena-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,dracaena-class (:inherit error))))

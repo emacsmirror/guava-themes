@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.3
+;; Version: 0.11.4
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -159,6 +159,12 @@
    `(doom-modeline-project-name ((,acer-class (:foreground ,acer-deep-purple))))
    `(doom-modeline-project-parent-dir ((,acer-class (:foreground ,acer-deep-purple))))
    `(doom-modeline-buffer-minor-mode ((,acer-class (:foreground ,acer-purple))))
+
+   ;; corfu
+   `(corfu-default ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
+   `(corfu-current ((,acer-class (:foreground unspecified :background unspecified :inherit region))))
+   `(corfu-bar ((,acer-class (:background ,acer-shadow))))
+   `(corfu-border ((,acer-class (:background ,acer-shadow))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,acer-class (:inherit error))))
