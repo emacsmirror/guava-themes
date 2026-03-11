@@ -51,7 +51,7 @@
       (solanum-light-blue        "#8ec4de")
       (solanum-blue              "#0d62b2")
 
-      (solanum-light-purple      "#d4cbff");c4aeff,ccbcff
+      (solanum-light-purple      "#bec8ff");c4aeff,ccbcff,d4cbff
       (solanum-purple            "#9c69e8");9e7ae8,9c69e8
       (solanum-purple-red        "#64143d");6a143d,64143d
       (solanum-purple-blue       "#492b91")
