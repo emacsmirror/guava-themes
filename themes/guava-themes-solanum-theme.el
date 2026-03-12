@@ -99,7 +99,7 @@
 
    ;; region
    `(region ((,solanum-class (:background ,solanum-purple-blue))))
-   `(secondary-selection ((,solanum-class (:background ,solanum-green))))
+   `(secondary-selection ((,solanum-class (:background ,solanum-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:background ,solanum-dark-purple :foreground ,solanum-white))))

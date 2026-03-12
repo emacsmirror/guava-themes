@@ -98,7 +98,7 @@
 
    ;; region
    `(region ((,cordyline-class (:background ,cordyline-alt-deep-purple))))
-   `(secondary-selection ((,cordyline-class (:background ,cordyline-green))))
+   `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))

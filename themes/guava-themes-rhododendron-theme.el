@@ -101,7 +101,7 @@
 
    ;; region
    `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink))))
-   `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green))))
+   `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))

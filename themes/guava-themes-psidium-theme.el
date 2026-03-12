@@ -101,7 +101,7 @@
 
    ;; region
    `(region ((,psidium-class (:background ,psidium-orange))))
-   `(secondary-selection ((,psidium-class (:background ,psidium-light-purple))))
+   `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))

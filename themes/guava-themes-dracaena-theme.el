@@ -104,7 +104,7 @@
 
    ;; region
    `(region ((,dracaena-class (:background ,dracaena-deep-red))))
-   `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan))))
+   `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))

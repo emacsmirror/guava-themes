@@ -103,7 +103,7 @@
 
    ;; region
    `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
-   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan))))
+   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))

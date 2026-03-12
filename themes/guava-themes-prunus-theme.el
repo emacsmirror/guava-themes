@@ -101,7 +101,7 @@
 
    ;; region
    `(region ((,prunus-class (:background ,prunus-light-brown))))
-   `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan))))
+   `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
