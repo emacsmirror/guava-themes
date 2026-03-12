@@ -42,6 +42,7 @@
 
       (citrus-lime-green              "#589337");589337
       (citrus-green                   "#136b16")
+      (citrus-deep-green              "#2b5b26");2b5726
 
       (citrus-lemon-light-yellow      "#f5cb6d")
       (citrus-lemon-yellow            "#c3af50")
@@ -52,15 +53,16 @@
 
       (citrus-brown                   "#86626f")
 
-      (citrus-blue                    "#2327dc");2246d2,443f8d,2327dc
       (citrus-light-blue              "#4e9496")
+      (citrus-blue                    "#3275a5")
+      (citrus-deep-blue               "#2327dc");2246d2,443f8d,2327dc
       (citrus-purple-red              "#77003a")
 
       (citrus-error                   "#FF0000")
       (citrus-warning                 "#F68511")
       (citrus-success                 "#2b5b26");2b5726
 
-      (citrus-vc-change               citrus-blue)
+      (citrus-vc-change               citrus-deep-blue)
       (citrus-vc-insert               citrus-success)
       (citrus-vc-delete               citrus-error))
 
@@ -122,20 +124,20 @@
    `(tab-line-tab ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,citrus-class (:background ,citrus-orange-red :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,citrus-class (:foreground ,citrus-blue :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,citrus-class (:foreground ,citrus-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 
    ;; font-lock
    `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
-   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-success :weight medium))))
-   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
-   `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))
+   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
+   `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
    `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
-   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
-   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-light-blue :weight medium))))
-   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))
+   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
+   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
    `(font-lock-bracket-face ((,citrus-class (:weight medium))))
-   `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
+   `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-light-blue))))
@@ -146,7 +148,7 @@
 
    ;; buttons
    `(link ((,citrus-class (:foreground ,citrus-light-blue :underline t :weight bold))))
-   `(link-visited ((,citrus-class (:foreground ,citrus-blue :underline t :weight bold))))
+   `(link-visited ((,citrus-class (:foreground ,citrus-deep-blue :underline t :weight bold))))
    `(button ((,citrus-class (:foreground ,citrus-light-blue :underline t :weight bold))))
 
 
