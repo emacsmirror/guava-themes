@@ -59,6 +59,7 @@
       (dracaena-blue              "#2134d5")
       (dracaena-antarctic-blue    "#bacce4");4f62be
       (dracaena-steel-blue        "#4f94cd");b0c4de
+      (dracaena-dark-cyan         "#005f55")
 
       (dracaena-pink-purple       "#a5225c");961250,b7125c
       (dracaena-deep-purple       "#8f1ac8")
@@ -103,6 +104,7 @@
 
    ;; region
    `(region ((,dracaena-class (:background ,dracaena-deep-red))))
+   `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))

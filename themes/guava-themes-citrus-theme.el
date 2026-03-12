@@ -98,6 +98,7 @@
 
    ;; region
    `(region ((,citrus-class (:background ,citrus-lemon-yellow))))
+   `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange))))
 
    ;; mode-line
    `(mode-line ((,citrus-class (:background ,citrus-lime-green :foreground ,citrus-white))))

@@ -55,6 +55,7 @@
       (jacaranda-blue              "#4534e3")
       (jacaranda-deep-blue         "#655db0")
       (jacaranda-antarctic-blue    "#8d76ca")
+      (jacaranda-light-cyan        "#00aaaa")
       (jacaranda-cyan              "#008b8b")
 
       (jacaranda-light-purple      "#dbd0fd")
@@ -102,6 +103,7 @@
 
    ;; region
    `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
+   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))

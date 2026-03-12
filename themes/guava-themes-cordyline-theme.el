@@ -35,7 +35,7 @@
 
 (let* (
       (cordyline-class '((class color) (min-colors 257)))
-      (cordyline-black             "#000000")
+      ;; (cordyline-black             "#000000")
       (cordyline-white             "#FFFFFF")
 
       (cordyline-shadow            "#b3b3b3")
@@ -49,12 +49,14 @@
       (cordyline-steel-blue        "#4f94cd")
       (cordyline-dark-cyan         "#00708b")
 
+      (cordyline-green             "#005f55");006455
+
       (cordyline-light-purple      "#a21cd1");8b1cb0,9c1cbc,991cbc
       (cordyline-purple            "#703aaf");54366d,583675,583683,583d83,59338f,673b94
       (cordyline-deep-purple       "#392b38");3f323c
       (cordyline-alt-purple        "#473b4c");433640,43364c
       (cordyline-purple-red        "#982a51");8d2a46,982a46,982a51
-      (cordyline-dark-purple       "#211730")
+      (cordyline-alt-deep-purple   "#211730")
 
       (cordyline-error             "#FF0000")
       (cordyline-warning           "#f6d909");F68511
@@ -95,11 +97,12 @@
    `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
 
    ;; region
-   `(region ((,cordyline-class (:background ,cordyline-dark-purple))))
+   `(region ((,cordyline-class (:background ,cordyline-alt-deep-purple))))
+   `(secondary-selection ((,cordyline-class (:background ,cordyline-green))))
 
    ;; mode-line
    `(mode-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
-   `(mode-line-inactive ((,cordyline-class (:background ,cordyline-dark-purple :foreground ,cordyline-white))))
+   `(mode-line-inactive ((,cordyline-class (:background ,cordyline-alt-deep-purple :foreground ,cordyline-white))))
    `(guava-themes-visible-bell ((,cordyline-class (:background ,cordyline-light-blue :foreground ,cordyline-white))))
 
    ;; minibuffer

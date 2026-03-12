@@ -46,7 +46,8 @@
       (solanum-yellow-potato     "#fde8b9")
 
       (solanum-light-green       "#61ff96")
-      (solanum-green             "#0d6d4b")
+      (solanum-green             "#2f822f");3f7a56,2f824b
+      (solanum-deep-green        "#0d6d4b")
 
       (solanum-light-blue        "#8ec4de")
       (solanum-blue              "#0d62b2")
@@ -98,6 +99,7 @@
 
    ;; region
    `(region ((,solanum-class (:background ,solanum-purple-blue))))
+   `(secondary-selection ((,solanum-class (:background ,solanum-green))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:background ,solanum-dark-purple :foreground ,solanum-white))))
@@ -130,7 +132,7 @@
    ;; font-lock
    `(font-lock-comment-face ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
    `(font-lock-string-face ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
-   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-green :weight medium))))
+   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
    `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
    `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-warning :weight bold))))
    `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))

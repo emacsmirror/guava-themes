@@ -99,6 +99,7 @@
 
    ;; region
    `(region ((,acer-class (:background ,acer-brown))))
+   `(secondary-selection ((,acer-class (:background ,acer-orange))))
 
    ;; mode-line
    `(mode-line ((,acer-class (:background ,acer-orange :foreground ,acer-white))))

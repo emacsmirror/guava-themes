@@ -58,6 +58,7 @@
       (psidium-oceanic-blue      "#2a4ad9")
       (psidium-deep-blue         "#483d8b");004F5D
 
+      (psidium-light-purple      "#89afd1");817fb2,818fb2,819cb2,89a6d1
       (psidium-purple            "#812db2");D7137C,C0137C,B00CE0,a62db2,8e2db2
 
       (psidium-error             "#FF0000")
@@ -100,6 +101,7 @@
 
    ;; region
    `(region ((,psidium-class (:background ,psidium-orange))))
+   `(secondary-selection ((,psidium-class (:background ,psidium-light-purple))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))

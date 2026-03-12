@@ -40,6 +40,7 @@
 
       (rhododendron-shadow            "#7f7f7f")
 
+      (rhododendron-light-green       "#64d264");2ad22a,46d246
       (rhododendron-forest-green      "#228b22")
       (rhododendron-deep-green        "#3e7411");3e7011
 
@@ -100,6 +101,7 @@
 
    ;; region
    `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink))))
+   `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))

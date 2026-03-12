@@ -56,6 +56,7 @@
       (prunus-deep-blue         "#655DB0")
       (prunus-antarctic-blue    "#8D76CA")
       (prunus-cyan              "#008B8B")
+      (prunus-dark-cyan         "#005555")
 
       (prunus-deep-purple       "#740CBE");800080
       (prunus-purple-red        "#8B2252")
@@ -100,6 +101,7 @@
 
    ;; region
    `(region ((,prunus-class (:background ,prunus-light-brown))))
+   `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan))))
 
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))

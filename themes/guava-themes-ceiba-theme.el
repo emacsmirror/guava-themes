@@ -102,6 +102,7 @@
 
    ;; region
    `(region ((,ceiba-class (:background ,ceiba-gray-blue))))
+   `(secondary-selection ((,ceiba-class (:background ,ceiba-brown-sand))))
 
    ;; mode-line
    `(mode-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
