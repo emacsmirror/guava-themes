@@ -72,13 +72,41 @@
   (custom-theme-set-faces
    'guava-themes-psidium
 
-   ;; default for psidium
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,psidium-class (:foreground ,psidium-black :background ,psidium-cream))))
 
    ;; error, warning, success
    `(error ((,psidium-class (:foreground ,psidium-error :weight bold))))
    `(warning ((,psidium-class (:foreground ,psidium-warning :weight bold))))
    `(success ((,psidium-class (:foreground ,psidium-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,psidium-class (:background ,psidium-light-pink))))
+
+   ;; shadow
+   `(shadow ((,psidium-class (:foreground ,psidium-shadow))))
+
+   ;; region
+   `(region ((,psidium-class (:background ,psidium-orange))))
+   `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,psidium-class (:foreground ,psidium-green :weight medium))))
+   `(font-lock-string-face ((,psidium-class (:foreground ,psidium-brown :weight medium))))
+   `(font-lock-keyword-face ((,psidium-class (:foreground ,psidium-red :weight medium))))
+   `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-warning :weight bold))))
+   `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
+   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
+   `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
+   `(font-lock-bracket-face ((,psidium-class (:weight medium))))
+   `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,psidium-class (:background ,psidium-green :foreground ,psidium-white))))
@@ -92,16 +120,6 @@
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
    `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :background ,psidium-light-pink :weight bold))))
-
-   ;; highlight
-   `(highlight ((,psidium-class (:background ,psidium-light-pink))))
-
-   ;; shadow
-   `(shadow ((,psidium-class (:foreground ,psidium-shadow))))
-
-   ;; region
-   `(region ((,psidium-class (:background ,psidium-orange))))
-   `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))
@@ -130,18 +148,6 @@
    `(tab-line-tab-inactive ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,psidium-class (:foreground ,psidium-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,psidium-class (:foreground ,psidium-green :weight medium))))
-   `(font-lock-string-face ((,psidium-class (:foreground ,psidium-brown :weight medium))))
-   `(font-lock-keyword-face ((,psidium-class (:foreground ,psidium-red :weight medium))))
-   `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-warning :weight bold))))
-   `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
-   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
-   `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
-   `(font-lock-bracket-face ((,psidium-class (:weight medium))))
-   `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,psidium-class (:foreground ,psidium-white :background ,psidium-orange))))

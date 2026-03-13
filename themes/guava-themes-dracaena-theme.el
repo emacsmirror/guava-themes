@@ -75,13 +75,41 @@
   (custom-theme-set-faces
    'guava-themes-dracaena
 
-   ;; default for dracaena
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,dracaena-class (:foreground ,dracaena-antarctic-blue :background ,dracaena-gray))))
 
    ;; error, warning, success
    `(error ((,dracaena-class (:foreground ,dracaena-error :weight bold))))
    `(warning ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
    `(success ((,dracaena-class (:foreground ,dracaena-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,dracaena-class (:background ,dracaena-light-gray))))
+
+   ;; shadow
+   `(shadow ((,dracaena-class (:foreground ,dracaena-shadow))))
+
+   ;; region
+   `(region ((,dracaena-class (:background ,dracaena-deep-red))))
+   `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
+   `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
+   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
+   `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
+   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
+   `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
+   `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
+   `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
+   `(font-lock-bracket-face ((,dracaena-class (:weight medium))))
+   `(font-lock-variable-name-face ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,dracaena-class (:background ,dracaena-light-orange :foreground ,dracaena-white))))
@@ -95,16 +123,6 @@
    ;; line-number
    `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
    `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-light-orange :background ,dracaena-light-gray :weight bold))))
-
-   ;; highlight
-   `(highlight ((,dracaena-class (:background ,dracaena-light-gray))))
-
-   ;; shadow
-   `(shadow ((,dracaena-class (:foreground ,dracaena-shadow))))
-
-   ;; region
-   `(region ((,dracaena-class (:background ,dracaena-deep-red))))
-   `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
@@ -133,18 +151,6 @@
    `(tab-line-tab-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
-   `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
-   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
-   `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
-   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
-   `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
-   `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
-   `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
-   `(font-lock-bracket-face ((,dracaena-class (:weight medium))))
-   `(font-lock-variable-name-face ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,dracaena-class (:foreground ,dracaena-black :background ,dracaena-steel-blue))))

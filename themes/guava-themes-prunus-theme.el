@@ -72,13 +72,41 @@
   (custom-theme-set-faces
    'guava-themes-prunus
 
-   ;; default for prunus
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
 
    ;; error, warning, success
    `(error ((,prunus-class (:foreground ,prunus-error :weight bold))))
    `(warning ((,prunus-class (:foreground ,prunus-warning :weight bold))))
    `(success ((,prunus-class (:foreground ,prunus-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,prunus-class (:background ,prunus-brown))))
+
+   ;; shadow
+   `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
+
+   ;; region
+   `(region ((,prunus-class (:background ,prunus-light-brown))))
+   `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
+   `(font-lock-string-face ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
+   `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
+   `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-blue :weight medium))))
+   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-warning :weight bold))))
+   `(font-lock-type-face ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
+   `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
+   `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
+   `(font-lock-bracket-face ((,prunus-class (:weight medium))))
+   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-deep-orange :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,prunus-class (:background ,prunus-deep-blue :foreground ,prunus-white))))
@@ -92,16 +120,6 @@
    ;; line-number
    `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
    `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :background ,prunus-brown :weight bold))))
-
-   ;; highlight
-   `(highlight ((,prunus-class (:background ,prunus-brown))))
-
-   ;; shadow
-   `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
-
-   ;; region
-   `(region ((,prunus-class (:background ,prunus-light-brown))))
-   `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
@@ -130,18 +148,6 @@
    `(tab-line-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
-   `(font-lock-string-face ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-blue :weight medium))))
-   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-warning :weight bold))))
-   `(font-lock-type-face ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
-   `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
-   `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
-   `(font-lock-bracket-face ((,prunus-class (:weight medium))))
-   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-deep-orange :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-oceanic-green))))

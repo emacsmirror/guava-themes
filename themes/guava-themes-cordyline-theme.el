@@ -69,13 +69,41 @@
   (custom-theme-set-faces
    'guava-themes-cordyline
 
-   ;; default for cordyline
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
 
    ;; error, warning, success
    `(error ((,cordyline-class (:foreground ,cordyline-error :weight bold))))
    `(warning ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
    `(success ((,cordyline-class (:foreground ,cordyline-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,cordyline-class (:background ,cordyline-alt-purple))))
+
+   ;; shadow
+   `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
+
+   ;; region
+   `(region ((,cordyline-class (:background ,cordyline-alt-deep-purple))))
+   `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
+   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink :weight medium))))
+   `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
+   `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
+   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
+   `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
+   `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
+   `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
+   `(font-lock-bracket-face ((,cordyline-class (:weight medium))))
+   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,cordyline-class (:background ,cordyline-pink :foreground ,cordyline-white))))
@@ -89,16 +117,6 @@
    ;; line-number
    `(line-number ((,cordyline-class (:foreground ,cordyline-white))))
    `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :background ,cordyline-alt-purple :weight bold))))
-
-   ;; highlight
-   `(highlight ((,cordyline-class (:background ,cordyline-alt-purple))))
-
-   ;; shadow
-   `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
-
-   ;; region
-   `(region ((,cordyline-class (:background ,cordyline-alt-deep-purple))))
-   `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
@@ -127,18 +145,6 @@
    `(tab-line-tab-inactive ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,cordyline-class (:foreground ,cordyline-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,cordyline-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
-   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink :weight medium))))
-   `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
-   `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
-   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
-   `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
-   `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
-   `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(font-lock-bracket-face ((,cordyline-class (:weight medium))))
-   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-steel-blue))))

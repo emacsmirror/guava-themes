@@ -74,13 +74,41 @@
   (custom-theme-set-faces
    'guava-themes-jacaranda
 
-   ;; default for jacaranda
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
 
    ;; error, warning, success
    `(error ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
    `(warning ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
    `(success ((,jacaranda-class (:foreground ,jacaranda-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,jacaranda-class (:background ,jacaranda-light-purple))))
+
+   ;; shadow
+   `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
+
+   ;; region
+   `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
+   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
+   `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
+   `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
+   `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
+   `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
+   `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
+   `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
+   `(font-lock-bracket-face ((,jacaranda-class (:weight medium))))
+   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-deep-orange :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white))))
@@ -94,16 +122,6 @@
    ;; line-number
    `(line-number ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
    `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-light-purple :weight bold))))
-
-   ;; highlight
-   `(highlight ((,jacaranda-class (:background ,jacaranda-light-purple))))
-
-   ;; shadow
-   `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
-
-   ;; region
-   `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
-   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan :extend t))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
@@ -132,18 +150,6 @@
    `(tab-line-tab-inactive ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
-   `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
-   `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
-   `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
-   `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
-   `(font-lock-bracket-face ((,jacaranda-class (:weight medium))))
-   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-deep-orange :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-blue))))

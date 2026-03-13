@@ -70,13 +70,41 @@
   (custom-theme-set-faces
    'guava-themes-solanum
 
-   ;; default for solanum
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
 
    ;; error, warning, success
    `(error ((,solanum-class (:foreground ,solanum-error :weight bold))))
    `(warning ((,solanum-class (:foreground ,solanum-warning :weight bold))))
    `(success ((,solanum-class (:foreground ,solanum-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,solanum-class (:background ,solanum-purple-red))))
+
+   ;; shadow
+   `(shadow ((,solanum-class (:foreground ,solanum-shadow))))
+
+   ;; region
+   `(region ((,solanum-class (:background ,solanum-purple-blue))))
+   `(secondary-selection ((,solanum-class (:background ,solanum-green :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
+   `(font-lock-string-face ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
+   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
+   `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
+   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-warning :weight bold))))
+   `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))
+   `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
+   `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
+   `(font-lock-bracket-face ((,solanum-class (:weight medium))))
+   `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,solanum-class (:background ,solanum-yellow-potato :foreground ,solanum-black))))
@@ -90,16 +118,6 @@
    ;; line-number
    `(line-number ((,solanum-class (:foreground ,solanum-white))))
    `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :background ,solanum-purple-red :weight bold))))
-
-   ;; highlight
-   `(highlight ((,solanum-class (:background ,solanum-purple-red))))
-
-   ;; shadow
-   `(shadow ((,solanum-class (:foreground ,solanum-shadow))))
-
-   ;; region
-   `(region ((,solanum-class (:background ,solanum-purple-blue))))
-   `(secondary-selection ((,solanum-class (:background ,solanum-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:background ,solanum-dark-purple :foreground ,solanum-white))))
@@ -128,18 +146,6 @@
    `(tab-line-tab-inactive ((,solanum-class (:background ,solanum-purple-black :foreground ,solanum-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,solanum-class (:foreground ,solanum-red-tomato :weight bold :height 0.9))))
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
-   `(font-lock-string-face ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
-   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
-   `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
-   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-warning :weight bold))))
-   `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))
-   `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
-   `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
-   `(font-lock-bracket-face ((,solanum-class (:weight medium))))
-   `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,solanum-class (:foreground ,solanum-purple-black :background ,solanum-light-blue))))

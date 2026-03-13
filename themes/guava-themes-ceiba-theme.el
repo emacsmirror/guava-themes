@@ -73,13 +73,41 @@
   (custom-theme-set-faces
    'guava-themes-ceiba
 
-   ;; default for ceiba
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
 
    ;; error, warning, success
    `(error ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
    `(warning ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
    `(success ((,ceiba-class (:foreground ,ceiba-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,ceiba-class (:background ,ceiba-gray))))
+
+   ;; shadow
+   `(shadow ((,ceiba-class (:foreground ,ceiba-shadow))))
+
+   ;; region
+   `(region ((,ceiba-class (:background ,ceiba-gray-blue))))
+   `(secondary-selection ((,ceiba-class (:background ,ceiba-brown-sand :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
+   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-light-brown :weight medium))))
+   `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
+   `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
+   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
+   `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
+   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
+   `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
+   `(font-lock-bracket-face ((,ceiba-class (:weight medium))))
+   `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,ceiba-class (:background ,ceiba-brown-wood :foreground ,ceiba-black))))
@@ -93,16 +121,6 @@
    ;; line-number
    `(line-number ((,ceiba-class (:foreground ,ceiba-black))))
    `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :background ,ceiba-gray :weight bold))))
-
-   ;; highlight
-   `(highlight ((,ceiba-class (:background ,ceiba-gray))))
-
-   ;; shadow
-   `(shadow ((,ceiba-class (:foreground ,ceiba-shadow))))
-
-   ;; region
-   `(region ((,ceiba-class (:background ,ceiba-gray-blue))))
-   `(secondary-selection ((,ceiba-class (:background ,ceiba-brown-sand :extend t))))
 
    ;; mode-line
    `(mode-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
@@ -131,18 +149,6 @@
    `(tab-line-tab-inactive ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,ceiba-class (:foreground ,ceiba-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
-   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-light-brown :weight medium))))
-   `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
-   `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
-   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
-   `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
-   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
-   `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
-   `(font-lock-bracket-face ((,ceiba-class (:weight medium))))
-   `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-deep-green))))

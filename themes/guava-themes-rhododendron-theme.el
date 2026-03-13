@@ -72,13 +72,41 @@
   (custom-theme-set-faces
    'guava-themes-rhododendron
 
-   ;; default for rhododendron
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-light-pink))))
 
    ;; error, warning, success
    `(error ((,rhododendron-class (:foreground ,rhododendron-error :weight bold))))
    `(warning ((,rhododendron-class (:foreground ,rhododendron-warning :weight bold))))
    `(success ((,rhododendron-class (:foreground ,rhododendron-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,rhododendron-class (:background ,rhododendron-light-purple))))
+
+   ;; shadow
+   `(shadow ((,rhododendron-class (:foreground ,rhododendron-shadow))))
+
+   ;; region
+   `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink))))
+   `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,rhododendron-class (:foreground ,rhododendron-deep-green :weight medium))))
+   `(font-lock-string-face ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
+   `(font-lock-keyword-face ((,rhododendron-class (:foreground ,rhododendron-bright-pink :weight medium))))
+   `(font-lock-builtin-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-warning :weight bold))))
+   `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
+   `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
+   `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
+   `(font-lock-bracket-face ((,rhododendron-class (:weight medium))))
+   `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,rhododendron-class (:background ,rhododendron-purple-red :foreground ,rhododendron-white))))
@@ -92,16 +120,6 @@
    ;; line-number
    `(line-number ((,rhododendron-class (:foreground ,rhododendron-black))))
    `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :background ,rhododendron-light-purple :weight bold))))
-
-   ;; highlight
-   `(highlight ((,rhododendron-class (:background ,rhododendron-light-purple))))
-
-   ;; shadow
-   `(shadow ((,rhododendron-class (:foreground ,rhododendron-shadow))))
-
-   ;; region
-   `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink))))
-   `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green :extend t))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))
@@ -130,18 +148,6 @@
    `(tab-line-tab-inactive ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,rhododendron-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,rhododendron-class (:foreground ,rhododendron-deep-green :weight medium))))
-   `(font-lock-string-face ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,rhododendron-class (:foreground ,rhododendron-bright-pink :weight medium))))
-   `(font-lock-builtin-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-warning :weight bold))))
-   `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
-   `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
-   `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
-   `(font-lock-bracket-face ((,rhododendron-class (:weight medium))))
-   `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-blue))))

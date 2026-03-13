@@ -70,13 +70,41 @@
   (custom-theme-set-faces
    'guava-themes-acer
 
-   ;; default for acer
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
 
    ;; error, warning, success
    `(error ((,acer-class (:foreground ,acer-error :weight bold))))
    `(warning ((,acer-class (:foreground ,acer-warning :weight bold))))
    `(success ((,acer-class (:foreground ,acer-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,acer-class (:background ,acer-cream))))
+
+   ;; shadow
+   `(shadow ((,acer-class (:foreground ,acer-shadow))))
+
+   ;; region
+   `(region ((,acer-class (:background ,acer-brown))))
+   `(secondary-selection ((,acer-class (:background ,acer-orange :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,acer-class (:foreground ,acer-deep-green :weight medium))))
+   `(font-lock-string-face ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
+   `(font-lock-keyword-face ((,acer-class (:foreground ,acer-deep-purple :weight medium))))
+   `(font-lock-builtin-face ((,acer-class (:foreground ,acer-purple :weight medium))))
+   `(font-lock-warning-face ((,acer-class (:foreground ,acer-warning :weight bold))))
+   `(font-lock-type-face ((,acer-class (:foreground ,acer-green :weight medium))))
+   `(font-lock-constant-face ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
+   `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))
+   `(font-lock-bracket-face ((,acer-class (:weight medium))))
+   `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,acer-class (:background ,acer-green :foreground ,acer-black))))
@@ -90,16 +118,6 @@
    ;; line-number
    `(line-number ((,acer-class (:foreground ,acer-black))))
    `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :background ,acer-cream :weight bold))))
-
-   ;; highlight
-   `(highlight ((,acer-class (:background ,acer-cream))))
-
-   ;; shadow
-   `(shadow ((,acer-class (:foreground ,acer-shadow))))
-
-   ;; region
-   `(region ((,acer-class (:background ,acer-brown))))
-   `(secondary-selection ((,acer-class (:background ,acer-orange :extend t))))
 
    ;; mode-line
    `(mode-line ((,acer-class (:background ,acer-orange :foreground ,acer-white))))
@@ -128,18 +146,6 @@
    `(tab-line-tab-inactive ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,acer-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,acer-class (:foreground ,acer-deep-green :weight medium))))
-   `(font-lock-string-face ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
-   `(font-lock-keyword-face ((,acer-class (:foreground ,acer-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,acer-class (:foreground ,acer-purple :weight medium))))
-   `(font-lock-warning-face ((,acer-class (:foreground ,acer-warning :weight bold))))
-   `(font-lock-type-face ((,acer-class (:foreground ,acer-green :weight medium))))
-   `(font-lock-constant-face ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
-   `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))
-   `(font-lock-bracket-face ((,acer-class (:weight medium))))
-   `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,acer-class (:foreground ,acer-white :background ,acer-green))))

@@ -69,13 +69,41 @@
   (custom-theme-set-faces
    'guava-themes-citrus
 
-   ;; default for citrus
+   ;; built-in faces
+   ;; with unique colors
+
+   ;; default
    `(default ((,citrus-class (:foreground ,citrus-black :background ,citrus-white))))
 
    ;; error, warning, success
    `(error ((,citrus-class (:foreground ,citrus-error :weight bold))))
    `(warning ((,citrus-class (:foreground ,citrus-warning :weight bold))))
    `(success ((,citrus-class (:foreground ,citrus-success :weight bold))))
+
+   ;; highlight
+   `(highlight ((,citrus-class (:background ,citrus-lemon-light-yellow))))
+
+   ;; shadow
+   `(shadow ((,citrus-class (:foreground ,citrus-shadow))))
+
+   ;; region
+   `(region ((,citrus-class (:background ,citrus-lemon-yellow))))
+   `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange :extend t))))
+
+   ;; font-lock
+   `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
+   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))
+   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
+   `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
+   `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
+   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
+   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(font-lock-bracket-face ((,citrus-class (:weight medium))))
+   `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
+
+   ;; built-in faces
+   ;; with non-unique colors
 
    ;; cursor
    `(cursor ((,citrus-class (:background ,citrus-green :foreground ,citrus-black))))
@@ -89,16 +117,6 @@
    ;; line-number
    `(line-number ((,citrus-class (:foreground ,citrus-black))))
    `(line-number-current-line ((,citrus-class (:foreground ,citrus-green :background ,citrus-lemon-light-yellow :weight bold))))
-
-   ;; highlight
-   `(highlight ((,citrus-class (:background ,citrus-lemon-light-yellow))))
-
-   ;; shadow
-   `(shadow ((,citrus-class (:foreground ,citrus-shadow))))
-
-   ;; region
-   `(region ((,citrus-class (:background ,citrus-lemon-yellow))))
-   `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange :extend t))))
 
    ;; mode-line
    `(mode-line ((,citrus-class (:background ,citrus-lime-green :foreground ,citrus-white))))
@@ -127,18 +145,6 @@
    `(tab-line-tab-inactive ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,citrus-class (:foreground ,citrus-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
-
-   ;; font-lock
-   `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
-   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))
-   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
-   `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
-   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
-   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
-   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
-   `(font-lock-bracket-face ((,citrus-class (:weight medium))))
-   `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
 
    ;; parentheses
    `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-light-blue))))
