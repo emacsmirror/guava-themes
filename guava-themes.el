@@ -35,7 +35,7 @@
   (error "A version of Emacs equal or superior to 24 is required"))
 
 (defgroup guava-themes nil
-  "Guava Themes options.
+  "Options for guava-themes.
 The theme has to be reloaded after changing anything in this group."
   :prefix "guava-themes-" :group 'faces)
 
@@ -55,9 +55,19 @@ If this variable is set to 0.0, display `guava-themes-visible-bell' without any 
   "Number of seconds used to display `guava-themes-visible-bell'.
 
 If this variable is set to 0.0, the function `guava-themes-change-visible-bell'
-is still called but it doesn't display `guava-themes-visible-bell'."
+is still called but does not display `guava-themes-visible-bell'."
   :group 'guava-themes
   :type 'float)
+
+(defcustom guava-themes-before-change-visible-bell-hook nil
+  "Hook that is run before displaying `guava-themes-visible-bell'."
+  :group 'guava-themes
+  :type 'hook)
+
+(defcustom guava-themes-after-change-visible-bell-hook nil
+  "Hook that is run after displaying `guava-themes-visible-bell'."
+  :group 'guava-themes
+  :type 'hook)
 
 ;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
 ;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
@@ -75,9 +85,10 @@ is still called but it doesn't display `guava-themes-visible-bell'."
 ;; The above copyright notice and this permission notice shall be
 ;; included in all copies or substantial portions of the Software.
 
-(defun guava-themes-change-visible-bell () ;; Note: think about putting some hooks on this function.
+(defun guava-themes-change-visible-bell ()
   "Change the blink of the minibuffer with a blink for the mode-line.
 Set `ring-bell-function' with this function as its value to use it."
+  (run-hooks 'guava-themes-before-change-visible-bell-hook)
   (sit-for guava-themes-visible-bell-idle-delay)
   (let* ((buf (current-buffer))
          (faces (if (facep 'mode-line-active)
@@ -92,7 +103,8 @@ Set `ring-bell-function' with this function as its value to use it."
                     (lambda ()
                       (with-current-buffer buf
                         (mapc #'face-remap-remove-relative cookies)
-                        (force-mode-line-update))))))
+                        (force-mode-line-update)))))
+  (run-hooks 'guava-themes-after-change-visible-bell-hook))
 
 ;;;###autoload
 (when load-file-name
