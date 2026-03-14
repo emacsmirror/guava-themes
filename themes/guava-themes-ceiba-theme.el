@@ -47,7 +47,8 @@
 
       (ceiba-green             "#5b6452");5a6352
       (ceiba-deep-green        "#2b5535");375033,395235,3a5435,3a5835,385635,375535
-      (ceiba-green-blue        "#116452");5a6352
+      (ceiba-green-forest      "#006441")
+      (ceiba-green-blue        "#11645a");5a6352,116452
 
       (ceiba-orange            "#a85639")
 
@@ -103,7 +104,7 @@
    `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
    `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
    `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
-   `(font-lock-bracket-face ((,ceiba-class (:weight medium))))
+   `(font-lock-punctuation-face ((,ceiba-class (:foreground ,ceiba-green-forest :weight medium))))
    `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
 
    ;; built-in faces

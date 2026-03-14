@@ -53,7 +53,7 @@
       (dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
       (dracaena-deep-red          "#792725")
 
-      (dracaena-light-brown       "#8b6c4d")
+      (dracaena-light-brown       "#a89d92");8b6c4d
 
       (dracaena-light-blue        "#425fd5")
       (dracaena-blue              "#2134d5")
@@ -62,7 +62,7 @@
       (dracaena-dark-cyan         "#005f55")
 
       (dracaena-pink-purple       "#a5225c");961250,b7125c
-      (dracaena-deep-purple       "#8f1ac8")
+      (dracaena-deep-purple       "#7f46dd");8f1ac8,8a34d7,7f3edd
 
       (dracaena-error             "#FF0000")
       (dracaena-warning           "#f6ad11");F68511
@@ -105,7 +105,7 @@
    `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
    `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
    `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
-   `(font-lock-bracket-face ((,dracaena-class (:weight medium))))
+   `(font-lock-punctuation-face ((,dracaena-class (:foreground ,dracaena-light-brown :weight medium))))
    `(font-lock-variable-name-face ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
 
    ;; built-in faces

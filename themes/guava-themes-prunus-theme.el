@@ -45,6 +45,8 @@
       (prunus-brown             "#4A301B");583c25,
       (prunus-dark-brown        "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
 
+      (prunus-yellow            "#999844")
+
       (prunus-light-green       "#52BC63")
       (prunus-oceanic-green     "#3AC3A2")
 
@@ -102,7 +104,7 @@
    `(font-lock-type-face ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
    `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
    `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
-   `(font-lock-bracket-face ((,prunus-class (:weight medium))))
+   `(font-lock-punctuation-face ((,prunus-class (:foreground ,prunus-yellow :weight medium))))
    `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-deep-orange :weight medium))))
 
    ;; built-in faces

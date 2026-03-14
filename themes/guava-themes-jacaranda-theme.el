@@ -42,14 +42,16 @@
 
       (jacaranda-cream             "#e9d9f9");e9e4f9
 
-      (jacaranda-light-green       "#52bc63")
+      (jacaranda-light-green       "#52aa63");52bc63
       (jacaranda-green             "#8ec654")
       (jacaranda-deep-green        "#267a63")
       (jacaranda-oceanic-green     "#3ab992")
 
       (jacaranda-orange            "#ff9f79");ff9535
-      (jacaranda-deep-orange       "#c46935");a0522d
+      ;; (jacaranda-deep-orange       "#c46935");a0522d
       (jacaranda-red               "#ca0036")
+
+      (jacaranda-brown             "#8a7f74")
 
       (jacaranda-light-blue        "#C0B4E4")
       (jacaranda-blue              "#4534e3")
@@ -93,7 +95,7 @@
 
    ;; region
    `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
-   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-light-cyan :extend t))))
+   `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock
    `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
@@ -104,8 +106,8 @@
    `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
    `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
    `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
-   `(font-lock-bracket-face ((,jacaranda-class (:weight medium))))
-   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-deep-orange :weight medium))))
+   `(font-lock-punctuation-face ((,jacaranda-class (:foreground ,jacaranda-brown :weight medium))))
+   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-light-cyan :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

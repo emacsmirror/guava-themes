@@ -58,6 +58,7 @@
       (acer-purple            "#9e4d76")
       (acer-deep-purple       "#60366e");663c6c,62386c
       (acer-purple-red        "#9b234b");9f234b
+      (acer-purple-pink       "#5f2258");233e4d
 
       (acer-error             "#c80000");FF0000
       (acer-warning           "#f0dc67");F68511,f2e16b
@@ -100,7 +101,7 @@
    `(font-lock-type-face ((,acer-class (:foreground ,acer-green :weight medium))))
    `(font-lock-constant-face ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
    `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))
-   `(font-lock-bracket-face ((,acer-class (:weight medium))))
+   `(font-lock-punctuation-face ((,acer-class (:foreground ,acer-purple-pink :weight medium))))
    `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
 
    ;; built-in faces

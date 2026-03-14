@@ -48,6 +48,7 @@
       (psidium-deep-green        "#097d2c");09662c
 
       (psidium-orange            "#ffa55f");FF7D5F,ff8f5f
+      (psidium-red-orange        "#cd605f");ff605f,cd605f
       (psidium-red               "#c1153b");f02d1b
       (psidium-light-pink        "#FCD0C9");F8917C
       (psidium-pink              "#F8767C");F84865,F8767C,F88686,F85A65
@@ -102,7 +103,7 @@
    `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
    `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
    `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
-   `(font-lock-bracket-face ((,psidium-class (:weight medium))))
+   `(font-lock-punctuation-face ((,psidium-class (:foreground ,psidium-red-orange :weight medium))))
    `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
 
    ;; built-in faces

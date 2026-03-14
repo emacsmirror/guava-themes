@@ -45,11 +45,12 @@
 
       (cordyline-light-blue        "#5f70cb")
       (cordyline-blue              "#2134d5")
-      (cordyline-deep-blue         "#1330af")
+      (cordyline-deep-blue         "#3146af");1330af
       (cordyline-steel-blue        "#4f94cd")
       (cordyline-dark-cyan         "#00708b")
 
       (cordyline-green             "#005f55");006455
+      (cordyline-alt-green         "#00512c");006455
 
       (cordyline-light-purple      "#a21cd1");8b1cb0,9c1cbc,991cbc
       (cordyline-purple            "#703aaf");54366d,583675,583683,583d83,59338f,673b94
@@ -99,7 +100,7 @@
    `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
    `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
    `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(font-lock-bracket-face ((,cordyline-class (:weight medium))))
+   `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-alt-green :weight medium))))
    `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
 
    ;; built-in faces

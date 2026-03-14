@@ -57,6 +57,7 @@
       (citrus-blue                    "#3275a5")
       (citrus-deep-blue               "#2327dc");2246d2,443f8d,2327dc
       (citrus-purple-red              "#77003a")
+      (citrus-purple-blue             "#6b4a82")
 
       (citrus-error                   "#FF0000")
       (citrus-warning                 "#F68511")
@@ -99,7 +100,7 @@
    `(font-lock-type-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
    `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
    `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
-   `(font-lock-bracket-face ((,citrus-class (:weight medium))))
+   `(font-lock-punctuation-face ((,citrus-class (:foreground ,citrus-purple-blue :weight medium))))
    `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
 
    ;; built-in faces

@@ -45,7 +45,7 @@
       (rhododendron-deep-green        "#3e7411");3e7011
 
       (rhododendron-red               "#c00353")
-
+      ;; (rhododendron-red-orange        "#cd605f");ff605f,cd605f
       (rhododendron-bright-orange     "#ff5b4c")
 
       (rhododendron-blue              "#3c3cee")
@@ -102,7 +102,7 @@
    `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
    `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
    `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
-   `(font-lock-bracket-face ((,rhododendron-class (:weight medium))))
+   `(font-lock-punctuation-face ((,rhododendron-class (:foreground ,rhododendron-red :weight medium))))
    `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
 
    ;; built-in faces

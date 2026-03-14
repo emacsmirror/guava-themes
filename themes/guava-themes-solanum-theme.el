@@ -55,6 +55,7 @@
       (solanum-light-purple      "#bec8ff");c4aeff,ccbcff,d4cbff
       (solanum-purple            "#9c69e8");9e7ae8,9c69e8
       (solanum-purple-red        "#64143d");6a143d,64143d
+      (solanum-purple-pink       "#7d5d93");bb5d93
       (solanum-purple-blue       "#492b91")
       (solanum-dark-purple       "#672b5f");41143d,672b5f
       (solanum-purple-black      "#130d1a")
@@ -100,7 +101,7 @@
    `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))
    `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
    `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
-   `(font-lock-bracket-face ((,solanum-class (:weight medium))))
+   `(font-lock-punctuation-face ((,solanum-class (:foreground ,solanum-purple-pink :weight medium))))
    `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
 
    ;; built-in faces
