@@ -45,8 +45,8 @@
 
       (solanum-yellow-potato     "#fde8b9")
 
-      (solanum-light-green       "#61ff96")
-      (solanum-green             "#2f822f");3f7a56,2f824b
+      (solanum-light-green       "#4ec9b0");61ff96
+      (solanum-green             "#2d872d");3f7a56,2f824b,2f822f
       (solanum-deep-green        "#0d6d4b")
 
       (solanum-light-blue        "#8ec4de")
@@ -109,7 +109,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,solanum-class (:background ,solanum-yellow-potato :foreground ,solanum-black))))
+   `(cursor ((,solanum-class (:background ,solanum-light-purple :foreground ,solanum-black))))
 
    ;; fringe
    `(fringe ((,solanum-class (:background ,solanum-purple-black :foreground ,solanum-purple-black))))
@@ -151,16 +151,16 @@
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,solanum-class (:foreground ,solanum-purple-black :background ,solanum-light-blue))))
+   `(show-paren-match ((,solanum-class (:foreground ,solanum-black :background ,solanum-light-purple))))
    `(show-paren-mismatch ((,solanum-class (:foreground ,solanum-white :background ,solanum-error))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,solanum-class (:background ,solanum-error))))
 
    ;; buttons
-   `(link ((,solanum-class (:foreground ,solanum-light-purple :underline t :weight bold))))
-   `(link-visited ((,solanum-class (:foreground ,solanum-purple :underline t :weight bold))))
-   `(button ((,solanum-class (:foreground ,solanum-light-purple :underline t :weight bold))))
+   `(link ((,solanum-class (:foreground ,solanum-yellow-potato :underline t :weight bold))))
+   `(link-visited ((,solanum-class (:foreground ,solanum-orange :underline t :weight bold))))
+   `(button ((,solanum-class (:foreground ,solanum-yellow-potato :underline t :weight bold))))
 
 
    ;; external packages
