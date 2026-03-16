@@ -45,10 +45,9 @@
       (jacaranda-light-green       "#52aa63");52bc63
       (jacaranda-green             "#8ec654")
       (jacaranda-deep-green        "#267a63")
-      (jacaranda-oceanic-green     "#3ab992")
+      (jacaranda-oceanic-green     "#10a575");3ab992
 
       (jacaranda-orange            "#ff9f79");ff9535
-      ;; (jacaranda-deep-orange       "#c46935");a0522d
       (jacaranda-red               "#ca0036")
 
       (jacaranda-brown             "#8a7f74")
@@ -57,8 +56,8 @@
       (jacaranda-blue              "#4534e3")
       (jacaranda-deep-blue         "#655db0")
       (jacaranda-antarctic-blue    "#8d76ca")
-      (jacaranda-light-cyan        "#00aaaa")
-      (jacaranda-cyan              "#008b8b")
+      (jacaranda-light-cyan        "#60a1ba");00aaaa
+      (jacaranda-cyan              "#00778b")
 
       (jacaranda-light-purple      "#dbd0fd")
       (jacaranda-purple            "#aa69e6");984ee6
@@ -98,7 +97,7 @@
    `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
+   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
    `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
    `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
    `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
@@ -154,7 +153,7 @@
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-blue))))
+   `(show-paren-match ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple))))
    `(show-paren-mismatch ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-error))))
 
    ;; trailing whitespaces
