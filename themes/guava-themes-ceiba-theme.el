@@ -65,7 +65,7 @@
 
       (ceiba-error             "#ff0000");ff0000,d70000
       (ceiba-warning           "#f6c911");F68511
-      (ceiba-success           "#29c825")
+      (ceiba-success           "#1ea01e");29c825
 
       (ceiba-vc-change         ceiba-blue)
       (ceiba-vc-insert         ceiba-success)
