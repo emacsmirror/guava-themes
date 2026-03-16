@@ -59,8 +59,9 @@
       (ceiba-purple            "#4e466d");49206d
       (ceiba-purple-red        "#762362");862060,892362
 
+      (ceiba-light-brown       "#a08c6e")
+      (ceiba-brown             "#6d4b30");6b492e
       (ceiba-brown-sand        "#826e51");796041
-      (ceiba-light-brown       "#6d4b30");6b492e
       (ceiba-brown-wood        "#53453d");9c6d85,bf8987,514141,53423e
 
       (ceiba-error             "#ff0000");ff0000,d70000
@@ -97,7 +98,7 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
-   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-light-brown :weight medium))))
+   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-brown :weight medium))))
    `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
    `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
    `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
@@ -148,6 +149,7 @@
    `(tab-line-tab ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,ceiba-class (:background ,ceiba-light-brown :foreground ,ceiba-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,ceiba-class (:foreground ,ceiba-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
 

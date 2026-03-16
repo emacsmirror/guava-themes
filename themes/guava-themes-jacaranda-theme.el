@@ -149,6 +149,7 @@
    `(tab-line-tab ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:background ,jacaranda-light-blue :foreground ,jacaranda-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 

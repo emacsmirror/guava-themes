@@ -42,9 +42,9 @@
 
       (psidium-cream             "#F1EECE");F7DEB6
 
-      (psidium-green             "#599F48")
+      (psidium-green             "#599b48");599F48
       (psidium-light-green       "#28bb6b");13765e,13845e,139570,3ab488,3ab992
-      (psidium-guava-green       "#AED734");AECA41,AED234
+      (psidium-guava-green       "#aecd34");AECA41,AED234,AED734
       (psidium-deep-green        "#097d2c");09662c
 
       (psidium-orange            "#ffa55f");FF7D5F,ff8f5f
@@ -147,6 +147,7 @@
    `(tab-line-tab ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,psidium-class (:background ,psidium-light-green :foreground ,psidium-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,psidium-class (:foreground ,psidium-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
 

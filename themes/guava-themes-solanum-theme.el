@@ -59,6 +59,7 @@
       (solanum-purple-blue       "#492b91")
       (solanum-dark-purple       "#672b5f");41143d,672b5f
       (solanum-purple-black      "#130d1a")
+      (solanum-alt-purple-black  "#3b3542")
 
       (solanum-error             "#FF0000")
       (solanum-warning           "#f6d909");F68511
@@ -145,6 +146,7 @@
    `(tab-line-tab ((,solanum-class (:background ,solanum-purple-black :foreground ,solanum-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,solanum-class (:background ,solanum-dark-purple :foreground ,solanum-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,solanum-class (:background ,solanum-purple-black :foreground ,solanum-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,solanum-class (:background ,solanum-alt-purple-black :foreground ,solanum-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,solanum-class (:foreground ,solanum-red-tomato :weight bold :height 0.9))))
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
 

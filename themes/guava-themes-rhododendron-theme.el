@@ -109,7 +109,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,rhododendron-class (:background ,rhododendron-purple-red :foreground ,rhododendron-white))))
+   `(cursor ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white))))
 
    ;; fringe
    `(fringe ((,rhododendron-class (:background ,rhododendron-light-pink :foreground ,rhododendron-white))))
@@ -146,11 +146,12 @@
    `(tab-line-tab ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,rhododendron-class (:background ,rhododendron-purple-red :foreground ,rhododendron-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,rhododendron-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-blue))))
+   `(show-paren-match ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
    `(show-paren-mismatch ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-error))))
 
    ;; trailing whitespaces

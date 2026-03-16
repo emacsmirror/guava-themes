@@ -55,7 +55,7 @@
       (cordyline-light-purple      "#a21cd1");8b1cb0,9c1cbc,991cbc
       (cordyline-purple            "#703aaf");54366d,583675,583683,583d83,59338f,673b94
       (cordyline-deep-purple       "#392b38");3f323c
-      (cordyline-alt-purple        "#473b4c");433640,43364c
+      (cordyline-alt-purple        "#493d4e");433640,43364c,473b4c
       (cordyline-purple-red        "#982a51");8d2a46,982a46,982a51
       (cordyline-alt-deep-purple   "#211730")
 
@@ -144,6 +144,7 @@
    `(tab-line-tab ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,cordyline-class (:background ,cordyline-alt-purple :foreground ,cordyline-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,cordyline-class (:foreground ,cordyline-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,cordyline-class (:slant italic :weight bold :height 0.9))))
 

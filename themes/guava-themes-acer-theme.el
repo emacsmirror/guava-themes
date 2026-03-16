@@ -145,6 +145,7 @@
    `(tab-line-tab ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,acer-class (:background ,acer-orange :foreground ,acer-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,acer-class (:background ,acer-cream :foreground ,acer-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,acer-class (:slant italic :weight bold :height 0.9))))
 

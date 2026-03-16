@@ -152,6 +152,7 @@
    `(tab-line-tab-current ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-orange :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,dracaena-class (:background ,dracaena-light-gray :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses

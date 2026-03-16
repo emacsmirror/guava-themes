@@ -52,6 +52,7 @@
 
       ;; (prunus-deep-orange       "#C46935");a0522d
       (prunus-red               "#88190C");cb001e,d2191e
+      (prunus-light-pink        "#cd7888")
       (prunus-pink              "#CD2788");dc6199,cd4f88
 
       (prunus-blue              "#453ee3");4534e3,120cdc,4534E3
@@ -149,6 +150,7 @@
    `(tab-line-tab ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,prunus-class (:background ,prunus-light-pink :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-indigo :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 

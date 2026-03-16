@@ -48,6 +48,7 @@
       (citrus-lemon-yellow            "#c3af50")
 
       (citrus-orange-orange           "#f29a43")
+      (citrus-alt-orange              "#f26e43")
       (citrus-orange-red              "#ce462c")
       (citrus-deep-orange             "#da5802")
 
@@ -144,6 +145,7 @@
    `(tab-line-tab ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,citrus-class (:background ,citrus-orange-red :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,citrus-class (:background ,citrus-orange-orange :foreground ,citrus-white :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,citrus-class (:background ,citrus-alt-orange :foreground ,citrus-white :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,citrus-class (:foreground ,citrus-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 
