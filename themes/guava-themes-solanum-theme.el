@@ -119,7 +119,7 @@
 
    ;; line-number
    `(line-number ((,solanum-class (:foreground ,solanum-white))))
-   `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :background ,solanum-purple-red :weight bold))))
+   `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:background ,solanum-dark-purple :foreground ,solanum-white))))

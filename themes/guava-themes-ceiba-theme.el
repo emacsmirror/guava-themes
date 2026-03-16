@@ -122,7 +122,7 @@
 
    ;; line-number
    `(line-number ((,ceiba-class (:foreground ,ceiba-black))))
-   `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :background ,ceiba-gray :weight bold))))
+   `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))

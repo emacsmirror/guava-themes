@@ -120,7 +120,7 @@
 
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
-   `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :background ,psidium-light-pink :weight bold))))
+   `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))

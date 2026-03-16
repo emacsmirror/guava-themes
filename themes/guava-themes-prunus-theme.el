@@ -123,7 +123,7 @@
 
    ;; line-number
    `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
-   `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :background ,prunus-brown :weight bold))))
+   `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))

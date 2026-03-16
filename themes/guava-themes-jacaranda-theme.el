@@ -122,7 +122,7 @@
 
    ;; line-number
    `(line-number ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
-   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-light-purple :weight bold))))
+   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))

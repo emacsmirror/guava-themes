@@ -119,7 +119,7 @@
 
    ;; line-number
    `(line-number ((,rhododendron-class (:foreground ,rhododendron-black))))
-   `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :background ,rhododendron-light-purple :weight bold))))
+   `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))

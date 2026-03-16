@@ -118,7 +118,7 @@
 
    ;; line-number
    `(line-number ((,citrus-class (:foreground ,citrus-black))))
-   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green :background ,citrus-lemon-light-yellow :weight bold))))
+   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,citrus-class (:background ,citrus-lime-green :foreground ,citrus-white))))

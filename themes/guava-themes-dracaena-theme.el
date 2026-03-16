@@ -124,7 +124,7 @@
 
    ;; line-number
    `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
-   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :background ,dracaena-light-gray :weight bold))))
+   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
