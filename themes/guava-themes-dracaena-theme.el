@@ -49,8 +49,10 @@
 
       (dracaena-snakeplant-yellow "#d9d389")
 
-      (dracaena-light-orange      "#ffa07a")
+      (dracaena-light-orange      "#ffae7a")
+      (dracaena-orange            "#ffa07a")
       (dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
+      (dracaena-alt-deep-red      "#751e1e")
       (dracaena-deep-red          "#792725")
 
       (dracaena-light-brown       "#a89d92");8b6c4d
@@ -65,7 +67,7 @@
       (dracaena-deep-purple       "#7f46dd");8f1ac8,8a34d7,7f3edd
 
       (dracaena-error             "#FF0000")
-      (dracaena-warning           "#f6ad11");F68511
+      (dracaena-warning           "#f6be14");F68511,f6ad11
       (dracaena-success           "#29d925")
 
       (dracaena-vc-change         dracaena-blue)
@@ -93,7 +95,7 @@
    `(shadow ((,dracaena-class (:foreground ,dracaena-shadow))))
 
    ;; region
-   `(region ((,dracaena-class (:background ,dracaena-deep-red))))
+   `(region ((,dracaena-class (:background ,dracaena-alt-deep-red))))
    `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
 
    ;; font-lock
@@ -112,7 +114,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,dracaena-class (:background ,dracaena-light-orange :foreground ,dracaena-white))))
+   `(cursor ((,dracaena-class (:background ,dracaena-orange :foreground ,dracaena-white))))
 
    ;; fringe
    `(fringe ((,dracaena-class (:background ,dracaena-gray :foreground ,dracaena-gray))))
@@ -122,18 +124,18 @@
 
    ;; line-number
    `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
-   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-light-orange :background ,dracaena-light-gray :weight bold))))
+   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :background ,dracaena-light-gray :weight bold))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
    `(mode-line-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white))))
-   `(guava-themes-visible-bell ((,dracaena-class (:background ,dracaena-light-orange :foreground ,dracaena-white))))
+   `(guava-themes-visible-bell ((,dracaena-class (:background ,dracaena-orange :foreground ,dracaena-white))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
 
    ;; borders
-   `(vertical-border ((,dracaena-class (:foreground ,dracaena-light-orange))))
+   `(vertical-border ((,dracaena-class (:foreground ,dracaena-orange))))
 
    ;; header-line
    `(header-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
@@ -149,7 +151,7 @@
    `(tab-line-tab ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-blue :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
@@ -161,7 +163,7 @@
 
    ;; buttons
    `(link ((,dracaena-class (:foreground ,dracaena-red :underline t :weight bold))))
-   `(link-visited ((,dracaena-class (:foreground ,dracaena-light-orange :underline t :weight bold))))
+   `(link-visited ((,dracaena-class (:foreground ,dracaena-orange :underline t :weight bold))))
    `(button ((,dracaena-class (:foreground ,dracaena-red :underline t :weight bold))))
 
 

@@ -102,7 +102,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 - Guava Psidium: slightly change tab-bar and tab-line foreground color.
 - Guava Jacaranda Theme: change some font-locks.
 - Guava Prunus Theme: change some font-locks and region.
-- Guava Dracaena Theme: slightly change font-lock-variable-name-face, tab-line-tab-modified, region, highlight, warning, and maybe some other face.
+- Guava Dracaena Theme: slightly change font-lock-variable-name-face, highlight, and maybe some other face.
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
