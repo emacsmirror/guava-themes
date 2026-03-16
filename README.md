@@ -64,11 +64,11 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 - Guava Jacaranda Theme  
 
-<img src="https://lh3.googleusercontent.com/d/1nb0vKfenZ71xiMX1dRUesRjyv8vO57uN=s2000?authuser=0" width="750" height="400" alt="guava-jacaranda-screenshot">
+<img src="https://lh3.googleusercontent.com/d/16MBqRjX5BrZTScW8jl8ESOK3whA3LiBa=s2000?authuser=0" width="750" height="400" alt="guava-jacaranda-screenshot">
 
 - Guava Prunus Theme  
 
-<img src="https://lh3.googleusercontent.com/d/1BEw98NECyXg-3usnNgVSQmIPm35WVH_j=s2000?authuser=0" width="750" height="400" alt="guava-prunus-screenshot">
+<img src="https://lh3.googleusercontent.com/d/11kAMguzDj7t0FOL6jGrPUCeWo550Qeur=s2000?authuser=0" width="750" height="400" alt="guava-prunus-screenshot">
 
 - Guava Dracaena Theme  
 
