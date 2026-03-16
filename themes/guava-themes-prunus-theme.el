@@ -41,26 +41,27 @@
       (prunus-shadow            "#b3b3b3")
 
       (prunus-cream             "#DEA2BD");fffef5,EBDCF5
-      (prunus-light-brown       "#735944")
-      (prunus-brown             "#4A301B");583c25,
+      (prunus-brown             "#4a2b1b");583c25,4A301B
       (prunus-dark-brown        "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
+      (prunus-alt-dark-brown    "#2b1f16")
 
       (prunus-yellow            "#999844")
 
       (prunus-light-green       "#52BC63")
       (prunus-oceanic-green     "#3AC3A2")
 
-      (prunus-deep-orange       "#C46935");a0522d
+      ;; (prunus-deep-orange       "#C46935");a0522d
       (prunus-red               "#88190C");cb001e,d2191e
       (prunus-pink              "#CD2788");dc6199,cd4f88
 
-      (prunus-blue              "#4534E3");4534e3,120cdc
+      (prunus-blue              "#453ee3");4534e3,120cdc,4534E3
       (prunus-deep-blue         "#655DB0")
       (prunus-antarctic-blue    "#8D76CA")
       (prunus-cyan              "#008B8B")
       (prunus-dark-cyan         "#005555")
 
       (prunus-deep-purple       "#740CBE");800080
+      (prunus-indigo            "#2C2C54")
       (prunus-purple-red        "#8B2252")
 
       (prunus-error             "#FF0000");FF0000,bc0000,890014
@@ -86,13 +87,13 @@
    `(success ((,prunus-class (:foreground ,prunus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,prunus-class (:background ,prunus-brown))))
+   `(highlight ((,prunus-class (:background ,prunus-alt-dark-brown))))
 
    ;; shadow
    `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
 
    ;; region
-   `(region ((,prunus-class (:background ,prunus-light-brown))))
+   `(region ((,prunus-class (:background ,prunus-brown))))
    `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan :extend t))))
 
    ;; font-lock
@@ -105,7 +106,7 @@
    `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
    `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
    `(font-lock-punctuation-face ((,prunus-class (:foreground ,prunus-yellow :weight medium))))
-   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-deep-orange :weight medium))))
+   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-oceanic-green :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
@@ -125,7 +126,7 @@
 
    ;; mode-line
    `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
-   `(mode-line-inactive ((,prunus-class (:background ,prunus-deep-orange :foreground ,prunus-white))))
+   `(mode-line-inactive ((,prunus-class (:background ,prunus-brown :foreground ,prunus-white))))
    `(guava-themes-visible-bell ((,prunus-class (:background ,prunus-antarctic-blue :foreground ,prunus-white))))
 
    ;; minibuffer
@@ -148,11 +149,11 @@
    `(tab-line-tab ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-current ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-blue :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-indigo :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-oceanic-green))))
+   `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-deep-blue))))
    `(show-paren-mismatch ((,prunus-class (:foreground ,prunus-white :background ,prunus-error))))
 
    ;; trailing whitespaces
