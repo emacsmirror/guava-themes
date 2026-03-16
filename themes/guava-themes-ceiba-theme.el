@@ -160,10 +160,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,ceiba-class (:background ,ceiba-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,ceiba-class (:foreground ,ceiba-purple :underline t :weight bold))))
    `(link-visited ((,ceiba-class (:foreground ,ceiba-purple-red :underline t :weight bold))))
-   `(button ((,ceiba-class (:foreground ,ceiba-purple :underline t :weight bold))))
 
 
    ;; external packages

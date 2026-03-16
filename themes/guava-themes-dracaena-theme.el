@@ -162,10 +162,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,dracaena-class (:background ,dracaena-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,dracaena-class (:foreground ,dracaena-red :underline t :weight bold))))
    `(link-visited ((,dracaena-class (:foreground ,dracaena-orange :underline t :weight bold))))
-   `(button ((,dracaena-class (:foreground ,dracaena-red :underline t :weight bold))))
 
 
    ;; external packages

@@ -155,10 +155,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,cordyline-class (:background ,cordyline-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,cordyline-class (:foreground ,cordyline-steel-blue :underline t :weight bold))))
    `(link-visited ((,cordyline-class (:foreground ,cordyline-purple :underline t :weight bold))))
-   `(button ((,cordyline-class (:foreground ,cordyline-steel-blue :underline t :weight bold))))
 
 
    ;; external packages

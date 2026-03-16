@@ -156,10 +156,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,citrus-class (:background ,citrus-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,citrus-class (:foreground ,citrus-light-blue :underline t :weight bold))))
    `(link-visited ((,citrus-class (:foreground ,citrus-deep-blue :underline t :weight bold))))
-   `(button ((,citrus-class (:foreground ,citrus-light-blue :underline t :weight bold))))
 
 
    ;; external packages

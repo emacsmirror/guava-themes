@@ -161,10 +161,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,prunus-class (:background ,prunus-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,prunus-class (:foreground ,prunus-blue :underline t :weight bold))))
    `(link-visited ((,prunus-class (:foreground ,prunus-oceanic-green :underline t :weight bold))))
-   `(button ((,prunus-class (:foreground ,prunus-blue :underline t :weight bold))))
 
 
    ;; external packages

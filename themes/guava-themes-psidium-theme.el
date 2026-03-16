@@ -158,10 +158,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,psidium-class (:background ,psidium-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,psidium-class (:foreground ,psidium-light-blue :underline t :weight bold))))
    `(link-visited ((,psidium-class (:foreground ,psidium-purple :underline t :weight bold))))
-   `(button ((,psidium-class (:foreground ,psidium-light-blue :underline t :weight bold))))
 
 
    ;; external packages

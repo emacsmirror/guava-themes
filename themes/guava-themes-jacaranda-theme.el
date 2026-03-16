@@ -160,10 +160,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,jacaranda-class (:background ,jacaranda-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :underline t :weight bold))))
    `(link-visited ((,jacaranda-class (:foreground ,jacaranda-deep-green :underline t :weight bold))))
-   `(button ((,jacaranda-class (:foreground ,jacaranda-blue :underline t :weight bold))))
 
 
    ;; external packages

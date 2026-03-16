@@ -157,10 +157,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,rhododendron-class (:background ,rhododendron-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,rhododendron-class (:foreground ,rhododendron-purple-blue :underline t :weight bold))))
    `(link-visited ((,rhododendron-class (:foreground ,rhododendron-purple-pink :underline t :weight bold))))
-   `(button ((,rhododendron-class (:foreground ,rhododendron-purple-blue :underline t :weight bold))))
 
 
    ;; external packages

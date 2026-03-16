@@ -157,10 +157,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,solanum-class (:background ,solanum-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,solanum-class (:foreground ,solanum-yellow-potato :underline t :weight bold))))
    `(link-visited ((,solanum-class (:foreground ,solanum-orange :underline t :weight bold))))
-   `(button ((,solanum-class (:foreground ,solanum-yellow-potato :underline t :weight bold))))
 
 
    ;; external packages

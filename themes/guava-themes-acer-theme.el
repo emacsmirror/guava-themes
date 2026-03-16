@@ -156,10 +156,9 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,acer-class (:background ,acer-error))))
 
-   ;; buttons
+   ;; links
    `(link ((,acer-class (:foreground ,acer-blue :underline t :weight bold))))
    `(link-visited ((,acer-class (:foreground ,acer-green-cyan :underline t :weight bold))))
-   `(button ((,acer-class (:foreground ,acer-blue :underline t :weight bold))))
 
 
    ;; external packages
