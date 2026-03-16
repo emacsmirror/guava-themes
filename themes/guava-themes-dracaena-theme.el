@@ -57,14 +57,14 @@
 
       (dracaena-light-brown       "#a89d92");8b6c4d
 
-      (dracaena-light-blue        "#425fd5")
+      (dracaena-light-blue        "#4272d5");425fd5
       (dracaena-blue              "#2134d5")
       (dracaena-antarctic-blue    "#bacce4");4f62be
       (dracaena-steel-blue        "#4f94cd");b0c4de
       (dracaena-dark-cyan         "#005f55")
 
-      (dracaena-pink-purple       "#a5225c");961250,b7125c
-      (dracaena-deep-purple       "#7f46dd");8f1ac8,8a34d7,7f3edd
+      (dracaena-pink-purple       "#a53c5c");961250,b7125c,a5225c
+      (dracaena-deep-purple       "#7f53dd");8f1ac8,8a34d7,7f3edd,7f46dd
 
       (dracaena-error             "#FF0000")
       (dracaena-warning           "#f6be14");F68511,f6ad11
