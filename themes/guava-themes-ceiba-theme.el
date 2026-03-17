@@ -112,7 +112,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,ceiba-class (:background ,ceiba-brown-wood :foreground ,ceiba-black))))
+   `(cursor ((,ceiba-class (:background ,ceiba-green-forest :foreground ,ceiba-black))))
 
    ;; fringe
    `(fringe ((,ceiba-class (:background ,ceiba-gray-green :foreground ,ceiba-black))))
@@ -154,7 +154,7 @@
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-deep-green))))
+   `(show-paren-match ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-purple-red))))
    `(show-paren-mismatch ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-error))))
 
    ;; trailing whitespaces

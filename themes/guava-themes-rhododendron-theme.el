@@ -109,7 +109,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,rhododendron-class (:background ,rhododendron-bright-pink :foreground ,rhododendron-white))))
+   `(cursor ((,rhododendron-class (:background ,rhododendron-red :foreground ,rhododendron-white))))
 
    ;; fringe
    `(fringe ((,rhododendron-class (:background ,rhododendron-light-pink :foreground ,rhododendron-white))))

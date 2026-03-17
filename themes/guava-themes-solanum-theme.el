@@ -109,7 +109,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,solanum-class (:background ,solanum-light-purple :foreground ,solanum-black))))
+   `(cursor ((,solanum-class (:background ,solanum-yellow-potato :foreground ,solanum-black))))
 
    ;; fringe
    `(fringe ((,solanum-class (:background ,solanum-purple-black :foreground ,solanum-purple-black))))

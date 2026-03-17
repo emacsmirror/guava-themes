@@ -108,7 +108,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,acer-class (:background ,acer-green :foreground ,acer-black))))
+   `(cursor ((,acer-class (:background ,acer-orange :foreground ,acer-black))))
 
    ;; fringe
    `(fringe ((,acer-class (:background ,acer-yellow :foreground ,acer-black))))

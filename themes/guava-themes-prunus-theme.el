@@ -113,7 +113,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,prunus-class (:background ,prunus-deep-blue :foreground ,prunus-white))))
+   `(cursor ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
 
    ;; fringe
    `(fringe ((,prunus-class (:background ,prunus-dark-brown :foreground ,prunus-cream))))

@@ -152,7 +152,7 @@
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,psidium-class (:foreground ,psidium-white :background ,psidium-orange))))
+   `(show-paren-match ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
    `(show-paren-mismatch ((,psidium-class (:foreground ,psidium-white :background ,psidium-error))))
 
    ;; trailing whitespaces

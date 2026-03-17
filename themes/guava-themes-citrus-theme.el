@@ -108,7 +108,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,citrus-class (:background ,citrus-green :foreground ,citrus-black))))
+   `(cursor ((,citrus-class (:background ,citrus-alt-orange :foreground ,citrus-black))))
 
    ;; fringe
    `(fringe ((,citrus-class (:background ,citrus-white :foreground ,citrus-black))))
@@ -150,7 +150,7 @@
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-light-blue))))
+   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-lime-green))))
    `(show-paren-mismatch ((,citrus-class (:foreground ,citrus-white :background ,citrus-error))))
 
    ;; trailing whitespaces

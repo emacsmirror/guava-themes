@@ -112,7 +112,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,jacaranda-class (:background ,jacaranda-purple :foreground ,jacaranda-white))))
+   `(cursor ((,jacaranda-class (:background ,jacaranda-deep-blue :foreground ,jacaranda-white))))
 
    ;; fringe
    `(fringe ((,jacaranda-class (:background ,jacaranda-cream :foreground ,jacaranda-cream))))
