@@ -107,22 +107,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,cordyline-class (:background ,cordyline-pink :foreground ,cordyline-white))))
+   `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-pink))))
 
    ;; fringe
-   `(fringe ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-deep-purple))))
-   `(diff-hl-change ((,cordyline-class (:background ,cordyline-vc-change :foreground ,cordyline-vc-change))))
-   `(diff-hl-insert ((,cordyline-class (:background ,cordyline-vc-insert :foreground ,cordyline-vc-insert))))
-   `(diff-hl-delete ((,cordyline-class (:background ,cordyline-vc-delete :foreground ,cordyline-vc-delete))))
+   `(fringe ((,cordyline-class (:foreground ,cordyline-deep-purple :background ,cordyline-deep-purple))))
+   `(diff-hl-change ((,cordyline-class (:foreground ,cordyline-vc-change :background ,cordyline-vc-change))))
+   `(diff-hl-insert ((,cordyline-class (:foreground ,cordyline-vc-insert :background ,cordyline-vc-insert))))
+   `(diff-hl-delete ((,cordyline-class (:foreground ,cordyline-vc-delete :background ,cordyline-vc-delete))))
 
    ;; line-number
    `(line-number ((,cordyline-class (:foreground ,cordyline-white))))
    `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
-   `(mode-line-inactive ((,cordyline-class (:background ,cordyline-alt-deep-purple :foreground ,cordyline-white))))
-   `(guava-themes-visible-bell ((,cordyline-class (:background ,cordyline-light-blue :foreground ,cordyline-white))))
+   `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
+   `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-deep-purple))))
+   `(guava-themes-visible-bell ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-light-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,cordyline-class (:foreground ,cordyline-white))))
@@ -131,20 +131,20 @@
    `(vertical-border ((,cordyline-class (:foreground ,cordyline-deep-purple))))
 
    ;; header-line
-   `(header-line ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
-   `(which-func ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white))))
+   `(header-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
+   `(which-func ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
 
    ;; tab-bar
-   `(tab-bar ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white))))
-   `(tab-bar-tab ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 1.0))))
+   `(tab-bar ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
+   `(tab-bar-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white))))
-   `(tab-line-tab ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,cordyline-class (:background ,cordyline-purple-red :foreground ,cordyline-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,cordyline-class (:background ,cordyline-deep-purple :foreground ,cordyline-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,cordyline-class (:background ,cordyline-alt-purple :foreground ,cordyline-white :weight bold :height 0.9))))
+   `(tab-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
+   `(tab-line-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-purple :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,cordyline-class (:foreground ,cordyline-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,cordyline-class (:slant italic :weight bold :height 0.9))))
 

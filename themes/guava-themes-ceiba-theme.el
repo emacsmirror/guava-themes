@@ -112,22 +112,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,ceiba-class (:background ,ceiba-green-forest :foreground ,ceiba-black))))
+   `(cursor ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-green-forest))))
 
    ;; fringe
-   `(fringe ((,ceiba-class (:background ,ceiba-gray-green :foreground ,ceiba-black))))
-   `(diff-hl-change ((,ceiba-class (:background ,ceiba-vc-change :foreground ,ceiba-vc-change))))
-   `(diff-hl-insert ((,ceiba-class (:background ,ceiba-vc-insert :foreground ,ceiba-vc-insert))))
-   `(diff-hl-delete ((,ceiba-class (:background ,ceiba-vc-delete :foreground ,ceiba-vc-delete))))
+   `(fringe ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
+   `(diff-hl-change ((,ceiba-class (:foreground ,ceiba-vc-change :background ,ceiba-vc-change))))
+   `(diff-hl-insert ((,ceiba-class (:foreground ,ceiba-vc-insert :background ,ceiba-vc-insert))))
+   `(diff-hl-delete ((,ceiba-class (:foreground ,ceiba-vc-delete :background ,ceiba-vc-delete))))
 
    ;; line-number
    `(line-number ((,ceiba-class (:foreground ,ceiba-black))))
    `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
-   `(mode-line-inactive ((,ceiba-class (:background ,ceiba-gray-blue :foreground ,ceiba-white))))
-   `(guava-themes-visible-bell ((,ceiba-class (:background ,ceiba-steel-blue :foreground ,ceiba-white))))
+   `(mode-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
+   `(mode-line-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue))))
+   `(guava-themes-visible-bell ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-steel-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,ceiba-class (:foreground ,ceiba-black))))
@@ -136,20 +136,20 @@
    `(vertical-border ((,ceiba-class (:foreground ,ceiba-gray-green))))
 
    ;; header-line
-   `(header-line ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
-   `(which-func ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white))))
+   `(header-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
+   `(which-func ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
 
    ;; tab-bar
-   `(tab-bar ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white))))
-   `(tab-bar-tab ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 1.0))))
+   `(tab-bar ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))
+   `(tab-bar-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white))))
-   `(tab-line-tab ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,ceiba-class (:background ,ceiba-green :foreground ,ceiba-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,ceiba-class (:background ,ceiba-brown-sand :foreground ,ceiba-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,ceiba-class (:background ,ceiba-light-brown :foreground ,ceiba-white :weight bold :height 0.9))))
+   `(tab-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))
+   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-light-brown :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,ceiba-class (:foreground ,ceiba-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
 

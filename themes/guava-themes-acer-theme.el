@@ -108,22 +108,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,acer-class (:background ,acer-orange :foreground ,acer-black))))
+   `(cursor ((,acer-class (:foreground ,acer-black :background ,acer-orange))))
 
    ;; fringe
-   `(fringe ((,acer-class (:background ,acer-yellow :foreground ,acer-black))))
-   `(diff-hl-change ((,acer-class (:background ,acer-vc-change :foreground ,acer-vc-change))))
-   `(diff-hl-insert ((,acer-class (:background ,acer-vc-insert :foreground ,acer-vc-insert))))
-   `(diff-hl-delete ((,acer-class (:background ,acer-vc-delete :foreground ,acer-vc-delete))))
+   `(fringe ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
+   `(diff-hl-change ((,acer-class (:foreground ,acer-vc-change :background ,acer-vc-change))))
+   `(diff-hl-insert ((,acer-class (:foreground ,acer-vc-insert :background ,acer-vc-insert))))
+   `(diff-hl-delete ((,acer-class (:foreground ,acer-vc-delete :background ,acer-vc-delete))))
 
    ;; line-number
    `(line-number ((,acer-class (:foreground ,acer-black))))
    `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,acer-class (:background ,acer-orange :foreground ,acer-white))))
-   `(mode-line-inactive ((,acer-class (:background ,acer-purple-red :foreground ,acer-white))))
-   `(guava-themes-visible-bell ((,acer-class (:background ,acer-green :foreground ,acer-white))))
+   `(mode-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
+   `(mode-line-inactive ((,acer-class (:foreground ,acer-white :background ,acer-purple-red))))
+   `(guava-themes-visible-bell ((,acer-class (:foreground ,acer-white :background ,acer-green))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,acer-class (:foreground ,acer-black))))
@@ -132,20 +132,20 @@
    `(vertical-border ((,acer-class (:foreground ,acer-yellow))))
 
    ;; header-line
-   `(header-line ((,acer-class (:background ,acer-orange :foreground ,acer-white))))
-   `(which-func ((,acer-class (:background ,acer-orange :foreground ,acer-white))))
+   `(header-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
+   `(which-func ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
 
    ;; tab-bar
-   `(tab-bar ((,acer-class (:background ,acer-autumn :foreground ,acer-white))))
-   `(tab-bar-tab ((,acer-class (:background ,acer-orange :foreground ,acer-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 1.0))))
+   `(tab-bar ((,acer-class (:foreground ,acer-white :background ,acer-autumn))))
+   `(tab-bar-tab ((,acer-class (:foreground ,acer-white :background ,acer-orange :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,acer-class (:background ,acer-autumn :foreground ,acer-white))))
-   `(tab-line-tab ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,acer-class (:background ,acer-orange :foreground ,acer-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,acer-class (:background ,acer-autumn :foreground ,acer-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,acer-class (:background ,acer-cream :foreground ,acer-white :weight bold :height 0.9))))
+   `(tab-line ((,acer-class (:foreground ,acer-white :background ,acer-autumn))))
+   `(tab-line-tab ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-orange :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,acer-class (:foreground ,acer-white :background ,acer-cream :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,acer-class (:slant italic :weight bold :height 0.9))))
 

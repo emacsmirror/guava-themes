@@ -114,22 +114,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,dracaena-class (:background ,dracaena-orange :foreground ,dracaena-white))))
+   `(cursor ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; fringe
-   `(fringe ((,dracaena-class (:background ,dracaena-gray :foreground ,dracaena-gray))))
-   `(diff-hl-change ((,dracaena-class (:background ,dracaena-vc-change :foreground ,dracaena-vc-change))))
-   `(diff-hl-insert ((,dracaena-class (:background ,dracaena-vc-insert :foreground ,dracaena-vc-insert))))
-   `(diff-hl-delete ((,dracaena-class (:background ,dracaena-vc-delete :foreground ,dracaena-vc-delete))))
+   `(fringe ((,dracaena-class (:foreground ,dracaena-gray :background ,dracaena-gray))))
+   `(diff-hl-change ((,dracaena-class (:foreground ,dracaena-vc-change :background ,dracaena-vc-change))))
+   `(diff-hl-insert ((,dracaena-class (:foreground ,dracaena-vc-insert :background ,dracaena-vc-insert))))
+   `(diff-hl-delete ((,dracaena-class (:foreground ,dracaena-vc-delete :background ,dracaena-vc-delete))))
 
    ;; line-number
    `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
    `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
-   `(mode-line-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white))))
-   `(guava-themes-visible-bell ((,dracaena-class (:background ,dracaena-orange :foreground ,dracaena-white))))
+   `(mode-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
+   `(mode-line-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))
+   `(guava-themes-visible-bell ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
@@ -138,21 +138,21 @@
    `(vertical-border ((,dracaena-class (:foreground ,dracaena-orange))))
 
    ;; header-line
-   `(header-line ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
-   `(which-func ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white))))
+   `(header-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
+   `(which-func ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
 
    ;; tab-bar
-   `(tab-bar ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white))))
-   `(tab-bar-tab ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 1.0))))
+   `(tab-bar ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))
+   `(tab-bar-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white))))
-   `(tab-line-tab ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,dracaena-class (:background ,dracaena-deep-red :foreground ,dracaena-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,dracaena-class (:background ,dracaena-dark-gray :foreground ,dracaena-white :weight bold :height 0.9))))
+   `(tab-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))
+   `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-light-gray :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-orange :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,dracaena-class (:background ,dracaena-light-gray :foreground ,dracaena-white :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses

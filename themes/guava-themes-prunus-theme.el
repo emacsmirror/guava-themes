@@ -113,22 +113,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
+   `(cursor ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
 
    ;; fringe
-   `(fringe ((,prunus-class (:background ,prunus-dark-brown :foreground ,prunus-cream))))
-   `(diff-hl-change ((,prunus-class (:background ,prunus-vc-change :foreground ,prunus-vc-change))))
-   `(diff-hl-insert ((,prunus-class (:background ,prunus-vc-insert :foreground ,prunus-vc-insert))))
-   `(diff-hl-delete ((,prunus-class (:background ,prunus-vc-delete :foreground ,prunus-vc-delete))))
+   `(fringe ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
+   `(diff-hl-change ((,prunus-class (:foreground ,prunus-vc-change :background ,prunus-vc-change))))
+   `(diff-hl-insert ((,prunus-class (:foreground ,prunus-vc-insert :background ,prunus-vc-insert))))
+   `(diff-hl-delete ((,prunus-class (:foreground ,prunus-vc-delete :background ,prunus-vc-delete))))
 
    ;; line-number
    `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
    `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
-   `(mode-line-inactive ((,prunus-class (:background ,prunus-brown :foreground ,prunus-white))))
-   `(guava-themes-visible-bell ((,prunus-class (:background ,prunus-antarctic-blue :foreground ,prunus-white))))
+   `(mode-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
+   `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown))))
+   `(guava-themes-visible-bell ((,prunus-class (:foreground ,prunus-white :background ,prunus-antarctic-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,prunus-class (:foreground ,prunus-white))))
@@ -137,20 +137,20 @@
    `(vertical-border ((,prunus-class (:foreground ,prunus-pink))))
 
    ;; header-line
-   `(header-line ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
-   `(which-func ((,prunus-class (:background ,prunus-red :foreground ,prunus-white))))
+   `(header-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
+   `(which-func ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
 
    ;; tab-bar
-   `(tab-bar ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white))))
-   `(tab-bar-tab ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 1.0))))
+   `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))
+   `(tab-bar-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white))))
-   `(tab-line-tab ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,prunus-class (:background ,prunus-red :foreground ,prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,prunus-class (:background ,prunus-pink :foreground ,prunus-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,prunus-class (:background ,prunus-light-pink :foreground ,prunus-white :weight bold :height 0.9))))
+   `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))
+   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-indigo :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 

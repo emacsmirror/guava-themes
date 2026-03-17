@@ -110,22 +110,22 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,psidium-class (:background ,psidium-green :foreground ,psidium-white))))
+   `(cursor ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
 
    ;; fringe
-   `(fringe ((,psidium-class (:background ,psidium-cream :foreground ,psidium-cream))))
-   `(diff-hl-change ((,psidium-class (:background ,psidium-vc-change :foreground ,psidium-vc-change))))
-   `(diff-hl-insert ((,psidium-class (:background ,psidium-vc-insert :foreground ,psidium-vc-insert))))
-   `(diff-hl-delete ((,psidium-class (:background ,psidium-vc-delete :foreground ,psidium-vc-delete))))
+   `(fringe ((,psidium-class (:foreground ,psidium-cream :background ,psidium-cream))))
+   `(diff-hl-change ((,psidium-class (:foreground ,psidium-vc-change :background ,psidium-vc-change))))
+   `(diff-hl-insert ((,psidium-class (:foreground ,psidium-vc-insert :background ,psidium-vc-insert))))
+   `(diff-hl-delete ((,psidium-class (:foreground ,psidium-vc-delete :background ,psidium-vc-delete))))
 
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
    `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))
-   `(mode-line-inactive ((,psidium-class (:background ,psidium-green :foreground ,psidium-white))))
-   `(guava-themes-visible-bell ((,psidium-class (:background ,psidium-deep-green :foreground ,psidium-white))))
+   `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
+   `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
+   `(guava-themes-visible-bell ((,psidium-class (:foreground ,psidium-white :background ,psidium-deep-green))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))
@@ -134,20 +134,20 @@
    `(vertical-border ((,psidium-class (:foreground ,psidium-cream))))
 
    ;; header-line
-   `(header-line ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))
-   `(which-func ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white))))
+   `(header-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
+   `(which-func ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
 
    ;; tab-bar
-   `(tab-bar ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white))))
-   `(tab-bar-tab ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 1.0))))
+   `(tab-bar ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
+   `(tab-bar-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white))))
-   `(tab-line-tab ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,psidium-class (:background ,psidium-pink :foreground ,psidium-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,psidium-class (:background ,psidium-guava-green :foreground ,psidium-white :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,psidium-class (:background ,psidium-light-green :foreground ,psidium-white :weight bold :height 0.9))))
+   `(tab-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
+   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
+   `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,psidium-class (:foreground ,psidium-white :background ,psidium-light-green :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,psidium-class (:foreground ,psidium-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
 
