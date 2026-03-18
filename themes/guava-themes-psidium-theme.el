@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 07, 2025
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -105,6 +105,7 @@
    `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
    `(font-lock-punctuation-face ((,psidium-class (:foreground ,psidium-red-orange :weight medium))))
    `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
+   `(font-lock-negation-char-face ((,psidium-class (:foreground ,psidium-pink :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

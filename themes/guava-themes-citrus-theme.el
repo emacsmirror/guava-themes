@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Feb 15, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -44,8 +44,8 @@
       (citrus-green                   "#136b16")
       (citrus-deep-green              "#2b5b26");2b5726
 
-      (citrus-lemon-light-yellow      "#f5cb6d")
-      (citrus-lemon-yellow            "#c3af50")
+      (citrus-light-yellow            "#f5cb6d")
+      (citrus-yellow                  "#c3af50")
 
       (citrus-orange-orange           "#f29a43")
       (citrus-alt-orange              "#f26e43")
@@ -83,13 +83,13 @@
    `(success ((,citrus-class (:foreground ,citrus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,citrus-class (:background ,citrus-lemon-light-yellow))))
+   `(highlight ((,citrus-class (:background ,citrus-light-yellow))))
 
    ;; shadow
    `(shadow ((,citrus-class (:foreground ,citrus-shadow))))
 
    ;; region
-   `(region ((,citrus-class (:background ,citrus-lemon-yellow))))
+   `(region ((,citrus-class (:background ,citrus-yellow))))
    `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange :extend t))))
 
    ;; font-lock
@@ -103,6 +103,7 @@
    `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
    `(font-lock-punctuation-face ((,citrus-class (:foreground ,citrus-purple-blue :weight medium))))
    `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
+   `(font-lock-negation-char-face ((,citrus-class (:foreground ,citrus-orange-red :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
@@ -166,7 +167,7 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red))))
    `(doom-modeline-project-parent-dir ((,citrus-class (:foreground ,citrus-purple-red))))
-   `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-lemon-light-yellow))))
+   `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-light-yellow))))
 
    ;; corfu
    `(corfu-default ((,citrus-class (:foreground ,citrus-black :background ,citrus-white))))

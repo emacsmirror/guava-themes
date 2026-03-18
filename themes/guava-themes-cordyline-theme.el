@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -40,9 +40,9 @@
 
       (cordyline-shadow            "#b3b3b3")
 
-      (cordyline-pink              "#CB5F68")
+      (cordyline-orange-red        "#ce462c")
+      (cordyline-pink-red          "#cb646e");CB5F68
       (cordyline-pink-purple       "#da70d6")
-
       (cordyline-deep-fuchsia      "#6e1551");69374e,741551
 
       (cordyline-light-blue        "#5f70cb")
@@ -95,7 +95,7 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
-   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink :weight medium))))
+   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink-red :weight medium))))
    `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
    `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
    `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
@@ -104,12 +104,13 @@
    `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
    `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-alt-green :weight medium))))
    `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
+   `(font-lock-negation-char-face ((,cordyline-class (:foreground ,cordyline-orange-red :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-pink))))
+   `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-pink-red))))
 
    ;; fringe
    `(fringe ((,cordyline-class (:foreground ,cordyline-deep-purple :background ,cordyline-deep-purple))))
@@ -167,7 +168,7 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-project-parent-dir ((,cordyline-class (:foreground ,cordyline-steel-blue))))
-   `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink))))
+   `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink-red))))
 
    ;; corfu
    `(corfu-default ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))

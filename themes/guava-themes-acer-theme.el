@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -53,6 +53,7 @@
       (acer-cream             "#dc9964");f68e64,dc8e64,dc9964
       (acer-brown             "#c88550");7d4826,754014,a58464,a07f5f
 
+      (acer-light-blue        "#3a9187");bacce4
       (acer-blue              "#2134d5")
 
       (acer-purple            "#9e4d76")
@@ -103,6 +104,7 @@
    `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))
    `(font-lock-punctuation-face ((,acer-class (:foreground ,acer-purple-pink :weight medium))))
    `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
+   `(font-lock-negation-char-face ((,acer-class (:foreground ,acer-light-blue :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

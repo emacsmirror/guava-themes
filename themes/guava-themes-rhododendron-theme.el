@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 19, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -45,7 +45,7 @@
       (rhododendron-deep-green        "#3e7411");3e7011
 
       (rhododendron-red               "#c00353")
-      ;; (rhododendron-red-orange        "#cd605f");ff605f,cd605f
+      (rhododendron-red-orange        "#cd605f");ff605f,cd605f
       (rhododendron-bright-orange     "#ff5b4c")
 
       (rhododendron-blue              "#3c3cee")
@@ -104,6 +104,7 @@
    `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
    `(font-lock-punctuation-face ((,rhododendron-class (:foreground ,rhododendron-red :weight medium))))
    `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
+   `(font-lock-negation-char-face ((,rhododendron-class (:foreground ,rhododendron-red-orange :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

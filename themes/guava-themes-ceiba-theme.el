@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 21, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -50,6 +50,7 @@
       (ceiba-green-forest      "#006441")
       (ceiba-green-blue        "#11645a");5a6352,116452
 
+      (ceiba-light-orange      "#ca6f39")
       (ceiba-orange            "#a85639")
 
       (ceiba-steel-blue        "#aabed8");b0c4de
@@ -107,6 +108,7 @@
    `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
    `(font-lock-punctuation-face ((,ceiba-class (:foreground ,ceiba-green-forest :weight medium))))
    `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
+   `(font-lock-negation-char-face ((,ceiba-class (:foreground ,ceiba-light-orange :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

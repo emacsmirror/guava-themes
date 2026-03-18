@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Dec 27, 2025
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -48,7 +48,7 @@
       (jacaranda-oceanic-green     "#10a575");3ab992
 
       (jacaranda-orange            "#ff9f79");ff9535
-      (jacaranda-red               "#ca0036")
+      (jacaranda-red               "#af2a36");ca0036
 
       (jacaranda-brown             "#8a7f74")
 
@@ -69,8 +69,8 @@
       (jacaranda-success           "#00c200");228B22,007900
 
       (jacaranda-vc-change         jacaranda-blue)
-      (jacaranda-vc-insert         jacaranda-green)
-      (jacaranda-vc-delete         jacaranda-red))
+      (jacaranda-vc-insert         jacaranda-success)
+      (jacaranda-vc-delete         jacaranda-error))
 
   (custom-theme-set-faces
    'guava-themes-jacaranda
@@ -107,6 +107,7 @@
    `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
    `(font-lock-punctuation-face ((,jacaranda-class (:foreground ,jacaranda-brown :weight medium))))
    `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-light-cyan :weight medium))))
+   `(font-lock-negation-char-face ((,jacaranda-class (:foreground ,jacaranda-red :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

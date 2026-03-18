@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Feb 22, 2026
-;; Version: 0.11.6
+;; Version: 0.11.7
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -48,6 +48,7 @@
       (solanum-light-green       "#4ec9b0");61ff96
       (solanum-green             "#2d872d");3f7a56,2f824b,2f822f
       (solanum-deep-green        "#0d6d4b")
+      (solanum-oceanic-green     "#28a87a");2a4ad9,2a8a6d,448a7a,288f7a
 
       (solanum-light-blue        "#8ec4de")
       (solanum-blue              "#0d62b2")
@@ -104,6 +105,7 @@
    `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
    `(font-lock-punctuation-face ((,solanum-class (:foreground ,solanum-purple-pink :weight medium))))
    `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
+   `(font-lock-negation-char-face ((,solanum-class (:foreground ,solanum-oceanic-green :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
