@@ -12,6 +12,7 @@ A few Emacs themes inspired by guavas (and other plants).
 - [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Contributions](#contributions)
+- [Image Attributions](#image-attributions)
 - [License](#license)
 
 ## Introduction
@@ -109,7 +110,10 @@ Here is a tentative list of things to consider when contributing:
 
 * When adding or modifying something that changes the visuals of Emacs (e.g. a face), make sure to include screenshots of the original and changed versions.
 * When making a pull request, make sure the commits adhere to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-* Make sure commits are modular; one feat/fix/doc/etc at a time.
+* Make sure commits are modular; one feat/fix/doc/etc at a time.  
+
+## Image Attributions
+Unless otherwise stated, all images in [this repository](https://github.com/bormoge/guava-themes) were created by [me (https://github.com/bormoge)](https://github.com/bormoge) under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) license.
 
 ## License
 
