@@ -43,6 +43,8 @@
       (cordyline-pink              "#CB5F68")
       (cordyline-pink-purple       "#da70d6")
 
+      (cordyline-deep-fuchsia      "#6e1551");69374e,741551
+
       (cordyline-light-blue        "#5f70cb")
       (cordyline-blue              "#2134d5")
       (cordyline-deep-blue         "#3146af");1330af
@@ -88,7 +90,7 @@
    `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
 
    ;; region
-   `(region ((,cordyline-class (:background ,cordyline-alt-deep-purple))))
+   `(region ((,cordyline-class (:background ,cordyline-deep-fuchsia))))
    `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
 
    ;; font-lock
