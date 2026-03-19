@@ -118,7 +118,7 @@
    `(cursor ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; fringe
-   `(fringe ((,dracaena-class (:foreground ,dracaena-gray :background ,dracaena-gray))))
+   `(fringe ((,dracaena-class (:foreground ,dracaena-light-orange :background ,dracaena-gray))))
    `(diff-hl-change ((,dracaena-class (:foreground ,dracaena-vc-change :background ,dracaena-vc-change))))
    `(diff-hl-insert ((,dracaena-class (:foreground ,dracaena-vc-insert :background ,dracaena-vc-insert))))
    `(diff-hl-delete ((,dracaena-class (:foreground ,dracaena-vc-delete :background ,dracaena-vc-delete))))

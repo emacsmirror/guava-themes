@@ -114,7 +114,7 @@
    `(cursor ((,solanum-class (:foreground ,solanum-black :background ,solanum-yellow-potato))))
 
    ;; fringe
-   `(fringe ((,solanum-class (:foreground ,solanum-purple-black :background ,solanum-purple-black))))
+   `(fringe ((,solanum-class (:foreground ,solanum-red-tomato :background ,solanum-purple-black))))
    `(diff-hl-change ((,solanum-class (:foreground ,solanum-vc-change :background ,solanum-vc-change))))
    `(diff-hl-insert ((,solanum-class (:foreground ,solanum-vc-insert :background ,solanum-vc-insert))))
    `(diff-hl-delete ((,solanum-class (:foreground ,solanum-vc-delete :background ,solanum-vc-delete))))

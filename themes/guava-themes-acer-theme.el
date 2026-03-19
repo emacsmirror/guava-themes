@@ -55,6 +55,7 @@
 
       (acer-light-blue        "#3a9187");bacce4
       (acer-blue              "#2134d5")
+      (acer-deep-blue         "#1B3B4D")
 
       (acer-purple            "#9e4d76")
       (acer-deep-purple       "#60366e");663c6c,62386c
@@ -113,7 +114,7 @@
    `(cursor ((,acer-class (:foreground ,acer-black :background ,acer-orange))))
 
    ;; fringe
-   `(fringe ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
+   `(fringe ((,acer-class (:foreground ,acer-deep-blue :background ,acer-yellow))))
    `(diff-hl-change ((,acer-class (:foreground ,acer-vc-change :background ,acer-vc-change))))
    `(diff-hl-insert ((,acer-class (:foreground ,acer-vc-insert :background ,acer-vc-insert))))
    `(diff-hl-delete ((,acer-class (:foreground ,acer-vc-delete :background ,acer-vc-delete))))
@@ -159,8 +160,8 @@
    `(trailing-whitespace ((,acer-class (:background ,acer-error))))
 
    ;; links
-   `(link ((,acer-class (:foreground ,acer-blue :underline t :weight bold))))
-   `(link-visited ((,acer-class (:foreground ,acer-green-cyan :underline t :weight bold))))
+   `(link ((,acer-class (:foreground ,acer-green-cyan :underline t :weight bold))))
+   `(link-visited ((,acer-class (:foreground ,acer-blue :underline t :weight bold))))
 
 
    ;; external packages

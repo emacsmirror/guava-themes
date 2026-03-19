@@ -117,7 +117,7 @@
    `(cursor ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
 
    ;; fringe
-   `(fringe ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
+   `(fringe ((,prunus-class (:foreground ,prunus-cyan :background ,prunus-dark-brown))))
    `(diff-hl-change ((,prunus-class (:foreground ,prunus-vc-change :background ,prunus-vc-change))))
    `(diff-hl-insert ((,prunus-class (:foreground ,prunus-vc-insert :background ,prunus-vc-insert))))
    `(diff-hl-delete ((,prunus-class (:foreground ,prunus-vc-delete :background ,prunus-vc-delete))))

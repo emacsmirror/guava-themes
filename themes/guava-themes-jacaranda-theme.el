@@ -116,7 +116,7 @@
    `(cursor ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
 
    ;; fringe
-   `(fringe ((,jacaranda-class (:foreground ,jacaranda-cream :background ,jacaranda-cream))))
+   `(fringe ((,jacaranda-class (:foreground ,jacaranda-purple-red :background ,jacaranda-cream))))
    `(diff-hl-change ((,jacaranda-class (:foreground ,jacaranda-vc-change :background ,jacaranda-vc-change))))
    `(diff-hl-insert ((,jacaranda-class (:foreground ,jacaranda-vc-insert :background ,jacaranda-vc-insert))))
    `(diff-hl-delete ((,jacaranda-class (:foreground ,jacaranda-vc-delete :background ,jacaranda-vc-delete))))

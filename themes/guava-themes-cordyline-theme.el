@@ -51,6 +51,7 @@
       (cordyline-steel-blue        "#4f94cd")
       (cordyline-dark-cyan         "#00708b")
 
+      (cordyline-light-green       "#c5ff6e")
       (cordyline-green             "#005f55");006455
       (cordyline-alt-green         "#00512c");006455
 
@@ -113,7 +114,7 @@
    `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-pink-red))))
 
    ;; fringe
-   `(fringe ((,cordyline-class (:foreground ,cordyline-deep-purple :background ,cordyline-deep-purple))))
+   `(fringe ((,cordyline-class (:foreground ,cordyline-light-green :background ,cordyline-deep-purple))))
    `(diff-hl-change ((,cordyline-class (:foreground ,cordyline-vc-change :background ,cordyline-vc-change))))
    `(diff-hl-insert ((,cordyline-class (:foreground ,cordyline-vc-insert :background ,cordyline-vc-insert))))
    `(diff-hl-delete ((,cordyline-class (:foreground ,cordyline-vc-delete :background ,cordyline-vc-delete))))

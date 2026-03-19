@@ -114,7 +114,7 @@
    `(cursor ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
 
    ;; fringe
-   `(fringe ((,psidium-class (:foreground ,psidium-cream :background ,psidium-cream))))
+   `(fringe ((,psidium-class (:foreground ,psidium-oceanic-blue :background ,psidium-cream))))
    `(diff-hl-change ((,psidium-class (:foreground ,psidium-vc-change :background ,psidium-vc-change))))
    `(diff-hl-insert ((,psidium-class (:foreground ,psidium-vc-insert :background ,psidium-vc-insert))))
    `(diff-hl-delete ((,psidium-class (:foreground ,psidium-vc-delete :background ,psidium-vc-delete))))

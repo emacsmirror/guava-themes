@@ -113,7 +113,7 @@
    `(cursor ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
 
    ;; fringe
-   `(fringe ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-light-pink))))
+   `(fringe ((,rhododendron-class (:foreground ,rhododendron-red :background ,rhododendron-light-pink))))
    `(diff-hl-change ((,rhododendron-class (:foreground ,rhododendron-vc-change :background ,rhododendron-vc-change))))
    `(diff-hl-insert ((,rhododendron-class (:foreground ,rhododendron-vc-insert :background ,rhododendron-vc-insert))))
    `(diff-hl-delete ((,rhododendron-class (:foreground ,rhododendron-vc-delete :background ,rhododendron-vc-delete))))

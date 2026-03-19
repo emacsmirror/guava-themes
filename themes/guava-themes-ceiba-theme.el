@@ -50,8 +50,8 @@
       (ceiba-green-forest      "#006441")
       (ceiba-green-blue        "#11645a");5a6352,116452
 
-      (ceiba-light-orange      "#ca6f39")
-      (ceiba-orange            "#a85639")
+      (ceiba-orange            "#ca6f39")
+      (ceiba-deep-orange       "#a85639")
 
       (ceiba-steel-blue        "#aabed8");b0c4de
       (ceiba-blue              "#2327dc")
@@ -104,11 +104,11 @@
    `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
    `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
    `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
-   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
+   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-deep-orange :weight medium))))
    `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
    `(font-lock-punctuation-face ((,ceiba-class (:foreground ,ceiba-green-forest :weight medium))))
    `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
-   `(font-lock-negation-char-face ((,ceiba-class (:foreground ,ceiba-light-orange :weight medium))))
+   `(font-lock-negation-char-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
@@ -117,7 +117,7 @@
    `(cursor ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-green-forest))))
 
    ;; fringe
-   `(fringe ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
+   `(fringe ((,ceiba-class (:foreground ,ceiba-blue :background ,ceiba-gray-green))))
    `(diff-hl-change ((,ceiba-class (:foreground ,ceiba-vc-change :background ,ceiba-vc-change))))
    `(diff-hl-insert ((,ceiba-class (:foreground ,ceiba-vc-insert :background ,ceiba-vc-insert))))
    `(diff-hl-delete ((,ceiba-class (:foreground ,ceiba-vc-delete :background ,ceiba-vc-delete))))

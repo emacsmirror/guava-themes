@@ -47,9 +47,10 @@
       (citrus-light-yellow            "#f5cb6d")
       (citrus-yellow                  "#c3af50")
 
+      (citrus-red                     "#960000");a50000
+      (citrus-orange-red              "#ce462c")
       (citrus-orange-orange           "#f29a43")
       (citrus-alt-orange              "#f26e43")
-      (citrus-orange-red              "#ce462c")
       (citrus-deep-orange             "#da5802")
 
       (citrus-brown                   "#86626f")
@@ -112,7 +113,7 @@
    `(cursor ((,citrus-class (:foreground ,citrus-black :background ,citrus-alt-orange))))
 
    ;; fringe
-   `(fringe ((,citrus-class (:foreground ,citrus-black :background ,citrus-white))))
+   `(fringe ((,citrus-class (:foreground ,citrus-red :background ,citrus-white))))
    `(diff-hl-change ((,citrus-class (:foreground ,citrus-vc-change :background ,citrus-vc-change))))
    `(diff-hl-insert ((,citrus-class (:foreground ,citrus-vc-insert :background ,citrus-vc-insert))))
    `(diff-hl-delete ((,citrus-class (:foreground ,citrus-vc-delete :background ,citrus-vc-delete))))
