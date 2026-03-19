@@ -47,7 +47,7 @@
       (acer-orange            "#e76144");fe7457
       (acer-deep-orange       "#d44400")
       (acer-orange-pink       "#cd475f");ec31a3,ff514a,ff474a,ff475f
-      (acer-yellow            "#f7a95a");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a
+      (acer-yellow            "#f7ac5f");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a
       (acer-autumn            "#ff8c4e");c14c5c,f46157,db3d32,e14337,ed7038,f77b44,f3814f,e8674a,ed674a,f68b47
 
       (acer-cream             "#dc9964");f68e64,dc8e64,dc9964
