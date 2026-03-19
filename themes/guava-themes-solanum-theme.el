@@ -47,8 +47,8 @@
 
       (solanum-light-green       "#4ec9b0");61ff96
       (solanum-alt-light-green   "#61ff96");2a4ad9,2a8a6d,448a7a,288f7a
-      (solanum-green             "#2d872d");3f7a56,2f824b,2f822f
-      (solanum-deep-green        "#0d6d4b")
+      (solanum-green             "#3a6b43");3f7a56,2f824b,2f822f,2d872d
+      (solanum-deep-green        "#007d37");0d6d4b,0d7c4b,207c31
 
       (solanum-light-blue        "#8ec4de")
       (solanum-blue              "#0d62b2")
