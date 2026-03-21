@@ -159,7 +159,7 @@
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-purple-red))))
+   `(show-paren-match ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orange))))
    `(show-paren-mismatch ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-error))))
 
    ;; trailing whitespaces
