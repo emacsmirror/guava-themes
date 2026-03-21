@@ -45,11 +45,13 @@
       (ceiba-gray              "#9d9d9d");dcdcdc,656865,7f7f89,787882
       (ceiba-gray-blue         "#798585");8c857b,8d8d8b,6d726a,656865
 
+      (ceiba-light-green       "#61ff96")
       (ceiba-green             "#5b6452");5a6352
       (ceiba-deep-green        "#2b5535");375033,395235,3a5435,3a5835,385635,375535
       (ceiba-green-forest      "#006441")
       (ceiba-green-blue        "#11645a");5a6352,116452
 
+      (ceiba-light-orange      "#f1a147")
       (ceiba-orange            "#ca6f39")
       (ceiba-deep-orange       "#a85639")
 
@@ -57,6 +59,7 @@
       (ceiba-blue              "#2327dc")
       (ceiba-alt-blue          "#2268a7");3a5ba7
 
+      (ceiba-light-purple      "#bec8ff")
       (ceiba-purple            "#4e466d");49206d
       (ceiba-purple-red        "#762362");862060,892362
 
@@ -168,6 +171,16 @@
 
 
    ;; external packages
+
+   ;; elfeed
+   `(elfeed-search-tag-face ((,ceiba-class (:foreground ,ceiba-alt-blue))))
+   `(elfeed-search-date-face ((,ceiba-class (:foreground ,ceiba-purple-red))))
+   `(elfeed-search-feed-face ((,ceiba-class (:foreground ,ceiba-green-blue))))
+   `(elfeed-search-title-face ((,ceiba-class (:foreground ,ceiba-brown))))
+   `(elfeed-search-filter-face ((,ceiba-class (:foreground ,ceiba-light-orange))))
+   `(elfeed-search-last-update-face ((,ceiba-class (:foreground ,ceiba-light-purple))))
+   `(elfeed-search-unread-title-face ((,ceiba-class (:weight bold :foreground ,ceiba-deep-green))))
+   `(elfeed-search-unread-count-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-green))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,ceiba-class (:foreground ,ceiba-steel-blue))))
