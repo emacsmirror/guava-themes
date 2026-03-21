@@ -55,9 +55,10 @@
 
       (citrus-brown                   "#86626f")
 
-      (citrus-light-blue              "#4e9496")
+      (citrus-light-blue              "#4eb096");4e9496
       (citrus-blue                    "#3275a5")
       (citrus-deep-blue               "#2327dc");2246d2,443f8d,2327dc
+      (citrus-light-purple            "#bec8ff")
       (citrus-purple-red              "#77003a")
       (citrus-purple-blue             "#6b4a82")
 
@@ -164,6 +165,16 @@
 
 
    ;; external packages
+
+   ;; elfeed
+   `(elfeed-search-tag-face ((,citrus-class (:foreground ,citrus-lime-green))))
+   `(elfeed-search-date-face ((,citrus-class (:foreground ,citrus-deep-blue))))
+   `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-alt-orange))))
+   `(elfeed-search-title-face ((,citrus-class (:foreground ,citrus-purple-red))))
+   `(elfeed-search-filter-face ((,citrus-class (:foreground ,citrus-light-yellow))))
+   `(elfeed-search-last-update-face ((,citrus-class (:foreground ,citrus-light-purple))))
+   `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green))))
+   `(elfeed-search-unread-count-face ((,citrus-class (:weight bold :foreground ,citrus-light-blue))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red))))
