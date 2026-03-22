@@ -48,20 +48,20 @@
       (prunus-yellow            "#999844")
 
       (prunus-light-green       "#52BC63")
+      (prunus-green-forest      "#007341")
       (prunus-oceanic-green     "#3AC3A2")
 
-      ;; (prunus-deep-orange       "#C46935");a0522d
       (prunus-red               "#88190C");cb001e,d2191e
       (prunus-light-pink        "#cd7888")
       (prunus-pink              "#CD2788");dc6199,cd4f88
 
       (prunus-blue              "#453ee3");4534e3,120cdc,4534E3
       (prunus-deep-blue         "#655DB0")
-      (prunus-antarctic-blue    "#8D76CA")
+      (prunus-antarctic-blue    "#8d82ca");8D76CA
       (prunus-cyan              "#008B8B")
       (prunus-dark-cyan         "#005555")
 
-      (prunus-deep-purple       "#740CBE");800080
+      (prunus-deep-purple       "#7420be");800080,740CBE
       (prunus-indigo            "#2C2C54")
       (prunus-purple-red        "#8B2252")
 
@@ -168,6 +168,16 @@
 
 
    ;; external packages
+
+   ;; elfeed
+   `(elfeed-search-tag-face ((,prunus-class (:foreground ,prunus-deep-blue))))
+   `(elfeed-search-date-face ((,prunus-class (:foreground ,prunus-red))))
+   `(elfeed-search-feed-face ((,prunus-class (:foreground ,prunus-purple-red))))
+   `(elfeed-search-title-face ((,prunus-class (:foreground ,prunus-light-pink))))
+   `(elfeed-search-filter-face ((,prunus-class (:foreground ,prunus-antarctic-blue))))
+   `(elfeed-search-last-update-face ((,prunus-class (:foreground ,prunus-oceanic-green))))
+   `(elfeed-search-unread-title-face ((,prunus-class (:weight bold :foreground ,prunus-green-forest))))
+   `(elfeed-search-unread-count-face ((,prunus-class (:weight bold :foreground ,prunus-light-green))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green))))
