@@ -47,6 +47,7 @@
       (rhododendron-red               "#c00353")
       (rhododendron-red-orange        "#cd605f");ff605f,cd605f
       (rhododendron-bright-orange     "#ff5b4c")
+      (rhododendron-cream             "#fcbdb2")
 
       (rhododendron-blue              "#3c3cee")
       (rhododendron-deep-blue         "#3e3d8b")
@@ -164,6 +165,16 @@
 
 
    ;; external packages
+
+   ;; elfeed
+   `(elfeed-search-tag-face ((,rhododendron-class (:foreground ,rhododendron-bright-pink))))
+   `(elfeed-search-date-face ((,rhododendron-class (:foreground ,rhododendron-forest-green))))
+   `(elfeed-search-feed-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue))))
+   `(elfeed-search-title-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue))))
+   `(elfeed-search-filter-face ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
+   `(elfeed-search-last-update-face ((,rhododendron-class (:foreground ,rhododendron-cream))))
+   `(elfeed-search-unread-title-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-purple-red))))
+   `(elfeed-search-unread-count-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-green))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
