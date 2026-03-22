@@ -167,6 +167,16 @@
 
    ;; external packages
 
+   ;; elfeed
+   `(elfeed-search-tag-face ((,cordyline-class (:foreground ,cordyline-light-blue))))
+   `(elfeed-search-date-face ((,cordyline-class (:foreground ,cordyline-green))))
+   `(elfeed-search-feed-face ((,cordyline-class (:foreground ,cordyline-dark-cyan))))
+   `(elfeed-search-title-face ((,cordyline-class (:foreground ,cordyline-pink-red))))
+   `(elfeed-search-filter-face ((,cordyline-class (:foreground ,cordyline-alt-light-purple))))
+   `(elfeed-search-last-update-face ((,cordyline-class (:foreground ,cordyline-steel-blue))))
+   `(elfeed-search-unread-title-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-purple))))
+   `(elfeed-search-unread-count-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-green))))
+
    ;; doom-modeline
    `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-project-parent-dir ((,cordyline-class (:foreground ,cordyline-steel-blue))))
