@@ -100,7 +100,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 <img src="https://lh3.googleusercontent.com/d/1KhIEiBG_ac71NtwBUbcUpXDsklWXRiTD=s2000?authuser=0" width="750" height="400" alt="guava-solanum-screenshot">
 
 ## TODO
-- Add themes: Malus, Pyrus, Ficus
+- Add themes: Malus, Pyrus, Ficus, Eucalyptus, Vaccinium
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
