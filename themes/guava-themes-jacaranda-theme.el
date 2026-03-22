@@ -52,14 +52,14 @@
 
       (jacaranda-brown             "#8a7f74")
 
-      (jacaranda-light-blue        "#C0B4E4")
       (jacaranda-blue              "#4534e3")
       (jacaranda-deep-blue         "#655db0")
-      (jacaranda-antarctic-blue    "#8d76ca")
+      (jacaranda-antarctic-blue    "#8cb2e6");8caae6
       (jacaranda-light-cyan        "#60a1ba");00aaaa
       (jacaranda-cyan              "#00778b")
 
       (jacaranda-light-purple      "#dbd0fd")
+      (jacaranda-alt-light-purple  "#C0B4E4")
       (jacaranda-purple            "#aa69e6");984ee6
       (jacaranda-deep-purple       "#740cbe");800080
       (jacaranda-purple-red        "#8b2252")
@@ -93,7 +93,7 @@
    `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
 
    ;; region
-   `(region ((,jacaranda-class (:background ,jacaranda-light-blue))))
+   `(region ((,jacaranda-class (:background ,jacaranda-alt-light-purple))))
    `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock
@@ -122,12 +122,12 @@
    `(diff-hl-delete ((,jacaranda-class (:foreground ,jacaranda-vc-delete :background ,jacaranda-vc-delete))))
 
    ;; line-number
-   `(line-number ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
+   `(line-number ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
    `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :weight bold :inherit highlight))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
-   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-blue))))
+   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-alt-light-purple))))
    `(guava-themes-visible-bell ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orange))))
 
    ;; minibuffer
@@ -150,7 +150,7 @@
    `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
    `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-blue :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-alt-light-purple :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 
@@ -168,10 +168,20 @@
 
    ;; external packages
 
+   ;; elfeed
+   `(elfeed-search-tag-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green))))
+   `(elfeed-search-date-face ((,jacaranda-class (:foreground ,jacaranda-purple-red))))
+   `(elfeed-search-feed-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
+   `(elfeed-search-title-face ((,jacaranda-class (:foreground ,jacaranda-brown))))
+   `(elfeed-search-filter-face ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
+   `(elfeed-search-last-update-face ((,jacaranda-class (:foreground ,jacaranda-orange))))
+   `(elfeed-search-unread-title-face ((,jacaranda-class (:weight bold :foreground ,jacaranda-deep-green))))
+   `(elfeed-search-unread-count-face ((,jacaranda-class (:weight bold :foreground ,jacaranda-light-green))))
+
    ;; doom-modeline
    `(doom-modeline-project-name ((,jacaranda-class (:foreground ,jacaranda-light-green))))
    `(doom-modeline-project-parent-dir ((,jacaranda-class (:foreground ,jacaranda-light-green))))
-   `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-light-blue))))
+   `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
 
    ;; corfu
    `(corfu-default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
