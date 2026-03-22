@@ -166,6 +166,16 @@
 
    ;; external packages
 
+   ;; elfeed
+   `(elfeed-search-tag-face ((,psidium-class (:foreground ,psidium-red))))
+   `(elfeed-search-date-face ((,psidium-class (:foreground ,psidium-light-blue))))
+   `(elfeed-search-feed-face ((,psidium-class (:foreground ,psidium-brown))))
+   `(elfeed-search-title-face ((,psidium-class (:foreground ,psidium-pink))))
+   `(elfeed-search-filter-face ((,psidium-class (:foreground ,psidium-purple))))
+   `(elfeed-search-last-update-face ((,psidium-class (:foreground ,psidium-oceanic-blue))))
+   `(elfeed-search-unread-title-face ((,psidium-class (:weight bold :foreground ,psidium-green))))
+   `(elfeed-search-unread-count-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
+
    ;; doom-modeline
    `(doom-modeline-project-name ((,psidium-class (:foreground ,psidium-deep-blue))))
    `(doom-modeline-project-parent-dir ((,psidium-class (:foreground ,psidium-deep-blue))))
