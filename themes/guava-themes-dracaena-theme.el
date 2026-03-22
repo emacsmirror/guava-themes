@@ -63,8 +63,8 @@
       (dracaena-steel-blue        "#4f94cd");b0c4de
       (dracaena-dark-cyan         "#005f55")
 
-      (dracaena-pink-purple       "#a53c5c");961250,b7125c,a5225c
-      (dracaena-deep-purple       "#7f53dd");8f1ac8,8a34d7,7f3edd,7f46dd
+      (dracaena-pink-purple       "#a54666");961250,b7125c,a5225c,a53c5c
+      (dracaena-deep-purple       "#7f6ddd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd
 
       (dracaena-error             "#FF0000")
       (dracaena-warning           "#f6be14");F68511,f6ad11
@@ -169,6 +169,16 @@
 
 
    ;; external packages
+
+   ;; elfeed
+   `(elfeed-search-tag-face ((,dracaena-class (:foreground ,dracaena-steel-blue))))
+   `(elfeed-search-date-face ((,dracaena-class (:foreground ,dracaena-light-blue))))
+   `(elfeed-search-feed-face ((,dracaena-class (:foreground ,dracaena-pink-purple))))
+   `(elfeed-search-title-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
+   `(elfeed-search-filter-face ((,dracaena-class (:foreground ,dracaena-deep-purple))))
+   `(elfeed-search-last-update-face ((,dracaena-class (:foreground ,dracaena-light-orange))))
+   `(elfeed-search-unread-title-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-green))))
+   `(elfeed-search-unread-count-face ((,dracaena-class (:weight bold :foreground ,dracaena-guava-green))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
