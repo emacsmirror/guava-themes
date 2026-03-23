@@ -4,16 +4,31 @@
 # guava-themes
 A few Emacs themes inspired by guavas (and other plants).
 
-<img src="https://lh3.googleusercontent.com/d/1ZKZnxku77rHpd4gtwaHQrRSyxvEigEYD=s2000?authuser=0" width="300" height="300" alt="guava-drawing">
+<!-- <img src="https://lh3.googleusercontent.com/d/1ZKZnxku77rHpd4gtwaHQrRSyxvEigEYD=s2000?authuser=0" width="300" height="300" alt="guava-drawing"> -->
 <!-- ![guava-drawing](./img/guava-flower-drawing-2.png) -->
 
-### Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
-- [Contributions](#contributions)
-- [Image Attributions](#image-attributions)
-- [License](#license)
+<!-- ### Table of Contents -->
+<!-- - [Introduction](#introduction) -->
+<!-- - [Installation](#installation) -->
+<!-- - [Screenshots](#screenshots) -->
+<!-- - [Contributions](#contributions) -->
+<!-- - [Image Attributions](#image-attributions) -->
+<!-- - [License](#license) -->
+
+<div style="display: flex; align-items: center;">
+<img src="https://lh3.googleusercontent.com/d/1ZKZnxku77rHpd4gtwaHQrRSyxvEigEYD=s2000?authuser=0" width="300" height="300" alt="guava-drawing" style="margin-right: 20px;">
+<div>
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#screenshots">Screenshots</a></li>
+<li><a href="#contributions">Contributions</a></li>
+<li><a href="#image-attributions">Image Attributions</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+</div>
+</div>
 
 ## Introduction
 This package began as an specific idea: *what if I could create an Emacs theme based on my favorite fruit? And what if it was a light theme, but not **too light**?*  
