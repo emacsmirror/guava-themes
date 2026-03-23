@@ -163,6 +163,16 @@
    `(link ((,solanum-class (:foreground ,solanum-yellow-potato :underline t :weight bold))))
    `(link-visited ((,solanum-class (:foreground ,solanum-orange :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,solanum-class (:foreground ,solanum-purple :weight medium))))
+   `(outline-2 ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
+   `(outline-3 ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
+   `(outline-4 ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
+   `(outline-5 ((,solanum-class (:foreground ,solanum-orange :weight medium))))
+   `(outline-6 ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
+   `(outline-7 ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
+   `(outline-8 ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
+
 
    ;; external packages
 
