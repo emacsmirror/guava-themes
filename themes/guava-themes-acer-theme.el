@@ -164,6 +164,16 @@
    `(link ((,acer-class (:foreground ,acer-green-cyan :underline t :weight bold))))
    `(link-visited ((,acer-class (:foreground ,acer-blue :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,acer-class (:foreground ,acer-purple-red :weight medium))))
+   `(outline-2 ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
+   `(outline-3 ((,acer-class (:foreground ,acer-deep-purple :weight medium))))
+   `(outline-4 ((,acer-class (:foreground ,acer-deep-green :weight medium))))
+   `(outline-5 ((,acer-class (:foreground ,acer-green :weight medium))))
+   `(outline-6 ((,acer-class (:foreground ,acer-purple :weight medium))))
+   `(outline-7 ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
+   `(outline-8 ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
+
 
    ;; external packages
 
