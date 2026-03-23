@@ -99,8 +99,12 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 <img src="https://lh3.googleusercontent.com/d/1KhIEiBG_ac71NtwBUbcUpXDsklWXRiTD=s2000?authuser=0" width="750" height="400" alt="guava-solanum-screenshot">
 
+- Guava Vaccinium Theme  
+
+<img src="https://lh3.googleusercontent.com/d/1zmwL8Mx2405HC1BxZGlhlG5LzOOAXYdC=s2000?authuser=0" width="750" height="400" alt="guava-vaccinium-screenshot">
+
 ## TODO
-- Add themes: Malus, Pyrus, Ficus, Eucalyptus, Vaccinium
+- Add themes: Malus, Pyrus, Ficus, Eucalyptus.
 
 ## Contributions
 Issues, pull requests, and forks are welcome.
