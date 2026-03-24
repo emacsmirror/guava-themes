@@ -46,7 +46,7 @@
       (citrus-lime-green              "#589337");589337
 
       (citrus-light-yellow            "#f5d49b");f5cb6d
-      (citrus-yellow                  "#c3af50")
+      (citrus-yellow                  "#dbb255");c3af50,dbaf50
 
       (citrus-red                     "#df352c");a50000,960000
       (citrus-orange-red              "#ce462c");ce462c
