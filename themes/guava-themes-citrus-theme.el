@@ -59,6 +59,8 @@
       (citrus-blue                    "#3275a5")
       (citrus-deep-blue               "#2327dc");2246d2,443f8d,2327dc
       (citrus-light-purple            "#bec8ff")
+      (citrus-purple                  "#785d7d")
+      (citrus-deep-purple             "#6d4393")
       (citrus-purple-red              "#77003a")
       (citrus-purple-blue             "#6b4a82")
 
@@ -162,6 +164,16 @@
    ;; links
    `(link ((,citrus-class (:foreground ,citrus-light-blue :underline t :weight bold))))
    `(link-visited ((,citrus-class (:foreground ,citrus-deep-blue :underline t :weight bold))))
+
+   ;; outline
+   `(outline-1 ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(outline-2 ((,citrus-class (:foreground ,citrus-alt-orange :weight medium))))
+   `(outline-3 ((,citrus-class (:foreground ,citrus-purple :weight medium))))
+   `(outline-4 ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(outline-5 ((,citrus-class (:foreground ,citrus-green :weight medium))))
+   `(outline-6 ((,citrus-class (:foreground ,citrus-orange-red :weight medium))))
+   `(outline-7 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
+   `(outline-8 ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
 
 
    ;; external packages
