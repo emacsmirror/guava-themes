@@ -40,15 +40,16 @@
 
       (citrus-shadow                  "#7f7f7f")
 
-      (citrus-lime-green              "#589337");589337
+      (citrus-light-green             "#60a060");589337
       (citrus-green                   "#136b16")
       (citrus-deep-green              "#2b5b26");2b5726
+      (citrus-lime-green              "#589337");589337
 
       (citrus-light-yellow            "#f5d49b");f5cb6d
       (citrus-yellow                  "#c3af50")
 
-      (citrus-red                     "#960000");a50000
-      (citrus-orange-red              "#ce462c")
+      (citrus-red                     "#df352c");a50000,960000
+      (citrus-orange-red              "#ce462c");ce462c
       (citrus-orange-orange           "#f29a43")
       (citrus-alt-orange              "#f26e43")
       (citrus-deep-orange             "#da5802")
@@ -98,16 +99,16 @@
 
    ;; font-lock
    `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
-   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-brown :weight medium))))
-   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
+   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-red :weight medium))))
    `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
    `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
-   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-deep-orange :weight medium))))
-   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
-   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(font-lock-type-face ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(font-lock-constant-face ((,citrus-class (:foreground ,citrus-purple :weight medium))))
+   `(font-lock-function-name-face ((,citrus-class (:foreground ,citrus-light-green :weight medium))))
    `(font-lock-punctuation-face ((,citrus-class (:foreground ,citrus-purple-blue :weight medium))))
    `(font-lock-variable-name-face ((,citrus-class (:foreground ,citrus-deep-green :weight medium))))
-   `(font-lock-negation-char-face ((,citrus-class (:foreground ,citrus-orange-red :weight medium))))
+   `(font-lock-negation-char-face ((,citrus-class (:foreground ,citrus-purple-red :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
