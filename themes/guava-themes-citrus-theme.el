@@ -54,7 +54,7 @@
       (citrus-alt-orange              "#f26e43")
       (citrus-deep-orange             "#da5802")
 
-      (citrus-brown                   "#86626f")
+      (citrus-brown                   "#735f50");86626f
 
       (citrus-light-blue              "#4eb096");4e9496
       (citrus-blue                    "#3275a5")
@@ -180,10 +180,10 @@
    ;; external packages
 
    ;; elfeed
-   `(elfeed-search-tag-face ((,citrus-class (:foreground ,citrus-lime-green))))
+   `(elfeed-search-tag-face ((,citrus-class (:foreground ,citrus-deep-orange))))
    `(elfeed-search-date-face ((,citrus-class (:foreground ,citrus-deep-blue))))
-   `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-alt-orange))))
-   `(elfeed-search-title-face ((,citrus-class (:foreground ,citrus-purple-red))))
+   `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-lime-green))))
+   `(elfeed-search-title-face ((,citrus-class (:foreground ,citrus-brown))))
    `(elfeed-search-filter-face ((,citrus-class (:foreground ,citrus-light-yellow))))
    `(elfeed-search-last-update-face ((,citrus-class (:foreground ,citrus-light-purple))))
    `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green))))
