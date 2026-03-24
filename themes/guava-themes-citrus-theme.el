@@ -63,7 +63,7 @@
       (citrus-purple                  "#785d7d")
       (citrus-deep-purple             "#6d4393")
       (citrus-purple-red              "#77003a")
-      (citrus-purple-blue             "#6b4a82")
+      (citrus-purple-blue             "#504993");6b4a82
 
       (citrus-error                   "#FF0000")
       (citrus-warning                 "#ffbe00");F68511
