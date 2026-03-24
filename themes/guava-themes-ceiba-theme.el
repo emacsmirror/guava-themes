@@ -169,6 +169,16 @@
    `(link ((,ceiba-class (:foreground ,ceiba-purple :underline t :weight bold))))
    `(link-visited ((,ceiba-class (:foreground ,ceiba-purple-red :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
+   `(outline-2 ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
+   `(outline-3 ((,ceiba-class (:foreground ,ceiba-purple-red :weight medium))))
+   `(outline-4 ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
+   `(outline-5 ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
+   `(outline-6 ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
+   `(outline-7 ((,ceiba-class (:foreground ,ceiba-deep-orange :weight medium))))
+   `(outline-8 ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
+
 
    ;; external packages
 
