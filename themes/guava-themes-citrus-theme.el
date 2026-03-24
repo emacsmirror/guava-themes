@@ -65,8 +65,8 @@
       (citrus-purple-blue             "#6b4a82")
 
       (citrus-error                   "#FF0000")
-      (citrus-warning                 "#F68511")
-      (citrus-success                 "#2b5b26");2b5726
+      (citrus-warning                 "#ffbe00");F68511
+      (citrus-success                 "#2bdc26");2b5726,2b5b26
 
       (citrus-vc-change               citrus-deep-blue)
       (citrus-vc-insert               citrus-success)
