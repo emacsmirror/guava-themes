@@ -47,10 +47,10 @@
       (acer-orange            "#e76144");fe7457
       (acer-deep-orange       "#d44400")
       (acer-orange-pink       "#cd475f");ec31a3,ff514a,ff474a,ff475f
-      (acer-yellow            "#f7ac5f");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a
+      (acer-yellow            "#f7bb78");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a,f7ac5f,f7bb78
       (acer-autumn            "#ff8c4e");c14c5c,f46157,db3d32,e14337,ed7038,f77b44,f3814f,e8674a,ed674a,f68b47
 
-      (acer-cream             "#dc9964");f68e64,dc8e64,dc9964
+      (acer-cream             "#dca56e");f68e64,dc8e64,dc9964,dc9964
       (acer-brown             "#c88550");7d4826,754014,a58464,a07f5f
       (acer-deep-brown        "#6a4e39");7d6250
 
@@ -63,9 +63,9 @@
       (acer-purple-red        "#9b234b");9f234b
       (acer-purple-pink       "#5f2258");233e4d
 
-      (acer-error             "#c80000");FF0000
-      (acer-warning           "#f0dc67");F68511,f2e16b
-      (acer-success           "#237c34");23D734,239834
+      (acer-error             "#d70000");FF0000,c80000
+      (acer-warning           "#f0dc00");F68511,f2e16b,f0dc67
+      (acer-success           "#23d934");23D734,239834,237c34
 
       (acer-vc-change         acer-blue)
       (acer-vc-insert         acer-success)
