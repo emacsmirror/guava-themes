@@ -54,8 +54,8 @@
 
       (vaccinium-blueberry         "#5582d7");77aff9,5587d2
       (vaccinium-alt-blueberry     "#3755a0");77aff9,5587d2,3764b9
-      (vaccinium-blue              "#0d62b2")
-      (vaccinium-alt-blue          "#1559f1")
+      (vaccinium-blue              "#0f69b4");0d62b2
+      (vaccinium-alt-blue          "#1455f1");1559f1
       (vaccinium-deep-blue         "#1c5367");303053,1c3053,1c3f53
       (vaccinium-steel-blue        "#6a7e98")
       (vaccinium-alt-steel-blue    "#566a84")
