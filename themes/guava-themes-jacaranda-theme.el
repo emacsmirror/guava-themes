@@ -165,6 +165,16 @@
    `(link ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :underline t :weight bold))))
    `(link-visited ((,jacaranda-class (:foreground ,jacaranda-deep-green :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,jacaranda-class (:foreground ,jacaranda-red :weight medium))))
+   `(outline-2 ((,jacaranda-class (:foreground ,jacaranda-light-cyan :weight medium))))
+   `(outline-3 ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
+   `(outline-4 ((,jacaranda-class (:foreground ,jacaranda-purple :weight medium))))
+   `(outline-5 ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
+   `(outline-6 ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
+   `(outline-7 ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
+   `(outline-8 ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
+
 
    ;; external packages
 
