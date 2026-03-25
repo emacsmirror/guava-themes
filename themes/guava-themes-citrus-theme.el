@@ -36,14 +36,14 @@
 (let* (
       (citrus-class '((class color) (min-colors 257)))
       (citrus-black                   "#000000")
-      (citrus-white                   "#f1f0f5");FFFFFF,eeeeee,f0eff5
+      (citrus-white                   "#edf2ed");FFFFFF,eeeeee,f0eff5,f1f0f5,ebf0eb
 
       (citrus-shadow                  "#7f7f7f")
 
-      (citrus-light-green             "#60a060");589337
-      (citrus-green                   "#136b16")
-      (citrus-deep-green              "#2b5b26");2b5726
-      (citrus-lime-green              "#589337");589337
+      (citrus-light-green             "#6ea56e");589337,64a564
+      (citrus-green-lime              "#589337");589337
+      (citrus-deep-green              "#0a6b0a");2b5726,2b5b26
+      (citrus-green-blue              "#197d5a");136b16,198264
 
       (citrus-light-yellow            "#f5d49b");f5cb6d
       (citrus-yellow                  "#dbb255");c3af50,dbaf50
@@ -98,8 +98,8 @@
    `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green :weight medium))))
-   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(font-lock-comment-face ((,citrus-class (:foreground ,citrus-green-blue :weight medium))))
+   `(font-lock-string-face ((,citrus-class (:foreground ,citrus-green-lime :weight medium))))
    `(font-lock-keyword-face ((,citrus-class (:foreground ,citrus-red :weight medium))))
    `(font-lock-builtin-face ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
    `(font-lock-warning-face ((,citrus-class (:foreground ,citrus-warning :weight bold))))
@@ -124,10 +124,10 @@
 
    ;; line-number
    `(line-number ((,citrus-class (:foreground ,citrus-black))))
-   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green :weight bold :inherit highlight))))
+   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green-blue :weight bold :inherit highlight))))
 
    ;; mode-line
-   `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-lime-green))))
+   `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-lime))))
    `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange))))
    `(guava-themes-visible-bell ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
 
@@ -156,7 +156,7 @@
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-lime-green))))
+   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-lime))))
    `(show-paren-mismatch ((,citrus-class (:foreground ,citrus-white :background ,citrus-error))))
 
    ;; trailing whitespaces
@@ -167,11 +167,11 @@
    `(link-visited ((,citrus-class (:foreground ,citrus-deep-blue :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,citrus-class (:foreground ,citrus-lime-green :weight medium))))
+   `(outline-1 ((,citrus-class (:foreground ,citrus-green-lime :weight medium))))
    `(outline-2 ((,citrus-class (:foreground ,citrus-alt-orange :weight medium))))
    `(outline-3 ((,citrus-class (:foreground ,citrus-purple :weight medium))))
    `(outline-4 ((,citrus-class (:foreground ,citrus-blue :weight medium))))
-   `(outline-5 ((,citrus-class (:foreground ,citrus-green :weight medium))))
+   `(outline-5 ((,citrus-class (:foreground ,citrus-green-blue :weight medium))))
    `(outline-6 ((,citrus-class (:foreground ,citrus-orange-red :weight medium))))
    `(outline-7 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
    `(outline-8 ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
@@ -182,11 +182,11 @@
    ;; elfeed
    `(elfeed-search-tag-face ((,citrus-class (:foreground ,citrus-deep-orange))))
    `(elfeed-search-date-face ((,citrus-class (:foreground ,citrus-deep-blue))))
-   `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-lime-green))))
+   `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-green-lime))))
    `(elfeed-search-title-face ((,citrus-class (:foreground ,citrus-brown))))
    `(elfeed-search-filter-face ((,citrus-class (:foreground ,citrus-light-yellow))))
    `(elfeed-search-last-update-face ((,citrus-class (:foreground ,citrus-light-purple))))
-   `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green))))
+   `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green-blue))))
    `(elfeed-search-unread-count-face ((,citrus-class (:weight bold :foreground ,citrus-light-blue))))
 
    ;; doom-modeline
