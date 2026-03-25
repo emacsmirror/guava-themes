@@ -167,6 +167,16 @@
    `(link ((,dracaena-class (:foreground ,dracaena-red :underline t :weight bold))))
    `(link-visited ((,dracaena-class (:foreground ,dracaena-orange :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
+   `(outline-2 ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
+   `(outline-3 ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
+   `(outline-4 ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
+   `(outline-5 ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
+   `(outline-6 ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
+   `(outline-7 ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
+   `(outline-8 ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
+
 
    ;; external packages
 
