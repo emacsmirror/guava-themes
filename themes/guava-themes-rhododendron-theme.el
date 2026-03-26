@@ -163,6 +163,16 @@
    `(link ((,rhododendron-class (:foreground ,rhododendron-purple-blue :underline t :weight bold))))
    `(link-visited ((,rhododendron-class (:foreground ,rhododendron-purple-pink :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
+   `(outline-2 ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
+   `(outline-3 ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
+   `(outline-4 ((,rhododendron-class (:foreground ,rhododendron-bright-pink :weight medium))))
+   `(outline-5 ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
+   `(outline-6 ((,rhododendron-class (:foreground ,rhododendron-deep-green :weight medium))))
+   `(outline-7 ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
+   `(outline-8 ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
+
 
    ;; external packages
 
