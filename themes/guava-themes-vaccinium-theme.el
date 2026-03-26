@@ -166,6 +166,16 @@
    `(link ((,vaccinium-class (:foreground ,vaccinium-yellow :underline t :weight bold))))
    `(link-visited ((,vaccinium-class (:foreground ,vaccinium-orange :underline t :weight bold))))
 
+   ;; outline
+   `(outline-1 ((,vaccinium-class (:foreground ,vaccinium-blue :weight medium))))
+   `(outline-2 ((,vaccinium-class (:foreground ,vaccinium-red :weight medium))))
+   `(outline-3 ((,vaccinium-class (:foreground ,vaccinium-green-subdued :weight medium))))
+   `(outline-4 ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
+   `(outline-5 ((,vaccinium-class (:foreground ,vaccinium-pink :weight medium))))
+   `(outline-6 ((,vaccinium-class (:foreground ,vaccinium-green-forest :weight medium))))
+   `(outline-7 ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
+   `(outline-8 ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
+
 
    ;; external packages
 
