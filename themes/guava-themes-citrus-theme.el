@@ -139,7 +139,7 @@
 
    ;; header-line
    `(header-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
-   `(which-func ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
+   `(which-func ((,citrus-class (:foreground ,citrus-white))))
 
    ;; tab-bar
    `(tab-bar ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange))))

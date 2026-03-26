@@ -142,7 +142,7 @@
 
    ;; header-line
    `(header-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
-   `(which-func ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
+   `(which-func ((,ceiba-class (:foreground ,ceiba-white))))
 
    ;; tab-bar
    `(tab-bar ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))

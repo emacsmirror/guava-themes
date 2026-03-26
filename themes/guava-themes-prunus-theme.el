@@ -139,7 +139,7 @@
 
    ;; header-line
    `(header-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
-   `(which-func ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
+   `(which-func ((,prunus-class (:foreground ,prunus-white))))
 
    ;; tab-bar
    `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))

@@ -138,7 +138,7 @@
 
    ;; header-line
    `(header-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
-   `(which-func ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
+   `(which-func ((,cordyline-class (:foreground ,cordyline-white))))
 
    ;; tab-bar
    `(tab-bar ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))

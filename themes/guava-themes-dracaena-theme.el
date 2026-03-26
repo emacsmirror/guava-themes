@@ -141,7 +141,7 @@
 
    ;; header-line
    `(header-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
-   `(which-func ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
+   `(which-func ((,dracaena-class (:foreground ,dracaena-white))))
 
    ;; tab-bar
    `(tab-bar ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))

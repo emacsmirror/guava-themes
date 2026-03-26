@@ -140,7 +140,7 @@
 
    ;; header-line
    `(header-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))
-   `(which-func ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))
+   `(which-func ((,vaccinium-class (:foreground ,vaccinium-white))))
 
    ;; tab-bar
    `(tab-bar ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue))))

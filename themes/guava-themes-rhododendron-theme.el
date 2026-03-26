@@ -136,7 +136,7 @@
 
    ;; header-line
    `(header-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
-   `(which-func ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
+   `(which-func ((,rhododendron-class (:foreground ,rhododendron-white))))
 
    ;; tab-bar
    `(tab-bar ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))

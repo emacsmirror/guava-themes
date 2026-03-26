@@ -138,7 +138,7 @@
 
    ;; header-line
    `(header-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
-   `(which-func ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
+   `(which-func ((,jacaranda-class (:foreground ,jacaranda-white))))
 
    ;; tab-bar
    `(tab-bar ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple))))

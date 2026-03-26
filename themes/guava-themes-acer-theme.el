@@ -137,7 +137,7 @@
 
    ;; header-line
    `(header-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
-   `(which-func ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
+   `(which-func ((,acer-class (:foreground ,acer-white))))
 
    ;; tab-bar
    `(tab-bar ((,acer-class (:foreground ,acer-white :background ,acer-autumn))))

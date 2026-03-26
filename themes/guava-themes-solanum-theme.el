@@ -137,7 +137,7 @@
 
    ;; header-line
    `(header-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
-   `(which-func ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
+   `(which-func ((,solanum-class (:foreground ,solanum-white))))
 
    ;; tab-bar
    `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))

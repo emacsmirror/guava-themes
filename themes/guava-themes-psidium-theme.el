@@ -136,7 +136,7 @@
 
    ;; header-line
    `(header-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
-   `(which-func ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
+   `(which-func ((,psidium-class (:foreground ,psidium-white))))
 
    ;; tab-bar
    `(tab-bar ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
