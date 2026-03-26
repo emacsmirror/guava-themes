@@ -59,6 +59,7 @@
       (vaccinium-deep-blue         "#1c5367");303053,1c3053,1c3f53
       (vaccinium-steel-blue        "#6a7e98")
       (vaccinium-alt-steel-blue    "#566a84")
+      (vaccinium-cyan              "#00ffff")
 
       (vaccinium-light-purple      "#5978b9")
       (vaccinium-purple            "#625fac")
@@ -175,6 +176,11 @@
    `(outline-6 ((,vaccinium-class (:foreground ,vaccinium-green-forest :weight medium))))
    `(outline-7 ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
    `(outline-8 ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,vaccinium-class (:foreground ,vaccinium-cyan))))
+   `(escape-glyph ((,vaccinium-class (:inherit homoglyph))))
+   `(nobreak-space ((,vaccinium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages

@@ -175,6 +175,11 @@
    `(outline-7 ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
    `(outline-8 ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
 
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,jacaranda-class (:foreground ,jacaranda-blue))))
+   `(escape-glyph ((,jacaranda-class (:inherit homoglyph))))
+   `(nobreak-space ((,jacaranda-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
 
    ;; external packages
 

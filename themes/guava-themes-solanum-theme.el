@@ -52,6 +52,7 @@
 
       (solanum-light-blue        "#8ec4de")
       (solanum-blue              "#0d62b2")
+      (solanum-cyan              "#00ffff")
 
       (solanum-light-purple      "#bec8ff");c4aeff,ccbcff,d4cbff
       (solanum-purple            "#9c69e8");9e7ae8,9c69e8
@@ -172,6 +173,11 @@
    `(outline-6 ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
    `(outline-7 ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
    `(outline-8 ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,solanum-class (:foreground ,solanum-cyan))))
+   `(escape-glyph ((,solanum-class (:inherit homoglyph))))
+   `(nobreak-space ((,solanum-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages

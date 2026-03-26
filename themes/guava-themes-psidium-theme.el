@@ -56,7 +56,7 @@
       (psidium-brown             "#816249");7D5E45
 
       (psidium-light-blue        "#41C3CA")
-      (psidium-oceanic-blue      "#2a4ad9")
+      (psidium-blue      "#2a4ad9")
       (psidium-deep-blue         "#483d8b");004F5D
 
       (psidium-light-purple      "#89afd1");817fb2,818fb2,819cb2,89a6d1
@@ -66,7 +66,7 @@
       (psidium-warning           "#d6c800");FF8C00,f08020,f68511,dfe300
       (psidium-success           "#228B22")
 
-      (psidium-vc-change         psidium-light-blue)
+      (psidium-vc-change         psidium-blue)
       (psidium-vc-insert         psidium-green)
       (psidium-vc-delete         psidium-error))
 
@@ -101,7 +101,7 @@
    `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
    `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-warning :weight bold))))
    `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
-   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
+   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-blue :weight medium))))
    `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
    `(font-lock-punctuation-face ((,psidium-class (:foreground ,psidium-red-orange :weight medium))))
    `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
@@ -114,7 +114,7 @@
    `(cursor ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
 
    ;; fringe
-   `(fringe ((,psidium-class (:foreground ,psidium-oceanic-blue :background ,psidium-cream))))
+   `(fringe ((,psidium-class (:foreground ,psidium-blue :background ,psidium-cream))))
    `(diff-hl-change ((,psidium-class (:foreground ,psidium-vc-change :background ,psidium-vc-change))))
    `(diff-hl-insert ((,psidium-class (:foreground ,psidium-vc-insert :background ,psidium-vc-insert))))
    `(diff-hl-delete ((,psidium-class (:foreground ,psidium-vc-delete :background ,psidium-vc-delete))))
@@ -168,10 +168,15 @@
    `(outline-2 ((,psidium-class (:foreground ,psidium-purple :weight medium))))
    `(outline-3 ((,psidium-class (:foreground ,psidium-green :weight medium))))
    `(outline-4 ((,psidium-class (:foreground ,psidium-red :weight medium))))
-   `(outline-5 ((,psidium-class (:foreground ,psidium-oceanic-blue :weight medium))))
+   `(outline-5 ((,psidium-class (:foreground ,psidium-blue :weight medium))))
    `(outline-6 ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
    `(outline-7 ((,psidium-class (:foreground ,psidium-brown :weight medium))))
    `(outline-8 ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,psidium-class (:foreground ,psidium-blue))))
+   `(escape-glyph ((,psidium-class (:inherit homoglyph))))
+   `(nobreak-space ((,psidium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages
@@ -182,7 +187,7 @@
    `(elfeed-search-feed-face ((,psidium-class (:foreground ,psidium-brown))))
    `(elfeed-search-title-face ((,psidium-class (:foreground ,psidium-pink))))
    `(elfeed-search-filter-face ((,psidium-class (:foreground ,psidium-purple))))
-   `(elfeed-search-last-update-face ((,psidium-class (:foreground ,psidium-oceanic-blue))))
+   `(elfeed-search-last-update-face ((,psidium-class (:foreground ,psidium-blue))))
    `(elfeed-search-unread-title-face ((,psidium-class (:weight bold :foreground ,psidium-green))))
    `(elfeed-search-unread-count-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
 

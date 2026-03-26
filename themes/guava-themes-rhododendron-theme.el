@@ -173,6 +173,11 @@
    `(outline-7 ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
    `(outline-8 ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
 
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,rhododendron-class (:foreground ,rhododendron-blue))))
+   `(escape-glyph ((,rhododendron-class (:inherit homoglyph))))
+   `(nobreak-space ((,rhododendron-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
 
    ;; external packages
 

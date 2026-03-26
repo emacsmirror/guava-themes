@@ -174,6 +174,11 @@
    `(outline-7 ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
    `(outline-8 ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
 
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,acer-class (:foreground ,acer-blue))))
+   `(escape-glyph ((,acer-class (:inherit homoglyph))))
+   `(nobreak-space ((,acer-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
 
    ;; external packages
 

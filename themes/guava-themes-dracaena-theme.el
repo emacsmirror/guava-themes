@@ -61,6 +61,7 @@
       (dracaena-blue              "#2134d5")
       (dracaena-antarctic-blue    "#bacce4");4f62be
       (dracaena-steel-blue        "#4f94cd");b0c4de
+      (dracaena-cyan              "#00ffff")
       (dracaena-dark-cyan         "#005f55")
 
       (dracaena-pink-purple       "#a54666");961250,b7125c,a5225c,a53c5c
@@ -176,6 +177,11 @@
    `(outline-6 ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
    `(outline-7 ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
    `(outline-8 ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,dracaena-class (:foreground ,dracaena-cyan))))
+   `(escape-glyph ((,dracaena-class (:inherit homoglyph))))
+   `(nobreak-space ((,dracaena-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages

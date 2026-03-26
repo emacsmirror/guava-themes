@@ -49,6 +49,7 @@
       (cordyline-blue              "#2134d5")
       (cordyline-deep-blue         "#3146af");1330af
       (cordyline-steel-blue        "#4f94cd")
+      (cordyline-cyan              "#00ffff")
       (cordyline-dark-cyan         "#00708b")
 
       (cordyline-light-green       "#c5ff6e")
@@ -173,6 +174,11 @@
    `(outline-6 ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
    `(outline-7 ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
    `(outline-8 ((,cordyline-class (:foreground ,cordyline-pink-red :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,cordyline-class (:foreground ,cordyline-cyan))))
+   `(escape-glyph ((,cordyline-class (:inherit homoglyph))))
+   `(nobreak-space ((,cordyline-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages

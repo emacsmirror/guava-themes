@@ -55,10 +55,10 @@
       (prunus-light-pink        "#cd7888")
       (prunus-pink              "#CD2788");dc6199,cd4f88
 
-      (prunus-blue              "#453ee3");4534e3,120cdc,4534E3
+      (prunus-blue              "#4548e3");4534e3,120cdc,4534E3,453ee3
       (prunus-deep-blue         "#655DB0")
       (prunus-antarctic-blue    "#8d82ca");8D76CA
-      (prunus-cyan              "#008B8B")
+      (prunus-cyan              "#00988b")
       (prunus-dark-cyan         "#005555")
 
       (prunus-deep-purple       "#742fbe");800080,740CBE,7420be
@@ -175,6 +175,11 @@
    `(outline-6 ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
    `(outline-7 ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
    `(outline-8 ((,prunus-class (:foreground ,prunus-indigo :weight medium))))
+
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,prunus-class (:foreground ,prunus-cyan))))
+   `(escape-glyph ((,prunus-class (:inherit homoglyph))))
+   `(nobreak-space ((,prunus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
 
    ;; external packages

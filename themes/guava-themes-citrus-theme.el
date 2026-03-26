@@ -176,6 +176,11 @@
    `(outline-7 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
    `(outline-8 ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
 
+   ;; homoglyph, escape-glyph, nobreak-space
+   `(homoglyph ((,citrus-class (:foreground ,citrus-deep-blue))))
+   `(escape-glyph ((,citrus-class (:inherit homoglyph))))
+   `(nobreak-space ((,citrus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
 
    ;; external packages
 
