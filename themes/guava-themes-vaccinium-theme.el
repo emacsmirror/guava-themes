@@ -197,7 +197,7 @@
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
-   `(doom-modeline-project-parent-dir ((,vaccinium-class (:foreground ,vaccinium-red))))
+   `(doom-modeline-project-parent-dir ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
    `(doom-modeline-buffer-minor-mode ((,vaccinium-class (:foreground ,vaccinium-yellow))))
 
    ;; corfu
