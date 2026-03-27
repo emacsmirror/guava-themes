@@ -149,7 +149,7 @@
 
    ;; tab-line
    `(tab-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue))))
-   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 0.9))))
+   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-blueberry :weight bold :height 0.9))))
    `(tab-line-tab-current ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-steel-blue :weight bold :height 0.9))))

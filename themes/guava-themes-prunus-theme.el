@@ -148,7 +148,7 @@
 
    ;; tab-line
    `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))
-   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
+   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :weight bold :height 0.9))))
    `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink :weight bold :height 0.9))))

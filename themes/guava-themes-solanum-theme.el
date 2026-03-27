@@ -146,7 +146,7 @@
 
    ;; tab-line
    `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
-   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 0.9))))
+   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))

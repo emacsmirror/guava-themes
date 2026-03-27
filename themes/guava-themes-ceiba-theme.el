@@ -151,7 +151,7 @@
 
    ;; tab-line
    `(tab-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))
-   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
+   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :weight bold :height 0.9))))
    `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-light-brown :weight bold :height 0.9))))

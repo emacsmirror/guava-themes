@@ -61,7 +61,7 @@
       (jacaranda-light-purple      "#dbd0fd")
       (jacaranda-alt-light-purple  "#C0B4E4")
       (jacaranda-purple            "#aa69e6");984ee6
-      (jacaranda-deep-purple       "#740cbe");800080
+      (jacaranda-deep-purple       "#640cbe");800080,740cbe
       (jacaranda-purple-red        "#8b2252")
 
       (jacaranda-error             "#FF0000");FF0000
@@ -127,7 +127,7 @@
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
-   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-alt-light-purple))))
+   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple))))
    `(guava-themes-visible-bell ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orange))))
 
    ;; minibuffer
@@ -147,7 +147,7 @@
 
    ;; tab-line
    `(tab-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple))))
-   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
+   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :weight bold :height 0.9))))
    `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-alt-light-purple :weight bold :height 0.9))))

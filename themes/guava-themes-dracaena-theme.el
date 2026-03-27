@@ -51,6 +51,7 @@
 
       (dracaena-light-orange      "#ffae7a")
       (dracaena-orange            "#ffa07a")
+      (dracaena-deep-orange       "#c95909")
       (dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
       (dracaena-alt-deep-red      "#751e1e")
       (dracaena-deep-red          "#792725")
@@ -130,7 +131,7 @@
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
-   `(mode-line-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))
+   `(mode-line-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-orange))))
    `(guava-themes-visible-bell ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; minibuffer
@@ -150,7 +151,7 @@
 
    ;; tab-line
    `(tab-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray))))
-   `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
+   `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-orange :weight bold :height 0.9))))
    `(tab-line-tab-current ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-light-gray :weight bold :height 0.9))))

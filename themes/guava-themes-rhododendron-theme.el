@@ -61,6 +61,7 @@
       (rhododendron-purple-pink       "#ad20f0");a020f0
       (rhododendron-purple-blue       "#5346cc");534bcc
       (rhododendron-purple-red        "#a8206f")
+      (rhododendron-dark-purple-red   "#7d2061");77206f,7d2761
 
       (rhododendron-error             "#FF0000")
       (rhododendron-warning           "#F68511")
@@ -125,7 +126,7 @@
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
-   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
+   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red))))
    `(guava-themes-visible-bell ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-blue))))
 
    ;; minibuffer
@@ -145,7 +146,7 @@
 
    ;; tab-line
    `(tab-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
-   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 0.9))))
+   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-current ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-red :weight bold :height 0.9))))

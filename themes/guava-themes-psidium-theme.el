@@ -56,7 +56,7 @@
       (psidium-brown             "#816249");7D5E45
 
       (psidium-light-blue        "#41C3CA")
-      (psidium-blue      "#2a4ad9")
+      (psidium-blue              "#2a4ad9")
       (psidium-deep-blue         "#483d8b");004F5D
 
       (psidium-light-purple      "#89afd1");817fb2,818fb2,819cb2,89a6d1
@@ -145,7 +145,7 @@
 
    ;; tab-line
    `(tab-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
-   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
+   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :weight bold :height 0.9))))
    `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
    `(tab-line-tab-inactive-alternate ((,psidium-class (:foreground ,psidium-white :background ,psidium-light-green :weight bold :height 0.9))))
