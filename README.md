@@ -137,7 +137,7 @@ Here is a tentative list of things to consider when contributing:
 * Make sure commits are modular; one feat/fix/doc/etc at a time.  
 
 ## Image Attributions
-Unless otherwise stated, all images in [this repository](https://github.com/bormoge/guava-themes) were created by [me (https://github.com/bormoge)](https://github.com/bormoge) under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) license.
+Unless otherwise stated, all images displayed in [this repository](https://github.com/bormoge/guava-themes) were created by [me (https://github.com/bormoge)](https://github.com/bormoge) under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) license.
 
 ## License
 
