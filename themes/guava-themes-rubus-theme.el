@@ -125,8 +125,8 @@
    ;; line-number
    `(line-number ((,rubus-class (:foreground ,rubus-white))))
    `(line-number-current-line ((,rubus-class (:foreground ,rubus-pink-cream :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,rubus-class (:background ,rubus-orange))))
-   `(line-number-major-tick ((,rubus-class (:background ,rubus-purple))))
+   `(line-number-minor-tick ((,rubus-class (:background ,rubus-purple))))
+   `(line-number-major-tick ((,rubus-class (:background ,rubus-deep-purple))))
 
    ;; mode-line
    `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry))))
