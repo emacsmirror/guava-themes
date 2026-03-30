@@ -140,7 +140,7 @@
    `(minibuffer-prompt ((,ceiba-class (:foreground ,ceiba-black))))
 
    ;; borders
-   `(vertical-border ((,ceiba-class (:foreground ,ceiba-gray-green))))
+   `(vertical-border ((,ceiba-class (:foreground ,ceiba-green))))
 
    ;; header-line
    `(header-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))

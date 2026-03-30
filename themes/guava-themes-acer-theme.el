@@ -135,7 +135,7 @@
    `(minibuffer-prompt ((,acer-class (:foreground ,acer-black))))
 
    ;; borders
-   `(vertical-border ((,acer-class (:foreground ,acer-yellow))))
+   `(vertical-border ((,acer-class (:foreground ,acer-orange))))
 
    ;; header-line
    `(header-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))

@@ -137,7 +137,7 @@
    `(minibuffer-prompt ((,rhododendron-class (:foreground ,rhododendron-black))))
 
    ;; borders
-   `(vertical-border ((,rhododendron-class (:foreground ,rhododendron-bright-pink))))
+   `(vertical-border ((,rhododendron-class (:foreground ,rhododendron-red))))
 
    ;; header-line
    `(header-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))

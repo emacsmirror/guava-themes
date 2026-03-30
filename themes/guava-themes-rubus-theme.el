@@ -137,7 +137,7 @@
    `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-raspberry))))
 
    ;; borders
-   `(vertical-border ((,rubus-class (:foreground ,rubus-black-blue))))
+   `(vertical-border ((,rubus-class (:foreground ,rubus-raspberry))))
 
    ;; header-line
    `(header-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry))))
@@ -164,7 +164,7 @@
    ;; trailing whitespaces
    `(trailing-whitespace ((,rubus-class (:background ,rubus-error))))
 
-   ;; ;; links
+   ;; links
    `(link ((,rubus-class (:foreground ,rubus-light-green :underline t :weight bold))))
    `(link-visited ((,rubus-class (:foreground ,rubus-green :underline t :weight bold))))
 

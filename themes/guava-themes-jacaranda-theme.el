@@ -136,7 +136,7 @@
    `(minibuffer-prompt ((,jacaranda-class (:foreground ,jacaranda-black))))
 
    ;; borders
-   `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-light-purple))))
+   `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
 
    ;; header-line
    `(header-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))

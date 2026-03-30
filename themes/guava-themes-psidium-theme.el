@@ -134,7 +134,7 @@
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))
 
    ;;borders
-   `(vertical-border ((,psidium-class (:foreground ,psidium-cream))))
+   `(vertical-border ((,psidium-class (:foreground ,psidium-pink))))
 
    ;; header-line
    `(header-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))

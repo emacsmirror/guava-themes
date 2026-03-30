@@ -136,7 +136,7 @@
    `(minibuffer-prompt ((,cordyline-class (:foreground ,cordyline-white))))
 
    ;; borders
-   `(vertical-border ((,cordyline-class (:foreground ,cordyline-deep-purple))))
+   `(vertical-border ((,cordyline-class (:foreground ,cordyline-purple-red))))
 
    ;; header-line
    `(header-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))

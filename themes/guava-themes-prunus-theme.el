@@ -137,7 +137,7 @@
    `(minibuffer-prompt ((,prunus-class (:foreground ,prunus-white))))
 
    ;; borders
-   `(vertical-border ((,prunus-class (:foreground ,prunus-pink))))
+   `(vertical-border ((,prunus-class (:foreground ,prunus-red))))
 
    ;; header-line
    `(header-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))

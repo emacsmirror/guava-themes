@@ -138,7 +138,7 @@
    `(minibuffer-prompt ((,citrus-class (:foreground ,citrus-black))))
 
    ;; borders
-   `(vertical-border ((,citrus-class (:foreground ,citrus-white))))
+   `(vertical-border ((,citrus-class (:foreground ,citrus-green-lime))))
 
    ;; header-line
    `(header-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))

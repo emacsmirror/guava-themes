@@ -140,7 +140,7 @@
    `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
 
    ;; borders
-   `(vertical-border ((,dracaena-class (:foreground ,dracaena-orange))))
+   `(vertical-border ((,dracaena-class (:foreground ,dracaena-deep-red))))
 
    ;; header-line
    `(header-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))

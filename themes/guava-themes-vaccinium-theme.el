@@ -138,7 +138,7 @@
    `(minibuffer-prompt ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
 
    ;; borders
-   `(vertical-border ((,vaccinium-class (:foreground ,vaccinium-black-gray))))
+   `(vertical-border ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
 
    ;; header-line
    `(header-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))

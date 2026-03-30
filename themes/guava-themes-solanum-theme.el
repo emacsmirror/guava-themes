@@ -136,7 +136,7 @@
    `(minibuffer-prompt ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
    ;; borders
-   `(vertical-border ((,solanum-class (:foreground ,solanum-purple-black))))
+   `(vertical-border ((,solanum-class (:foreground ,solanum-dark-purple))))
 
    ;; header-line
    `(header-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
