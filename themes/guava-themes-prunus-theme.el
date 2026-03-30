@@ -125,6 +125,8 @@
    ;; line-number
    `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
    `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,prunus-class (:background ,prunus-light-pink))))
+   `(line-number-major-tick ((,prunus-class (:background ,prunus-pink))))
 
    ;; mode-line
    `(mode-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))

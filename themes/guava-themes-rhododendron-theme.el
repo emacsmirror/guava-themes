@@ -46,6 +46,7 @@
 
       (rhododendron-red               "#c00353")
       (rhododendron-red-orange        "#cd605f");ff605f,cd605f
+      (rhododendron-light-orange      "#ff967c")
       (rhododendron-bright-orange     "#ff5b4c")
       (rhododendron-cream             "#fcbdb2")
 
@@ -58,6 +59,7 @@
       (rhododendron-deep-pink         "#c00e88");d00e88
 
       (rhododendron-light-purple      "#e0bde7")
+      (rhododendron-purple            "#a08ce8")
       (rhododendron-purple-pink       "#ad20f0");a020f0
       (rhododendron-purple-blue       "#5346cc");534bcc
       (rhododendron-purple-red        "#a8206f")
@@ -123,6 +125,8 @@
    ;; line-number
    `(line-number ((,rhododendron-class (:foreground ,rhododendron-black))))
    `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,rhododendron-class (:background ,rhododendron-light-orange))))
+   `(line-number-major-tick ((,rhododendron-class (:background ,rhododendron-purple))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))

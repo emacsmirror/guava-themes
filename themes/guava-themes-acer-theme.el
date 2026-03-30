@@ -52,7 +52,7 @@
 
       (acer-cream             "#dca56e");f68e64,dc8e64,dc9964,dc9964
       (acer-brown             "#c88550");7d4826,754014,a58464,a07f5f
-      (acer-deep-brown        "#6a4e39");7d6250
+      (acer-deep-brown        "#8c6950");7d6250,6a4e39,8c6a50
 
       (acer-light-blue        "#3a9187");bacce4
       (acer-blue              "#2134d5")
@@ -123,6 +123,8 @@
    ;; line-number
    `(line-number ((,acer-class (:foreground ,acer-black))))
    `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,acer-class (:background ,acer-brown))))
+   `(line-number-major-tick ((,acer-class (:background ,acer-deep-brown))))
 
    ;; mode-line
    `(mode-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
@@ -183,9 +185,9 @@
    ;; external packages
 
    ;; elfeed
-   `(elfeed-search-tag-face ((,acer-class (:foreground ,acer-deep-purple))))
+   `(elfeed-search-tag-face ((,acer-class (:foreground ,acer-light-blue))))
    `(elfeed-search-date-face ((,acer-class (:foreground ,acer-deep-orange))))
-   `(elfeed-search-feed-face ((,acer-class (:foreground ,acer-light-blue))))
+   `(elfeed-search-feed-face ((,acer-class (:foreground ,acer-deep-purple))))
    `(elfeed-search-title-face ((,acer-class (:foreground ,acer-deep-brown))))
    `(elfeed-search-filter-face ((,acer-class (:foreground ,acer-purple-pink))))
    `(elfeed-search-last-update-face ((,acer-class (:foreground ,acer-purple-red))))

@@ -47,7 +47,7 @@
       (psidium-guava-green       "#aecd34");AECA41,AED234,AED734
       (psidium-deep-green        "#097d2c");09662c
 
-      (psidium-orange            "#ffa55f");FF7D5F,ff8f5f
+      (psidium-light-orange      "#ffbe9b");ffb49b
       (psidium-red-orange        "#cd605f");ff605f,cd605f
       (psidium-red               "#c1153b");f02d1b
       (psidium-light-pink        "#FCD0C9");F8917C
@@ -59,7 +59,7 @@
       (psidium-blue              "#2a4ad9")
       (psidium-deep-blue         "#483d8b");004F5D
 
-      (psidium-light-purple      "#89afd1");817fb2,818fb2,819cb2,89a6d1
+      (psidium-light-purple      "#8cb4d1");817fb2,818fb2,819cb2,89a6d1,89afd1
       (psidium-purple            "#812db2");D7137C,C0137C,B00CE0,a62db2,8e2db2
 
       (psidium-error             "#FF0000")
@@ -91,7 +91,7 @@
    `(shadow ((,psidium-class (:foreground ,psidium-shadow))))
 
    ;; region
-   `(region ((,psidium-class (:background ,psidium-orange))))
+   `(region ((,psidium-class (:background ,psidium-light-orange))))
    `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
 
    ;; font-lock
@@ -122,6 +122,8 @@
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
    `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,psidium-class (:background ,psidium-light-orange))))
+   `(line-number-major-tick ((,psidium-class (:background ,psidium-light-purple))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))

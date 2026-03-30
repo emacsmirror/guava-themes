@@ -126,6 +126,8 @@
    ;; line-number
    `(line-number ((,vaccinium-class (:foreground ,vaccinium-white))))
    `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-orange))))
+   `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-purple))))
 
    ;; mode-line
    `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))

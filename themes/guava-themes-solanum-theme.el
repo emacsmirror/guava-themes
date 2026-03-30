@@ -56,8 +56,9 @@
 
       (solanum-light-purple      "#bec8ff");c4aeff,ccbcff,d4cbff
       (solanum-purple            "#9c69e8");9e7ae8,9c69e8
+      (solanum-alt-purple        "#a394ff");9e7ae8,9c69e8
       (solanum-purple-red        "#64143d");6a143d,64143d
-      (solanum-purple-pink       "#7d5d93");bb5d93
+      (solanum-purple-pink       "#915d93");bb5d93,7d5d93
       (solanum-purple-blue       "#492b91")
       (solanum-dark-purple       "#672b5f");41143d,672b5f
       (solanum-purple-black      "#130d1a")
@@ -123,6 +124,8 @@
    ;; line-number
    `(line-number ((,solanum-class (:foreground ,solanum-white))))
    `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,solanum-class (:background ,solanum-alt-purple))))
+   `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))

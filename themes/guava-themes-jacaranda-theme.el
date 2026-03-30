@@ -124,6 +124,8 @@
    ;; line-number
    `(line-number ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
    `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,jacaranda-class (:background ,jacaranda-antarctic-blue))))
+   `(line-number-major-tick ((,jacaranda-class (:background ,jacaranda-purple))))
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))

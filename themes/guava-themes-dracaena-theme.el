@@ -49,8 +49,8 @@
 
       (dracaena-snakeplant-yellow "#d9d389")
 
-      (dracaena-light-orange      "#ffae7a")
-      (dracaena-orange            "#ffa07a")
+      (dracaena-light-orange      "#ffb38f");ffae7a
+      (dracaena-orange            "#e88e6b");ffa07a
       (dracaena-deep-orange       "#c95909")
       (dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
       (dracaena-alt-deep-red      "#751e1e")
@@ -59,7 +59,7 @@
       (dracaena-light-brown       "#a89d92");8b6c4d
 
       (dracaena-light-blue        "#4272d5");425fd5
-      (dracaena-blue              "#2134d5")
+      (dracaena-blue              "#2d44d5");2134d5
       (dracaena-antarctic-blue    "#bacce4");4f62be
       (dracaena-steel-blue        "#4f94cd");b0c4de
       (dracaena-cyan              "#00ffff")
@@ -128,6 +128,8 @@
    ;; line-number
    `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
    `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit highlight))))
+   `(line-number-minor-tick ((,dracaena-class (:background ,dracaena-steel-blue))))
+   `(line-number-major-tick ((,dracaena-class (:background ,dracaena-orange))))
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
