@@ -170,12 +170,12 @@
 
    ;; outline
    `(outline-1 ((,rubus-class (:foreground ,rubus-purple :weight medium))))
-   `(outline-2 ((,rubus-class (:foreground ,rubus-yellow :weight medium))))
+   `(outline-2 ((,rubus-class (:foreground ,rubus-green-forest :weight medium))))
    `(outline-3 ((,rubus-class (:foreground ,rubus-deep-purple :weight medium))))
-   `(outline-4 ((,rubus-class (:foreground ,rubus-green-forest :weight medium))))
+   `(outline-4 ((,rubus-class (:foreground ,rubus-yellow :weight medium))))
    `(outline-5 ((,rubus-class (:foreground ,rubus-blue-subdued :weight medium))))
-   `(outline-6 ((,rubus-class (:foreground ,rubus-light-purple :weight medium))))
-   `(outline-7 ((,rubus-class (:foreground ,rubus-pink-cream :weight medium))))
+   `(outline-6 ((,rubus-class (:foreground ,rubus-pink-cream :weight medium))))
+   `(outline-7 ((,rubus-class (:foreground ,rubus-light-purple :weight medium))))
    `(outline-8 ((,rubus-class (:foreground ,rubus-orange :weight medium))))
 
    ;; homoglyph, escape-glyph, nobreak-space

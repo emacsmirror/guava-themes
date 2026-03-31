@@ -181,6 +181,9 @@
    `(escape-glyph ((,acer-class (:inherit homoglyph))))
    `(nobreak-space ((,acer-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+
 
    ;; external packages
 
