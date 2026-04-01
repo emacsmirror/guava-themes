@@ -184,6 +184,10 @@
    `(escape-glyph ((,citrus-class (:inherit homoglyph))))
    `(nobreak-space ((,citrus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,citrus-class (:background ,citrus-light-blue))))
+
 
    ;; external packages
 

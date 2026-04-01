@@ -183,6 +183,7 @@
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,acer-class (:background ,acer-light-blue))))
 
 
    ;; external packages

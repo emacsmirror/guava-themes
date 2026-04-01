@@ -182,6 +182,10 @@
    `(escape-glyph ((,jacaranda-class (:inherit homoglyph))))
    `(nobreak-space ((,jacaranda-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,jacaranda-class (:background ,jacaranda-light-cyan))))
+
 
    ;; external packages
 

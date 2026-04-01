@@ -67,7 +67,7 @@
 
       (rhododendron-error             "#FF0000")
       (rhododendron-warning           "#F68511")
-      (rhododendron-success           "#29d925")
+      (rhododendron-success           "#29b425");29d925
 
       (rhododendron-vc-change         rhododendron-blue)
       (rhododendron-vc-insert         rhododendron-success)
@@ -182,6 +182,10 @@
    `(homoglyph ((,rhododendron-class (:foreground ,rhododendron-blue))))
    `(escape-glyph ((,rhododendron-class (:inherit homoglyph))))
    `(nobreak-space ((,rhododendron-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,rhododendron-class (:background ,rhododendron-blue))))
 
 
    ;; external packages

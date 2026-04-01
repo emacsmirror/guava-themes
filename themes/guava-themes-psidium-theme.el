@@ -180,6 +180,10 @@
    `(escape-glyph ((,psidium-class (:inherit homoglyph))))
    `(nobreak-space ((,psidium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,psidium-class (:background ,psidium-light-blue))))
+
 
    ;; external packages
 

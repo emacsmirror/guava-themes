@@ -186,6 +186,10 @@
    `(escape-glyph ((,ceiba-class (:inherit homoglyph))))
    `(nobreak-space ((,ceiba-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,ceiba-class (:background ,ceiba-alt-blue))))
+
 
    ;; external packages
 

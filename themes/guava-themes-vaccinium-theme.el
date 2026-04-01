@@ -185,6 +185,10 @@
    `(escape-glyph ((,vaccinium-class (:inherit homoglyph))))
    `(nobreak-space ((,vaccinium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,vaccinium-class (:background ,vaccinium-cyan))))
+
 
    ;; external packages
 

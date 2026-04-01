@@ -57,6 +57,8 @@
       (rubus-green                    "#1e8264")
       (rubus-green-forest             "#007841")
       (rubus-green-blue               "#5b8a8a")
+
+      (rubus-light-blue               "#5096f1")
       (rubus-blue                     "#1455f1")
       (rubus-blue-subdued             "#1c81a1")
       (rubus-cyan                     "#00FFFF")
@@ -182,6 +184,10 @@
    `(homoglyph ((,rubus-class (:foreground ,rubus-cyan))))
    `(escape-glyph ((,rubus-class (:inherit homoglyph))))
    `(nobreak-space ((,rubus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,rubus-class (:background ,rubus-light-blue))))
 
 
    ;; external packages

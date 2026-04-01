@@ -182,6 +182,10 @@
    `(escape-glyph ((,solanum-class (:inherit homoglyph))))
    `(nobreak-space ((,solanum-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
 
+   ;; pulse-highlight-start-face
+   ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
+   `(pulse-highlight-start-face ((,solanum-class (:background ,solanum-light-blue))))
+
 
    ;; external packages
 
