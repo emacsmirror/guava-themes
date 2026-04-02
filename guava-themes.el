@@ -59,6 +59,17 @@ is still called but does not display `guava-themes-visible-bell'."
   :group 'guava-themes
   :type 'float)
 
+(defcustom guava-themes-visible-bell-faces-list (if (>= emacs-major-version 29) '(mode-line-active) '(mode-line))
+  "List of faces modified when `guava-themes-change-visible-bell' is called.
+
+By default, this variable contains either `mode-line-active' if
+`emacs-major-version' is equal or above 29, or `mode-line' if it's below 29.
+
+If this variable is set to nil, the function `guava-themes-change-visible-bell'
+is still called but does not display `guava-themes-visible-bell'."
+  :group 'guava-themes
+  :type '(repeat symbol))
+
 (defcustom guava-themes-before-change-visible-bell-hook nil
   "Hook that is run before displaying `guava-themes-visible-bell'."
   :group 'guava-themes
@@ -86,14 +97,15 @@ is still called but does not display `guava-themes-visible-bell'."
 ;; included in all copies or substantial portions of the Software.
 
 (defun guava-themes-change-visible-bell ()
-  "Change the blink of the minibuffer with a blink for the mode-line.
-Set `ring-bell-function' with this function as its value to use it."
+  "Replace the `visible-bell' blink.
+Set `ring-bell-function' with this function as its value to use it.
+
+The value of `guava-themes-visible-bell-faces-list' will determine what faces
+will blink when this function is called."
   (run-hooks 'guava-themes-before-change-visible-bell-hook)
   (sit-for guava-themes-visible-bell-idle-delay)
   (let* ((buf (current-buffer))
-         (faces (if (facep 'mode-line-active)
-                    '(mode-line-active)
-                 '(mode-line)))
+         (faces guava-themes-visible-bell-faces-list)
          (cookies (mapcar (lambda (face)
                             (when (facep face)
                               (face-remap-add-relative face 'guava-themes-visible-bell)))
