@@ -42,9 +42,10 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 ```
 (use-package guava-themes
   :ensure t
+  :custom
+  (ring-bell-function #'guava-themes-change-visible-bell)
+  (visible-bell t)
   :config
-  (setopt ring-bell-function #'guava-themes-change-visible-bell)
-  (setopt visible-bell t)
   (load-theme 'guava-themes-psidium t)
   )
 ```
@@ -56,9 +57,10 @@ And so, the package name became an Artifact Title, as is known in the tropes com
             :branch "main"
             :vc-backend Git)
   :ensure t
+  :custom
+  (ring-bell-function #'guava-themes-change-visible-bell)
+  (visible-bell t)
   :config
-  (setopt ring-bell-function #'guava-themes-change-visible-bell)
-  (setopt visible-bell t)
   (load-theme 'guava-themes-psidium t)
   )
 ```
