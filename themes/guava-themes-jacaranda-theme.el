@@ -177,7 +177,7 @@
    `(outline-7 ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
    `(outline-8 ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,jacaranda-class (:foreground ,jacaranda-blue))))
    `(escape-glyph ((,jacaranda-class (:inherit homoglyph))))
    `(nobreak-space ((,jacaranda-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -185,6 +185,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,jacaranda-class (:background ,jacaranda-light-cyan))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,jacaranda-class (:foreground ,jacaranda-deep-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages

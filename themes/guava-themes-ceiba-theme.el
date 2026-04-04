@@ -181,7 +181,7 @@
    `(outline-7 ((,ceiba-class (:foreground ,ceiba-deep-orange :weight medium))))
    `(outline-8 ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,ceiba-class (:foreground ,ceiba-blue))))
    `(escape-glyph ((,ceiba-class (:inherit homoglyph))))
    `(nobreak-space ((,ceiba-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -189,6 +189,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,ceiba-class (:background ,ceiba-alt-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,ceiba-class (:foreground ,ceiba-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages

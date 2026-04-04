@@ -100,7 +100,7 @@ is still called but does not display `guava-themes-visible-bell'."
   "Replace the `visible-bell' blink.
 Set `ring-bell-function' with this function as its value to use it.
 
-The value of `guava-themes-visible-bell-faces-list' will determine what faces
+The value of `guava-themes-visible-bell-faces-list' will determine which faces
 will blink when this function is called."
   (run-hooks 'guava-themes-before-change-visible-bell-hook)
   (sit-for guava-themes-visible-bell-idle-delay)

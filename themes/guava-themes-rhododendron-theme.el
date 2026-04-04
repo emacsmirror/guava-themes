@@ -178,7 +178,7 @@
    `(outline-7 ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
    `(outline-8 ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,rhododendron-class (:foreground ,rhododendron-blue))))
    `(escape-glyph ((,rhododendron-class (:inherit homoglyph))))
    `(nobreak-space ((,rhododendron-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -186,6 +186,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,rhododendron-class (:background ,rhododendron-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,rhododendron-class (:foreground ,rhododendron-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages

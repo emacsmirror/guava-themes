@@ -175,7 +175,7 @@
    `(outline-7 ((,psidium-class (:foreground ,psidium-brown :weight medium))))
    `(outline-8 ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,psidium-class (:foreground ,psidium-blue))))
    `(escape-glyph ((,psidium-class (:inherit homoglyph))))
    `(nobreak-space ((,psidium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -183,6 +183,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,psidium-class (:background ,psidium-light-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,psidium-class (:foreground ,psidium-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages

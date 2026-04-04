@@ -176,7 +176,7 @@
    `(outline-7 ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
    `(outline-8 ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,acer-class (:foreground ,acer-blue))))
    `(escape-glyph ((,acer-class (:inherit homoglyph))))
    `(nobreak-space ((,acer-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -184,6 +184,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,acer-class (:background ,acer-light-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,acer-class (:foreground ,acer-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages

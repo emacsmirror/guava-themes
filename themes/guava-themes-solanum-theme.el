@@ -177,7 +177,7 @@
    `(outline-7 ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
    `(outline-8 ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,solanum-class (:foreground ,solanum-cyan))))
    `(escape-glyph ((,solanum-class (:inherit homoglyph))))
    `(nobreak-space ((,solanum-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -185,6 +185,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,solanum-class (:background ,solanum-light-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,solanum-class (:foreground ,solanum-light-purple :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
 
    ;; external packages

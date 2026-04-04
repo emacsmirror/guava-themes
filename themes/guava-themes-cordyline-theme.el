@@ -177,7 +177,7 @@
    `(outline-7 ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
    `(outline-8 ((,cordyline-class (:foreground ,cordyline-pink-red :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,cordyline-class (:foreground ,cordyline-cyan))))
    `(escape-glyph ((,cordyline-class (:inherit homoglyph))))
    `(nobreak-space ((,cordyline-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -185,6 +185,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,cordyline-class (:background ,cordyline-steel-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,cordyline-class (:foreground ,cordyline-alt-light-purple :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
 
    ;; external packages

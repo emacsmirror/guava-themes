@@ -65,7 +65,7 @@
       (dracaena-cyan              "#00ffff")
       (dracaena-dark-cyan         "#005f55")
 
-      (dracaena-pink-purple       "#a54666");961250,b7125c,a5225c,a53c5c
+      (dracaena-purple-pink       "#a54666");961250,b7125c,a5225c,a53c5c
       (dracaena-deep-purple       "#7f6ddd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd
 
       (dracaena-error             "#FF0000")
@@ -103,7 +103,7 @@
    ;; font-lock
    `(font-lock-comment-face ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
    `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
-   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
+   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-purple-pink :weight medium))))
    `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
    `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
    `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
@@ -174,14 +174,14 @@
    ;; outline
    `(outline-1 ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
    `(outline-2 ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
-   `(outline-3 ((,dracaena-class (:foreground ,dracaena-pink-purple :weight medium))))
+   `(outline-3 ((,dracaena-class (:foreground ,dracaena-purple-pink :weight medium))))
    `(outline-4 ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
    `(outline-5 ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
    `(outline-6 ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
    `(outline-7 ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
    `(outline-8 ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,dracaena-class (:foreground ,dracaena-cyan))))
    `(escape-glyph ((,dracaena-class (:inherit homoglyph))))
    `(nobreak-space ((,dracaena-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -190,13 +190,16 @@
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,dracaena-class (:background ,dracaena-steel-blue))))
 
+   ;; help-key-binding
+   `(help-key-binding ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
+
 
    ;; external packages
 
    ;; elfeed
    `(elfeed-search-tag-face ((,dracaena-class (:foreground ,dracaena-steel-blue))))
    `(elfeed-search-date-face ((,dracaena-class (:foreground ,dracaena-light-blue))))
-   `(elfeed-search-feed-face ((,dracaena-class (:foreground ,dracaena-pink-purple))))
+   `(elfeed-search-feed-face ((,dracaena-class (:foreground ,dracaena-purple-pink))))
    `(elfeed-search-title-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
    `(elfeed-search-filter-face ((,dracaena-class (:foreground ,dracaena-deep-purple))))
    `(elfeed-search-last-update-face ((,dracaena-class (:foreground ,dracaena-light-orange))))

@@ -180,7 +180,7 @@
    `(outline-7 ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
    `(outline-8 ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,vaccinium-class (:foreground ,vaccinium-cyan))))
    `(escape-glyph ((,vaccinium-class (:inherit homoglyph))))
    `(nobreak-space ((,vaccinium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -188,6 +188,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,vaccinium-class (:background ,vaccinium-cyan))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,vaccinium-class (:foreground ,vaccinium-cyan :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
 
    ;; external packages

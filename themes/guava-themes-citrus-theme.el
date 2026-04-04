@@ -179,7 +179,7 @@
    `(outline-7 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
    `(outline-8 ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
 
-   ;; homoglyph, escape-glyph, nobreak-space
+   ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,citrus-class (:foreground ,citrus-deep-blue))))
    `(escape-glyph ((,citrus-class (:inherit homoglyph))))
    `(nobreak-space ((,citrus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
@@ -187,6 +187,9 @@
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
    `(pulse-highlight-start-face ((,citrus-class (:background ,citrus-light-blue))))
+
+   ;; help-key-binding
+   `(help-key-binding ((,citrus-class (:foreground ,citrus-deep-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
 
    ;; external packages
