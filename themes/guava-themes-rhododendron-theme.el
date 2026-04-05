@@ -35,43 +35,51 @@
 
 (let* (
       (rhododendron-class '((class color) (min-colors 257)))
-      (rhododendron-black             "#000000")
-      (rhododendron-white             "#FFFFFF")
+      (rhododendron-black                     "#000000")
+      (rhododendron-white                     "#FFFFFF")
 
-      (rhododendron-shadow            "#7f7f7f")
+      (rhododendron-shadow                    "#7f7f7f")
 
-      (rhododendron-light-green       "#64d264");2ad22a,46d246
-      (rhododendron-forest-green      "#228b22")
-      (rhododendron-deep-green        "#3e7411");3e7011
+      (rhododendron-light-green               "#64d264");2ad22a,46d246
+      (rhododendron-forest-green              "#228b22")
+      (rhododendron-deep-green                "#3e7411");3e7011
 
-      (rhododendron-red               "#c00353")
-      (rhododendron-red-orange        "#cd605f");ff605f,cd605f
-      (rhododendron-light-orange      "#ff967c")
-      (rhododendron-bright-orange     "#ff5b4c")
-      (rhododendron-cream             "#fcbdb2")
+      (rhododendron-red                       "#c00353")
+      (rhododendron-red-orange                "#cd605f");ff605f,cd605f
+      (rhododendron-light-orange              "#ff967c")
+      (rhododendron-bright-orange             "#ff5b4c")
+      (rhododendron-cream                     "#fcbdb2")
 
-      (rhododendron-blue              "#3c3cee")
-      (rhododendron-deep-blue         "#3e3d8b")
+      (rhododendron-blue                      "#3c3cee")
+      (rhododendron-deep-blue                 "#3e3d8b")
 
-      (rhododendron-light-pink        "#e8c7e3");e8c5e3
-      (rhododendron-bright-pink       "#fd3aae");fd31ae
-      (rhododendron-alt-bright-pink   "#f197f5");f194f5
-      (rhododendron-deep-pink         "#c00e88");d00e88
+      (rhododendron-light-pink                "#e8c7e3");e8c5e3
+      (rhododendron-bright-pink               "#fd3aae");fd31ae
+      (rhododendron-alt-bright-pink           "#f197f5");f194f5
+      (rhododendron-deep-pink                 "#c00e88");d00e88
 
-      (rhododendron-light-purple      "#e0bde7")
-      (rhododendron-purple            "#a08ce8")
-      (rhododendron-purple-pink       "#ad20f0");a020f0
-      (rhododendron-purple-blue       "#5346cc");534bcc
-      (rhododendron-purple-red        "#a8206f")
-      (rhododendron-dark-purple-red   "#7d2061");77206f,7d2761
+      (rhododendron-light-purple              "#e0bde7")
+      (rhododendron-purple                    "#a08ce8")
+      (rhododendron-purple-pink               "#ad20f0");a020f0
+      (rhododendron-purple-blue               "#5346cc");534bcc
+      (rhododendron-purple-red                "#a8206f")
+      (rhododendron-dark-purple-red           "#7d2061");77206f,7d2761
 
-      (rhododendron-error             "#FF0000")
-      (rhododendron-warning           "#F68511")
-      (rhododendron-success           "#29b425");29d925
+      (rhododendron-error                     "#FF0000")
+      (rhododendron-warning                   "#F68511")
+      (rhododendron-success                   "#29b425");29d925
 
-      (rhododendron-vc-change         rhododendron-blue)
-      (rhododendron-vc-insert         rhododendron-success)
-      (rhododendron-vc-delete         rhododendron-error))
+      (rhododendron-diff-added                "#c8f0c8");335533
+      (rhododendron-diff-removed              "#f0c8c8");553333
+      (rhododendron-diff-refine-added         "#78f078");22aa22
+      (rhododendron-diff-refine-removed       "#f07878");aa2222
+      (rhododendron-diff-header               "#b4b4b4");737373
+      (rhododendron-diff-file-header          "#8c8c8c");999999
+      (rhododendron-diff-context              "#dcdcdc");999999
+
+      (rhododendron-vc-change                 rhododendron-blue)
+      (rhododendron-vc-insert                 rhododendron-success)
+      (rhododendron-vc-delete                 rhododendron-error))
 
   (custom-theme-set-faces
    'guava-themes-rhododendron
@@ -189,6 +197,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,rhododendron-class (:foreground ,rhododendron-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,rhododendron-class (:background ,rhododendron-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,rhododendron-class (:background ,rhododendron-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,rhododendron-class (:background ,rhododendron-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,rhododendron-class (:background ,rhododendron-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,rhododendron-class (:background ,rhododendron-diff-header :extend t))))
+   `(diff-file-header ((,rhododendron-class (:weight bold :background ,rhododendron-diff-file-header :extend t))))
+   `(diff-context ((,rhododendron-class (:background ,rhododendron-diff-context :extend t))))
 
 
    ;; external packages
