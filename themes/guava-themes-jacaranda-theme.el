@@ -35,42 +35,50 @@
 
 (let* (
       (jacaranda-class '((class color) (min-colors 257)))
-      (jacaranda-black             "#000000")
-      (jacaranda-white             "#FFFFFF")
+      (jacaranda-black                     "#000000")
+      (jacaranda-white                     "#FFFFFF")
 
-      (jacaranda-shadow            "#7f7f7f")
+      (jacaranda-shadow                    "#7f7f7f")
 
-      (jacaranda-cream             "#e9d9f9");e9e4f9
+      (jacaranda-cream                     "#e9d9f9");e9e4f9
 
-      (jacaranda-light-green       "#52aa63");52bc63
-      (jacaranda-green             "#8ec654")
-      (jacaranda-deep-green        "#267a63")
-      (jacaranda-oceanic-green     "#10a575");3ab992
+      (jacaranda-light-green               "#52aa63");52bc63
+      (jacaranda-green                     "#8ec654")
+      (jacaranda-deep-green                "#267a63")
+      (jacaranda-oceanic-green             "#10a575");3ab992
 
-      (jacaranda-orange            "#ff9f79");ff9535
-      (jacaranda-red               "#af2a36");ca0036
+      (jacaranda-orange                    "#ff9f79");ff9535
+      (jacaranda-red                       "#af2a36");ca0036
 
-      (jacaranda-brown             "#8a7f74")
+      (jacaranda-brown                     "#8a7f74")
 
-      (jacaranda-blue              "#4534e3")
-      (jacaranda-deep-blue         "#655db0")
-      (jacaranda-antarctic-blue    "#8cb2e6");8caae6
-      (jacaranda-light-cyan        "#60a1ba");00aaaa
-      (jacaranda-cyan              "#00778b")
+      (jacaranda-blue                      "#4534e3")
+      (jacaranda-deep-blue                 "#655db0")
+      (jacaranda-antarctic-blue            "#8cb2e6");8caae6
+      (jacaranda-light-cyan                "#60a1ba");00aaaa
+      (jacaranda-cyan                      "#00778b")
 
-      (jacaranda-light-purple      "#dbd0fd")
-      (jacaranda-alt-light-purple  "#C0B4E4")
-      (jacaranda-purple            "#aa69e6");984ee6
-      (jacaranda-deep-purple       "#640cbe");800080,740cbe
-      (jacaranda-purple-red        "#8b2252")
+      (jacaranda-light-purple              "#dbd0fd")
+      (jacaranda-alt-light-purple          "#C0B4E4")
+      (jacaranda-purple                    "#aa69e6");984ee6
+      (jacaranda-deep-purple               "#640cbe");800080,740cbe
+      (jacaranda-purple-red                "#8b2252")
 
-      (jacaranda-error             "#FF0000");FF0000
-      (jacaranda-warning           "#ebb515");F68511,ffc333
-      (jacaranda-success           "#00c200");228B22,007900
+      (jacaranda-error                     "#FF0000");FF0000
+      (jacaranda-warning                   "#ebb515");F68511,ffc333
+      (jacaranda-success                   "#00c200");228B22,007900
 
-      (jacaranda-vc-change         jacaranda-blue)
-      (jacaranda-vc-insert         jacaranda-success)
-      (jacaranda-vc-delete         jacaranda-error))
+      (jacaranda-diff-added                "#c8f0c8");335533
+      (jacaranda-diff-removed              "#f0c8c8");553333
+      (jacaranda-diff-refine-added         "#78f078");22aa22
+      (jacaranda-diff-refine-removed       "#f07878");aa2222
+      (jacaranda-diff-header               "#b4b4b4");737373
+      (jacaranda-diff-file-header          "#8c8c8c");999999
+      (jacaranda-diff-context              "#dcdcdc");999999
+
+      (jacaranda-vc-change                 jacaranda-blue)
+      (jacaranda-vc-insert                 jacaranda-success)
+      (jacaranda-vc-delete                 jacaranda-error))
 
   (custom-theme-set-faces
    'guava-themes-jacaranda
@@ -188,6 +196,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,jacaranda-class (:foreground ,jacaranda-deep-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,jacaranda-class (:background ,jacaranda-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,jacaranda-class (:background ,jacaranda-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,jacaranda-class (:background ,jacaranda-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,jacaranda-class (:background ,jacaranda-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,jacaranda-class (:background ,jacaranda-diff-header :extend t))))
+   `(diff-file-header ((,jacaranda-class (:weight bold :background ,jacaranda-diff-file-header :extend t))))
+   `(diff-context ((,jacaranda-class (:background ,jacaranda-diff-context :extend t))))
 
 
    ;; external packages
