@@ -61,8 +61,8 @@
       (vaccinium-alt-steel-blue    "#566a84")
       (vaccinium-cyan              "#00ffff")
 
-      (vaccinium-light-purple      "#5978b9")
-      (vaccinium-purple            "#625fac")
+      (vaccinium-light-purple      "#8282af");5978b9
+      (vaccinium-purple            "#6464af")
       (vaccinium-deep-purple       "#4b378c");8163e4
       (vaccinium-purple-pink       "#aa78cf")
       (vaccinium-purple-red        "#632a63");6816f3,5d2a74,632a63
@@ -127,7 +127,7 @@
    ;; line-number
    `(line-number ((,vaccinium-class (:foreground ,vaccinium-white))))
    `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-purple))))
+   `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-light-purple))))
    `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple))))
 
    ;; mode-line
