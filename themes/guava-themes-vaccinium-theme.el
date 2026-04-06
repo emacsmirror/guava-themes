@@ -35,45 +35,53 @@
 
 (let* (
       (vaccinium-class '((class color) (min-colors 257)))
-      (vaccinium-black             "#000000")
-      (vaccinium-white             "#FFFFFF")
+      (vaccinium-black                     "#000000")
+      (vaccinium-white                     "#FFFFFF")
 
-      (vaccinium-black-gray        "#1c1c26");202028
-      (vaccinium-alt-black-gray    "#2b2b35")
+      (vaccinium-black-gray                "#1c1c26");202028
+      (vaccinium-alt-black-gray            "#2b2b35")
 
-      (vaccinium-shadow            "#b3b3b3")
+      (vaccinium-shadow                    "#b3b3b3")
 
-      (vaccinium-red               "#b92e33")
-      (vaccinium-pink              "#e986f1")
-      (vaccinium-orange            "#ffa07a")
+      (vaccinium-red                       "#b92e33")
+      (vaccinium-pink                      "#e986f1")
+      (vaccinium-orange                    "#ffa07a")
 
-      (vaccinium-yellow            "#fde8b9")
+      (vaccinium-yellow                    "#fde8b9")
 
-      (vaccinium-green-forest      "#006e41");007841
-      (vaccinium-green-subdued     "#418c64");378962
+      (vaccinium-green-forest              "#006e41");007841
+      (vaccinium-green-subdued             "#418c64");378962
 
-      (vaccinium-blueberry         "#5582d7");77aff9,5587d2
-      (vaccinium-alt-blueberry     "#3755a0");77aff9,5587d2,3764b9
-      (vaccinium-blue              "#0f69b4");0d62b2
-      (vaccinium-alt-blue          "#1455f1");1559f1
-      (vaccinium-deep-blue         "#1c5367");303053,1c3053,1c3f53
-      (vaccinium-steel-blue        "#6a7e98")
-      (vaccinium-alt-steel-blue    "#566a84")
-      (vaccinium-cyan              "#00ffff")
+      (vaccinium-blueberry                 "#5582d7");77aff9,5587d2
+      (vaccinium-alt-blueberry             "#3755a0");77aff9,5587d2,3764b9
+      (vaccinium-blue                      "#0f69b4");0d62b2
+      (vaccinium-alt-blue                  "#1455f1");1559f1
+      (vaccinium-deep-blue                 "#1c5367");303053,1c3053,1c3f53
+      (vaccinium-steel-blue                "#6a7e98")
+      (vaccinium-alt-steel-blue            "#566a84")
+      (vaccinium-cyan                      "#00ffff")
 
-      (vaccinium-light-purple      "#8282af");5978b9
-      (vaccinium-purple            "#6464af")
-      (vaccinium-deep-purple       "#4b378c");8163e4
-      (vaccinium-purple-pink       "#aa78cf")
-      (vaccinium-purple-red        "#632a63");6816f3,5d2a74,632a63
+      (vaccinium-light-purple              "#8282af");5978b9
+      (vaccinium-purple                    "#6464af")
+      (vaccinium-deep-purple               "#4b378c");8163e4
+      (vaccinium-purple-pink               "#aa78cf")
+      (vaccinium-purple-red                "#632a63");6816f3,5d2a74,632a63
 
-      (vaccinium-error             "#FF0000")
-      (vaccinium-warning           "#f6d909");F68511
-      (vaccinium-success           "#1ebe1e");23a334
+      (vaccinium-error                     "#FF0000")
+      (vaccinium-warning                   "#f6d909");F68511
+      (vaccinium-success                   "#1ebe1e");23a334
 
-      (vaccinium-vc-change         vaccinium-alt-blue)
-      (vaccinium-vc-insert         vaccinium-success)
-      (vaccinium-vc-delete         vaccinium-error))
+      (vaccinium-diff-added                "#5aa05a");335533
+      (vaccinium-diff-removed              "#a05a5a");553333
+      (vaccinium-diff-refine-added         "#007800");22aa22
+      (vaccinium-diff-refine-removed       "#780000");aa2222
+      (vaccinium-diff-header               "#5a5a5a");737373
+      (vaccinium-diff-file-header          "#3c3c3c");999999
+      (vaccinium-diff-context              "#828282");999999
+
+      (vaccinium-vc-change                 vaccinium-alt-blue)
+      (vaccinium-vc-insert                 vaccinium-success)
+      (vaccinium-vc-delete                 vaccinium-error))
 
   (custom-theme-set-faces
    'guava-themes-vaccinium
@@ -191,6 +199,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,vaccinium-class (:foreground ,vaccinium-cyan :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,vaccinium-class (:background ,vaccinium-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,vaccinium-class (:background ,vaccinium-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,vaccinium-class (:background ,vaccinium-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,vaccinium-class (:background ,vaccinium-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,vaccinium-class (:background ,vaccinium-diff-header :extend t))))
+   `(diff-file-header ((,vaccinium-class (:weight bold :background ,vaccinium-diff-file-header :extend t))))
+   `(diff-context ((,vaccinium-class (:background ,vaccinium-diff-context :extend t))))
 
 
    ;; external packages
