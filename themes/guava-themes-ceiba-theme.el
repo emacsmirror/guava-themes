@@ -202,13 +202,13 @@
    `(help-key-binding ((,ceiba-class (:foreground ,ceiba-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,ceiba-class (:background ,ceiba-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,ceiba-class (:background ,ceiba-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,ceiba-class (:background ,ceiba-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,ceiba-class (:background ,ceiba-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,ceiba-class (:background ,ceiba-diff-header :extend t))))
-   `(diff-file-header ((,ceiba-class (:weight bold :background ,ceiba-diff-file-header :extend t))))
-   `(diff-context ((,ceiba-class (:background ,ceiba-diff-context :extend t))))
+   `(diff-added ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-header :extend t))))
+   `(diff-file-header ((,ceiba-class (:weight bold :foreground ,ceiba-black :background ,ceiba-diff-file-header :extend t))))
+   `(diff-context ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-context :extend t))))
 
 
    ;; external packages

@@ -198,13 +198,13 @@
    `(help-key-binding ((,solanum-class (:foreground ,solanum-light-purple :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,solanum-class (:background ,solanum-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,solanum-class (:background ,solanum-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,solanum-class (:background ,solanum-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,solanum-class (:background ,solanum-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,solanum-class (:background ,solanum-diff-header :extend t))))
-   `(diff-file-header ((,solanum-class (:weight bold :background ,solanum-diff-file-header :extend t))))
-   `(diff-context ((,solanum-class (:background ,solanum-diff-context :extend t))))
+   `(diff-added ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-header :extend t))))
+   `(diff-file-header ((,solanum-class (:weight bold :foreground ,solanum-white :background ,solanum-diff-file-header :extend t))))
+   `(diff-context ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-context :extend t))))
 
 
    ;; external packages

@@ -198,13 +198,13 @@
    `(help-key-binding ((,cordyline-class (:foreground ,cordyline-alt-light-purple :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,cordyline-class (:background ,cordyline-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,cordyline-class (:background ,cordyline-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,cordyline-class (:background ,cordyline-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,cordyline-class (:background ,cordyline-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,cordyline-class (:background ,cordyline-diff-header :extend t))))
-   `(diff-file-header ((,cordyline-class (:weight bold :background ,cordyline-diff-file-header :extend t))))
-   `(diff-context ((,cordyline-class (:background ,cordyline-diff-context :extend t))))
+   `(diff-added ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-header :extend t))))
+   `(diff-file-header ((,cordyline-class (:weight bold :foreground ,cordyline-white :background ,cordyline-diff-file-header :extend t))))
+   `(diff-context ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-context :extend t))))
 
 
    ;; external packages

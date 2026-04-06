@@ -196,13 +196,13 @@
    `(help-key-binding ((,psidium-class (:foreground ,psidium-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,psidium-class (:background ,psidium-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,psidium-class (:background ,psidium-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,psidium-class (:background ,psidium-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,psidium-class (:background ,psidium-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,psidium-class (:background ,psidium-diff-header :extend t))))
-   `(diff-file-header ((,psidium-class (:weight bold :background ,psidium-diff-file-header :extend t))))
-   `(diff-context ((,psidium-class (:background ,psidium-diff-context :extend t))))
+   `(diff-added ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-header :extend t))))
+   `(diff-file-header ((,psidium-class (:weight bold :foreground ,psidium-black :background ,psidium-diff-file-header :extend t))))
+   `(diff-context ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-context :extend t))))
 
 
    ;; external packages

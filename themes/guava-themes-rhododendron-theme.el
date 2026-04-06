@@ -199,13 +199,13 @@
    `(help-key-binding ((,rhododendron-class (:foreground ,rhododendron-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,rhododendron-class (:background ,rhododendron-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,rhododendron-class (:background ,rhododendron-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,rhododendron-class (:background ,rhododendron-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,rhododendron-class (:background ,rhododendron-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,rhododendron-class (:background ,rhododendron-diff-header :extend t))))
-   `(diff-file-header ((,rhododendron-class (:weight bold :background ,rhododendron-diff-file-header :extend t))))
-   `(diff-context ((,rhododendron-class (:background ,rhododendron-diff-context :extend t))))
+   `(diff-added ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-header :extend t))))
+   `(diff-file-header ((,rhododendron-class (:weight bold :foreground ,rhododendron-black :background ,rhododendron-diff-file-header :extend t))))
+   `(diff-context ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-context :extend t))))
 
 
    ;; external packages

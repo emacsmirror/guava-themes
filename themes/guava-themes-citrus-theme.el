@@ -200,13 +200,13 @@
    `(help-key-binding ((,citrus-class (:foreground ,citrus-deep-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,citrus-class (:background ,citrus-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,citrus-class (:background ,citrus-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,citrus-class (:background ,citrus-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,citrus-class (:background ,citrus-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,citrus-class (:background ,citrus-diff-header :extend t))))
-   `(diff-file-header ((,citrus-class (:weight bold :background ,citrus-diff-file-header :extend t))))
-   `(diff-context ((,citrus-class (:background ,citrus-diff-context :extend t))))
+   `(diff-added ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-header :extend t))))
+   `(diff-file-header ((,citrus-class (:weight bold :foreground ,citrus-black :background ,citrus-diff-file-header :extend t))))
+   `(diff-context ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-context :extend t))))
 
 
    ;; external packages

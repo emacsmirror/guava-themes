@@ -197,13 +197,13 @@
    `(help-key-binding ((,acer-class (:foreground ,acer-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,acer-class (:background ,acer-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,acer-class (:background ,acer-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,acer-class (:background ,acer-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,acer-class (:background ,acer-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,acer-class (:background ,acer-diff-header :extend t))))
-   `(diff-file-header ((,acer-class (:weight bold :background ,acer-diff-file-header :extend t))))
-   `(diff-context ((,acer-class (:background ,acer-diff-context :extend t))))
+   `(diff-added ((,acer-class (:foreground ,acer-black :background ,acer-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,acer-class (:foreground ,acer-black :background ,acer-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,acer-class (:foreground ,acer-black :background ,acer-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,acer-class (:foreground ,acer-black :background ,acer-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,acer-class (:foreground ,acer-black :background ,acer-diff-header :extend t))))
+   `(diff-file-header ((,acer-class (:weight bold :foreground ,acer-black :background ,acer-diff-file-header :extend t))))
+   `(diff-context ((,acer-class (:foreground ,acer-black :background ,acer-diff-context :extend t))))
 
 
    ;; external packages

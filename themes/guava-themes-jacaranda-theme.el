@@ -198,13 +198,13 @@
    `(help-key-binding ((,jacaranda-class (:foreground ,jacaranda-deep-blue :background "grey96" :box (:line-width (-1 . -1) :color "grey80") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,jacaranda-class (:background ,jacaranda-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,jacaranda-class (:background ,jacaranda-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,jacaranda-class (:background ,jacaranda-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,jacaranda-class (:background ,jacaranda-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,jacaranda-class (:background ,jacaranda-diff-header :extend t))))
-   `(diff-file-header ((,jacaranda-class (:weight bold :background ,jacaranda-diff-file-header :extend t))))
-   `(diff-context ((,jacaranda-class (:background ,jacaranda-diff-context :extend t))))
+   `(diff-added ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-header :extend t))))
+   `(diff-file-header ((,jacaranda-class (:weight bold :foreground ,jacaranda-black :background ,jacaranda-diff-file-header :extend t))))
+   `(diff-context ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-context :extend t))))
 
 
    ;; external packages

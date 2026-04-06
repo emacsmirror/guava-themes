@@ -201,13 +201,13 @@
    `(help-key-binding ((,rubus-class (:foreground ,rubus-cyan :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,rubus-class (:background ,rubus-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,rubus-class (:background ,rubus-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,rubus-class (:background ,rubus-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,rubus-class (:background ,rubus-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,rubus-class (:background ,rubus-diff-header :extend t))))
-   `(diff-file-header ((,rubus-class (:weight bold :background ,rubus-diff-file-header :extend t))))
-   `(diff-context ((,rubus-class (:background ,rubus-diff-context :extend t))))
+   `(diff-added ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-header :extend t))))
+   `(diff-file-header ((,rubus-class (:weight bold :foreground ,rubus-white :background ,rubus-diff-file-header :extend t))))
+   `(diff-context ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-context :extend t))))
 
 
    ;; external packages

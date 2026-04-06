@@ -201,13 +201,13 @@
    `(help-key-binding ((,vaccinium-class (:foreground ,vaccinium-cyan :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
 
    ;; diff
-   `(diff-added ((,vaccinium-class (:background ,vaccinium-diff-added :extend t :inherit diff-changed))))
-   `(diff-removed ((,vaccinium-class (:background ,vaccinium-diff-removed :extend t :inherit diff-changed))))
-   `(diff-refine-added ((,vaccinium-class (:background ,vaccinium-diff-refine-added :inherit diff-refine-changed))))
-   `(diff-refine-removed ((,vaccinium-class (:background ,vaccinium-diff-refine-removed :inherit diff-refine-changed))))
-   `(diff-header ((,vaccinium-class (:background ,vaccinium-diff-header :extend t))))
-   `(diff-file-header ((,vaccinium-class (:weight bold :background ,vaccinium-diff-file-header :extend t))))
-   `(diff-context ((,vaccinium-class (:background ,vaccinium-diff-context :extend t))))
+   `(diff-added ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-header :extend t))))
+   `(diff-file-header ((,vaccinium-class (:weight bold :foreground ,vaccinium-white :background ,vaccinium-diff-file-header :extend t))))
+   `(diff-context ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-context :extend t))))
 
 
    ;; external packages
