@@ -46,22 +46,22 @@
       (cordyline-deep-fuchsia              "#6e1551");69374e,741551
 
       (cordyline-light-blue                "#5f70cb")
-      (cordyline-blue                      "#2134d5")
-      (cordyline-deep-blue                 "#3146af");1330af
+      (cordyline-blue                      "#3150af");1330af
+      (cordyline-deep-blue                 "#2134d5")
       (cordyline-steel-blue                "#4f94cd")
       (cordyline-cyan                      "#00ffff")
-      (cordyline-dark-cyan                 "#00708b")
+      (cordyline-dark-cyan                 "#007896")
 
       (cordyline-light-green               "#c5ff6e")
+      (cordyline-alt-light-green           "#afd2b9");006455,00512c
       (cordyline-green                     "#005f55");006455
-      (cordyline-alt-green                 "#00512c");006455
 
-      (cordyline-light-purple              "#a226d1");8b1cb0,9c1cbc,991cbc,a21cd1
+      (cordyline-light-purple              "#a246d1");8b1cb0,9c1cbc,991cbc,a21cd1,a226d1
       (cordyline-alt-light-purple          "#a29cf1")
-      (cordyline-purple                    "#7044af");54366d,583675,583683,583d83,59338f,673b94,703aaf
+      (cordyline-purple                    "#7050af");54366d,583675,583683,583d83,59338f,673b94,703aaf,7044af
       (cordyline-deep-purple               "#392b38");3f323c
       (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
-      (cordyline-purple-red                "#982a51");8d2a46,982a46,982a51
+      (cordyline-purple-red                "#983251");8d2a46,982a46,982a51
       (cordyline-alt-deep-purple           "#211730")
 
       (cordyline-error                     "#FF0000")
@@ -76,7 +76,7 @@
       (cordyline-diff-file-header          "#3c3c3c");999999
       (cordyline-diff-context              "#828282");999999
 
-      (cordyline-vc-change                 cordyline-blue)
+      (cordyline-vc-change                 cordyline-deep-blue)
       (cordyline-vc-insert                 cordyline-success)
       (cordyline-vc-delete                 cordyline-error))
 
@@ -113,8 +113,8 @@
    `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
    `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
    `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-alt-green :weight medium))))
-   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
+   `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-alt-light-green :weight medium))))
+   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-blue :weight medium))))
    `(font-lock-negation-char-face ((,cordyline-class (:foreground ,cordyline-orange-red :weight medium))))
 
    ;; built-in faces
@@ -177,7 +177,7 @@
 
    ;; outline
    `(outline-1 ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(outline-2 ((,cordyline-class (:foreground ,cordyline-deep-blue :weight medium))))
+   `(outline-2 ((,cordyline-class (:foreground ,cordyline-blue :weight medium))))
    `(outline-3 ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
    `(outline-4 ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
    `(outline-5 ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
