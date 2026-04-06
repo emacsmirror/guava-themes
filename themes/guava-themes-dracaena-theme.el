@@ -52,7 +52,7 @@
       (dracaena-light-orange              "#ffb38f");ffae7a
       (dracaena-orange                    "#e88e6b");ffa07a
       (dracaena-deep-orange               "#c95909")
-      (dracaena-red                       "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
+      (dracaena-red                       "#c83233");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333,c82333
       (dracaena-alt-deep-red              "#751e1e")
       (dracaena-deep-red                  "#792725")
 
@@ -65,8 +65,8 @@
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
 
-      (dracaena-purple-pink               "#a54666");961250,b7125c,a5225c,a53c5c
-      (dracaena-deep-purple               "#7f6ddd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd
+      (dracaena-purple-pink               "#aa4b6b");961250,b7125c,a5225c,a53c5c,a54666
+      (dracaena-deep-purple               "#7f78dd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd,7f6ddd
 
       (dracaena-error                     "#FF0000")
       (dracaena-warning                   "#f6be14");F68511,f6ad11
