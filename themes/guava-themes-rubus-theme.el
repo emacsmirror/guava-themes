@@ -35,45 +35,53 @@
 
 (let* (
       (rubus-class '((class color) (min-colors 257)))
-      (rubus-black                    "#000000");060a09
-      (rubus-white                    "#FFFFFF")
+      (rubus-black                     "#000000");060a09
+      (rubus-white                     "#FFFFFF")
 
-      (rubus-black-blue               "#0e1216");0e1216
-      (rubus-alt-black-blue           "#1d2125")
+      (rubus-black-blue                "#0e1216");0e1216
+      (rubus-alt-black-blue            "#1d2125")
 
-      (rubus-shadow                   "#b3b3b3")
+      (rubus-shadow                    "#b3b3b3")
 
-      (rubus-raspberry                "#aa3232")
-      (rubus-alt-raspberry            "#6e504b");964646,755653
-      (rubus-deep-raspberry           "#663a43");b17a66
-      (rubus-red                      "#c23f39")
-      (rubus-pink-cream               "#cd7378");d47980
-      (rubus-alt-pink-cream           "#aa5055")
-      (rubus-orange                   "#ffa07a")
+      (rubus-raspberry                 "#aa3232")
+      (rubus-alt-raspberry             "#6e504b");964646,755653
+      (rubus-deep-raspberry            "#663a43");b17a66
+      (rubus-red                       "#c23f39")
+      (rubus-pink-cream                "#cd7378");d47980
+      (rubus-alt-pink-cream            "#aa5055")
+      (rubus-orange                    "#ffa07a")
 
-      (rubus-yellow                   "#fde8b9")
+      (rubus-yellow                    "#fde8b9")
 
-      (rubus-light-green              "#4ed77f")
-      (rubus-green                    "#1e8264")
-      (rubus-green-forest             "#007841")
-      (rubus-green-blue               "#5b8a8a")
+      (rubus-light-green               "#4ed77f")
+      (rubus-green                     "#1e8264")
+      (rubus-green-forest              "#007841")
+      (rubus-green-blue                "#5b8a8a")
 
-      (rubus-light-blue               "#5096f1")
-      (rubus-blue                     "#1455f1")
-      (rubus-blue-subdued             "#1c81a1")
-      (rubus-cyan                     "#00FFFF")
+      (rubus-light-blue                "#5096f1")
+      (rubus-blue                      "#1455f1")
+      (rubus-blue-subdued              "#1c81a1")
+      (rubus-cyan                      "#00FFFF")
 
-      (rubus-light-purple             "#bdb3d7")
-      (rubus-purple                   "#a98fcd")
-      (rubus-deep-purple              "#8163e4")
+      (rubus-light-purple              "#bdb3d7")
+      (rubus-purple                    "#a98fcd")
+      (rubus-deep-purple               "#8163e4")
 
-      (rubus-error                    "#ff1e00");FF0000
-      (rubus-warning                  "#f6d909");F68511
-      (rubus-success                  "#1ebe1e");23a334
+      (rubus-error                     "#ff1e00");FF0000
+      (rubus-warning                   "#f6d909");F68511
+      (rubus-success                   "#1ebe1e");23a334
 
-      (rubus-vc-change                rubus-blue)
-      (rubus-vc-insert                rubus-success)
-      (rubus-vc-delete                rubus-error))
+      (rubus-diff-added                "#5aa05a");335533
+      (rubus-diff-removed              "#a05a5a");553333
+      (rubus-diff-refine-added         "#007800");22aa22
+      (rubus-diff-refine-removed       "#780000");aa2222
+      (rubus-diff-header               "#5a5a5a");737373
+      (rubus-diff-file-header          "#3c3c3c");999999
+      (rubus-diff-context              "#828282");999999
+
+      (rubus-vc-change                 rubus-blue)
+      (rubus-vc-insert                 rubus-success)
+      (rubus-vc-delete                 rubus-error))
 
   (custom-theme-set-faces
    'guava-themes-rubus
@@ -191,6 +199,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,rubus-class (:foreground ,rubus-cyan :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,rubus-class (:background ,rubus-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,rubus-class (:background ,rubus-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,rubus-class (:background ,rubus-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,rubus-class (:background ,rubus-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,rubus-class (:background ,rubus-diff-header :extend t))))
+   `(diff-file-header ((,rubus-class (:weight bold :background ,rubus-diff-file-header :extend t))))
+   `(diff-context ((,rubus-class (:background ,rubus-diff-context :extend t))))
 
 
    ;; external packages
