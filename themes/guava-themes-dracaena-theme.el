@@ -35,46 +35,54 @@
 
 (let* (
       (dracaena-class '((class color) (min-colors 257)))
-      (dracaena-black             "#000000")
-      (dracaena-white             "#FFFFFF")
+      (dracaena-black                     "#000000")
+      (dracaena-white                     "#FFFFFF")
 
-      (dracaena-shadow            "#b3b3b3")
+      (dracaena-shadow                    "#b3b3b3")
 
-      (dracaena-light-gray        "#4f4f4f")
-      (dracaena-gray              "#424845");404242,3e4040,3d3f3f,424545
-      (dracaena-dark-gray         "#353838")
+      (dracaena-light-gray                "#4f4f4f")
+      (dracaena-gray                      "#424845");404242,3e4040,3d3f3f,424545
+      (dracaena-dark-gray                 "#353838")
 
-      (dracaena-guava-green       "#AED734")
-      (dracaena-deep-green        "#298e25")
+      (dracaena-guava-green               "#AED734")
+      (dracaena-deep-green                "#298e25")
 
-      (dracaena-snakeplant-yellow "#d9d389")
+      (dracaena-snakeplant-yellow         "#d9d389")
 
-      (dracaena-light-orange      "#ffb38f");ffae7a
-      (dracaena-orange            "#e88e6b");ffa07a
-      (dracaena-deep-orange       "#c95909")
-      (dracaena-red               "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
-      (dracaena-alt-deep-red      "#751e1e")
-      (dracaena-deep-red          "#792725")
+      (dracaena-light-orange              "#ffb38f");ffae7a
+      (dracaena-orange                    "#e88e6b");ffa07a
+      (dracaena-deep-orange               "#c95909")
+      (dracaena-red                       "#c82333");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333
+      (dracaena-alt-deep-red              "#751e1e")
+      (dracaena-deep-red                  "#792725")
 
-      (dracaena-light-brown       "#a89d92");8b6c4d
+      (dracaena-light-brown               "#a89d92");8b6c4d
 
-      (dracaena-light-blue        "#4272d5");425fd5
-      (dracaena-blue              "#2d44d5");2134d5
-      (dracaena-antarctic-blue    "#bacce4");4f62be
-      (dracaena-steel-blue        "#4f94cd");b0c4de
-      (dracaena-cyan              "#00ffff")
-      (dracaena-dark-cyan         "#005f55")
+      (dracaena-light-blue                "#4272d5");425fd5
+      (dracaena-blue                      "#2d44d5");2134d5
+      (dracaena-antarctic-blue            "#bacce4");4f62be
+      (dracaena-steel-blue                "#4f94cd");b0c4de
+      (dracaena-cyan                      "#00ffff")
+      (dracaena-dark-cyan                 "#005f55")
 
-      (dracaena-purple-pink       "#a54666");961250,b7125c,a5225c,a53c5c
-      (dracaena-deep-purple       "#7f6ddd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd
+      (dracaena-purple-pink               "#a54666");961250,b7125c,a5225c,a53c5c
+      (dracaena-deep-purple               "#7f6ddd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd
 
-      (dracaena-error             "#FF0000")
-      (dracaena-warning           "#f6be14");F68511,f6ad11
-      (dracaena-success           "#29d925")
+      (dracaena-error                     "#FF0000")
+      (dracaena-warning                   "#f6be14");F68511,f6ad11
+      (dracaena-success                   "#29d925")
 
-      (dracaena-vc-change         dracaena-blue)
-      (dracaena-vc-insert         dracaena-deep-green)
-      (dracaena-vc-delete         dracaena-error))
+      (dracaena-diff-added                "#5aa05a");335533
+      (dracaena-diff-removed              "#a05a5a");553333
+      (dracaena-diff-refine-added         "#007800");22aa22
+      (dracaena-diff-refine-removed       "#780000");aa2222
+      (dracaena-diff-header               "#5a5a5a");737373
+      (dracaena-diff-file-header          "#3c3c3c");999999
+      (dracaena-diff-context              "#828282");999999
+
+      (dracaena-vc-change                 dracaena-blue)
+      (dracaena-vc-insert                 dracaena-deep-green)
+      (dracaena-vc-delete                 dracaena-error))
 
   (custom-theme-set-faces
    'guava-themes-dracaena
@@ -192,6 +200,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-header :extend t))))
+   `(diff-file-header ((,dracaena-class (:weight bold :foreground ,dracaena-white :background ,dracaena-diff-file-header :extend t))))
+   `(diff-context ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-context :extend t))))
 
 
    ;; external packages
