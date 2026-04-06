@@ -136,8 +136,8 @@
    ;; line-number
    `(line-number ((,ceiba-class (:foreground ,ceiba-black))))
    `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,ceiba-class (:background ,ceiba-light-brown))))
-   `(line-number-major-tick ((,ceiba-class (:background ,ceiba-brown-sand))))
+   `(line-number-minor-tick ((,ceiba-class (:background ,ceiba-light-brown :inherit line-number))))
+   `(line-number-major-tick ((,ceiba-class (:background ,ceiba-brown-sand :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))

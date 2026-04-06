@@ -130,8 +130,8 @@
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
    `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,psidium-class (:background ,psidium-light-orange))))
-   `(line-number-major-tick ((,psidium-class (:background ,psidium-light-purple))))
+   `(line-number-minor-tick ((,psidium-class (:background ,psidium-light-orange :inherit line-number))))
+   `(line-number-major-tick ((,psidium-class (:background ,psidium-light-purple :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))

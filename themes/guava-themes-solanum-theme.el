@@ -124,8 +124,8 @@
    ;; line-number
    `(line-number ((,solanum-class (:foreground ,solanum-white))))
    `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,solanum-class (:background ,solanum-alt-purple))))
-   `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue))))
+   `(line-number-minor-tick ((,solanum-class (:background ,solanum-alt-purple :inherit line-number))))
+   `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))

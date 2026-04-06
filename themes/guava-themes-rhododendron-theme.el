@@ -133,8 +133,8 @@
    ;; line-number
    `(line-number ((,rhododendron-class (:foreground ,rhododendron-black))))
    `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,rhododendron-class (:background ,rhododendron-light-orange))))
-   `(line-number-major-tick ((,rhododendron-class (:background ,rhododendron-purple))))
+   `(line-number-minor-tick ((,rhododendron-class (:background ,rhododendron-light-orange :inherit line-number))))
+   `(line-number-major-tick ((,rhododendron-class (:background ,rhododendron-purple :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))

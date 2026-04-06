@@ -132,8 +132,8 @@
    ;; line-number
    `(line-number ((,cordyline-class (:foreground ,cordyline-white))))
    `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,cordyline-class (:background ,cordyline-alt-light-purple))))
-   `(line-number-major-tick ((,cordyline-class (:background ,cordyline-light-purple))))
+   `(line-number-minor-tick ((,cordyline-class (:background ,cordyline-alt-light-purple :inherit line-number))))
+   `(line-number-major-tick ((,cordyline-class (:background ,cordyline-light-purple :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))

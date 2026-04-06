@@ -127,8 +127,8 @@
    ;; line-number
    `(line-number ((,vaccinium-class (:foreground ,vaccinium-white))))
    `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit highlight))))
-   `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-light-purple))))
-   `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple))))
+   `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-light-purple :inherit line-number))))
+   `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))
