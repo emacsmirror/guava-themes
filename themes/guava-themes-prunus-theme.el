@@ -61,7 +61,7 @@
       (prunus-cyan                      "#00988b")
       (prunus-dark-cyan                 "#005555")
 
-      (prunus-deep-purple               "#742fbe");800080,740CBE,7420be
+      (prunus-deep-purple               "#7446be");800080,740CBE,7420be,742fbe
       (prunus-indigo                    "#2c4154");2C2C54
       (prunus-purple-red                "#8B2252")
 
