@@ -35,42 +35,50 @@
 
 (let* (
       (cordyline-class '((class color) (min-colors 257)))
-      ;; (cordyline-black             "#000000")
-      (cordyline-white             "#FFFFFF")
+      ;; (cordyline-black                     "#000000")
+      (cordyline-white                     "#FFFFFF")
 
-      (cordyline-shadow            "#b3b3b3")
+      (cordyline-shadow                    "#b3b3b3")
 
-      (cordyline-orange-red        "#ce462c")
-      (cordyline-pink-red          "#cb646e");CB5F68
-      (cordyline-pink-purple       "#da70d6")
-      (cordyline-deep-fuchsia      "#6e1551");69374e,741551
+      (cordyline-orange-red                "#ce462c")
+      (cordyline-pink-red                  "#cb646e");CB5F68
+      (cordyline-pink-purple               "#da70d6")
+      (cordyline-deep-fuchsia              "#6e1551");69374e,741551
 
-      (cordyline-light-blue        "#5f70cb")
-      (cordyline-blue              "#2134d5")
-      (cordyline-deep-blue         "#3146af");1330af
-      (cordyline-steel-blue        "#4f94cd")
-      (cordyline-cyan              "#00ffff")
-      (cordyline-dark-cyan         "#00708b")
+      (cordyline-light-blue                "#5f70cb")
+      (cordyline-blue                      "#2134d5")
+      (cordyline-deep-blue                 "#3146af");1330af
+      (cordyline-steel-blue                "#4f94cd")
+      (cordyline-cyan                      "#00ffff")
+      (cordyline-dark-cyan                 "#00708b")
 
-      (cordyline-light-green       "#c5ff6e")
-      (cordyline-green             "#005f55");006455
-      (cordyline-alt-green         "#00512c");006455
+      (cordyline-light-green               "#c5ff6e")
+      (cordyline-green                     "#005f55");006455
+      (cordyline-alt-green                 "#00512c");006455
 
-      (cordyline-light-purple      "#a226d1");8b1cb0,9c1cbc,991cbc,a21cd1
-      (cordyline-alt-light-purple  "#a29cf1")
-      (cordyline-purple            "#7044af");54366d,583675,583683,583d83,59338f,673b94,703aaf
-      (cordyline-deep-purple       "#392b38");3f323c
-      (cordyline-alt-purple        "#493d4e");433640,43364c,473b4c
-      (cordyline-purple-red        "#982a51");8d2a46,982a46,982a51
-      (cordyline-alt-deep-purple   "#211730")
+      (cordyline-light-purple              "#a226d1");8b1cb0,9c1cbc,991cbc,a21cd1
+      (cordyline-alt-light-purple          "#a29cf1")
+      (cordyline-purple                    "#7044af");54366d,583675,583683,583d83,59338f,673b94,703aaf
+      (cordyline-deep-purple               "#392b38");3f323c
+      (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
+      (cordyline-purple-red                "#982a51");8d2a46,982a46,982a51
+      (cordyline-alt-deep-purple           "#211730")
 
-      (cordyline-error             "#FF0000")
-      (cordyline-warning           "#f6d909");F68511
-      (cordyline-success           "#23a334");239834
+      (cordyline-error                     "#FF0000")
+      (cordyline-warning                   "#f6d909");F68511
+      (cordyline-success                   "#23a334");239834
 
-      (cordyline-vc-change         cordyline-blue)
-      (cordyline-vc-insert         cordyline-success)
-      (cordyline-vc-delete         cordyline-error))
+      (cordyline-diff-added                "#5aa05a");335533
+      (cordyline-diff-removed              "#a05a5a");553333
+      (cordyline-diff-refine-added         "#007800");22aa22
+      (cordyline-diff-refine-removed       "#780000");aa2222
+      (cordyline-diff-header               "#5a5a5a");737373
+      (cordyline-diff-file-header          "#3c3c3c");999999
+      (cordyline-diff-context              "#828282");999999
+
+      (cordyline-vc-change                 cordyline-blue)
+      (cordyline-vc-insert                 cordyline-success)
+      (cordyline-vc-delete                 cordyline-error))
 
   (custom-theme-set-faces
    'guava-themes-cordyline
@@ -188,6 +196,15 @@
 
    ;; help-key-binding
    `(help-key-binding ((,cordyline-class (:foreground ,cordyline-alt-light-purple :background "grey19" :box (:line-width (-1 . -1) :color "grey35") :inherit fixed-pitch))))
+
+   ;; diff
+   `(diff-added ((,cordyline-class (:background ,cordyline-diff-added :extend t :inherit diff-changed))))
+   `(diff-removed ((,cordyline-class (:background ,cordyline-diff-removed :extend t :inherit diff-changed))))
+   `(diff-refine-added ((,cordyline-class (:background ,cordyline-diff-refine-added :inherit diff-refine-changed))))
+   `(diff-refine-removed ((,cordyline-class (:background ,cordyline-diff-refine-removed :inherit diff-refine-changed))))
+   `(diff-header ((,cordyline-class (:background ,cordyline-diff-header :extend t))))
+   `(diff-file-header ((,cordyline-class (:weight bold :background ,cordyline-diff-file-header :extend t))))
+   `(diff-context ((,cordyline-class (:background ,cordyline-diff-context :extend t))))
 
 
    ;; external packages
