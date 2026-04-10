@@ -47,7 +47,7 @@
 
       (cordyline-light-blue                "#5f70cb")
       (cordyline-blue                      "#3150af");1330af
-      (cordyline-deep-blue                 "#2134d5")
+      (cordyline-deep-blue                 "#214bd5");2134d5
       (cordyline-steel-blue                "#4f94cd")
       (cordyline-cyan                      "#00ffff")
       (cordyline-dark-cyan                 "#007896")
@@ -75,6 +75,11 @@
       (cordyline-diff-header               "#5a5a5a");737373
       (cordyline-diff-file-header          "#3c3c3c");999999
       (cordyline-diff-context              "#828282");999999
+
+      (cordyline-orderless-0               "#af50b9")
+      (cordyline-orderless-1               "#28a03c")
+      (cordyline-orderless-2               "#ff6400")
+      (cordyline-orderless-3               "#3c82ff")
 
       (cordyline-vc-change                 cordyline-deep-blue)
       (cordyline-vc-insert                 cordyline-success)
@@ -206,6 +211,10 @@
    `(diff-file-header ((,cordyline-class (:weight bold :foreground ,cordyline-white :background ,cordyline-diff-file-header :extend t))))
    `(diff-context ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
+   `(completions-first-difference ((,cordyline-class (:foreground ,cordyline-error :weight bold))))
+
 
    ;; external packages
 
@@ -229,6 +238,12 @@
    `(corfu-current ((,cordyline-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,cordyline-class (:background ,cordyline-shadow))))
    `(corfu-border ((,cordyline-class (:background ,cordyline-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,cordyline-class (:foreground ,cordyline-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,cordyline-class (:foreground ,cordyline-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,cordyline-class (:foreground ,cordyline-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,cordyline-class (:foreground ,cordyline-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,cordyline-class (:inherit error))))
