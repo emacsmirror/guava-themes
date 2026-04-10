@@ -78,6 +78,11 @@
       (citrus-diff-file-header          "#8c8c8c");999999
       (citrus-diff-context              "#dcdcdc");999999
 
+      (citrus-orderless-0               "#af28b9")
+      (citrus-orderless-1               "#28a03c")
+      (citrus-orderless-2               "#ff6400")
+      (citrus-orderless-3               "#3c82ff")
+
       (citrus-vc-change                 citrus-deep-blue)
       (citrus-vc-insert                 citrus-success)
       (citrus-vc-delete                 citrus-error))
@@ -208,6 +213,10 @@
    `(diff-file-header ((,citrus-class (:weight bold :foreground ,citrus-black :background ,citrus-diff-file-header :extend t))))
    `(diff-context ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,citrus-class (:foreground ,citrus-vc-change :weight bold))))
+   `(completions-first-difference ((,citrus-class (:foreground ,citrus-error :weight bold))))
+
 
    ;; external packages
 
@@ -231,6 +240,12 @@
    `(corfu-current ((,citrus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,citrus-class (:background ,citrus-shadow))))
    `(corfu-border ((,citrus-class (:background ,citrus-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,citrus-class (:foreground ,citrus-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,citrus-class (:foreground ,citrus-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,citrus-class (:foreground ,citrus-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,citrus-class (:foreground ,citrus-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,citrus-class (:inherit error))))
