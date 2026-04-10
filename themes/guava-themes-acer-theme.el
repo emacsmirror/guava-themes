@@ -75,6 +75,11 @@
       (acer-diff-file-header          "#8c8c8c");999999
       (acer-diff-context              "#dcdcdc");999999
 
+      (acer-orderless-0               "#af2ab9")
+      (acer-orderless-1               "#28823c")
+      (acer-orderless-2               "#d44400")
+      (acer-orderless-3               "#6496d7")
+
       (acer-vc-change                 acer-blue)
       (acer-vc-insert                 acer-success)
       (acer-vc-delete                 acer-error))
@@ -205,6 +210,10 @@
    `(diff-file-header ((,acer-class (:weight bold :foreground ,acer-black :background ,acer-diff-file-header :extend t))))
    `(diff-context ((,acer-class (:foreground ,acer-black :background ,acer-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,acer-class (:foreground ,acer-vc-change :weight bold))))
+   `(completions-first-difference ((,acer-class (:foreground ,acer-error :weight bold))))
+
 
    ;; external packages
 
@@ -228,6 +237,12 @@
    `(corfu-current ((,acer-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,acer-class (:background ,acer-shadow))))
    `(corfu-border ((,acer-class (:background ,acer-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,acer-class (:foreground ,acer-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,acer-class (:foreground ,acer-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,acer-class (:foreground ,acer-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,acer-class (:foreground ,acer-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,acer-class (:inherit error))))
