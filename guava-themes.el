@@ -80,6 +80,8 @@ is still called but does not display `guava-themes-visible-bell'."
   :group 'guava-themes
   :type 'hook)
 
+
+
 ;; Henrik Lissner / Doom Emacs are the original authors of `doom-themes-visual-bell-fn'
 ;; As per the MIT license, here is the original copyright and permission notice of `doom-themes-ext-visual-bell.el'
 
@@ -117,6 +119,8 @@ will blink when this function is called."
                         (mapc #'face-remap-remove-relative cookies)
                         (force-mode-line-update)))))
   (run-hooks 'guava-themes-after-change-visible-bell-hook))
+
+
 
 ;;;###autoload
 (when load-file-name
