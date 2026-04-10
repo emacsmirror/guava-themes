@@ -76,6 +76,11 @@
       (jacaranda-diff-file-header          "#8c8c8c");999999
       (jacaranda-diff-context              "#dcdcdc");999999
 
+      (jacaranda-orderless-0               "#af50b9")
+      (jacaranda-orderless-1               "#28a03c")
+      (jacaranda-orderless-2               "#ff6400")
+      (jacaranda-orderless-3               "#3c82ff")
+
       (jacaranda-vc-change                 jacaranda-blue)
       (jacaranda-vc-insert                 jacaranda-success)
       (jacaranda-vc-delete                 jacaranda-error))
@@ -206,6 +211,10 @@
    `(diff-file-header ((,jacaranda-class (:weight bold :foreground ,jacaranda-black :background ,jacaranda-diff-file-header :extend t))))
    `(diff-context ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,jacaranda-class (:foreground ,jacaranda-vc-change :weight bold))))
+   `(completions-first-difference ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
+
 
    ;; external packages
 
@@ -229,6 +238,12 @@
    `(corfu-current ((,jacaranda-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,jacaranda-class (:background ,jacaranda-shadow))))
    `(corfu-border ((,jacaranda-class (:background ,jacaranda-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,jacaranda-class (:foreground ,jacaranda-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,jacaranda-class (:foreground ,jacaranda-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,jacaranda-class (:foreground ,jacaranda-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,jacaranda-class (:foreground ,jacaranda-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,jacaranda-class (:inherit error))))
