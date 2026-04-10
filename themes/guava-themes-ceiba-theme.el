@@ -80,6 +80,11 @@
       (ceiba-diff-file-header          "#8c8c8c");999999
       (ceiba-diff-context              "#dcdcdc");999999
 
+      (ceiba-orderless-0               "#af37b9")
+      (ceiba-orderless-1               "#147828")
+      (ceiba-orderless-2               "#b45a00")
+      (ceiba-orderless-3               "#3c82e6")
+
       (ceiba-vc-change                 ceiba-blue)
       (ceiba-vc-insert                 ceiba-success)
       (ceiba-vc-delete                 ceiba-error))
@@ -210,6 +215,10 @@
    `(diff-file-header ((,ceiba-class (:weight bold :foreground ,ceiba-black :background ,ceiba-diff-file-header :extend t))))
    `(diff-context ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,ceiba-class (:foreground ,ceiba-vc-change :weight bold))))
+   `(completions-first-difference ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
+
 
    ;; external packages
 
@@ -233,6 +242,12 @@
    `(corfu-current ((,ceiba-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,ceiba-class (:background ,ceiba-shadow))))
    `(corfu-border ((,ceiba-class (:background ,ceiba-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,ceiba-class (:foreground ,ceiba-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,ceiba-class (:foreground ,ceiba-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,ceiba-class (:foreground ,ceiba-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,ceiba-class (:foreground ,ceiba-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,ceiba-class (:inherit error))))
