@@ -80,6 +80,11 @@
       (dracaena-diff-file-header          "#3c3c3c");999999
       (dracaena-diff-context              "#828282");999999
 
+      (dracaena-orderless-0               "#af50b9")
+      (dracaena-orderless-1               "#28a03c")
+      (dracaena-orderless-2               "#ff6400")
+      (dracaena-orderless-3               "#3c82ff")
+
       (dracaena-vc-change                 dracaena-blue)
       (dracaena-vc-insert                 dracaena-deep-green)
       (dracaena-vc-delete                 dracaena-error))
@@ -210,6 +215,10 @@
    `(diff-file-header ((,dracaena-class (:weight bold :foreground ,dracaena-white :background ,dracaena-diff-file-header :extend t))))
    `(diff-context ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
+   `(completions-first-difference ((,dracaena-class (:foreground ,dracaena-error :weight bold))))
+
 
    ;; external packages
 
@@ -233,6 +242,12 @@
    `(corfu-current ((,dracaena-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,dracaena-class (:background ,dracaena-shadow))))
    `(corfu-border ((,dracaena-class (:background ,dracaena-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,dracaena-class (:foreground ,dracaena-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,dracaena-class (:foreground ,dracaena-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,dracaena-class (:foreground ,dracaena-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,dracaena-class (:foreground ,dracaena-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,dracaena-class (:inherit error))))
