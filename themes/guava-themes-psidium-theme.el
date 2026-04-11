@@ -74,6 +74,11 @@
       (psidium-diff-file-header          "#8c8c8c");999999
       (psidium-diff-context              "#dcdcdc");999999
 
+      (psidium-orderless-0               "#af50c8");af50b9
+      (psidium-orderless-1               "#28a03c")
+      (psidium-orderless-2               "#ff6400")
+      (psidium-orderless-3               "#3c82ff")
+
       (psidium-vc-change                 psidium-blue)
       (psidium-vc-insert                 psidium-green)
       (psidium-vc-delete                 psidium-error))
@@ -204,6 +209,10 @@
    `(diff-file-header ((,psidium-class (:weight bold :foreground ,psidium-black :background ,psidium-diff-file-header :extend t))))
    `(diff-context ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,psidium-class (:foreground ,psidium-vc-change :weight bold))))
+   `(completions-first-difference ((,psidium-class (:foreground ,psidium-error :weight bold))))
+
 
    ;; external packages
 
@@ -227,6 +236,12 @@
    `(corfu-current ((,psidium-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,psidium-class (:background ,psidium-shadow))))
    `(corfu-border ((,psidium-class (:background ,psidium-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,psidium-class (:foreground ,psidium-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,psidium-class (:foreground ,psidium-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,psidium-class (:foreground ,psidium-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,psidium-class (:foreground ,psidium-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,psidium-class (:inherit error))))
