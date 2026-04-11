@@ -79,6 +79,11 @@
       (rubus-diff-file-header          "#3c3c3c");999999
       (rubus-diff-context              "#828282");999999
 
+      (rubus-orderless-0               "#af50c8");af50b9
+      (rubus-orderless-1               "#28a03c")
+      (rubus-orderless-2               "#ff6400")
+      (rubus-orderless-3               "#3c82ff")
+
       (rubus-vc-change                 rubus-blue)
       (rubus-vc-insert                 rubus-success)
       (rubus-vc-delete                 rubus-error))
@@ -209,6 +214,10 @@
    `(diff-file-header ((,rubus-class (:weight bold :foreground ,rubus-white :background ,rubus-diff-file-header :extend t))))
    `(diff-context ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,rubus-class (:foreground ,rubus-warning :weight bold))))
+   `(completions-first-difference ((,rubus-class (:foreground ,rubus-error :weight bold))))
+
 
    ;; external packages
 
@@ -232,6 +241,12 @@
    `(corfu-current ((,rubus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,rubus-class (:background ,rubus-shadow))))
    `(corfu-border ((,rubus-class (:background ,rubus-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,rubus-class (:foreground ,rubus-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,rubus-class (:foreground ,rubus-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,rubus-class (:foreground ,rubus-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,rubus-class (:foreground ,rubus-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,rubus-class (:inherit error))))
