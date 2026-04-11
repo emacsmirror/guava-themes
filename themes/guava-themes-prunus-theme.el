@@ -40,7 +40,7 @@
 
       (prunus-shadow                    "#b3b3b3")
 
-      (prunus-cream                     "#DEA2BD");fffef5,EBDCF5
+      (prunus-cream                     "#DEA2BD");fffef5,EBDCF5,DEA2BD
       (prunus-brown                     "#4a2b1b");583c25,4A301B
       (prunus-dark-brown                "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
       (prunus-alt-dark-brown            "#2b1f16")
@@ -76,6 +76,11 @@
       (prunus-diff-header               "#5a5a5a");737373
       (prunus-diff-file-header          "#3c3c3c");999999
       (prunus-diff-context              "#828282");999999
+
+      (prunus-orderless-0               "#af50c8");af50b9
+      (prunus-orderless-1               "#28a03c")
+      (prunus-orderless-2               "#ff6400")
+      (prunus-orderless-3               "#3c82ff")
 
       (prunus-vc-change                 prunus-blue)
       (prunus-vc-insert                 prunus-success)
@@ -207,6 +212,10 @@
    `(diff-file-header ((,prunus-class (:weight bold :foreground ,prunus-white :background ,prunus-diff-file-header :extend t))))
    `(diff-context ((,prunus-class (:foreground ,prunus-white :background ,prunus-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,prunus-class (:foreground ,prunus-warning :weight bold))))
+   `(completions-first-difference ((,prunus-class (:foreground ,prunus-error :weight bold))))
+
 
    ;; external packages
 
@@ -230,6 +239,12 @@
    `(corfu-current ((,prunus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,prunus-class (:background ,prunus-shadow))))
    `(corfu-border ((,prunus-class (:background ,prunus-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,prunus-class (:foreground ,prunus-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,prunus-class (:foreground ,prunus-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,prunus-class (:foreground ,prunus-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,prunus-class (:foreground ,prunus-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,prunus-class (:inherit error))))
