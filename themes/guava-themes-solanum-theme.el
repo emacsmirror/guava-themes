@@ -76,6 +76,11 @@
       (solanum-diff-file-header          "#3c3c3c");999999
       (solanum-diff-context              "#828282");999999
 
+      (solanum-orderless-0               "#af50c8");af50b9
+      (solanum-orderless-1               "#28a03c")
+      (solanum-orderless-2               "#ff6400")
+      (solanum-orderless-3               "#3c82ff")
+
       (solanum-vc-change                 solanum-blue)
       (solanum-vc-insert                 solanum-success)
       (solanum-vc-delete                 solanum-error))
@@ -206,6 +211,10 @@
    `(diff-file-header ((,solanum-class (:weight bold :foreground ,solanum-white :background ,solanum-diff-file-header :extend t))))
    `(diff-context ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,solanum-class (:foreground ,solanum-warning :weight bold))))
+   `(completions-first-difference ((,solanum-class (:foreground ,solanum-error :weight bold))))
+
 
    ;; external packages
 
@@ -229,6 +238,12 @@
    `(corfu-current ((,solanum-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,solanum-class (:background ,solanum-shadow))))
    `(corfu-border ((,solanum-class (:background ,solanum-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,solanum-class (:foreground ,solanum-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,solanum-class (:foreground ,solanum-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,solanum-class (:foreground ,solanum-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,solanum-class (:foreground ,solanum-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,solanum-class (:inherit error))))
