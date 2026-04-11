@@ -79,6 +79,11 @@
       (vaccinium-diff-file-header          "#3c3c3c");999999
       (vaccinium-diff-context              "#828282");999999
 
+      (vaccinium-orderless-0               "#af50c8");af50b9
+      (vaccinium-orderless-1               "#28a03c")
+      (vaccinium-orderless-2               "#ff6400")
+      (vaccinium-orderless-3               "#3c82ff")
+
       (vaccinium-vc-change                 vaccinium-alt-blue)
       (vaccinium-vc-insert                 vaccinium-success)
       (vaccinium-vc-delete                 vaccinium-error))
@@ -209,6 +214,10 @@
    `(diff-file-header ((,vaccinium-class (:weight bold :foreground ,vaccinium-white :background ,vaccinium-diff-file-header :extend t))))
    `(diff-context ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,vaccinium-class (:foreground ,vaccinium-warning :weight bold))))
+   `(completions-first-difference ((,vaccinium-class (:foreground ,vaccinium-error :weight bold))))
+
 
    ;; external packages
 
@@ -232,6 +241,12 @@
    `(corfu-current ((,vaccinium-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,vaccinium-class (:background ,vaccinium-shadow))))
    `(corfu-border ((,vaccinium-class (:background ,vaccinium-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,vaccinium-class (:foreground ,vaccinium-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,vaccinium-class (:foreground ,vaccinium-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,vaccinium-class (:foreground ,vaccinium-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,vaccinium-class (:foreground ,vaccinium-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,vaccinium-class (:inherit error))))
