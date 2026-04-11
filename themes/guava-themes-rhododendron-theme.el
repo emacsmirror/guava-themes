@@ -77,6 +77,11 @@
       (rhododendron-diff-file-header          "#8c8c8c");999999
       (rhododendron-diff-context              "#dcdcdc");999999
 
+      (rhododendron-orderless-0               "#af50c8");af50b9
+      (rhododendron-orderless-1               "#28a03c")
+      (rhododendron-orderless-2               "#ff6400")
+      (rhododendron-orderless-3               "#3c82ff")
+
       (rhododendron-vc-change                 rhododendron-blue)
       (rhododendron-vc-insert                 rhododendron-success)
       (rhododendron-vc-delete                 rhododendron-error))
@@ -207,6 +212,10 @@
    `(diff-file-header ((,rhododendron-class (:weight bold :foreground ,rhododendron-black :background ,rhododendron-diff-file-header :extend t))))
    `(diff-context ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-context :extend t))))
 
+   ;; completions
+   `(completions-common-part ((,rhododendron-class (:foreground ,rhododendron-vc-change :weight bold))))
+   `(completions-first-difference ((,rhododendron-class (:foreground ,rhododendron-error :weight bold))))
+
 
    ;; external packages
 
@@ -230,6 +239,12 @@
    `(corfu-current ((,rhododendron-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,rhododendron-class (:background ,rhododendron-shadow))))
    `(corfu-border ((,rhododendron-class (:background ,rhododendron-shadow))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((,rhododendron-class (:foreground ,rhododendron-orderless-0 :weight bold))))
+   `(orderless-match-face-1 ((,rhododendron-class (:foreground ,rhododendron-orderless-1 :weight bold))))
+   `(orderless-match-face-2 ((,rhododendron-class (:foreground ,rhododendron-orderless-2 :weight bold))))
+   `(orderless-match-face-3 ((,rhododendron-class (:foreground ,rhododendron-orderless-3 :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,rhododendron-class (:inherit error))))
