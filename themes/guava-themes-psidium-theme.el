@@ -80,7 +80,7 @@
       (psidium-orderless-3               "#3c82ff")
 
       (psidium-vc-change                 psidium-blue)
-      (psidium-vc-insert                 psidium-green)
+      (psidium-vc-insert                 psidium-success)
       (psidium-vc-delete                 psidium-error))
 
   (custom-theme-set-faces
