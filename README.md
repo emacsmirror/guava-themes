@@ -38,8 +38,7 @@ Originally conceived as a tribute to the [guava fruit](https://en.wikipedia.org/
 And so, the package name became an Artifact Title, as is known in the tropes community.  
 
 ## Installation
-<details>
-<summary>Install <b>guava-themes</b> from <a href="https://melpa.org/#/getting-started">MELPA</a> (<b>use-package</b>)</summary>
+- I recommend you use this Emacs code to automatically install **guava-themes** from [MELPA](https://melpa.org/#/getting-started).  
 ```
 (use-package guava-themes
   :ensure t
@@ -50,10 +49,8 @@ And so, the package name became an Artifact Title, as is known in the tropes com
   (load-theme 'guava-themes-psidium t)
   )
 ```
-</details>
 
-<details>
-<summary>Install <b>guava-themes</b> from source (<b>use-package</b>) (<b>Emacs 30</b>)</summary>
+- You can also download this package directly from the source. This code should work on Emacs 30:  
 ```
 (use-package guava-themes
   :vc (:url "https://github.com/bormoge/guava-themes"
@@ -68,10 +65,8 @@ And so, the package name became an Artifact Title, as is known in the tropes com
   (load-theme 'guava-themes-psidium t)
   )
 ```
-</details>
 
-<details>
-<summary>Install <b>guava-themes</b> from source (<b>package-vc-install</b>)</summary>
+- If the above code doesn't work you can also try using this one:  
 ```
 (unless (package-installed-p 'guava-themes)
   (package-vc-install "https://github.com/bormoge/guava-themes" nil nil 'guava-themes))
@@ -82,7 +77,6 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 (setopt visible-bell t)
 (load-theme 'guava-themes-psidium t)
 ```
-</details>
 
 ## Screenshots
 - Guava Psidium Theme  
