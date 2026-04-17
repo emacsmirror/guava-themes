@@ -231,7 +231,7 @@
    `(elfeed-search-unread-count-face ((,citrus-class (:weight bold :foreground ,citrus-light-blue))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red))))
+   `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red :inherit italic))))
    `(doom-modeline-project-parent-dir ((,citrus-class (:foreground ,citrus-purple-red))))
    `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-light-yellow))))
 

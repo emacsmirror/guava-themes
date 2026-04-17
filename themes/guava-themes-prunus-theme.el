@@ -230,7 +230,7 @@
    `(elfeed-search-unread-count-face ((,prunus-class (:weight bold :foreground ,prunus-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green))))
+   `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green :inherit italic))))
    `(doom-modeline-project-parent-dir ((,prunus-class (:foreground ,prunus-light-green))))
    `(doom-modeline-buffer-minor-mode ((,prunus-class (:foreground ,prunus-shadow))))
 

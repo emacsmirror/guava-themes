@@ -229,7 +229,7 @@
    `(elfeed-search-unread-count-face ((,solanum-class (:weight bold :foreground ,solanum-alt-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,solanum-class (:foreground ,solanum-red-tomato))))
+   `(doom-modeline-project-name ((,solanum-class (:foreground ,solanum-red-tomato :inherit italic))))
    `(doom-modeline-project-parent-dir ((,solanum-class (:foreground ,solanum-red-tomato))))
    `(doom-modeline-buffer-minor-mode ((,solanum-class (:foreground ,solanum-yellow-potato))))
 

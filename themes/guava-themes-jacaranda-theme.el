@@ -229,7 +229,7 @@
    `(elfeed-search-unread-count-face ((,jacaranda-class (:weight bold :foreground ,jacaranda-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,jacaranda-class (:foreground ,jacaranda-light-green))))
+   `(doom-modeline-project-name ((,jacaranda-class (:foreground ,jacaranda-light-green :inherit italic))))
    `(doom-modeline-project-parent-dir ((,jacaranda-class (:foreground ,jacaranda-light-green))))
    `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
 

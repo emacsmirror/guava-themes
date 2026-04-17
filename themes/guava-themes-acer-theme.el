@@ -228,7 +228,7 @@
    `(elfeed-search-unread-count-face ((,acer-class (:weight bold :foreground ,acer-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,acer-class (:foreground ,acer-deep-purple))))
+   `(doom-modeline-project-name ((,acer-class (:foreground ,acer-deep-purple :inherit italic))))
    `(doom-modeline-project-parent-dir ((,acer-class (:foreground ,acer-deep-purple))))
    `(doom-modeline-buffer-minor-mode ((,acer-class (:foreground ,acer-purple))))
 

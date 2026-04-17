@@ -232,7 +232,7 @@
    `(elfeed-search-unread-count-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-alt-blueberry))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
+   `(doom-modeline-project-name ((,vaccinium-class (:foreground ,vaccinium-purple-red :inherit italic))))
    `(doom-modeline-project-parent-dir ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
    `(doom-modeline-buffer-minor-mode ((,vaccinium-class (:foreground ,vaccinium-yellow))))
 

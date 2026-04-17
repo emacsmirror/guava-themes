@@ -232,7 +232,7 @@
    `(elfeed-search-unread-count-face ((,rubus-class (:weight bold :foreground ,rubus-purple))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,rubus-class (:foreground ,rubus-light-purple))))
+   `(doom-modeline-project-name ((,rubus-class (:foreground ,rubus-light-purple :inherit italic))))
    `(doom-modeline-project-parent-dir ((,rubus-class (:foreground ,rubus-light-purple))))
    `(doom-modeline-buffer-minor-mode ((,rubus-class (:foreground ,rubus-orange))))
 

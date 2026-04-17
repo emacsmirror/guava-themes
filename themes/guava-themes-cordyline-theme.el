@@ -229,7 +229,7 @@
    `(elfeed-search-unread-count-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue))))
+   `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue :inherit italic))))
    `(doom-modeline-project-parent-dir ((,cordyline-class (:foreground ,cordyline-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink-red))))
 

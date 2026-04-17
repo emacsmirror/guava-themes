@@ -233,7 +233,7 @@
    `(elfeed-search-unread-count-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,ceiba-class (:foreground ,ceiba-steel-blue))))
+   `(doom-modeline-project-name ((,ceiba-class (:foreground ,ceiba-steel-blue :inherit italic))))
    `(doom-modeline-project-parent-dir ((,ceiba-class (:foreground ,ceiba-steel-blue))))
    `(doom-modeline-buffer-minor-mode ((,ceiba-class (:foreground ,ceiba-shadow))))
 

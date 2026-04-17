@@ -230,7 +230,7 @@
    `(elfeed-search-unread-count-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-green))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
+   `(doom-modeline-project-name ((,rhododendron-class (:foreground ,rhododendron-light-purple :inherit italic))))
    `(doom-modeline-project-parent-dir ((,rhododendron-class (:foreground ,rhododendron-light-purple))))
    `(doom-modeline-buffer-minor-mode ((,rhododendron-class (:foreground ,rhododendron-bright-orange))))
 

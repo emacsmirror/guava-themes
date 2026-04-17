@@ -227,7 +227,7 @@
    `(elfeed-search-unread-count-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,psidium-class (:foreground ,psidium-deep-blue))))
+   `(doom-modeline-project-name ((,psidium-class (:foreground ,psidium-deep-blue :inherit italic))))
    `(doom-modeline-project-parent-dir ((,psidium-class (:foreground ,psidium-deep-blue))))
    `(doom-modeline-buffer-minor-mode ((,psidium-class (:foreground ,psidium-shadow))))
 
