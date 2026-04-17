@@ -133,8 +133,12 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 <img src="https://lh3.googleusercontent.com/d/17P1Z9HuLpGjDnqSfXLwk0Wyio46__rLL=s2000?authuser=0" width="750" height="400" alt="guava-rubus-screenshot">
 
+- Guava Pyrus Theme  
+
+<img src="https://lh3.googleusercontent.com/d/1E7pe9SFGGrb3DrVIr-cxyFw7TIVj3VJS=s2000?authuser=0" width="750" height="400" alt="guava-pyrus-screenshot">
+
 ## TODO
-- Add themes: Malus, Pyrus, Ficus, Eucalyptus.
+- Add themes: Malus, Ficus, Eucalyptus.
 - (Emacs 31) Add header-line-active and header-line-inactive faces
 
 ## Contributions
