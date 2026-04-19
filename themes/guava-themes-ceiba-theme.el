@@ -38,11 +38,7 @@
       (ceiba-black                     "#000000")
       (ceiba-white                     "#FFFFFF")
 
-      (ceiba-shadow                    "#7f7f7f")
-
       ;; (ceiba-light-gray                "#bab49e");dcdcdc,d4d4d4
-      (ceiba-gray-green                "#bab49e");8c857b,8d8d8b,8c7f76,817a68,817a6a
-      (ceiba-gray                      "#9d9d9d");dcdcdc,656865,7f7f89,787882
       (ceiba-gray-blue                 "#798585");8c857b,8d8d8b,6d726a,656865
 
       (ceiba-light-green               "#61ff96")
@@ -67,6 +63,11 @@
       (ceiba-brown                     "#6d4b30");6b492e
       (ceiba-brown-sand                "#826e51");796041
       (ceiba-brown-wood                "#53453d");9c6d85,bf8987,514141,53423e
+
+      (ceiba-fg                        "#000000")
+      (ceiba-bg                        "#bab49e");8c857b,8d8d8b,8c7f76,817a68,817a6a
+      (ceiba-highlight                 "#a6a08a");dcdcdc,656865,7f7f89,787882,9d9d9d
+      (ceiba-shadow                    "#7f7f7f")
 
       (ceiba-error                     "#ff0000");ff0000,d70000
       (ceiba-warning                   "#f6c911");F68511
@@ -96,7 +97,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
+   `(default ((,ceiba-class (:foreground ,ceiba-fg :background ,ceiba-bg))))
 
    ;; error, warning, success
    `(error ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
@@ -104,7 +105,7 @@
    `(success ((,ceiba-class (:foreground ,ceiba-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,ceiba-class (:background ,ceiba-gray))))
+   `(highlight ((,ceiba-class (:background ,ceiba-highlight))))
 
    ;; shadow
    `(shadow ((,ceiba-class (:foreground ,ceiba-shadow))))
@@ -130,16 +131,16 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-green-forest))))
+   `(cursor ((,ceiba-class (:foreground ,ceiba-fg :background ,ceiba-green-forest))))
 
    ;; fringe
-   `(fringe ((,ceiba-class (:foreground ,ceiba-blue :background ,ceiba-gray-green))))
+   `(fringe ((,ceiba-class (:foreground ,ceiba-blue :background ,ceiba-bg))))
    `(diff-hl-change ((,ceiba-class (:foreground ,ceiba-vc-change :background ,ceiba-vc-change))))
    `(diff-hl-insert ((,ceiba-class (:foreground ,ceiba-vc-insert :background ,ceiba-vc-insert))))
    `(diff-hl-delete ((,ceiba-class (:foreground ,ceiba-vc-delete :background ,ceiba-vc-delete))))
 
    ;; line-number
-   `(line-number ((,ceiba-class (:foreground ,ceiba-black))))
+   `(line-number ((,ceiba-class (:foreground ,ceiba-fg))))
    `(line-number-current-line ((,ceiba-class (:foreground ,ceiba-deep-green :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,ceiba-class (:background ,ceiba-light-brown :inherit line-number))))
    `(line-number-major-tick ((,ceiba-class (:background ,ceiba-brown-sand :inherit line-number))))
@@ -238,7 +239,7 @@
    `(doom-modeline-buffer-minor-mode ((,ceiba-class (:foreground ,ceiba-shadow))))
 
    ;; corfu
-   `(corfu-default ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-gray-green))))
+   `(corfu-default ((,ceiba-class (:foreground ,ceiba-fg :background ,ceiba-bg))))
    `(corfu-current ((,ceiba-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,ceiba-class (:background ,ceiba-shadow))))
    `(corfu-border ((,ceiba-class (:background ,ceiba-shadow))))

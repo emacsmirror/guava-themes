@@ -38,8 +38,6 @@
       (acer-black                     "#000000")
       (acer-white                     "#FFFFFF")
 
-      (acer-shadow                    "#7f7f7f")
-
       (acer-green                     "#237c34");239834,237c34,3b7b27
       (acer-green-cyan                "#277a6a")
       (acer-deep-green                "#006041");8a8a8a,828282,787878,746c72,747474,606060,60607e,59597e,505069
@@ -47,7 +45,6 @@
       (acer-orange                    "#e76144");fe7457,e76144,d75541
       (acer-deep-orange               "#d44400");d44400,cd4100
       (acer-orange-pink               "#cd475f");ec31a3,ff514a,ff474a,ff475f
-      (acer-yellow                    "#f7bb78");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a,f7ac5f,f7bb78
       (acer-autumn                    "#ff8c4e");c14c5c,f46157,db3d32,e14337,ed7038,f77b44,f3814f,e8674a,ed674a,f68b47
 
       (acer-cream                     "#dca56e");f68e64,dc8e64,dc9964,dc9964
@@ -62,6 +59,11 @@
       (acer-deep-purple               "#60366e");663c6c,62386c
       (acer-purple-red                "#9b234b");9f234b
       (acer-purple-pink               "#5f2258");233e4d
+
+      (acer-fg                        "#000000")
+      (acer-bg                        "#f7bb78");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a,f7ac5f,f7bb78
+      (acer-highlight                 "#e3a764");e0bde7,d4b3cf
+      (acer-shadow                    "#7f7f7f")
 
       (acer-error                     "#d70000");FF0000,c80000
       (acer-warning                   "#f0dc00");F68511,f2e16b,f0dc67
@@ -91,7 +93,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
+   `(default ((,acer-class (:foreground ,acer-fg :background ,acer-bg))))
 
    ;; error, warning, success
    `(error ((,acer-class (:foreground ,acer-error :weight bold))))
@@ -99,7 +101,7 @@
    `(success ((,acer-class (:foreground ,acer-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,acer-class (:background ,acer-cream))))
+   `(highlight ((,acer-class (:background ,acer-highlight))))
 
    ;; shadow
    `(shadow ((,acer-class (:foreground ,acer-shadow))))
@@ -125,16 +127,16 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,acer-class (:foreground ,acer-black :background ,acer-orange))))
+   `(cursor ((,acer-class (:foreground ,acer-fg :background ,acer-orange))))
 
    ;; fringe
-   `(fringe ((,acer-class (:foreground ,acer-deep-blue :background ,acer-yellow))))
+   `(fringe ((,acer-class (:foreground ,acer-deep-blue :background ,acer-bg))))
    `(diff-hl-change ((,acer-class (:foreground ,acer-vc-change :background ,acer-vc-change))))
    `(diff-hl-insert ((,acer-class (:foreground ,acer-vc-insert :background ,acer-vc-insert))))
    `(diff-hl-delete ((,acer-class (:foreground ,acer-vc-delete :background ,acer-vc-delete))))
 
    ;; line-number
-   `(line-number ((,acer-class (:foreground ,acer-black))))
+   `(line-number ((,acer-class (:foreground ,acer-fg))))
    `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,acer-class (:background ,acer-brown :inherit line-number))))
    `(line-number-major-tick ((,acer-class (:background ,acer-deep-brown :inherit line-number))))
@@ -233,7 +235,7 @@
    `(doom-modeline-buffer-minor-mode ((,acer-class (:foreground ,acer-purple))))
 
    ;; corfu
-   `(corfu-default ((,acer-class (:foreground ,acer-black :background ,acer-yellow))))
+   `(corfu-default ((,acer-class (:foreground ,acer-fg :background ,acer-bg))))
    `(corfu-current ((,acer-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,acer-class (:background ,acer-shadow))))
    `(corfu-border ((,acer-class (:background ,acer-shadow))))

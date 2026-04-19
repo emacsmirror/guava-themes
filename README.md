@@ -133,7 +133,9 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 ## TODO
 - Add themes: Malus, Ficus, Eucalyptus.
+- Minor rework: Citrus (mostly font-locks)
 - (Emacs 31) Add header-line-active and header-line-inactive faces
+- (Emacs 31) Add tab-line-active and tab-line-inactive faces
 
 ## Contributions
 Issues, pull requests, and forks are welcome.

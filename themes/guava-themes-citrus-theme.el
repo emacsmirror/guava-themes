@@ -38,15 +38,12 @@
       (citrus-black                     "#000000")
       (citrus-white                     "#edf2ed");FFFFFF,eeeeee,f0eff5,f1f0f5,ebf0eb
 
-      (citrus-shadow                    "#7f7f7f")
-
       (citrus-light-green               "#6ea56e");589337,64a564
       (citrus-green-lime                "#589337");589337
       (citrus-deep-green                "#0a6b0a");2b5726,2b5b26
       (citrus-green-blue                "#197d5a");136b16,198264
 
-      (citrus-light-yellow              "#f5d49b");f5cb6d
-      (citrus-yellow                    "#dbb255");c3af50,dbaf50
+      (citrus-yellow                    "#f5d49b");c3af50,dbaf50,dbb255
 
       (citrus-red                       "#df352c");a50000,960000
       (citrus-deep-red                  "#a0352c")
@@ -65,6 +62,11 @@
       (citrus-deep-purple               "#6d4393")
       (citrus-purple-red                "#77003a")
       (citrus-purple-blue               "#504993");6b4a82
+
+      (citrus-fg                        "#000000")
+      (citrus-bg                        "#edf2ed");FFFFFF,eeeeee,f0eff5,f1f0f5,ebf0eb
+      (citrus-highlight                 "#d9ded9");f5cb6d,f5d49b
+      (citrus-shadow                    "#7f7f7f")
 
       (citrus-error                     "#FF0000")
       (citrus-warning                   "#ffbe00");F68511
@@ -94,7 +96,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,citrus-class (:foreground ,citrus-black :background ,citrus-white))))
+   `(default ((,citrus-class (:foreground ,citrus-fg :background ,citrus-bg))))
 
    ;; error, warning, success
    `(error ((,citrus-class (:foreground ,citrus-error :weight bold))))
@@ -102,7 +104,7 @@
    `(success ((,citrus-class (:foreground ,citrus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,citrus-class (:background ,citrus-light-yellow))))
+   `(highlight ((,citrus-class (:background ,citrus-highlight))))
 
    ;; shadow
    `(shadow ((,citrus-class (:foreground ,citrus-shadow))))
@@ -128,16 +130,16 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,citrus-class (:foreground ,citrus-black :background ,citrus-alt-orange))))
+   `(cursor ((,citrus-class (:foreground ,citrus-fg :background ,citrus-alt-orange))))
 
    ;; fringe
-   `(fringe ((,citrus-class (:foreground ,citrus-red :background ,citrus-white))))
+   `(fringe ((,citrus-class (:foreground ,citrus-red :background ,citrus-bg))))
    `(diff-hl-change ((,citrus-class (:foreground ,citrus-vc-change :background ,citrus-vc-change))))
    `(diff-hl-insert ((,citrus-class (:foreground ,citrus-vc-insert :background ,citrus-vc-insert))))
    `(diff-hl-delete ((,citrus-class (:foreground ,citrus-vc-delete :background ,citrus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,citrus-class (:foreground ,citrus-black))))
+   `(line-number ((,citrus-class (:foreground ,citrus-fg))))
    `(line-number-current-line ((,citrus-class (:foreground ,citrus-green-blue :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,citrus-class (:background ,citrus-light-purple :inherit line-number))))
    `(line-number-major-tick ((,citrus-class (:background ,citrus-light-blue :inherit line-number))))
@@ -225,7 +227,7 @@
    `(elfeed-search-date-face ((,citrus-class (:foreground ,citrus-deep-blue))))
    `(elfeed-search-feed-face ((,citrus-class (:foreground ,citrus-green-lime))))
    `(elfeed-search-title-face ((,citrus-class (:foreground ,citrus-brown))))
-   `(elfeed-search-filter-face ((,citrus-class (:foreground ,citrus-light-yellow))))
+   `(elfeed-search-filter-face ((,citrus-class (:foreground ,citrus-yellow))))
    `(elfeed-search-last-update-face ((,citrus-class (:foreground ,citrus-light-purple))))
    `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green-blue))))
    `(elfeed-search-unread-count-face ((,citrus-class (:weight bold :foreground ,citrus-light-blue))))
@@ -233,10 +235,10 @@
    ;; doom-modeline
    `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red :inherit italic))))
    `(doom-modeline-project-parent-dir ((,citrus-class (:foreground ,citrus-purple-red))))
-   `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-light-yellow))))
+   `(doom-modeline-buffer-minor-mode ((,citrus-class (:foreground ,citrus-yellow))))
 
    ;; corfu
-   `(corfu-default ((,citrus-class (:foreground ,citrus-black :background ,citrus-white))))
+   `(corfu-default ((,citrus-class (:foreground ,citrus-fg :background ,citrus-bg))))
    `(corfu-current ((,citrus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,citrus-class (:background ,citrus-shadow))))
    `(corfu-border ((,citrus-class (:background ,citrus-shadow))))

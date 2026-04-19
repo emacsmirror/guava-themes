@@ -38,11 +38,6 @@
       (rubus-black                     "#000000");060a09
       (rubus-white                     "#FFFFFF")
 
-      (rubus-black-blue                "#0e1216");0e1216
-      (rubus-alt-black-blue            "#1d2125")
-
-      (rubus-shadow                    "#b3b3b3")
-
       (rubus-raspberry                 "#aa3232")
       (rubus-alt-raspberry             "#6e504b");964646,755653
       (rubus-deep-raspberry            "#663a43");b17a66
@@ -66,6 +61,11 @@
       (rubus-light-purple              "#bdb3d7")
       (rubus-purple                    "#a98fcd")
       (rubus-deep-purple               "#8163e4")
+
+      (rubus-fg                        "#FFFFFF")
+      (rubus-bg                        "#0e1216");0e1216
+      (rubus-highlight                 "#22262a");1d2125
+      (rubus-shadow                    "#b3b3b3")
 
       (rubus-error                     "#ff1e00");FF0000
       (rubus-warning                   "#f6d909");F68511
@@ -95,7 +95,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,rubus-class (:foreground ,rubus-white :background ,rubus-black-blue))))
+   `(default ((,rubus-class (:foreground ,rubus-fg :background ,rubus-bg))))
 
    ;; error, warning, success
    `(error ((,rubus-class (:foreground ,rubus-error :weight bold))))
@@ -103,7 +103,7 @@
    `(success ((,rubus-class (:foreground ,rubus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,rubus-class (:background ,rubus-alt-black-blue))))
+   `(highlight ((,rubus-class (:background ,rubus-highlight))))
 
    ;; shadow
    `(shadow ((,rubus-class (:foreground ,rubus-shadow))))
@@ -132,13 +132,13 @@
    `(cursor ((,rubus-class (:foreground ,rubus-black :background ,rubus-raspberry))))
 
    ;; fringe
-   `(fringe ((,rubus-class (:foreground ,rubus-yellow :background ,rubus-black-blue))))
+   `(fringe ((,rubus-class (:foreground ,rubus-yellow :background ,rubus-bg))))
    `(diff-hl-change ((,rubus-class (:foreground ,rubus-vc-change :background ,rubus-vc-change))))
    `(diff-hl-insert ((,rubus-class (:foreground ,rubus-vc-insert :background ,rubus-vc-insert))))
    `(diff-hl-delete ((,rubus-class (:foreground ,rubus-vc-delete :background ,rubus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,rubus-class (:foreground ,rubus-white))))
+   `(line-number ((,rubus-class (:foreground ,rubus-fg))))
    `(line-number-current-line ((,rubus-class (:foreground ,rubus-pink-cream :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,rubus-class (:background ,rubus-purple :inherit line-number))))
    `(line-number-major-tick ((,rubus-class (:background ,rubus-deep-purple :inherit line-number))))
@@ -237,7 +237,7 @@
    `(doom-modeline-buffer-minor-mode ((,rubus-class (:foreground ,rubus-orange))))
 
    ;; corfu
-   `(corfu-default ((,rubus-class (:foreground ,rubus-white :background ,rubus-black-blue))))
+   `(corfu-default ((,rubus-class (:foreground ,rubus-fg :background ,rubus-bg))))
    `(corfu-current ((,rubus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,rubus-class (:background ,rubus-shadow))))
    `(corfu-border ((,rubus-class (:background ,rubus-shadow))))

@@ -38,12 +38,7 @@
       ;;(prunus-black                     "#000000")
       (prunus-white                     "#FFFFFF")
 
-      (prunus-shadow                    "#b3b3b3")
-
-      (prunus-cream                     "#DEA2BD");fffef5,EBDCF5,DEA2BD
       (prunus-brown                     "#4a2b1b");583c25,4A301B
-      (prunus-dark-brown                "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
-      (prunus-alt-dark-brown            "#2b1f16")
 
       (prunus-yellow                    "#999844")
 
@@ -64,6 +59,11 @@
       (prunus-deep-purple               "#7446be");800080,740CBE,7420be,742fbe
       (prunus-indigo                    "#2c4154");2C2C54
       (prunus-purple-red                "#8B2252")
+
+      (prunus-fg                        "#DEA2BD");fffef5,EBDCF5,DEA2BD
+      (prunus-bg                        "#1A0E05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07
+      (prunus-highlight                 "#2e2219");2b1f16
+      (prunus-shadow                    "#b3b3b3")
 
       (prunus-error                     "#FF0000");FF0000,bc0000,890014
       (prunus-warning                   "#f6d911");F68511,ffc333,F68511
@@ -93,7 +93,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
+   `(default ((,prunus-class (:foreground ,prunus-fg :background ,prunus-bg))))
 
    ;; error, warning, success
    `(error ((,prunus-class (:foreground ,prunus-error :weight bold))))
@@ -101,7 +101,7 @@
    `(success ((,prunus-class (:foreground ,prunus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,prunus-class (:background ,prunus-alt-dark-brown))))
+   `(highlight ((,prunus-class (:background ,prunus-highlight))))
 
    ;; shadow
    `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
@@ -130,14 +130,14 @@
    `(cursor ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
 
    ;; fringe
-   `(fringe ((,prunus-class (:foreground ,prunus-cyan :background ,prunus-dark-brown))))
+   `(fringe ((,prunus-class (:foreground ,prunus-cyan :background ,prunus-bg))))
    `(diff-hl-change ((,prunus-class (:foreground ,prunus-vc-change :background ,prunus-vc-change))))
    `(diff-hl-insert ((,prunus-class (:foreground ,prunus-vc-insert :background ,prunus-vc-insert))))
    `(diff-hl-delete ((,prunus-class (:foreground ,prunus-vc-delete :background ,prunus-vc-delete))))
 
    ;; line-number
    `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
-   `(line-number-current-line ((,prunus-class (:foreground ,prunus-cream :weight bold :inherit highlight))))
+   `(line-number-current-line ((,prunus-class (:foreground ,prunus-fg :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,prunus-class (:background ,prunus-light-pink :inherit line-number))))
    `(line-number-major-tick ((,prunus-class (:background ,prunus-pink :inherit line-number))))
 
@@ -235,7 +235,7 @@
    `(doom-modeline-buffer-minor-mode ((,prunus-class (:foreground ,prunus-shadow))))
 
    ;; corfu
-   `(corfu-default ((,prunus-class (:foreground ,prunus-cream :background ,prunus-dark-brown))))
+   `(corfu-default ((,prunus-class (:foreground ,prunus-fg :background ,prunus-bg))))
    `(corfu-current ((,prunus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,prunus-class (:background ,prunus-shadow))))
    `(corfu-border ((,prunus-class (:background ,prunus-shadow))))

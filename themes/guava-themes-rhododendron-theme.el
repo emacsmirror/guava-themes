@@ -38,8 +38,6 @@
       (rhododendron-black                     "#000000")
       (rhododendron-white                     "#FFFFFF")
 
-      (rhododendron-shadow                    "#7f7f7f")
-
       (rhododendron-light-green               "#64d264");2ad22a,46d246
       (rhododendron-forest-green              "#228b22")
       (rhododendron-deep-green                "#3e7411");3e7011
@@ -53,7 +51,6 @@
       (rhododendron-blue                      "#3c3cee")
       (rhododendron-deep-blue                 "#3e3d8b")
 
-      (rhododendron-light-pink                "#e8c7e3");e8c5e3
       (rhododendron-bright-pink               "#fd3aae");fd31ae
       (rhododendron-alt-bright-pink           "#f197f5");f194f5
       (rhododendron-deep-pink                 "#c00e88");d00e88
@@ -64,6 +61,11 @@
       (rhododendron-purple-blue               "#5346cc");534bcc
       (rhododendron-purple-red                "#a8206f")
       (rhododendron-dark-purple-red           "#7d2061");77206f,7d2761
+
+      (rhododendron-fg                        "#000000")
+      (rhododendron-bg                        "#e8c7e3");e8c5e3
+      (rhododendron-highlight                 "#d4b3cf");e0bde7
+      (rhododendron-shadow                    "#7f7f7f")
 
       (rhododendron-error                     "#FF0000")
       (rhododendron-warning                   "#F68511")
@@ -93,7 +95,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-light-pink))))
+   `(default ((,rhododendron-class (:foreground ,rhododendron-fg :background ,rhododendron-bg))))
 
    ;; error, warning, success
    `(error ((,rhododendron-class (:foreground ,rhododendron-error :weight bold))))
@@ -101,7 +103,7 @@
    `(success ((,rhododendron-class (:foreground ,rhododendron-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,rhododendron-class (:background ,rhododendron-light-purple))))
+   `(highlight ((,rhododendron-class (:background ,rhododendron-highlight))))
 
    ;; shadow
    `(shadow ((,rhododendron-class (:foreground ,rhododendron-shadow))))
@@ -130,13 +132,13 @@
    `(cursor ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
 
    ;; fringe
-   `(fringe ((,rhododendron-class (:foreground ,rhododendron-red :background ,rhododendron-light-pink))))
+   `(fringe ((,rhododendron-class (:foreground ,rhododendron-red :background ,rhododendron-bg))))
    `(diff-hl-change ((,rhododendron-class (:foreground ,rhododendron-vc-change :background ,rhododendron-vc-change))))
    `(diff-hl-insert ((,rhododendron-class (:foreground ,rhododendron-vc-insert :background ,rhododendron-vc-insert))))
    `(diff-hl-delete ((,rhododendron-class (:foreground ,rhododendron-vc-delete :background ,rhododendron-vc-delete))))
 
    ;; line-number
-   `(line-number ((,rhododendron-class (:foreground ,rhododendron-black))))
+   `(line-number ((,rhododendron-class (:foreground ,rhododendron-fg))))
    `(line-number-current-line ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,rhododendron-class (:background ,rhododendron-light-orange :inherit line-number))))
    `(line-number-major-tick ((,rhododendron-class (:background ,rhododendron-purple :inherit line-number))))
@@ -235,7 +237,7 @@
    `(doom-modeline-buffer-minor-mode ((,rhododendron-class (:foreground ,rhododendron-bright-orange))))
 
    ;; corfu
-   `(corfu-default ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-light-pink))))
+   `(corfu-default ((,rhododendron-class (:foreground ,rhododendron-fg :background ,rhododendron-bg))))
    `(corfu-current ((,rhododendron-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,rhododendron-class (:background ,rhododendron-shadow))))
    `(corfu-border ((,rhododendron-class (:background ,rhododendron-shadow))))

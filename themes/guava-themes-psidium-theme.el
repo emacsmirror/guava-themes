@@ -38,10 +38,6 @@
       (psidium-black                     "#000000")
       (psidium-white                     "#FFFFFF")
 
-      (psidium-shadow                    "#7f7f7f")
-
-      (psidium-cream                     "#F1EECE");F7DEB6
-
       (psidium-green                     "#599b48");599F48
       (psidium-light-green               "#28bb6b");13765e,13845e,139570,3ab488,3ab992
       (psidium-guava-green               "#aecd34");AECA41,AED234,AED734
@@ -50,7 +46,6 @@
       (psidium-light-orange              "#ffbe9b");ffb49b
       (psidium-red-orange                "#cd605f");ff605f,cd605f
       (psidium-red                       "#c1153b");f02d1b
-      (psidium-light-pink                "#FCD0C9");F8917C
       (psidium-pink                      "#F8767C");F84865,F8767C,F88686,F85A65
 
       (psidium-brown                     "#816249");7D5E45
@@ -61,6 +56,11 @@
 
       (psidium-light-purple              "#8cb4d1");817fb2,818fb2,819cb2,89a6d1,89afd1
       (psidium-purple                    "#812db2");D7137C,C0137C,B00CE0,a62db2,8e2db2
+
+      (psidium-fg                        "#000000")
+      (psidium-bg                        "#F1EECE");F7DEB6
+      (psidium-highlight                 "#dddaba");F8917C,FCD0C9
+      (psidium-shadow                    "#7f7f7f")
 
       (psidium-error                     "#FF0000")
       (psidium-warning                   "#d6c800");FF8C00,f08020,f68511,dfe300
@@ -90,7 +90,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,psidium-class (:foreground ,psidium-black :background ,psidium-cream))))
+   `(default ((,psidium-class (:foreground ,psidium-fg :background ,psidium-bg))))
 
    ;; error, warning, success
    `(error ((,psidium-class (:foreground ,psidium-error :weight bold))))
@@ -98,7 +98,7 @@
    `(success ((,psidium-class (:foreground ,psidium-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,psidium-class (:background ,psidium-light-pink))))
+   `(highlight ((,psidium-class (:background ,psidium-highlight))))
 
    ;; shadow
    `(shadow ((,psidium-class (:foreground ,psidium-shadow))))
@@ -127,14 +127,14 @@
    `(cursor ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
 
    ;; fringe
-   `(fringe ((,psidium-class (:foreground ,psidium-blue :background ,psidium-cream))))
+   `(fringe ((,psidium-class (:foreground ,psidium-blue :background ,psidium-bg))))
    `(diff-hl-change ((,psidium-class (:foreground ,psidium-vc-change :background ,psidium-vc-change))))
    `(diff-hl-insert ((,psidium-class (:foreground ,psidium-vc-insert :background ,psidium-vc-insert))))
    `(diff-hl-delete ((,psidium-class (:foreground ,psidium-vc-delete :background ,psidium-vc-delete))))
 
    ;; line-number
    `(line-number ((,psidium-class (:foreground ,psidium-brown))))
-   `(line-number-current-line ((,psidium-class (:foreground ,psidium-black :weight bold :inherit highlight))))
+   `(line-number-current-line ((,psidium-class (:foreground ,psidium-fg :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,psidium-class (:background ,psidium-light-orange :inherit line-number))))
    `(line-number-major-tick ((,psidium-class (:background ,psidium-light-purple :inherit line-number))))
 
@@ -146,7 +146,7 @@
    ;; minibuffer
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))
 
-   ;;borders
+   ;; borders
    `(vertical-border ((,psidium-class (:foreground ,psidium-pink))))
 
    ;; header-line
@@ -232,7 +232,7 @@
    `(doom-modeline-buffer-minor-mode ((,psidium-class (:foreground ,psidium-shadow))))
 
    ;; corfu
-   `(corfu-default ((,psidium-class (:foreground ,psidium-black :background ,psidium-cream))))
+   `(corfu-default ((,psidium-class (:foreground ,psidium-fg :background ,psidium-bg))))
    `(corfu-current ((,psidium-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,psidium-class (:background ,psidium-shadow))))
    `(corfu-border ((,psidium-class (:background ,psidium-shadow))))

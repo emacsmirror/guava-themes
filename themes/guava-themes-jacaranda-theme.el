@@ -38,10 +38,6 @@
       (jacaranda-black                     "#000000")
       (jacaranda-white                     "#FFFFFF")
 
-      (jacaranda-shadow                    "#7f7f7f")
-
-      (jacaranda-cream                     "#e9d9f9");e9e4f9
-
       (jacaranda-light-green               "#52aa63");52bc63
       (jacaranda-green                     "#8ec654")
       (jacaranda-deep-green                "#267a63")
@@ -58,11 +54,15 @@
       (jacaranda-light-cyan                "#60a1ba");00aaaa
       (jacaranda-cyan                      "#00778b")
 
-      (jacaranda-light-purple              "#dbd0fd")
       (jacaranda-alt-light-purple          "#C0B4E4")
       (jacaranda-purple                    "#aa69e6");984ee6
       (jacaranda-deep-purple               "#640cbe");800080,740cbe
       (jacaranda-purple-red                "#8b2252")
+
+      (jacaranda-fg                        "#000000")
+      (jacaranda-bg                        "#e9d9f9");e9e4f9
+      (jacaranda-highlight                 "#d5c5e5");4f4f4f,565c59
+      (jacaranda-shadow                    "#7f7f7f")
 
       (jacaranda-error                     "#FF0000");FF0000
       (jacaranda-warning                   "#ebb515");F68511,ffc333
@@ -92,7 +92,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
+   `(default ((,jacaranda-class (:foreground ,jacaranda-fg :background ,jacaranda-bg))))
 
    ;; error, warning, success
    `(error ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
@@ -100,7 +100,7 @@
    `(success ((,jacaranda-class (:foreground ,jacaranda-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,jacaranda-class (:background ,jacaranda-light-purple))))
+   `(highlight ((,jacaranda-class (:background ,jacaranda-highlight))))
 
    ;; shadow
    `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
@@ -129,14 +129,14 @@
    `(cursor ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
 
    ;; fringe
-   `(fringe ((,jacaranda-class (:foreground ,jacaranda-purple-red :background ,jacaranda-cream))))
+   `(fringe ((,jacaranda-class (:foreground ,jacaranda-purple-red :background ,jacaranda-bg))))
    `(diff-hl-change ((,jacaranda-class (:foreground ,jacaranda-vc-change :background ,jacaranda-vc-change))))
    `(diff-hl-insert ((,jacaranda-class (:foreground ,jacaranda-vc-insert :background ,jacaranda-vc-insert))))
    `(diff-hl-delete ((,jacaranda-class (:foreground ,jacaranda-vc-delete :background ,jacaranda-vc-delete))))
 
    ;; line-number
    `(line-number ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
-   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-black :weight bold :inherit highlight))))
+   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-fg :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,jacaranda-class (:background ,jacaranda-antarctic-blue :inherit line-number))))
    `(line-number-major-tick ((,jacaranda-class (:background ,jacaranda-purple :inherit line-number))))
 
@@ -234,7 +234,7 @@
    `(doom-modeline-buffer-minor-mode ((,jacaranda-class (:foreground ,jacaranda-antarctic-blue))))
 
    ;; corfu
-   `(corfu-default ((,jacaranda-class (:foreground ,jacaranda-black :background ,jacaranda-cream))))
+   `(corfu-default ((,jacaranda-class (:foreground ,jacaranda-fg :background ,jacaranda-bg))))
    `(corfu-current ((,jacaranda-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,jacaranda-class (:background ,jacaranda-shadow))))
    `(corfu-border ((,jacaranda-class (:background ,jacaranda-shadow))))

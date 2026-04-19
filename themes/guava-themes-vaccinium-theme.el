@@ -38,11 +38,6 @@
       (vaccinium-black                     "#000000")
       (vaccinium-white                     "#FFFFFF")
 
-      (vaccinium-black-gray                "#1c1c26");202028
-      (vaccinium-alt-black-gray            "#2b2b35")
-
-      (vaccinium-shadow                    "#b3b3b3")
-
       (vaccinium-red                       "#b92e33")
       (vaccinium-pink                      "#e986f1")
       (vaccinium-orange                    "#ffa07a")
@@ -66,6 +61,11 @@
       (vaccinium-deep-purple               "#4b378c");8163e4
       (vaccinium-purple-pink               "#aa78cf")
       (vaccinium-purple-red                "#632a63");6816f3,5d2a74,632a63
+
+      (vaccinium-fg                        "#FFFFFF")
+      (vaccinium-bg                        "#1c1c26");202028
+      (vaccinium-highlight                 "#30303a");2b2b35
+      (vaccinium-shadow                    "#b3b3b3")
 
       (vaccinium-error                     "#FF0000")
       (vaccinium-warning                   "#f6d909");F68511
@@ -95,7 +95,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-black-gray))))
+   `(default ((,vaccinium-class (:foreground ,vaccinium-fg :background ,vaccinium-bg))))
 
    ;; error, warning, success
    `(error ((,vaccinium-class (:foreground ,vaccinium-error :weight bold))))
@@ -103,7 +103,7 @@
    `(success ((,vaccinium-class (:foreground ,vaccinium-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,vaccinium-class (:background ,vaccinium-alt-black-gray))))
+   `(highlight ((,vaccinium-class (:background ,vaccinium-highlight))))
 
    ;; shadow
    `(shadow ((,vaccinium-class (:foreground ,vaccinium-shadow))))
@@ -132,13 +132,13 @@
    `(cursor ((,vaccinium-class (:foreground ,vaccinium-black :background ,vaccinium-blueberry))))
 
    ;; fringe
-   `(fringe ((,vaccinium-class (:foreground ,vaccinium-red :background ,vaccinium-black-gray))))
+   `(fringe ((,vaccinium-class (:foreground ,vaccinium-red :background ,vaccinium-bg))))
    `(diff-hl-change ((,vaccinium-class (:foreground ,vaccinium-vc-change :background ,vaccinium-vc-change))))
    `(diff-hl-insert ((,vaccinium-class (:foreground ,vaccinium-vc-insert :background ,vaccinium-vc-insert))))
    `(diff-hl-delete ((,vaccinium-class (:foreground ,vaccinium-vc-delete :background ,vaccinium-vc-delete))))
 
    ;; line-number
-   `(line-number ((,vaccinium-class (:foreground ,vaccinium-white))))
+   `(line-number ((,vaccinium-class (:foreground ,vaccinium-fg))))
    `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-light-purple :inherit line-number))))
    `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple :inherit line-number))))
@@ -237,7 +237,7 @@
    `(doom-modeline-buffer-minor-mode ((,vaccinium-class (:foreground ,vaccinium-yellow))))
 
    ;; corfu
-   `(corfu-default ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-black-gray))))
+   `(corfu-default ((,vaccinium-class (:foreground ,vaccinium-fg :background ,vaccinium-bg))))
    `(corfu-current ((,vaccinium-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,vaccinium-class (:background ,vaccinium-shadow))))
    `(corfu-border ((,vaccinium-class (:background ,vaccinium-shadow))))

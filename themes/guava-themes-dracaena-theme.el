@@ -38,10 +38,7 @@
       (dracaena-black                     "#000000")
       (dracaena-white                     "#FFFFFF")
 
-      (dracaena-shadow                    "#b3b3b3")
-
       (dracaena-light-gray                "#4f4f4f")
-      (dracaena-gray                      "#424845");404242,3e4040,3d3f3f,424545
       (dracaena-dark-gray                 "#353838")
 
       (dracaena-guava-green               "#AED734")
@@ -60,13 +57,17 @@
 
       (dracaena-light-blue                "#4272d5");425fd5
       (dracaena-blue                      "#2d44d5");2134d5
-      (dracaena-antarctic-blue            "#bacce4");4f62be
       (dracaena-steel-blue                "#4f94cd");b0c4de
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
 
       (dracaena-purple-pink               "#aa4b6b");961250,b7125c,a5225c,a53c5c,a54666
       (dracaena-deep-purple               "#7f78dd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd,7f6ddd
+
+      (dracaena-fg                        "#bacce4");4f62be
+      (dracaena-bg                        "#424845");404242,3e4040,3d3f3f,424545
+      (dracaena-highlight                 "#565c59");4f4f4f
+      (dracaena-shadow                    "#b3b3b3")
 
       (dracaena-error                     "#FF0000")
       (dracaena-warning                   "#f6be14");F68511,f6ad11
@@ -96,7 +97,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,dracaena-class (:foreground ,dracaena-antarctic-blue :background ,dracaena-gray))))
+   `(default ((,dracaena-class (:foreground ,dracaena-fg :background ,dracaena-bg))))
 
    ;; error, warning, success
    `(error ((,dracaena-class (:foreground ,dracaena-error :weight bold))))
@@ -104,7 +105,7 @@
    `(success ((,dracaena-class (:foreground ,dracaena-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,dracaena-class (:background ,dracaena-light-gray))))
+   `(highlight ((,dracaena-class (:background ,dracaena-highlight))))
 
    ;; shadow
    `(shadow ((,dracaena-class (:foreground ,dracaena-shadow))))
@@ -133,13 +134,13 @@
    `(cursor ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; fringe
-   `(fringe ((,dracaena-class (:foreground ,dracaena-light-orange :background ,dracaena-gray))))
+   `(fringe ((,dracaena-class (:foreground ,dracaena-light-orange :background ,dracaena-bg))))
    `(diff-hl-change ((,dracaena-class (:foreground ,dracaena-vc-change :background ,dracaena-vc-change))))
    `(diff-hl-insert ((,dracaena-class (:foreground ,dracaena-vc-insert :background ,dracaena-vc-insert))))
    `(diff-hl-delete ((,dracaena-class (:foreground ,dracaena-vc-delete :background ,dracaena-vc-delete))))
 
    ;; line-number
-   `(line-number ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
+   `(line-number ((,dracaena-class (:foreground ,dracaena-fg))))
    `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,dracaena-class (:background ,dracaena-steel-blue :inherit line-number))))
    `(line-number-major-tick ((,dracaena-class (:background ,dracaena-orange :inherit line-number))))
@@ -238,7 +239,7 @@
    `(doom-modeline-buffer-minor-mode ((,dracaena-class (:foreground ,dracaena-deep-green))))
 
    ;; corfu
-   `(corfu-default ((,dracaena-class (:foreground ,dracaena-antarctic-blue :background ,dracaena-gray))))
+   `(corfu-default ((,dracaena-class (:foreground ,dracaena-fg :background ,dracaena-bg))))
    `(corfu-current ((,dracaena-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,dracaena-class (:background ,dracaena-shadow))))
    `(corfu-border ((,dracaena-class (:background ,dracaena-shadow))))

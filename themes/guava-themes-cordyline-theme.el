@@ -38,8 +38,6 @@
       ;; (cordyline-black                     "#000000")
       (cordyline-white                     "#FFFFFF")
 
-      (cordyline-shadow                    "#b3b3b3")
-
       (cordyline-orange-red                "#ce462c")
       (cordyline-pink-red                  "#cb646e");CB5F68
       (cordyline-pink-purple               "#da70d6")
@@ -63,6 +61,11 @@
       (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
       (cordyline-purple-red                "#983251");8d2a46,982a46,982a51
       (cordyline-alt-deep-purple           "#211730")
+
+      (cordyline-fg                        "#FFFFFF")
+      (cordyline-bg                        "#392b38");3f323c
+      (cordyline-highlight                 "#4d3f4c");433640,43364c,473b4c,493d4e
+      (cordyline-shadow                    "#b3b3b3")
 
       (cordyline-error                     "#FF0000")
       (cordyline-warning                   "#f6d909");F68511
@@ -92,7 +95,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
+   `(default ((,cordyline-class (:foreground ,cordyline-fg :background ,cordyline-bg))))
 
    ;; error, warning, success
    `(error ((,cordyline-class (:foreground ,cordyline-error :weight bold))))
@@ -100,7 +103,7 @@
    `(success ((,cordyline-class (:foreground ,cordyline-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,cordyline-class (:background ,cordyline-alt-purple))))
+   `(highlight ((,cordyline-class (:background ,cordyline-highlight))))
 
    ;; shadow
    `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
@@ -126,16 +129,16 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-pink-red))))
+   `(cursor ((,cordyline-class (:foreground ,cordyline-fg :background ,cordyline-pink-red))))
 
    ;; fringe
-   `(fringe ((,cordyline-class (:foreground ,cordyline-light-green :background ,cordyline-deep-purple))))
+   `(fringe ((,cordyline-class (:foreground ,cordyline-light-green :background ,cordyline-bg))))
    `(diff-hl-change ((,cordyline-class (:foreground ,cordyline-vc-change :background ,cordyline-vc-change))))
    `(diff-hl-insert ((,cordyline-class (:foreground ,cordyline-vc-insert :background ,cordyline-vc-insert))))
    `(diff-hl-delete ((,cordyline-class (:foreground ,cordyline-vc-delete :background ,cordyline-vc-delete))))
 
    ;; line-number
-   `(line-number ((,cordyline-class (:foreground ,cordyline-white))))
+   `(line-number ((,cordyline-class (:foreground ,cordyline-fg))))
    `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,cordyline-class (:background ,cordyline-alt-light-purple :inherit line-number))))
    `(line-number-major-tick ((,cordyline-class (:background ,cordyline-light-purple :inherit line-number))))
@@ -234,7 +237,7 @@
    `(doom-modeline-buffer-minor-mode ((,cordyline-class (:foreground ,cordyline-pink-red))))
 
    ;; corfu
-   `(corfu-default ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple))))
+   `(corfu-default ((,cordyline-class (:foreground ,cordyline-fg :background ,cordyline-bg))))
    `(corfu-current ((,cordyline-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,cordyline-class (:background ,cordyline-shadow))))
    `(corfu-border ((,cordyline-class (:background ,cordyline-shadow))))

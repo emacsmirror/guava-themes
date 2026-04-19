@@ -38,8 +38,6 @@
       (solanum-black                     "#000000")
       (solanum-white                     "#FFFFFF")
 
-      (solanum-shadow                    "#b3b3b3")
-
       (solanum-red-tomato                "#cd151f")
       (solanum-orange                    "#e98c85")
 
@@ -63,6 +61,11 @@
       (solanum-dark-purple               "#672b5f");41143d,672b5f
       (solanum-purple-black              "#130d1a")
       (solanum-alt-purple-black          "#3b3542")
+
+      (solanum-fg                        "#FFFFFF")
+      (solanum-bg                        "#130d1a")
+      (solanum-highlight                 "#27212e");6a143d,64143d
+      (solanum-shadow                    "#b3b3b3")
 
       (solanum-error                     "#FF0000")
       (solanum-warning                   "#f6d909");F68511
@@ -92,7 +95,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
+   `(default ((,solanum-class (:foreground ,solanum-fg :background ,solanum-bg))))
 
    ;; error, warning, success
    `(error ((,solanum-class (:foreground ,solanum-error :weight bold))))
@@ -100,7 +103,7 @@
    `(success ((,solanum-class (:foreground ,solanum-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,solanum-class (:background ,solanum-purple-red))))
+   `(highlight ((,solanum-class (:background ,solanum-highlight))))
 
    ;; shadow
    `(shadow ((,solanum-class (:foreground ,solanum-shadow))))
@@ -129,13 +132,13 @@
    `(cursor ((,solanum-class (:foreground ,solanum-black :background ,solanum-yellow-potato))))
 
    ;; fringe
-   `(fringe ((,solanum-class (:foreground ,solanum-red-tomato :background ,solanum-purple-black))))
+   `(fringe ((,solanum-class (:foreground ,solanum-red-tomato :background ,solanum-bg))))
    `(diff-hl-change ((,solanum-class (:foreground ,solanum-vc-change :background ,solanum-vc-change))))
    `(diff-hl-insert ((,solanum-class (:foreground ,solanum-vc-insert :background ,solanum-vc-insert))))
    `(diff-hl-delete ((,solanum-class (:foreground ,solanum-vc-delete :background ,solanum-vc-delete))))
 
    ;; line-number
-   `(line-number ((,solanum-class (:foreground ,solanum-white))))
+   `(line-number ((,solanum-class (:foreground ,solanum-fg))))
    `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,solanum-class (:background ,solanum-alt-purple :inherit line-number))))
    `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue :inherit line-number))))
@@ -234,7 +237,7 @@
    `(doom-modeline-buffer-minor-mode ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
    ;; corfu
-   `(corfu-default ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
+   `(corfu-default ((,solanum-class (:foreground ,solanum-fg :background ,solanum-bg))))
    `(corfu-current ((,solanum-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,solanum-class (:background ,solanum-shadow))))
    `(corfu-border ((,solanum-class (:background ,solanum-shadow))))

@@ -38,12 +38,6 @@
       (pyrus-black                     "#000000")
       (pyrus-white                     "#FFFFFF")
 
-      (pyrus-shadow                    "#7f7f7f")
-
-      (pyrus-snow                      "#f9fefd");fafffd,f9fefc
-      (pyrus-alt-snow                  "#e6ebe9")
-      (pyrus-dark-red                  "#780000");5a0f0f,822425,782525
-
       (pyrus-yellow-green              "#e5e73b")
       (pyrus-alt-yellow-green          "#c8c887")
 
@@ -66,6 +60,11 @@
       (pyrus-light-purple              "#8787e1")
       (pyrus-purple                    "#874be1")
       (pyrus-deep-magenta              "#782566")
+
+      (pyrus-fg                        "#780000");5a0f0f,822425,782525
+      (pyrus-bg                        "#f9fefd");fafffd,f9fefc
+      (pyrus-highlight                 "#e5eae9");e6ebe9
+      (pyrus-shadow                    "#7f7f7f")
 
       (pyrus-error                     "#ff0000")
       (pyrus-warning                   "#ffd200")
@@ -95,7 +94,7 @@
    ;; with unique colors
 
    ;; default
-   `(default ((,pyrus-class (:foreground ,pyrus-dark-red :background ,pyrus-snow))))
+   `(default ((,pyrus-class (:foreground ,pyrus-fg :background ,pyrus-bg))))
 
    ;; error, warning, success
    `(error ((,pyrus-class (:foreground ,pyrus-error :weight bold))))
@@ -103,7 +102,7 @@
    `(success ((,pyrus-class (:foreground ,pyrus-success :weight bold))))
 
    ;; highlight
-   `(highlight ((,pyrus-class (:background ,pyrus-alt-snow))))
+   `(highlight ((,pyrus-class (:background ,pyrus-highlight))))
 
    ;; shadow
    `(shadow ((,pyrus-class (:foreground ,pyrus-shadow))))
@@ -132,13 +131,13 @@
    `(cursor ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-blue))))
 
    ;; fringe
-   `(fringe ((,pyrus-class (:foreground ,pyrus-blue :background ,pyrus-snow))))
+   `(fringe ((,pyrus-class (:foreground ,pyrus-blue :background ,pyrus-bg))))
    `(diff-hl-change ((,pyrus-class (:foreground ,pyrus-vc-change :background ,pyrus-vc-change))))
    `(diff-hl-insert ((,pyrus-class (:foreground ,pyrus-vc-insert :background ,pyrus-vc-insert))))
    `(diff-hl-delete ((,pyrus-class (:foreground ,pyrus-vc-delete :background ,pyrus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,pyrus-class (:foreground ,pyrus-dark-red))))
+   `(line-number ((,pyrus-class (:foreground ,pyrus-fg))))
    `(line-number-current-line ((,pyrus-class (:foreground ,pyrus-black :weight bold :inherit highlight))))
    `(line-number-minor-tick ((,pyrus-class (:background ,pyrus-light-green :inherit line-number))))
    `(line-number-major-tick ((,pyrus-class (:background ,pyrus-orange-pink :inherit line-number))))
@@ -237,7 +236,7 @@
    `(doom-modeline-buffer-minor-mode ((,pyrus-class (:foreground ,pyrus-orange-pink))))
 
    ;; corfu
-   `(corfu-default ((,pyrus-class (:foreground ,pyrus-dark-red :background ,pyrus-snow))))
+   `(corfu-default ((,pyrus-class (:foreground ,pyrus-fg :background ,pyrus-bg))))
    `(corfu-current ((,pyrus-class (:foreground unspecified :background unspecified :inherit region))))
    `(corfu-bar ((,pyrus-class (:background ,pyrus-shadow))))
    `(corfu-border ((,pyrus-class (:background ,pyrus-shadow))))
