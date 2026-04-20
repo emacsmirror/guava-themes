@@ -41,7 +41,7 @@
       (petunia-red                       "#e60046");dc2850
       (petunia-pink                      "#be64aa");b40bc0,b44bc0
       (petunia-cream                     "#ffa0a0")
-      (petunia-light-orange              "#ffa07a")
+      (petunia-light-orange              "#ffb478");ffa07a
       (petunia-orange                    "#ff7332");ff6432
 
       (petunia-yellow                    "#fafd70")
