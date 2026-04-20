@@ -228,8 +228,8 @@
    `(elfeed-search-date-face ((,ceiba-class (:foreground ,ceiba-purple-red))))
    `(elfeed-search-feed-face ((,ceiba-class (:foreground ,ceiba-green-blue))))
    `(elfeed-search-title-face ((,ceiba-class (:foreground ,ceiba-brown))))
-   `(elfeed-search-filter-face ((,ceiba-class (:foreground ,ceiba-light-orange))))
-   `(elfeed-search-last-update-face ((,ceiba-class (:foreground ,ceiba-light-purple))))
+   `(elfeed-search-filter-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-orange))))
+   `(elfeed-search-last-update-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-purple))))
    `(elfeed-search-unread-title-face ((,ceiba-class (:weight bold :foreground ,ceiba-deep-green))))
    `(elfeed-search-unread-count-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-green))))
 

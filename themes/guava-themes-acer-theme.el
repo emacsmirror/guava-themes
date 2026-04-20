@@ -224,8 +224,8 @@
    `(elfeed-search-date-face ((,acer-class (:foreground ,acer-deep-orange))))
    `(elfeed-search-feed-face ((,acer-class (:foreground ,acer-deep-purple))))
    `(elfeed-search-title-face ((,acer-class (:foreground ,acer-deep-brown))))
-   `(elfeed-search-filter-face ((,acer-class (:foreground ,acer-purple-pink))))
-   `(elfeed-search-last-update-face ((,acer-class (:foreground ,acer-purple-red))))
+   `(elfeed-search-filter-face ((,acer-class (:weight bold :foreground ,acer-purple-pink))))
+   `(elfeed-search-last-update-face ((,acer-class (:weight bold :foreground ,acer-purple-red))))
    `(elfeed-search-unread-title-face ((,acer-class (:weight bold :foreground ,acer-deep-green))))
    `(elfeed-search-unread-count-face ((,acer-class (:weight bold :foreground ,acer-green))))
 

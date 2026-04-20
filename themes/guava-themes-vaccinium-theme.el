@@ -226,8 +226,8 @@
    `(elfeed-search-date-face ((,vaccinium-class (:foreground ,vaccinium-steel-blue))))
    `(elfeed-search-feed-face ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
    `(elfeed-search-title-face ((,vaccinium-class (:foreground ,vaccinium-orange))))
-   `(elfeed-search-filter-face ((,vaccinium-class (:foreground ,vaccinium-deep-blue))))
-   `(elfeed-search-last-update-face ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
+   `(elfeed-search-filter-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
+   `(elfeed-search-last-update-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-purple-red))))
    `(elfeed-search-unread-title-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-green-subdued))))
    `(elfeed-search-unread-count-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-alt-blueberry))))
 

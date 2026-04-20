@@ -226,8 +226,8 @@
    `(elfeed-search-date-face ((,rubus-class (:foreground ,rubus-pink-cream))))
    `(elfeed-search-feed-face ((,rubus-class (:foreground ,rubus-raspberry))))
    `(elfeed-search-title-face ((,rubus-class (:foreground ,rubus-orange))))
-   `(elfeed-search-filter-face ((,rubus-class (:foreground ,rubus-yellow))))
-   `(elfeed-search-last-update-face ((,rubus-class (:foreground ,rubus-light-purple))))
+   `(elfeed-search-filter-face ((,rubus-class (:weight bold :foreground ,rubus-yellow))))
+   `(elfeed-search-last-update-face ((,rubus-class (:weight bold :foreground ,rubus-light-purple))))
    `(elfeed-search-unread-title-face ((,rubus-class (:weight bold :foreground ,rubus-green-forest))))
    `(elfeed-search-unread-count-face ((,rubus-class (:weight bold :foreground ,rubus-purple))))
 
