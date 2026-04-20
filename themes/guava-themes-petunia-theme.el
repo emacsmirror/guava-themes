@@ -38,11 +38,11 @@
       (petunia-black                     "#000000")
       (petunia-white                     "#FFFFFF")
 
-      (petunia-red                       "#dc2850")
+      (petunia-red                       "#e60046");dc2850
       (petunia-pink                      "#be64aa");b40bc0,b44bc0
       (petunia-cream                     "#ffa0a0")
       (petunia-light-orange              "#ffa07a")
-      (petunia-orange                    "#ff6432")
+      (petunia-orange                    "#ff7332");ff6432
 
       (petunia-yellow                    "#fafd70")
 
