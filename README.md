@@ -131,6 +131,10 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 <img src="https://lh3.googleusercontent.com/d/1E7pe9SFGGrb3DrVIr-cxyFw7TIVj3VJS=s2000?authuser=0" width="750" height="400" alt="guava-pyrus-screenshot">
 
+- Guava Petunia Theme  
+
+<img src="https://lh3.googleusercontent.com/d/1G5uhCxk0NmjaUtlrdO5R70Xh3XH66hwK=s2000?authuser=0" width="750" height="400" alt="guava-petunia-screenshot">
+
 ## TODO
 - Add themes: Malus, Ficus, Eucalyptus.
 - Minor rework: Citrus (mostly font-locks)
