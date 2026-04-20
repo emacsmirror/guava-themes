@@ -57,6 +57,7 @@
 
       (dracaena-light-blue                "#4272d5");425fd5
       (dracaena-blue                      "#2d44d5");2134d5
+      (dracaena-antarctic-blue            "#bacce4");4f62be
       (dracaena-steel-blue                "#4f94cd");b0c4de
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
