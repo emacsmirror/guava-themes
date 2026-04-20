@@ -55,12 +55,11 @@
       (solanum-light-purple              "#bec8ff");c4aeff,ccbcff,d4cbff
       (solanum-purple                    "#9c69e8");9e7ae8,9c69e8
       (solanum-alt-purple                "#a394ff");9e7ae8,9c69e8
-      (solanum-purple-red                "#64143d");6a143d,64143d
       (solanum-purple-pink               "#915d93");bb5d93,7d5d93
       (solanum-purple-blue               "#492b91")
       (solanum-dark-purple               "#672b5f");41143d,672b5f
       (solanum-purple-black              "#130d1a")
-      (solanum-alt-purple-black          "#3b3542")
+      (solanum-alt-purple-black          "#3b3550");3b3542
 
       (solanum-fg                        "#FFFFFF")
       (solanum-bg                        "#130d1a")
@@ -145,7 +144,7 @@
 
    ;; mode-line
    `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
-   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-red))))
+   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue))))
    `(guava-themes-visible-bell ((,solanum-class (:foreground ,solanum-white :background ,solanum-orange))))
 
    ;; minibuffer
@@ -159,16 +158,16 @@
    `(which-func ((,solanum-class (:foreground ,solanum-white))))
 
    ;; tab-bar
-   `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
+   `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black))))
    `(tab-bar-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 1.0))))
+   `(tab-bar-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 1.0))))
 
    ;; tab-line
-   `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black))))
-   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-red :weight bold :height 0.9))))
+   `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black))))
+   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :weight bold :height 0.9))))
    `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))
+   `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,solanum-class (:foreground ,solanum-red-tomato :weight bold :height 0.9))))
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
 
