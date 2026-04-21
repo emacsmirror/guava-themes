@@ -221,6 +221,11 @@
    `(completions-common-part ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
    `(completions-first-difference ((,dracaena-class (:foreground ,dracaena-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,dracaena-class (:foreground ,dracaena-vc-delete :weight bold))))
+   `(org-done ((,dracaena-class (:foreground ,dracaena-vc-insert :weight bold))))
+   `(org-hide ((,dracaena-class (:foreground ,dracaena-bg))))
+
 
    ;; external packages
 

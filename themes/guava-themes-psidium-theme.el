@@ -213,6 +213,11 @@
    `(completions-common-part ((,psidium-class (:foreground ,psidium-vc-change :weight bold))))
    `(completions-first-difference ((,psidium-class (:foreground ,psidium-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,psidium-class (:foreground ,psidium-vc-delete :weight bold))))
+   `(org-done ((,psidium-class (:foreground ,psidium-vc-insert :weight bold))))
+   `(org-hide ((,psidium-class (:foreground ,psidium-bg))))
+
 
    ;; external packages
 

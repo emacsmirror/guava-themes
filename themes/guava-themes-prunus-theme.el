@@ -216,6 +216,11 @@
    `(completions-common-part ((,prunus-class (:foreground ,prunus-warning :weight bold))))
    `(completions-first-difference ((,prunus-class (:foreground ,prunus-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,prunus-class (:foreground ,prunus-vc-delete :weight bold))))
+   `(org-done ((,prunus-class (:foreground ,prunus-vc-insert :weight bold))))
+   `(org-hide ((,prunus-class (:foreground ,prunus-bg))))
+
 
    ;; external packages
 

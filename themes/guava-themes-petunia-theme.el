@@ -214,6 +214,11 @@
    `(completions-common-part ((,petunia-class (:foreground ,petunia-warning :weight bold))))
    `(completions-first-difference ((,petunia-class (:foreground ,petunia-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,petunia-class (:foreground ,petunia-vc-delete :weight bold))))
+   `(org-done ((,petunia-class (:foreground ,petunia-vc-insert :weight bold))))
+   `(org-hide ((,petunia-class (:foreground ,petunia-bg))))
+
 
    ;; external packages
 

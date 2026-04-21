@@ -218,6 +218,11 @@
    `(completions-common-part ((,rubus-class (:foreground ,rubus-warning :weight bold))))
    `(completions-first-difference ((,rubus-class (:foreground ,rubus-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,rubus-class (:foreground ,rubus-vc-delete :weight bold))))
+   `(org-done ((,rubus-class (:foreground ,rubus-vc-insert :weight bold))))
+   `(org-hide ((,rubus-class (:foreground ,rubus-bg))))
+
 
    ;; external packages
 

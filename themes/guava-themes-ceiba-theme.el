@@ -220,6 +220,11 @@
    `(completions-common-part ((,ceiba-class (:foreground ,ceiba-vc-change :weight bold))))
    `(completions-first-difference ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,ceiba-class (:foreground ,ceiba-vc-delete :weight bold))))
+   `(org-done ((,ceiba-class (:foreground ,ceiba-vc-insert :weight bold))))
+   `(org-hide ((,ceiba-class (:foreground ,ceiba-bg))))
+
 
    ;; external packages
 

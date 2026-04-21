@@ -217,6 +217,11 @@
    `(completions-common-part ((,solanum-class (:foreground ,solanum-warning :weight bold))))
    `(completions-first-difference ((,solanum-class (:foreground ,solanum-error :weight bold))))
 
+   ;; org
+   `(org-todo ((,solanum-class (:foreground ,solanum-vc-delete :weight bold))))
+   `(org-done ((,solanum-class (:foreground ,solanum-vc-insert :weight bold))))
+   `(org-hide ((,solanum-class (:foreground ,solanum-bg))))
+
 
    ;; external packages
 
