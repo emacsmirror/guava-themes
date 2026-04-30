@@ -67,7 +67,7 @@
 
       (dracaena-fg                        "#bacce4");4f62be
       (dracaena-bg                        "#424845");404242,3e4040,3d3f3f,424545
-      (dracaena-highlight                 "#565c59");4f4f4f
+      (dracaena-highlight                 "#2e3431");4f4f4f,565c59
       (dracaena-shadow                    "#b3b3b3")
 
       (dracaena-error                     "#FF0000")
