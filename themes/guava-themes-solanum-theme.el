@@ -83,6 +83,9 @@
       (solanum-orderless-2               "#ff6400")
       (solanum-orderless-3               "#3c82ff")
 
+      (solanum-prescient-0               "#46C8A5");ad4553
+      (solanum-prescient-1               "#C84669");45ad9f
+
       (solanum-vc-change                 solanum-blue)
       (solanum-vc-insert                 solanum-success)
       (solanum-vc-delete                 solanum-error))
@@ -251,6 +254,10 @@
    `(orderless-match-face-1 ((,solanum-class (:foreground ,solanum-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,solanum-class (:foreground ,solanum-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,solanum-class (:foreground ,solanum-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,solanum-class (:foreground ,solanum-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,solanum-class (:foreground ,solanum-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,solanum-class (:inherit error))))

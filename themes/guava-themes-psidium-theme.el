@@ -79,6 +79,9 @@
       (psidium-orderless-2               "#ff6400")
       (psidium-orderless-3               "#3c82ff")
 
+      (psidium-prescient-0               "#4680DE");ad4553
+      (psidium-prescient-1               "#DE4680");45ad9f
+
       (psidium-vc-change                 psidium-blue)
       (psidium-vc-insert                 psidium-success)
       (psidium-vc-delete                 psidium-error))
@@ -247,6 +250,10 @@
    `(orderless-match-face-1 ((,psidium-class (:foreground ,psidium-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,psidium-class (:foreground ,psidium-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,psidium-class (:foreground ,psidium-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,psidium-class (:foreground ,psidium-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,psidium-class (:foreground ,psidium-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,psidium-class (:inherit error))))

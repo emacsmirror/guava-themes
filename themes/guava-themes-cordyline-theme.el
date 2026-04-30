@@ -84,6 +84,9 @@
       (cordyline-orderless-2               "#ff6400")
       (cordyline-orderless-3               "#3c82ff")
 
+      (cordyline-prescient-0               "#46C8A5");ad4553
+      (cordyline-prescient-1               "#C84669");45ad9f
+
       (cordyline-vc-change                 cordyline-deep-blue)
       (cordyline-vc-insert                 cordyline-success)
       (cordyline-vc-delete                 cordyline-error))
@@ -252,6 +255,10 @@
    `(orderless-match-face-1 ((,cordyline-class (:foreground ,cordyline-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,cordyline-class (:foreground ,cordyline-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,cordyline-class (:foreground ,cordyline-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,cordyline-class (:foreground ,cordyline-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,cordyline-class (:foreground ,cordyline-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,cordyline-class (:inherit error))))

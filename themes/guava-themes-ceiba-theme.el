@@ -86,6 +86,9 @@
       (ceiba-orderless-2               "#b45a00")
       (ceiba-orderless-3               "#3c82e6")
 
+      (ceiba-prescient-0               "#4680DE");ad4553
+      (ceiba-prescient-1               "#DE4680");45ad9f
+
       (ceiba-vc-change                 ceiba-blue)
       (ceiba-vc-insert                 ceiba-success)
       (ceiba-vc-delete                 ceiba-error))
@@ -254,6 +257,10 @@
    `(orderless-match-face-1 ((,ceiba-class (:foreground ,ceiba-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,ceiba-class (:foreground ,ceiba-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,ceiba-class (:foreground ,ceiba-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,ceiba-class (:foreground ,ceiba-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,ceiba-class (:foreground ,ceiba-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,ceiba-class (:inherit error))))

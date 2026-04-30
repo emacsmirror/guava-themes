@@ -85,6 +85,9 @@
       (citrus-orderless-2               "#ff6400")
       (citrus-orderless-3               "#3c82ff")
 
+      (citrus-prescient-0               "#4680DE");ad4553
+      (citrus-prescient-1               "#DE4680");45ad9f
+
       (citrus-vc-change                 citrus-deep-blue)
       (citrus-vc-insert                 citrus-success)
       (citrus-vc-delete                 citrus-error))
@@ -253,6 +256,10 @@
    `(orderless-match-face-1 ((,citrus-class (:foreground ,citrus-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,citrus-class (:foreground ,citrus-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,citrus-class (:foreground ,citrus-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,citrus-class (:foreground ,citrus-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,citrus-class (:foreground ,citrus-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,citrus-class (:inherit error))))

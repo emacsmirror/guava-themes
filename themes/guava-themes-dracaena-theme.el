@@ -87,6 +87,9 @@
       (dracaena-orderless-2               "#ff6400")
       (dracaena-orderless-3               "#3c82ff")
 
+      (dracaena-prescient-0               "#46E6A6");ad4553
+      (dracaena-prescient-1               "#E64686");45ad9f
+
       (dracaena-vc-change                 dracaena-blue)
       (dracaena-vc-insert                 dracaena-deep-green)
       (dracaena-vc-delete                 dracaena-error))
@@ -255,6 +258,10 @@
    `(orderless-match-face-1 ((,dracaena-class (:foreground ,dracaena-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,dracaena-class (:foreground ,dracaena-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,dracaena-class (:foreground ,dracaena-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,dracaena-class (:foreground ,dracaena-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,dracaena-class (:foreground ,dracaena-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,dracaena-class (:inherit error))))

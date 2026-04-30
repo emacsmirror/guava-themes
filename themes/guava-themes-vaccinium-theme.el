@@ -84,6 +84,9 @@
       (vaccinium-orderless-2               "#ff6400")
       (vaccinium-orderless-3               "#3c82ff")
 
+      (vaccinium-prescient-0               "#46C8A5");ad4553
+      (vaccinium-prescient-1               "#C84669");45ad9f
+
       (vaccinium-vc-change                 vaccinium-alt-blue)
       (vaccinium-vc-insert                 vaccinium-success)
       (vaccinium-vc-delete                 vaccinium-error))
@@ -252,6 +255,10 @@
    `(orderless-match-face-1 ((,vaccinium-class (:foreground ,vaccinium-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,vaccinium-class (:foreground ,vaccinium-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,vaccinium-class (:foreground ,vaccinium-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,vaccinium-class (:foreground ,vaccinium-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,vaccinium-class (:foreground ,vaccinium-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,vaccinium-class (:inherit error))))

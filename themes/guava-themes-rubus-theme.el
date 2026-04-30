@@ -84,6 +84,9 @@
       (rubus-orderless-2               "#ff6400")
       (rubus-orderless-3               "#3c82ff")
 
+      (rubus-prescient-0               "#46C8A5");ad4553
+      (rubus-prescient-1               "#C84669");45ad9f
+
       (rubus-vc-change                 rubus-blue)
       (rubus-vc-insert                 rubus-success)
       (rubus-vc-delete                 rubus-error))
@@ -252,6 +255,10 @@
    `(orderless-match-face-1 ((,rubus-class (:foreground ,rubus-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,rubus-class (:foreground ,rubus-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,rubus-class (:foreground ,rubus-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,rubus-class (:foreground ,rubus-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,rubus-class (:foreground ,rubus-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,rubus-class (:inherit error))))

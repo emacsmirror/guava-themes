@@ -82,6 +82,9 @@
       (prunus-orderless-2               "#ff6400")
       (prunus-orderless-3               "#3c82ff")
 
+      (prunus-prescient-0               "#46C8A5");ad4553
+      (prunus-prescient-1               "#C84669");45ad9f
+
       (prunus-vc-change                 prunus-blue)
       (prunus-vc-insert                 prunus-success)
       (prunus-vc-delete                 prunus-error))
@@ -250,6 +253,10 @@
    `(orderless-match-face-1 ((,prunus-class (:foreground ,prunus-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,prunus-class (:foreground ,prunus-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,prunus-class (:foreground ,prunus-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,prunus-class (:foreground ,prunus-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,prunus-class (:foreground ,prunus-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,prunus-class (:inherit error))))

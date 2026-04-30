@@ -84,6 +84,9 @@
       (rhododendron-orderless-2               "#ff6400")
       (rhododendron-orderless-3               "#3c82ff")
 
+      (rhododendron-prescient-0               "#4680DE");ad4553
+      (rhododendron-prescient-1               "#DE4680");45ad9f
+
       (rhododendron-vc-change                 rhododendron-blue)
       (rhododendron-vc-insert                 rhododendron-success)
       (rhododendron-vc-delete                 rhododendron-error))
@@ -252,6 +255,10 @@
    `(orderless-match-face-1 ((,rhododendron-class (:foreground ,rhododendron-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,rhododendron-class (:foreground ,rhododendron-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,rhododendron-class (:foreground ,rhododendron-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,rhododendron-class (:foreground ,rhododendron-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,rhododendron-class (:foreground ,rhododendron-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,rhododendron-class (:inherit error))))

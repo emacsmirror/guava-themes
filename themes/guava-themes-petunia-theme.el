@@ -80,6 +80,9 @@
       (petunia-orderless-2               "#ff7300");ff6400
       (petunia-orderless-3               "#009bff");3c82ff
 
+      (petunia-prescient-0               "#46C8A5");ad4553
+      (petunia-prescient-1               "#C84669");45ad9f
+
       (petunia-vc-change                 petunia-blue)
       (petunia-vc-insert                 petunia-success)
       (petunia-vc-delete                 petunia-error))
@@ -248,6 +251,10 @@
    `(orderless-match-face-1 ((,petunia-class (:foreground ,petunia-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,petunia-class (:foreground ,petunia-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,petunia-class (:foreground ,petunia-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,petunia-class (:foreground ,petunia-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,petunia-class (:foreground ,petunia-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,petunia-class (:inherit error))))

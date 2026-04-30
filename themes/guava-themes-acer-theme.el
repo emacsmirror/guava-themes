@@ -82,6 +82,9 @@
       (acer-orderless-2               "#d44400")
       (acer-orderless-3               "#6496d7")
 
+      (acer-prescient-0               "#4680DE");ad4553
+      (acer-prescient-1               "#DE4680");45ad9f
+
       (acer-vc-change                 acer-blue)
       (acer-vc-insert                 acer-success)
       (acer-vc-delete                 acer-error))
@@ -250,6 +253,10 @@
    `(orderless-match-face-1 ((,acer-class (:foreground ,acer-orderless-1 :weight bold))))
    `(orderless-match-face-2 ((,acer-class (:foreground ,acer-orderless-2 :weight bold))))
    `(orderless-match-face-3 ((,acer-class (:foreground ,acer-orderless-3 :weight bold))))
+
+   ;; prescient (vertico-prescient-enable-filtering, corfu-prescient-enable-filtering)
+   `(prescient-primary-highlight ((,acer-class (:foreground ,acer-prescient-0 :weight bold))))
+   `(prescient-secondary-highlight ((,acer-class (:foreground ,acer-prescient-1 :underline t :weight bold))))
 
    ;; envrc
    `(envrc-mode-line-error-face ((,acer-class (:inherit error))))
