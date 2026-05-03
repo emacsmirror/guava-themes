@@ -64,7 +64,7 @@
 
       (cordyline-fg                        "#FFFFFF")
       (cordyline-bg                        "#392b38");3f323c
-      (cordyline-highlight                 "#4d3f4c");433640,43364c,473b4c,493d4e
+      (cordyline-highlight                 "#251724");433640,43364c,473b4c,493d4e,4d3f4c,251724
       (cordyline-shadow                    "#b3b3b3")
 
       (cordyline-error                     "#FF0000")
