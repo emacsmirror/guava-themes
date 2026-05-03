@@ -228,11 +228,11 @@
    ;; elfeed
    `(elfeed-search-tag-face ((,petunia-class (:foreground ,petunia-pink))))
    `(elfeed-search-date-face ((,petunia-class (:foreground ,petunia-light-blue))))
-   `(elfeed-search-feed-face ((,petunia-class (:foreground ,petunia-green-forest))))
+   `(elfeed-search-feed-face ((,petunia-class (:foreground ,petunia-purple))))
    `(elfeed-search-title-face ((,petunia-class (:foreground ,petunia-deep-blue))))
    `(elfeed-search-filter-face ((,petunia-class (:weight bold :foreground ,petunia-yellow))))
    `(elfeed-search-last-update-face ((,petunia-class (:weight bold :foreground ,petunia-light-green))))
-   `(elfeed-search-unread-title-face ((,petunia-class (:weight bold :foreground ,petunia-purple))))
+   `(elfeed-search-unread-title-face ((,petunia-class (:weight bold :foreground ,petunia-green-forest))))
    `(elfeed-search-unread-count-face ((,petunia-class (:weight bold :foreground ,petunia-light-orange))))
 
    ;; doom-modeline
