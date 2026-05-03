@@ -54,7 +54,7 @@
       (cordyline-alt-light-green           "#afd2b9");006455,00512c
       (cordyline-green                     "#005f55");006455
 
-      (cordyline-light-purple              "#a246d1");8b1cb0,9c1cbc,991cbc,a21cd1,a226d1
+      (cordyline-light-purple              "#a25ad1");8b1cb0,9c1cbc,991cbc,a21cd1,a226d1,a246d1
       (cordyline-alt-light-purple          "#a29cf1")
       (cordyline-purple                    "#7050af");54366d,583675,583683,583d83,59338f,673b94,703aaf,7044af
       (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
