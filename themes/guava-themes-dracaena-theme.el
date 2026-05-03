@@ -242,6 +242,13 @@
    `(elfeed-search-unread-title-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-green))))
    `(elfeed-search-unread-count-face ((,dracaena-class (:weight bold :foreground ,dracaena-guava-green))))
 
+   `(elfeed-show-entry-header-face ((,dracaena-class (:foreground ,dracaena-purple-pink))))
+   `(elfeed-show-entry-author-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-green))))
+   `(elfeed-show-entry-title-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-green))))
+   `(elfeed-show-entry-date-face ((,dracaena-class (:foreground ,dracaena-steel-blue))))
+   `(elfeed-show-entry-feed-face ((,dracaena-class (:foreground ,dracaena-steel-blue))))
+   `(elfeed-show-entry-tags-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
+
    ;; doom-modeline
    `(doom-modeline-project-name ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :inherit italic))))
    `(doom-modeline-project-parent-dir ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))

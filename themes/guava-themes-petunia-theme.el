@@ -235,6 +235,13 @@
    `(elfeed-search-unread-title-face ((,petunia-class (:weight bold :foreground ,petunia-green-forest))))
    `(elfeed-search-unread-count-face ((,petunia-class (:weight bold :foreground ,petunia-light-orange))))
 
+   `(elfeed-show-entry-header-face ((,petunia-class (:foreground ,petunia-green-forest))))
+   `(elfeed-show-entry-author-face ((,petunia-class (:weight bold :foreground ,petunia-red))))
+   `(elfeed-show-entry-title-face ((,petunia-class (:weight bold :foreground ,petunia-red))))
+   `(elfeed-show-entry-date-face ((,petunia-class (:foreground ,petunia-orange))))
+   `(elfeed-show-entry-feed-face ((,petunia-class (:foreground ,petunia-orange))))
+   `(elfeed-show-entry-tags-face ((,petunia-class (:foreground ,petunia-pink))))
+
    ;; doom-modeline
    `(doom-modeline-project-name ((,petunia-class (:foreground ,petunia-light-green :inherit italic))))
    `(doom-modeline-project-parent-dir ((,petunia-class (:foreground ,petunia-light-green))))
