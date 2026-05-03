@@ -56,7 +56,7 @@
       (petunia-cyan                      "#00ffff")
 
       (petunia-light-purple              "#a88dac")
-      (petunia-purple                    "#8a46ff");8a14fd,8a14e1,8a1eff,8a28ff
+      (petunia-purple                    "#8a5aff");8a14fd,8a14e1,8a1eff,8a28ff
 
       (petunia-fg                        "#FFFFFF")
       (petunia-bg                        "#000000")
