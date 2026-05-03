@@ -57,10 +57,10 @@
       (cordyline-light-purple              "#a246d1");8b1cb0,9c1cbc,991cbc,a21cd1,a226d1
       (cordyline-alt-light-purple          "#a29cf1")
       (cordyline-purple                    "#7050af");54366d,583675,583683,583d83,59338f,673b94,703aaf,7044af
-      (cordyline-deep-purple               "#392b38");3f323c
       (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
+      (cordyline-deep-purple               "#3c193c");3f323c,392b38,3c2350
+      (cordyline-alt-deep-purple           "#231932");211730
       (cordyline-purple-red                "#983251");8d2a46,982a46,982a51
-      (cordyline-alt-deep-purple           "#211730")
 
       (cordyline-fg                        "#FFFFFF")
       (cordyline-bg                        "#392b38");3f323c
