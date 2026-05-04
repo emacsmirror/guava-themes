@@ -54,7 +54,7 @@
       (jacaranda-light-cyan                "#60a1ba");00aaaa
       (jacaranda-cyan                      "#00778b")
 
-      (jacaranda-alt-light-purple          "#C0B4E4")
+      (jacaranda-light-purple              "#be87e6");C0B4E4,beafe6
       (jacaranda-purple                    "#aa69e6");984ee6
       (jacaranda-deep-purple               "#640cbe");800080,740cbe
       (jacaranda-purple-red                "#8b2252")
@@ -109,7 +109,7 @@
    `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
 
    ;; region
-   `(region ((,jacaranda-class (:background ,jacaranda-alt-light-purple))))
+   `(region ((,jacaranda-class (:background ,jacaranda-light-purple))))
    `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock
@@ -168,7 +168,7 @@
    `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :weight bold :height 0.9))))
    `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-alt-light-purple :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-purple :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 
