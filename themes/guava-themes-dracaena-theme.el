@@ -144,8 +144,8 @@
    `(diff-hl-delete ((,dracaena-class (:foreground ,dracaena-vc-delete :background ,dracaena-vc-delete))))
 
    ;; line-number
-   `(line-number ((,dracaena-class (:foreground ,dracaena-fg))))
-   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit highlight))))
+   `(line-number ((,dracaena-class (:foreground ,dracaena-fg :inherit default))))
+   `(line-number-current-line ((,dracaena-class (:foreground ,dracaena-orange :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,dracaena-class (:background ,dracaena-steel-blue :inherit line-number))))
    `(line-number-major-tick ((,dracaena-class (:background ,dracaena-orange :inherit line-number))))
 

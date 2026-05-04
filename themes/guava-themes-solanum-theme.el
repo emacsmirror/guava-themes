@@ -140,8 +140,8 @@
    `(diff-hl-delete ((,solanum-class (:foreground ,solanum-vc-delete :background ,solanum-vc-delete))))
 
    ;; line-number
-   `(line-number ((,solanum-class (:foreground ,solanum-fg))))
-   `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit highlight))))
+   `(line-number ((,solanum-class (:foreground ,solanum-fg :inherit default))))
+   `(line-number-current-line ((,solanum-class (:foreground ,solanum-light-green :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,solanum-class (:background ,solanum-alt-purple :inherit line-number))))
    `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue :inherit line-number))))
 

@@ -138,8 +138,8 @@
    `(diff-hl-delete ((,jacaranda-class (:foreground ,jacaranda-vc-delete :background ,jacaranda-vc-delete))))
 
    ;; line-number
-   `(line-number ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
-   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-fg :weight bold :inherit highlight))))
+   `(line-number ((,jacaranda-class (:foreground ,jacaranda-deep-blue :inherit default))))
+   `(line-number-current-line ((,jacaranda-class (:foreground ,jacaranda-fg :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,jacaranda-class (:background ,jacaranda-antarctic-blue :inherit line-number))))
    `(line-number-major-tick ((,jacaranda-class (:background ,jacaranda-purple :inherit line-number))))
 

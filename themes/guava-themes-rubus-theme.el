@@ -141,8 +141,8 @@
    `(diff-hl-delete ((,rubus-class (:foreground ,rubus-vc-delete :background ,rubus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,rubus-class (:foreground ,rubus-fg))))
-   `(line-number-current-line ((,rubus-class (:foreground ,rubus-pink-cream :weight bold :inherit highlight))))
+   `(line-number ((,rubus-class (:foreground ,rubus-fg :inherit default))))
+   `(line-number-current-line ((,rubus-class (:foreground ,rubus-pink-cream :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,rubus-class (:background ,rubus-purple :inherit line-number))))
    `(line-number-major-tick ((,rubus-class (:background ,rubus-deep-purple :inherit line-number))))
 

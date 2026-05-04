@@ -139,8 +139,8 @@
    `(diff-hl-delete ((,prunus-class (:foreground ,prunus-vc-delete :background ,prunus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,prunus-class (:foreground ,prunus-purple-red))))
-   `(line-number-current-line ((,prunus-class (:foreground ,prunus-fg :weight bold :inherit highlight))))
+   `(line-number ((,prunus-class (:foreground ,prunus-purple-red :inherit default))))
+   `(line-number-current-line ((,prunus-class (:foreground ,prunus-fg :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,prunus-class (:background ,prunus-light-pink :inherit line-number))))
    `(line-number-major-tick ((,prunus-class (:background ,prunus-pink :inherit line-number))))
 

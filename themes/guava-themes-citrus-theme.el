@@ -142,8 +142,8 @@
    `(diff-hl-delete ((,citrus-class (:foreground ,citrus-vc-delete :background ,citrus-vc-delete))))
 
    ;; line-number
-   `(line-number ((,citrus-class (:foreground ,citrus-fg))))
-   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green-blue :weight bold :inherit highlight))))
+   `(line-number ((,citrus-class (:foreground ,citrus-fg :inherit default))))
+   `(line-number-current-line ((,citrus-class (:foreground ,citrus-green-blue :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,citrus-class (:background ,citrus-light-purple :inherit line-number))))
    `(line-number-major-tick ((,citrus-class (:background ,citrus-light-blue :inherit line-number))))
 

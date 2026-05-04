@@ -141,8 +141,8 @@
    `(diff-hl-delete ((,vaccinium-class (:foreground ,vaccinium-vc-delete :background ,vaccinium-vc-delete))))
 
    ;; line-number
-   `(line-number ((,vaccinium-class (:foreground ,vaccinium-fg))))
-   `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit highlight))))
+   `(line-number ((,vaccinium-class (:foreground ,vaccinium-fg :inherit default))))
+   `(line-number-current-line ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,vaccinium-class (:background ,vaccinium-light-purple :inherit line-number))))
    `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple :inherit line-number))))
 

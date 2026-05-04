@@ -141,8 +141,8 @@
    `(diff-hl-delete ((,cordyline-class (:foreground ,cordyline-vc-delete :background ,cordyline-vc-delete))))
 
    ;; line-number
-   `(line-number ((,cordyline-class (:foreground ,cordyline-fg))))
-   `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :weight bold :inherit highlight))))
+   `(line-number ((,cordyline-class (:foreground ,cordyline-fg :inherit default))))
+   `(line-number-current-line ((,cordyline-class (:foreground ,cordyline-light-blue :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,cordyline-class (:background ,cordyline-alt-light-purple :inherit line-number))))
    `(line-number-major-tick ((,cordyline-class (:background ,cordyline-light-purple :inherit line-number))))
 

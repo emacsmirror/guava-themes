@@ -139,8 +139,8 @@
    `(diff-hl-delete ((,acer-class (:foreground ,acer-vc-delete :background ,acer-vc-delete))))
 
    ;; line-number
-   `(line-number ((,acer-class (:foreground ,acer-fg))))
-   `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :weight bold :inherit highlight))))
+   `(line-number ((,acer-class (:foreground ,acer-fg :inherit default))))
+   `(line-number-current-line ((,acer-class (:foreground ,acer-deep-orange :weight bold :inherit (highlight line-number)))))
    `(line-number-minor-tick ((,acer-class (:background ,acer-brown :inherit line-number))))
    `(line-number-major-tick ((,acer-class (:background ,acer-deep-brown :inherit line-number))))
 
