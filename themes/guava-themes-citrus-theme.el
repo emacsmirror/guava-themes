@@ -226,6 +226,7 @@
    `(org-todo ((,citrus-class (:foreground ,citrus-vc-delete :weight bold))))
    `(org-done ((,citrus-class (:foreground ,citrus-vc-insert :weight bold))))
    `(org-hide ((,citrus-class (:foreground ,citrus-bg))))
+   `(org-table ((,citrus-class (:foreground ,citrus-orange-red))))
 
 
    ;; external packages

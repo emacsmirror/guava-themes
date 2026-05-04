@@ -225,6 +225,7 @@
    `(org-todo ((,rhododendron-class (:foreground ,rhododendron-vc-delete :weight bold))))
    `(org-done ((,rhododendron-class (:foreground ,rhododendron-vc-insert :weight bold))))
    `(org-hide ((,rhododendron-class (:foreground ,rhododendron-bg))))
+   `(org-table ((,rhododendron-class (:foreground ,rhododendron-red))))
 
 
    ;; external packages

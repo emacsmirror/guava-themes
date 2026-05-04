@@ -38,7 +38,7 @@
       (dracaena-black                     "#000000")
       (dracaena-white                     "#FFFFFF")
 
-      (dracaena-light-gray                "#4f4f4f")
+      (dracaena-gray                      "#4f4f4f")
       (dracaena-dark-gray                 "#353838")
 
       (dracaena-guava-green               "#AED734")
@@ -174,7 +174,7 @@
    `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-orange :weight bold :height 0.9))))
    `(tab-line-tab-current ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red :weight bold :height 0.9))))
    `(tab-line-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-light-gray :weight bold :height 0.9))))
+   `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-gray :weight bold :height 0.9))))
    `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
 
@@ -228,6 +228,7 @@
    `(org-todo ((,dracaena-class (:foreground ,dracaena-vc-delete :weight bold))))
    `(org-done ((,dracaena-class (:foreground ,dracaena-vc-insert :weight bold))))
    `(org-hide ((,dracaena-class (:foreground ,dracaena-bg))))
+   `(org-table ((,dracaena-class (:foreground ,dracaena-light-orange))))
 
 
    ;; external packages

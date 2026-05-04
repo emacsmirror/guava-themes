@@ -225,6 +225,7 @@
    `(org-todo ((,cordyline-class (:foreground ,cordyline-vc-delete :weight bold))))
    `(org-done ((,cordyline-class (:foreground ,cordyline-vc-insert :weight bold))))
    `(org-hide ((,cordyline-class (:foreground ,cordyline-bg))))
+   `(org-table ((,cordyline-class (:foreground ,cordyline-light-purple))))
 
 
    ;; external packages

@@ -223,6 +223,7 @@
    `(org-todo ((,acer-class (:foreground ,acer-vc-delete :weight bold))))
    `(org-done ((,acer-class (:foreground ,acer-vc-insert :weight bold))))
    `(org-hide ((,acer-class (:foreground ,acer-bg))))
+   `(org-table ((,acer-class (:foreground ,acer-deep-green))))
 
 
    ;; external packages

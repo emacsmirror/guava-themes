@@ -223,6 +223,7 @@
    `(org-todo ((,prunus-class (:foreground ,prunus-vc-delete :weight bold))))
    `(org-done ((,prunus-class (:foreground ,prunus-vc-insert :weight bold))))
    `(org-hide ((,prunus-class (:foreground ,prunus-bg))))
+   `(org-table ((,prunus-class (:foreground ,prunus-pink))))
 
 
    ;; external packages

@@ -224,6 +224,7 @@
    `(org-todo ((,solanum-class (:foreground ,solanum-vc-delete :weight bold))))
    `(org-done ((,solanum-class (:foreground ,solanum-vc-insert :weight bold))))
    `(org-hide ((,solanum-class (:foreground ,solanum-bg))))
+   `(org-table ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
 
    ;; external packages

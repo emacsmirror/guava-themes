@@ -222,6 +222,7 @@
    `(org-todo ((,jacaranda-class (:foreground ,jacaranda-vc-delete :weight bold))))
    `(org-done ((,jacaranda-class (:foreground ,jacaranda-vc-insert :weight bold))))
    `(org-hide ((,jacaranda-class (:foreground ,jacaranda-bg))))
+   `(org-table ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
 
 
    ;; external packages

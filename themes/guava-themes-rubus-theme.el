@@ -225,6 +225,7 @@
    `(org-todo ((,rubus-class (:foreground ,rubus-vc-delete :weight bold))))
    `(org-done ((,rubus-class (:foreground ,rubus-vc-insert :weight bold))))
    `(org-hide ((,rubus-class (:foreground ,rubus-bg))))
+   `(org-table ((,rubus-class (:foreground ,rubus-pink-cream))))
 
 
    ;; external packages

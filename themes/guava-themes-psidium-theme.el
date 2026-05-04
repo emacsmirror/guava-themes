@@ -220,6 +220,7 @@
    `(org-todo ((,psidium-class (:foreground ,psidium-vc-delete :weight bold))))
    `(org-done ((,psidium-class (:foreground ,psidium-vc-insert :weight bold))))
    `(org-hide ((,psidium-class (:foreground ,psidium-bg))))
+   `(org-table ((,psidium-class (:foreground ,psidium-deep-green))))
 
 
    ;; external packages

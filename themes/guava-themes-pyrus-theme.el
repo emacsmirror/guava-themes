@@ -224,6 +224,7 @@
    `(org-todo ((,pyrus-class (:foreground ,pyrus-vc-delete :weight bold))))
    `(org-done ((,pyrus-class (:foreground ,pyrus-vc-insert :weight bold))))
    `(org-hide ((,pyrus-class (:foreground ,pyrus-bg))))
+   `(org-table ((,pyrus-class (:foreground ,pyrus-green))))
 
 
    ;; external packages

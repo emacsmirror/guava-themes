@@ -225,6 +225,7 @@
    `(org-todo ((,vaccinium-class (:foreground ,vaccinium-vc-delete :weight bold))))
    `(org-done ((,vaccinium-class (:foreground ,vaccinium-vc-insert :weight bold))))
    `(org-hide ((,vaccinium-class (:foreground ,vaccinium-bg))))
+   `(org-table ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
 
 
    ;; external packages

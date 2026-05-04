@@ -221,6 +221,7 @@
    `(org-todo ((,petunia-class (:foreground ,petunia-vc-delete :weight bold))))
    `(org-done ((,petunia-class (:foreground ,petunia-vc-insert :weight bold))))
    `(org-hide ((,petunia-class (:foreground ,petunia-bg))))
+   `(org-table ((,petunia-class (:foreground ,petunia-green-forest))))
 
 
    ;; external packages
