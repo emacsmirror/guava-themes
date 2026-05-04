@@ -49,9 +49,9 @@
       (petunia-light-green               "#78c878");6eb46e
       (petunia-green-forest              "#008741");169b2f
 
-      (petunia-light-blue                "#00afd7")
-      (petunia-alt-light-blue            "#328ccd")
-      (petunia-blue                      "#3232cd")
+      (petunia-light-blue                "#00c3d7");00afd7
+      (petunia-alt-light-blue            "#32a0cd");328ccd
+      (petunia-blue                      "#3246cd");3232cd
       (petunia-deep-blue                 "#004b82");323296
       (petunia-cyan                      "#00ffff")
 
