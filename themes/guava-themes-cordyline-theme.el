@@ -273,6 +273,9 @@
    `(envrc-mode-line-none-face ((,cordyline-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,cordyline-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,cordyline-class (:weight bold :background ,cordyline-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,cordyline-class (:foreground unspecified :inherit font-lock-function-name-face))))))

@@ -273,6 +273,9 @@
    `(envrc-mode-line-none-face ((,vaccinium-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,vaccinium-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,vaccinium-class (:weight bold :background ,vaccinium-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,vaccinium-class (:foreground unspecified :inherit font-lock-function-name-face))))))

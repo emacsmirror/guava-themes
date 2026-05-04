@@ -272,6 +272,9 @@
    `(envrc-mode-line-none-face ((,solanum-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,solanum-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,solanum-class (:weight bold :background ,solanum-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,solanum-class (:foreground unspecified :inherit font-lock-function-name-face))))))

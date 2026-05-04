@@ -268,6 +268,9 @@
    `(envrc-mode-line-none-face ((,psidium-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,psidium-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,psidium-class (:weight bold :background ,psidium-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,psidium-class (:foreground unspecified :inherit font-lock-function-name-face))))))

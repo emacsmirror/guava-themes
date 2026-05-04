@@ -274,6 +274,9 @@
    `(envrc-mode-line-none-face ((,citrus-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,citrus-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,citrus-class (:weight bold :background ,citrus-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,citrus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

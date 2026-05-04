@@ -270,6 +270,9 @@
    `(envrc-mode-line-none-face ((,jacaranda-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,jacaranda-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,jacaranda-class (:weight bold :background ,jacaranda-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,jacaranda-class (:foreground unspecified :inherit font-lock-function-name-face))))))

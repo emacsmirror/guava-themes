@@ -273,6 +273,9 @@
    `(envrc-mode-line-none-face ((,rhododendron-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,rhododendron-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,rhododendron-class (:weight bold :background ,rhododendron-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,rhododendron-class (:foreground unspecified :inherit font-lock-function-name-face))))))

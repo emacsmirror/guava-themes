@@ -276,6 +276,9 @@
    `(envrc-mode-line-none-face ((,dracaena-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,dracaena-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,dracaena-class (:weight bold :background ,dracaena-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,dracaena-class (:foreground unspecified :inherit font-lock-function-name-face))))))

@@ -271,6 +271,9 @@
    `(envrc-mode-line-none-face ((,prunus-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,prunus-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,prunus-class (:weight bold :background ,prunus-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,prunus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

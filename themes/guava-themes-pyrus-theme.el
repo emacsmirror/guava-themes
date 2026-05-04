@@ -272,6 +272,9 @@
    `(envrc-mode-line-none-face ((,pyrus-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,pyrus-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,pyrus-class (:weight bold :background ,pyrus-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,pyrus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

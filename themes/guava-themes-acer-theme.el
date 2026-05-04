@@ -271,6 +271,9 @@
    `(envrc-mode-line-none-face ((,acer-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,acer-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,acer-class (:weight bold :background ,acer-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,acer-class (:foreground unspecified :inherit font-lock-function-name-face))))))

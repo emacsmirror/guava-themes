@@ -275,6 +275,9 @@
    `(envrc-mode-line-none-face ((,ceiba-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,ceiba-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,ceiba-class (:weight bold :background ,ceiba-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,ceiba-class (:foreground unspecified :inherit font-lock-function-name-face))))))

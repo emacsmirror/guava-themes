@@ -273,6 +273,9 @@
    `(envrc-mode-line-none-face ((,rubus-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,rubus-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,rubus-class (:weight bold :background ,rubus-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,rubus-class (:foreground unspecified :inherit font-lock-function-name-face))))))

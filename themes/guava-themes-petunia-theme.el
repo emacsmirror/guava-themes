@@ -269,6 +269,9 @@
    `(envrc-mode-line-none-face ((,petunia-class (:inherit warning))))
    `(envrc-mode-line-on-face ((,petunia-class (:inherit success))))
 
+   ;; devdocs
+   `(devdocs-code-block ((,petunia-class (:weight bold :background ,petunia-highlight))))
+
    ;; nerd-icons
    ;; nerd-icons-completion
    `(nerd-icons-completion-dir-face ((,petunia-class (:foreground unspecified :inherit font-lock-function-name-face))))))
