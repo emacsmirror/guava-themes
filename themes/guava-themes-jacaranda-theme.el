@@ -184,14 +184,14 @@
    `(link-visited ((,jacaranda-class (:foreground ,jacaranda-deep-green :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,jacaranda-class (:foreground ,jacaranda-red :weight medium))))
+   `(outline-1 ((,jacaranda-class (:foreground ,jacaranda-purple :weight medium))))
    `(outline-2 ((,jacaranda-class (:foreground ,jacaranda-light-cyan :weight medium))))
    `(outline-3 ((,jacaranda-class (:foreground ,jacaranda-light-green :weight medium))))
-   `(outline-4 ((,jacaranda-class (:foreground ,jacaranda-purple :weight medium))))
-   `(outline-5 ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
-   `(outline-6 ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
-   `(outline-7 ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
-   `(outline-8 ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
+   `(outline-4 ((,jacaranda-class (:foreground ,jacaranda-red :weight medium))))
+   `(outline-5 ((,jacaranda-class (:inherit outline-1))))
+   `(outline-6 ((,jacaranda-class (:inherit outline-2))))
+   `(outline-7 ((,jacaranda-class (:inherit outline-3))))
+   `(outline-8 ((,jacaranda-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,jacaranda-class (:foreground ,jacaranda-blue))))

@@ -188,14 +188,14 @@
    `(link-visited ((,citrus-class (:foreground ,citrus-deep-blue :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,citrus-class (:foreground ,citrus-green-lime :weight medium))))
-   `(outline-2 ((,citrus-class (:foreground ,citrus-alt-orange :weight medium))))
-   `(outline-3 ((,citrus-class (:foreground ,citrus-purple :weight medium))))
-   `(outline-4 ((,citrus-class (:foreground ,citrus-blue :weight medium))))
-   `(outline-5 ((,citrus-class (:foreground ,citrus-green-blue :weight medium))))
-   `(outline-6 ((,citrus-class (:foreground ,citrus-orange-red :weight medium))))
-   `(outline-7 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
-   `(outline-8 ((,citrus-class (:foreground ,citrus-deep-blue :weight medium))))
+   `(outline-1 ((,citrus-class (:foreground ,citrus-blue :weight medium))))
+   `(outline-2 ((,citrus-class (:foreground ,citrus-green-blue :weight medium))))
+   `(outline-3 ((,citrus-class (:foreground ,citrus-deep-purple :weight medium))))
+   `(outline-4 ((,citrus-class (:foreground ,citrus-deep-red :weight medium))))
+   `(outline-5 ((,citrus-class (:inherit outline-1))))
+   `(outline-6 ((,citrus-class (:inherit outline-2))))
+   `(outline-7 ((,citrus-class (:inherit outline-3))))
+   `(outline-8 ((,citrus-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,citrus-class (:foreground ,citrus-deep-blue))))

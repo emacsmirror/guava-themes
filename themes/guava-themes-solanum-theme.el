@@ -187,13 +187,13 @@
 
    ;; outline
    `(outline-1 ((,solanum-class (:foreground ,solanum-purple :weight medium))))
-   `(outline-2 ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
-   `(outline-3 ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
+   `(outline-2 ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
+   `(outline-3 ((,solanum-class (:foreground ,solanum-blue :weight medium))))
    `(outline-4 ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
-   `(outline-5 ((,solanum-class (:foreground ,solanum-orange :weight medium))))
-   `(outline-6 ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
-   `(outline-7 ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
-   `(outline-8 ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
+   `(outline-5 ((,solanum-class (:inherit outline-1))))
+   `(outline-6 ((,solanum-class (:inherit outline-2))))
+   `(outline-7 ((,solanum-class (:inherit outline-3))))
+   `(outline-8 ((,solanum-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,solanum-class (:foreground ,solanum-cyan))))

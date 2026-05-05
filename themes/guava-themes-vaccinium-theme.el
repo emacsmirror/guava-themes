@@ -189,12 +189,12 @@
    ;; outline
    `(outline-1 ((,vaccinium-class (:foreground ,vaccinium-blue :weight medium))))
    `(outline-2 ((,vaccinium-class (:foreground ,vaccinium-red :weight medium))))
-   `(outline-3 ((,vaccinium-class (:foreground ,vaccinium-green-subdued :weight medium))))
-   `(outline-4 ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
-   `(outline-5 ((,vaccinium-class (:foreground ,vaccinium-pink :weight medium))))
-   `(outline-6 ((,vaccinium-class (:foreground ,vaccinium-green-forest :weight medium))))
-   `(outline-7 ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
-   `(outline-8 ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
+   `(outline-3 ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
+   `(outline-4 ((,vaccinium-class (:foreground ,vaccinium-green-subdued :weight medium))))
+   `(outline-5 ((,vaccinium-class (:inherit outline-1))))
+   `(outline-6 ((,vaccinium-class (:inherit outline-2))))
+   `(outline-7 ((,vaccinium-class (:inherit outline-3))))
+   `(outline-8 ((,vaccinium-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,vaccinium-class (:foreground ,vaccinium-cyan))))

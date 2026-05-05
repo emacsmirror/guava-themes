@@ -190,13 +190,13 @@
 
    ;; outline
    `(outline-1 ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
-   `(outline-2 ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
-   `(outline-3 ((,ceiba-class (:foreground ,ceiba-purple-red :weight medium))))
-   `(outline-4 ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
-   `(outline-5 ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
-   `(outline-6 ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
-   `(outline-7 ((,ceiba-class (:foreground ,ceiba-deep-orange :weight medium))))
-   `(outline-8 ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
+   `(outline-2 ((,ceiba-class (:foreground ,ceiba-purple-red :weight medium))))
+   `(outline-3 ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
+   `(outline-4 ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
+   `(outline-5 ((,ceiba-class (:inherit outline-1))))
+   `(outline-6 ((,ceiba-class (:inherit outline-2))))
+   `(outline-7 ((,ceiba-class (:inherit outline-3))))
+   `(outline-8 ((,ceiba-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,ceiba-class (:foreground ,ceiba-blue))))

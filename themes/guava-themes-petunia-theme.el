@@ -183,14 +183,14 @@
    `(link-visited ((,petunia-class (:foreground ,petunia-orange :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,petunia-class (:foreground ,petunia-orange :weight medium))))
-   `(outline-2 ((,petunia-class (:foreground ,petunia-light-green :weight medium))))
-   `(outline-3 ((,petunia-class (:foreground ,petunia-pink :weight medium))))
-   `(outline-4 ((,petunia-class (:foreground ,petunia-blue :weight medium))))
-   `(outline-5 ((,petunia-class (:foreground ,petunia-red :weight medium))))
-   `(outline-6 ((,petunia-class (:foreground ,petunia-green-forest :weight medium))))
-   `(outline-7 ((,petunia-class (:foreground ,petunia-yellow :weight medium))))
-   `(outline-8 ((,petunia-class (:foreground ,petunia-purple :weight medium))))
+   `(outline-1 ((,petunia-class (:foreground ,petunia-red :weight medium))))
+   `(outline-2 ((,petunia-class (:foreground ,petunia-green-forest :weight medium))))
+   `(outline-3 ((,petunia-class (:foreground ,petunia-yellow :weight medium))))
+   `(outline-4 ((,petunia-class (:foreground ,petunia-purple :weight medium))))
+   `(outline-5 ((,petunia-class (:inherit outline-1))))
+   `(outline-6 ((,petunia-class (:inherit outline-2))))
+   `(outline-7 ((,petunia-class (:inherit outline-3))))
+   `(outline-8 ((,petunia-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,petunia-class (:foreground ,petunia-cyan))))

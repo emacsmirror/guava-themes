@@ -187,14 +187,14 @@
    `(link-visited ((,cordyline-class (:foreground ,cordyline-purple :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(outline-2 ((,cordyline-class (:foreground ,cordyline-blue :weight medium))))
-   `(outline-3 ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
-   `(outline-4 ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
-   `(outline-5 ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
-   `(outline-6 ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
-   `(outline-7 ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
-   `(outline-8 ((,cordyline-class (:foreground ,cordyline-pink-red :weight medium))))
+   `(outline-1 ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
+   `(outline-2 ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
+   `(outline-3 ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
+   `(outline-4 ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
+   `(outline-5 ((,cordyline-class (:inherit outline-1))))
+   `(outline-6 ((,cordyline-class (:inherit outline-2))))
+   `(outline-7 ((,cordyline-class (:inherit outline-3))))
+   `(outline-8 ((,cordyline-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,cordyline-class (:foreground ,cordyline-cyan))))

@@ -185,14 +185,14 @@
    `(link-visited ((,prunus-class (:foreground ,prunus-oceanic-green :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,prunus-class (:foreground ,prunus-antarctic-blue :weight medium))))
-   `(outline-2 ((,prunus-class (:foreground ,prunus-oceanic-green :weight medium))))
-   `(outline-3 ((,prunus-class (:foreground ,prunus-deep-blue :weight medium))))
+   `(outline-1 ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
+   `(outline-2 ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
+   `(outline-3 ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
    `(outline-4 ((,prunus-class (:foreground ,prunus-cyan :weight medium))))
-   `(outline-5 ((,prunus-class (:foreground ,prunus-deep-purple :weight medium))))
-   `(outline-6 ((,prunus-class (:foreground ,prunus-light-green :weight medium))))
-   `(outline-7 ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
-   `(outline-8 ((,prunus-class (:foreground ,prunus-indigo :weight medium))))
+   `(outline-5 ((,prunus-class (:inherit outline-1))))
+   `(outline-6 ((,prunus-class (:inherit outline-2))))
+   `(outline-7 ((,prunus-class (:inherit outline-3))))
+   `(outline-8 ((,prunus-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,prunus-class (:foreground ,prunus-cyan))))

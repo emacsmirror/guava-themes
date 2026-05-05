@@ -186,14 +186,14 @@
    `(link-visited ((,pyrus-class (:foreground ,pyrus-green-subdued :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,pyrus-class (:foreground ,pyrus-light-purple :weight medium))))
-   `(outline-2 ((,pyrus-class (:foreground ,pyrus-light-green :weight medium))))
-   `(outline-3 ((,pyrus-class (:foreground ,pyrus-light-blue :weight medium))))
-   `(outline-4 ((,pyrus-class (:foreground ,pyrus-orange-pink :weight medium))))
-   `(outline-5 ((,pyrus-class (:foreground ,pyrus-purple :weight medium))))
-   `(outline-6 ((,pyrus-class (:foreground ,pyrus-green :weight medium))))
-   `(outline-7 ((,pyrus-class (:foreground ,pyrus-cyan :weight medium))))
-   `(outline-8 ((,pyrus-class (:foreground ,pyrus-deep-orange :weight medium))))
+   `(outline-1 ((,pyrus-class (:foreground ,pyrus-green :weight medium))))
+   `(outline-2 ((,pyrus-class (:foreground ,pyrus-cyan :weight medium))))
+   `(outline-3 ((,pyrus-class (:foreground ,pyrus-deep-orange :weight medium))))
+   `(outline-4 ((,pyrus-class (:foreground ,pyrus-purple :weight medium))))
+   `(outline-5 ((,pyrus-class (:inherit outline-1))))
+   `(outline-6 ((,pyrus-class (:inherit outline-2))))
+   `(outline-7 ((,pyrus-class (:inherit outline-3))))
+   `(outline-8 ((,pyrus-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,pyrus-class (:foreground ,pyrus-cyan))))

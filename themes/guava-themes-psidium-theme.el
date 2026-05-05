@@ -182,14 +182,14 @@
    `(link-visited ((,psidium-class (:foreground ,psidium-purple :underline t :weight bold))))
 
    ;; outline
-   `(outline-1 ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
-   `(outline-2 ((,psidium-class (:foreground ,psidium-purple :weight medium))))
-   `(outline-3 ((,psidium-class (:foreground ,psidium-green :weight medium))))
-   `(outline-4 ((,psidium-class (:foreground ,psidium-red :weight medium))))
-   `(outline-5 ((,psidium-class (:foreground ,psidium-blue :weight medium))))
-   `(outline-6 ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
-   `(outline-7 ((,psidium-class (:foreground ,psidium-brown :weight medium))))
-   `(outline-8 ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
+   `(outline-1 ((,psidium-class (:foreground ,psidium-red :weight medium))))
+   `(outline-2 ((,psidium-class (:foreground ,psidium-blue :weight medium))))
+   `(outline-3 ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
+   `(outline-4 ((,psidium-class (:foreground ,psidium-brown :weight medium))))
+   `(outline-5 ((,psidium-class (:inherit outline-1))))
+   `(outline-6 ((,psidium-class (:inherit outline-2))))
+   `(outline-7 ((,psidium-class (:inherit outline-3))))
+   `(outline-8 ((,psidium-class (:inherit outline-4))))
 
    ;; homoglyph, escape-glyph, nobreak-space (C-x 8 RET "FORM FEED") (C-x 8 RET "NO-BREAK SPACE")
    `(homoglyph ((,psidium-class (:foreground ,psidium-blue))))
