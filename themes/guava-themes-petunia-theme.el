@@ -180,7 +180,7 @@
 
    ;; links
    `(link ((,petunia-class (:foreground ,petunia-light-blue :underline t :weight bold))))
-   `(link-visited ((,petunia-class (:foreground ,petunia-blue :underline t :weight bold))))
+   `(link-visited ((,petunia-class (:foreground ,petunia-orange :underline t :weight bold))))
 
    ;; outline
    `(outline-1 ((,petunia-class (:foreground ,petunia-orange :weight medium))))
