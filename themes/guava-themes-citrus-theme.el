@@ -228,6 +228,11 @@
    `(org-hide ((,citrus-class (:foreground ,citrus-bg))))
    `(org-table ((,citrus-class (:foreground ,citrus-orange-red))))
 
+   ;; window-divider
+   `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))
+   `(window-divider-first-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
+   `(window-divider-last-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
+
 
    ;; external packages
 

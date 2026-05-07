@@ -222,6 +222,11 @@
    `(org-hide ((,psidium-class (:foreground ,psidium-bg))))
    `(org-table ((,psidium-class (:foreground ,psidium-deep-green))))
 
+   ;; window-divider
+   `(window-divider ((,psidium-class (:foreground ,psidium-green))))
+   `(window-divider-first-pixel ((,psidium-class (:foreground ,psidium-green))))
+   `(window-divider-last-pixel ((,psidium-class (:foreground ,psidium-green))))
+
 
    ;; external packages
 

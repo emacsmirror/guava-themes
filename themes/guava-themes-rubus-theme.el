@@ -227,6 +227,11 @@
    `(org-hide ((,rubus-class (:foreground ,rubus-bg))))
    `(org-table ((,rubus-class (:foreground ,rubus-pink-cream))))
 
+   ;; window-divider
+   `(window-divider ((,rubus-class (:foreground ,rubus-alt-raspberry))))
+   `(window-divider-first-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
+   `(window-divider-last-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
+
 
    ;; external packages
 

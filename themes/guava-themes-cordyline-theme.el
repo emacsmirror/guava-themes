@@ -227,6 +227,11 @@
    `(org-hide ((,cordyline-class (:foreground ,cordyline-bg))))
    `(org-table ((,cordyline-class (:foreground ,cordyline-light-purple))))
 
+   ;; window-divider
+   `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
+   `(window-divider-first-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
+   `(window-divider-last-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
+
 
    ;; external packages
 

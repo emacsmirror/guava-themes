@@ -225,6 +225,11 @@
    `(org-hide ((,prunus-class (:foreground ,prunus-bg))))
    `(org-table ((,prunus-class (:foreground ,prunus-pink))))
 
+   ;; window-divider
+   `(window-divider ((,prunus-class (:foreground ,prunus-brown))))
+   `(window-divider-first-pixel ((,prunus-class (:foreground ,prunus-brown))))
+   `(window-divider-last-pixel ((,prunus-class (:foreground ,prunus-brown))))
+
 
    ;; external packages
 

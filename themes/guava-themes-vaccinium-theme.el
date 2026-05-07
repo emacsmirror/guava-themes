@@ -227,6 +227,11 @@
    `(org-hide ((,vaccinium-class (:foreground ,vaccinium-bg))))
    `(org-table ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
 
+   ;; window-divider
+   `(window-divider ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
+   `(window-divider-first-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
+   `(window-divider-last-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
+
 
    ;; external packages
 

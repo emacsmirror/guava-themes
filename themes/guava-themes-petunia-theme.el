@@ -223,6 +223,11 @@
    `(org-hide ((,petunia-class (:foreground ,petunia-bg))))
    `(org-table ((,petunia-class (:foreground ,petunia-green-forest))))
 
+   ;; window-divider
+   `(window-divider ((,petunia-class (:foreground ,petunia-orange))))
+   `(window-divider-first-pixel ((,petunia-class (:foreground ,petunia-orange))))
+   `(window-divider-last-pixel ((,petunia-class (:foreground ,petunia-orange))))
+
 
    ;; external packages
 

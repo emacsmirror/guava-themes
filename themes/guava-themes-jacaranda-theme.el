@@ -224,6 +224,11 @@
    `(org-hide ((,jacaranda-class (:foreground ,jacaranda-bg))))
    `(org-table ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
 
+   ;; window-divider
+   `(window-divider ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
+   `(window-divider-first-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
+   `(window-divider-last-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
+
 
    ;; external packages
 

@@ -226,6 +226,11 @@
    `(org-hide ((,pyrus-class (:foreground ,pyrus-bg))))
    `(org-table ((,pyrus-class (:foreground ,pyrus-green))))
 
+   ;; window-divider
+   `(window-divider ((,pyrus-class (:foreground ,pyrus-light-green))))
+   `(window-divider-first-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
+   `(window-divider-last-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
+
 
    ;; external packages
 

@@ -226,6 +226,11 @@
    `(org-hide ((,solanum-class (:foreground ,solanum-bg))))
    `(org-table ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
+   ;; window-divider
+   `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))
+   `(window-divider-first-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
+   `(window-divider-last-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
+
 
    ;; external packages
 

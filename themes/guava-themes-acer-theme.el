@@ -225,6 +225,11 @@
    `(org-hide ((,acer-class (:foreground ,acer-bg))))
    `(org-table ((,acer-class (:foreground ,acer-deep-green))))
 
+   ;; window-divider
+   `(window-divider ((,acer-class (:foreground ,acer-purple-red))))
+   `(window-divider-first-pixel ((,acer-class (:foreground ,acer-purple-red))))
+   `(window-divider-last-pixel ((,acer-class (:foreground ,acer-purple-red))))
+
 
    ;; external packages
 

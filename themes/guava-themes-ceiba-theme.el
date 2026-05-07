@@ -229,6 +229,11 @@
    `(org-hide ((,ceiba-class (:foreground ,ceiba-bg))))
    `(org-table ((,ceiba-class (:foreground ,ceiba-brown-wood))))
 
+   ;; window-divider
+   `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))
+   `(window-divider-first-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
+   `(window-divider-last-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
+
 
    ;; external packages
 

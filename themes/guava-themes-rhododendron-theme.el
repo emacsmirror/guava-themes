@@ -227,6 +227,11 @@
    `(org-hide ((,rhododendron-class (:foreground ,rhododendron-bg))))
    `(org-table ((,rhododendron-class (:foreground ,rhododendron-red))))
 
+   ;; window-divider
+   `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
+   `(window-divider-first-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
+   `(window-divider-last-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
+
 
    ;; external packages
 

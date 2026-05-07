@@ -230,6 +230,11 @@
    `(org-hide ((,dracaena-class (:foreground ,dracaena-bg))))
    `(org-table ((,dracaena-class (:foreground ,dracaena-light-orange))))
 
+   ;; window-divider
+   `(window-divider ((,dracaena-class (:foreground ,dracaena-deep-orange))))
+   `(window-divider-first-pixel ((,dracaena-class (:foreground ,dracaena-deep-orange))))
+   `(window-divider-last-pixel ((,dracaena-class (:foreground ,dracaena-deep-orange))))
+
 
    ;; external packages
 
