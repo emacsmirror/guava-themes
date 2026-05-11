@@ -236,6 +236,17 @@
    `(window-divider-first-pixel ((,dracaena-class (:foreground ,dracaena-deep-orange))))
    `(window-divider-last-pixel ((,dracaena-class (:foreground ,dracaena-deep-orange))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orderless-2))))
+   `(isearch-fail ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-error))))
+   `(lazy-highlight ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orderless-3))))
+   `(isearch-group-1 ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orderless-0))))
+   `(isearch-group-2 ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,dracaena-class (:inherit isearch))))
+   `(match ((,dracaena-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

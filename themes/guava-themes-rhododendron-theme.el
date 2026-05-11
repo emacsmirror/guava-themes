@@ -233,6 +233,17 @@
    `(window-divider-first-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
    `(window-divider-last-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-2))))
+   `(isearch-fail ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-error))))
+   `(lazy-highlight ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-3))))
+   `(isearch-group-1 ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-0))))
+   `(isearch-group-2 ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,rhododendron-class (:inherit isearch))))
+   `(match ((,rhododendron-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

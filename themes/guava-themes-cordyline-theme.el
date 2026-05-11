@@ -233,6 +233,17 @@
    `(window-divider-first-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
    `(window-divider-last-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-2))))
+   `(isearch-fail ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-error))))
+   `(lazy-highlight ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-3))))
+   `(isearch-group-1 ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-0))))
+   `(isearch-group-2 ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,cordyline-class (:inherit isearch))))
+   `(match ((,cordyline-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

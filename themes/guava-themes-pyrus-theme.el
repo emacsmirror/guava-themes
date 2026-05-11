@@ -232,6 +232,17 @@
    `(window-divider-first-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
    `(window-divider-last-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-2))))
+   `(isearch-fail ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-error))))
+   `(lazy-highlight ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-3))))
+   `(isearch-group-1 ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-0))))
+   `(isearch-group-2 ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,pyrus-class (:inherit isearch))))
+   `(match ((,pyrus-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

@@ -231,6 +231,16 @@
    `(window-divider-first-pixel ((,acer-class (:foreground ,acer-purple-red))))
    `(window-divider-last-pixel ((,acer-class (:foreground ,acer-purple-red))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,acer-class (:foreground ,acer-white :background ,acer-orderless-2))))
+   `(isearch-fail ((,acer-class (:foreground ,acer-white :background ,acer-error))))
+   `(lazy-highlight ((,acer-class (:foreground ,acer-white :background ,acer-orderless-3))))
+   `(isearch-group-1 ((,acer-class (:foreground ,acer-white :background ,acer-orderless-0))))
+   `(isearch-group-2 ((,acer-class (:foreground ,acer-white :background ,acer-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,acer-class (:inherit isearch))))
+   `(match ((,acer-class (:inherit lazy-highlight))))
 
    ;; external packages
 

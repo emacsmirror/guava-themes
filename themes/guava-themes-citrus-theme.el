@@ -234,6 +234,17 @@
    `(window-divider-first-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
    `(window-divider-last-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,citrus-class (:foreground ,citrus-white :background ,citrus-orderless-2))))
+   `(isearch-fail ((,citrus-class (:foreground ,citrus-white :background ,citrus-error))))
+   `(lazy-highlight ((,citrus-class (:foreground ,citrus-white :background ,citrus-orderless-3))))
+   `(isearch-group-1 ((,citrus-class (:foreground ,citrus-white :background ,citrus-orderless-0))))
+   `(isearch-group-2 ((,citrus-class (:foreground ,citrus-white :background ,citrus-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,citrus-class (:inherit isearch))))
+   `(match ((,citrus-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

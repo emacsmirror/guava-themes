@@ -233,6 +233,17 @@
    `(window-divider-first-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
    `(window-divider-last-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-2))))
+   `(isearch-fail ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-error))))
+   `(lazy-highlight ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-3))))
+   `(isearch-group-1 ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-0))))
+   `(isearch-group-2 ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,vaccinium-class (:inherit isearch))))
+   `(match ((,vaccinium-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

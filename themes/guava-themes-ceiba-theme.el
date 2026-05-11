@@ -235,6 +235,17 @@
    `(window-divider-first-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
    `(window-divider-last-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-2))))
+   `(isearch-fail ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-error))))
+   `(lazy-highlight ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-3))))
+   `(isearch-group-1 ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-0))))
+   `(isearch-group-2 ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,ceiba-class (:inherit isearch))))
+   `(match ((,ceiba-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

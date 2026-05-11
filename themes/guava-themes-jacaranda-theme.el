@@ -230,6 +230,17 @@
    `(window-divider-first-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
    `(window-divider-last-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-2))))
+   `(isearch-fail ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-error))))
+   `(lazy-highlight ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-3))))
+   `(isearch-group-1 ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-0))))
+   `(isearch-group-2 ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,jacaranda-class (:inherit isearch))))
+   `(match ((,jacaranda-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

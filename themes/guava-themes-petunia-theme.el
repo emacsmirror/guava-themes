@@ -229,6 +229,17 @@
    `(window-divider-first-pixel ((,petunia-class (:foreground ,petunia-orange))))
    `(window-divider-last-pixel ((,petunia-class (:foreground ,petunia-orange))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-2))))
+   `(isearch-fail ((,petunia-class (:foreground ,petunia-white :background ,petunia-error))))
+   `(lazy-highlight ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-3))))
+   `(isearch-group-1 ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-0))))
+   `(isearch-group-2 ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,petunia-class (:inherit isearch))))
+   `(match ((,petunia-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

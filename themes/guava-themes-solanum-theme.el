@@ -232,6 +232,17 @@
    `(window-divider-first-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
    `(window-divider-last-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-2))))
+   `(isearch-fail ((,solanum-class (:foreground ,solanum-white :background ,solanum-error))))
+   `(lazy-highlight ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-3))))
+   `(isearch-group-1 ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-0))))
+   `(isearch-group-2 ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,solanum-class (:inherit isearch))))
+   `(match ((,solanum-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

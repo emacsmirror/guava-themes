@@ -228,6 +228,17 @@
    `(window-divider-first-pixel ((,psidium-class (:foreground ,psidium-green))))
    `(window-divider-last-pixel ((,psidium-class (:foreground ,psidium-green))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-2))))
+   `(isearch-fail ((,psidium-class (:foreground ,psidium-white :background ,psidium-error))))
+   `(lazy-highlight ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-3))))
+   `(isearch-group-1 ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-0))))
+   `(isearch-group-2 ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,psidium-class (:inherit isearch))))
+   `(match ((,psidium-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 

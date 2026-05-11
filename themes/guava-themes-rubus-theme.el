@@ -233,6 +233,17 @@
    `(window-divider-first-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
    `(window-divider-last-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
 
+   ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
+   `(isearch ((,rubus-class (:foreground ,rubus-white :background ,rubus-orderless-2))))
+   `(isearch-fail ((,rubus-class (:foreground ,rubus-white :background ,rubus-error))))
+   `(lazy-highlight ((,rubus-class (:foreground ,rubus-white :background ,rubus-orderless-3))))
+   `(isearch-group-1 ((,rubus-class (:foreground ,rubus-white :background ,rubus-orderless-0))))
+   `(isearch-group-2 ((,rubus-class (:foreground ,rubus-white :background ,rubus-orderless-1))))
+
+   ;; replace (use "M-x occur" to check the match face)
+   `(query-replace ((,rubus-class (:inherit isearch))))
+   `(match ((,rubus-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 
