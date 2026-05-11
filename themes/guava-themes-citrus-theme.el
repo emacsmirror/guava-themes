@@ -201,6 +201,7 @@
    `(homoglyph ((,citrus-class (:foreground ,citrus-deep-blue))))
    `(escape-glyph ((,citrus-class (:inherit homoglyph))))
    `(nobreak-space ((,citrus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,citrus-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

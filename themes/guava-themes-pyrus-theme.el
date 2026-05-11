@@ -199,6 +199,7 @@
    `(homoglyph ((,pyrus-class (:foreground ,pyrus-cyan))))
    `(escape-glyph ((,pyrus-class (:inherit homoglyph))))
    `(nobreak-space ((,pyrus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,pyrus-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

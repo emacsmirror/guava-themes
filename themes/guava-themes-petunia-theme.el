@@ -196,6 +196,7 @@
    `(homoglyph ((,petunia-class (:foreground ,petunia-cyan))))
    `(escape-glyph ((,petunia-class (:inherit homoglyph))))
    `(nobreak-space ((,petunia-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,petunia-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

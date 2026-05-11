@@ -200,6 +200,7 @@
    `(homoglyph ((,rhododendron-class (:foreground ,rhododendron-blue))))
    `(escape-glyph ((,rhododendron-class (:inherit homoglyph))))
    `(nobreak-space ((,rhododendron-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,rhododendron-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

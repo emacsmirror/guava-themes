@@ -199,6 +199,7 @@
    `(homoglyph ((,solanum-class (:foreground ,solanum-cyan))))
    `(escape-glyph ((,solanum-class (:inherit homoglyph))))
    `(nobreak-space ((,solanum-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,solanum-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

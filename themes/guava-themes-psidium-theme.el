@@ -195,6 +195,7 @@
    `(homoglyph ((,psidium-class (:foreground ,psidium-blue))))
    `(escape-glyph ((,psidium-class (:inherit homoglyph))))
    `(nobreak-space ((,psidium-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,psidium-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

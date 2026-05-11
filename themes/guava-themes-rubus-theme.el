@@ -200,6 +200,7 @@
    `(homoglyph ((,rubus-class (:foreground ,rubus-cyan))))
    `(escape-glyph ((,rubus-class (:inherit homoglyph))))
    `(nobreak-space ((,rubus-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,rubus-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))

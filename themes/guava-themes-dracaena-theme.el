@@ -203,6 +203,7 @@
    `(homoglyph ((,dracaena-class (:foreground ,dracaena-cyan))))
    `(escape-glyph ((,dracaena-class (:inherit homoglyph))))
    `(nobreak-space ((,dracaena-class (:box (:line-width (2 . 2)) :inherit homoglyph))))
+   `(nobreak-hyphen ((,dracaena-class (:inherit homoglyph))))
 
    ;; pulse-highlight-start-face
    ;; M-: (pulse-momentary-highlight-region (point-min) (point-max))
