@@ -110,7 +110,7 @@
    `(shadow ((,prunus-class (:foreground ,prunus-shadow))))
 
    ;; region
-   `(region ((,prunus-class (:background ,prunus-brown))))
+   `(region ((,prunus-class (:background ,prunus-brown :extend t))))
    `(secondary-selection ((,prunus-class (:background ,prunus-dark-cyan :extend t))))
 
    ;; font-lock

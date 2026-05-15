@@ -113,7 +113,7 @@
    `(shadow ((,citrus-class (:foreground ,citrus-shadow))))
 
    ;; region
-   `(region ((,citrus-class (:background ,citrus-yellow))))
+   `(region ((,citrus-class (:background ,citrus-yellow :extend t))))
    `(secondary-selection ((,citrus-class (:background ,citrus-orange-orange :extend t))))
 
    ;; font-lock

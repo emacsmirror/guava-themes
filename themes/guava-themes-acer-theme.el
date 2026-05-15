@@ -110,7 +110,7 @@
    `(shadow ((,acer-class (:foreground ,acer-shadow))))
 
    ;; region
-   `(region ((,acer-class (:background ,acer-brown))))
+   `(region ((,acer-class (:background ,acer-brown :extend t))))
    `(secondary-selection ((,acer-class (:background ,acer-orange :extend t))))
 
    ;; font-lock

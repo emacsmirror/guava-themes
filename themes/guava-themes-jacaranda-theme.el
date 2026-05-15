@@ -109,7 +109,7 @@
    `(shadow ((,jacaranda-class (:foreground ,jacaranda-shadow))))
 
    ;; region
-   `(region ((,jacaranda-class (:background ,jacaranda-light-purple))))
+   `(region ((,jacaranda-class (:background ,jacaranda-light-purple :extend t))))
    `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock

@@ -108,7 +108,7 @@
    `(shadow ((,petunia-class (:foreground ,petunia-shadow))))
 
    ;; region
-   `(region ((,petunia-class (:background ,petunia-blue))))
+   `(region ((,petunia-class (:background ,petunia-blue :extend t))))
    `(secondary-selection ((,petunia-class (:background ,petunia-alt-light-blue :extend t))))
 
    ;; font-lock

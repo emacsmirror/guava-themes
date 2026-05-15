@@ -111,7 +111,7 @@
    `(shadow ((,solanum-class (:foreground ,solanum-shadow))))
 
    ;; region
-   `(region ((,solanum-class (:background ,solanum-purple-blue))))
+   `(region ((,solanum-class (:background ,solanum-purple-blue :extend t))))
    `(secondary-selection ((,solanum-class (:background ,solanum-green :extend t))))
 
    ;; font-lock

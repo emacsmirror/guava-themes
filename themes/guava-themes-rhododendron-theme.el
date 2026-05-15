@@ -112,7 +112,7 @@
    `(shadow ((,rhododendron-class (:foreground ,rhododendron-shadow))))
 
    ;; region
-   `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink))))
+   `(region ((,rhododendron-class (:background ,rhododendron-alt-bright-pink :extend t))))
    `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green :extend t))))
 
    ;; font-lock

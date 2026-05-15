@@ -112,7 +112,7 @@
    `(shadow ((,vaccinium-class (:foreground ,vaccinium-shadow))))
 
    ;; region
-   `(region ((,vaccinium-class (:background ,vaccinium-deep-blue))))
+   `(region ((,vaccinium-class (:background ,vaccinium-deep-blue :extend t))))
    `(secondary-selection ((,vaccinium-class (:background ,vaccinium-alt-blueberry :extend t))))
 
    ;; font-lock

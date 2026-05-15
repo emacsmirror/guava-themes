@@ -111,7 +111,7 @@
    `(shadow ((,pyrus-class (:foreground ,pyrus-shadow))))
 
    ;; region
-   `(region ((,pyrus-class (:background ,pyrus-alt-yellow-green))))
+   `(region ((,pyrus-class (:background ,pyrus-alt-yellow-green :extend t))))
    `(secondary-selection ((,pyrus-class (:background ,pyrus-yellow-green :extend t))))
 
    ;; font-lock

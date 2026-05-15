@@ -115,7 +115,7 @@
    `(shadow ((,dracaena-class (:foreground ,dracaena-shadow))))
 
    ;; region
-   `(region ((,dracaena-class (:background ,dracaena-alt-deep-red))))
+   `(region ((,dracaena-class (:background ,dracaena-alt-deep-red :extend t))))
    `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
 
    ;; font-lock

@@ -107,7 +107,7 @@
    `(shadow ((,psidium-class (:foreground ,psidium-shadow))))
 
    ;; region
-   `(region ((,psidium-class (:background ,psidium-light-orange))))
+   `(region ((,psidium-class (:background ,psidium-light-orange :extend t))))
    `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
 
    ;; font-lock

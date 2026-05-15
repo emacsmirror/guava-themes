@@ -112,7 +112,7 @@
    `(shadow ((,cordyline-class (:foreground ,cordyline-shadow))))
 
    ;; region
-   `(region ((,cordyline-class (:background ,cordyline-deep-fuchsia))))
+   `(region ((,cordyline-class (:background ,cordyline-deep-fuchsia :extend t))))
    `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
 
    ;; font-lock

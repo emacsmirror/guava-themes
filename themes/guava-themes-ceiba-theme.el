@@ -114,7 +114,7 @@
    `(shadow ((,ceiba-class (:foreground ,ceiba-shadow))))
 
    ;; region
-   `(region ((,ceiba-class (:background ,ceiba-gray-blue))))
+   `(region ((,ceiba-class (:background ,ceiba-gray-blue :extend t))))
    `(secondary-selection ((,ceiba-class (:background ,ceiba-brown-sand :extend t))))
 
    ;; font-lock

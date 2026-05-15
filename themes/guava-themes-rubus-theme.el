@@ -112,7 +112,7 @@
    `(shadow ((,rubus-class (:foreground ,rubus-shadow))))
 
    ;; region
-   `(region ((,rubus-class (:background ,rubus-deep-raspberry))))
+   `(region ((,rubus-class (:background ,rubus-deep-raspberry :extend t))))
    `(secondary-selection ((,rubus-class (:background ,rubus-alt-raspberry :extend t))))
 
    ;; font-lock
