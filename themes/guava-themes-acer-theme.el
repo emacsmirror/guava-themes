@@ -4,7 +4,7 @@
 
 ;; Author: Geralld Borbón <eternalmangocean@gmail.com>
 ;; Created: Jan 12, 2026
-;; Version: 0.15.0
+;; Version: 0.16.0
 ;; Keywords: themes, faces, color
 ;; URL: http://github.com/bormoge/guava-themes
 ;; Package-Requires: ((emacs "24.1"))
@@ -241,6 +241,7 @@
    ;; replace (use "M-x occur" to check the match face)
    `(query-replace ((,acer-class (:inherit isearch))))
    `(match ((,acer-class (:inherit lazy-highlight))))
+
 
    ;; external packages
 
