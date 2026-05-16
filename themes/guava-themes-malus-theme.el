@@ -146,7 +146,7 @@
    ;; mode-line
    `(mode-line ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango))))
    `(mode-line-inactive ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango))))
-   `(guava-themes-visible-bell ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue))))
+   `(guava-themes-visible-bell ((,malus-class (:foreground ,malus-white :background ,malus-blue-subdued))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,malus-class (:foreground ,malus-red-sweetango))))
