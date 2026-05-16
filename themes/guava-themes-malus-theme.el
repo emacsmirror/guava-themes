@@ -246,8 +246,8 @@
 
    ;; elfeed
    `(elfeed-search-tag-face ((,malus-class (:foreground ,malus-yellow-subdued))))
-   `(elfeed-search-date-face ((,malus-class (:foreground ,malus-light-blue))))
-   `(elfeed-search-feed-face ((,malus-class (:foreground ,malus-green-granny))))
+   `(elfeed-search-date-face ((,malus-class (:foreground ,malus-green-granny))))
+   `(elfeed-search-feed-face ((,malus-class (:foreground ,malus-light-blue))))
    `(elfeed-search-title-face ((,malus-class (:foreground ,malus-brown))))
    `(elfeed-search-filter-face ((,malus-class (:weight bold :foreground ,malus-blue))))
    `(elfeed-search-last-update-face ((,malus-class (:weight bold :foreground ,malus-oceanic-blue))))
