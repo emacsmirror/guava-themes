@@ -219,11 +219,12 @@
    `(completions-common-part ((,jacaranda-class (:foreground ,jacaranda-vc-change :weight bold))))
    `(completions-first-difference ((,jacaranda-class (:foreground ,jacaranda-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,jacaranda-class (:foreground ,jacaranda-vc-delete :weight bold))))
    `(org-done ((,jacaranda-class (:foreground ,jacaranda-vc-insert :weight bold))))
    `(org-hide ((,jacaranda-class (:foreground ,jacaranda-bg))))
    `(org-table ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
+   `(org-date ((,jacaranda-class (:foreground ,jacaranda-red))))
 
    ;; window-divider
    `(window-divider ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))

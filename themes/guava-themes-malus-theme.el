@@ -219,11 +219,12 @@
    `(completions-common-part ((,malus-class (:foreground ,malus-warning :weight bold))))
    `(completions-first-difference ((,malus-class (:foreground ,malus-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,malus-class (:foreground ,malus-vc-delete :weight bold))))
    `(org-done ((,malus-class (:foreground ,malus-vc-insert :weight bold))))
    `(org-hide ((,malus-class (:foreground ,malus-bg))))
    `(org-table ((,malus-class (:foreground ,malus-red-sweetango))))
+   `(org-date ((,malus-class (:foreground ,malus-oceanic-blue))))
 
    ;; window-divider
    `(window-divider ((,malus-class (:foreground ,malus-alt-red-sweetango))))

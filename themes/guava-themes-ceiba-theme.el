@@ -224,11 +224,12 @@
    `(completions-common-part ((,ceiba-class (:foreground ,ceiba-vc-change :weight bold))))
    `(completions-first-difference ((,ceiba-class (:foreground ,ceiba-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,ceiba-class (:foreground ,ceiba-vc-delete :weight bold))))
    `(org-done ((,ceiba-class (:foreground ,ceiba-vc-insert :weight bold))))
    `(org-hide ((,ceiba-class (:foreground ,ceiba-bg))))
    `(org-table ((,ceiba-class (:foreground ,ceiba-brown-wood))))
+   `(org-date ((,ceiba-class (:foreground ,ceiba-orange))))
 
    ;; window-divider
    `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))

@@ -220,11 +220,12 @@
    `(completions-common-part ((,prunus-class (:foreground ,prunus-warning :weight bold))))
    `(completions-first-difference ((,prunus-class (:foreground ,prunus-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,prunus-class (:foreground ,prunus-vc-delete :weight bold))))
    `(org-done ((,prunus-class (:foreground ,prunus-vc-insert :weight bold))))
    `(org-hide ((,prunus-class (:foreground ,prunus-bg))))
    `(org-table ((,prunus-class (:foreground ,prunus-pink))))
+   `(org-date ((,prunus-class (:foreground ,prunus-red))))
 
    ;; window-divider
    `(window-divider ((,prunus-class (:foreground ,prunus-brown))))

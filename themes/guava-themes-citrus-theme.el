@@ -223,11 +223,12 @@
    `(completions-common-part ((,citrus-class (:foreground ,citrus-vc-change :weight bold))))
    `(completions-first-difference ((,citrus-class (:foreground ,citrus-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,citrus-class (:foreground ,citrus-vc-delete :weight bold))))
    `(org-done ((,citrus-class (:foreground ,citrus-vc-insert :weight bold))))
    `(org-hide ((,citrus-class (:foreground ,citrus-bg))))
    `(org-table ((,citrus-class (:foreground ,citrus-orange-red))))
+   `(org-date ((,citrus-class (:foreground ,citrus-purple-red))))
 
    ;; window-divider
    `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))

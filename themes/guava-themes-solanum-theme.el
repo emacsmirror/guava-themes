@@ -221,11 +221,12 @@
    `(completions-common-part ((,solanum-class (:foreground ,solanum-warning :weight bold))))
    `(completions-first-difference ((,solanum-class (:foreground ,solanum-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,solanum-class (:foreground ,solanum-vc-delete :weight bold))))
    `(org-done ((,solanum-class (:foreground ,solanum-vc-insert :weight bold))))
    `(org-hide ((,solanum-class (:foreground ,solanum-bg))))
    `(org-table ((,solanum-class (:foreground ,solanum-yellow-potato))))
+   `(org-date ((,solanum-class (:foreground ,solanum-alt-light-green))))
 
    ;; window-divider
    `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))

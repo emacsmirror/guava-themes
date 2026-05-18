@@ -222,11 +222,12 @@
    `(completions-common-part ((,vaccinium-class (:foreground ,vaccinium-warning :weight bold))))
    `(completions-first-difference ((,vaccinium-class (:foreground ,vaccinium-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,vaccinium-class (:foreground ,vaccinium-vc-delete :weight bold))))
    `(org-done ((,vaccinium-class (:foreground ,vaccinium-vc-insert :weight bold))))
    `(org-hide ((,vaccinium-class (:foreground ,vaccinium-bg))))
    `(org-table ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
+   `(org-date ((,vaccinium-class (:foreground ,vaccinium-purple-pink))))
 
    ;; window-divider
    `(window-divider ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))

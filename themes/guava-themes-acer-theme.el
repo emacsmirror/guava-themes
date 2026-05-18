@@ -220,11 +220,12 @@
    `(completions-common-part ((,acer-class (:foreground ,acer-vc-change :weight bold))))
    `(completions-first-difference ((,acer-class (:foreground ,acer-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,acer-class (:foreground ,acer-vc-delete :weight bold))))
    `(org-done ((,acer-class (:foreground ,acer-vc-insert :weight bold))))
    `(org-hide ((,acer-class (:foreground ,acer-bg))))
    `(org-table ((,acer-class (:foreground ,acer-deep-green))))
+   `(org-date ((,acer-class (:foreground ,acer-light-blue))))
 
    ;; window-divider
    `(window-divider ((,acer-class (:foreground ,acer-purple-red))))

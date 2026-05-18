@@ -222,11 +222,12 @@
    `(completions-common-part ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
    `(completions-first-difference ((,cordyline-class (:foreground ,cordyline-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,cordyline-class (:foreground ,cordyline-vc-delete :weight bold))))
    `(org-done ((,cordyline-class (:foreground ,cordyline-vc-insert :weight bold))))
    `(org-hide ((,cordyline-class (:foreground ,cordyline-bg))))
    `(org-table ((,cordyline-class (:foreground ,cordyline-light-purple))))
+   `(org-date ((,cordyline-class (:foreground ,cordyline-orange-red))))
 
    ;; window-divider
    `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))

@@ -222,11 +222,12 @@
    `(completions-common-part ((,rubus-class (:foreground ,rubus-warning :weight bold))))
    `(completions-first-difference ((,rubus-class (:foreground ,rubus-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,rubus-class (:foreground ,rubus-vc-delete :weight bold))))
    `(org-done ((,rubus-class (:foreground ,rubus-vc-insert :weight bold))))
    `(org-hide ((,rubus-class (:foreground ,rubus-bg))))
    `(org-table ((,rubus-class (:foreground ,rubus-pink-cream))))
+   `(org-date ((,rubus-class (:foreground ,rubus-green-blue))))
 
    ;; window-divider
    `(window-divider ((,rubus-class (:foreground ,rubus-alt-raspberry))))

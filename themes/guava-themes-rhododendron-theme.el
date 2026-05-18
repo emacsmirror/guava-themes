@@ -222,11 +222,12 @@
    `(completions-common-part ((,rhododendron-class (:foreground ,rhododendron-vc-change :weight bold))))
    `(completions-first-difference ((,rhododendron-class (:foreground ,rhododendron-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,rhododendron-class (:foreground ,rhododendron-vc-delete :weight bold))))
    `(org-done ((,rhododendron-class (:foreground ,rhododendron-vc-insert :weight bold))))
    `(org-hide ((,rhododendron-class (:foreground ,rhododendron-bg))))
    `(org-table ((,rhododendron-class (:foreground ,rhododendron-red))))
+   `(org-date ((,rhododendron-class (:foreground ,rhododendron-red-orange))))
 
    ;; window-divider
    `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))

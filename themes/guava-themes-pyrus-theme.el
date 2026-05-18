@@ -221,11 +221,12 @@
    `(completions-common-part ((,pyrus-class (:foreground ,pyrus-vc-change :weight bold))))
    `(completions-first-difference ((,pyrus-class (:foreground ,pyrus-error :weight bold))))
 
-   ;; org
+   ;; org-faces
    `(org-todo ((,pyrus-class (:foreground ,pyrus-vc-delete :weight bold))))
    `(org-done ((,pyrus-class (:foreground ,pyrus-vc-insert :weight bold))))
    `(org-hide ((,pyrus-class (:foreground ,pyrus-bg))))
    `(org-table ((,pyrus-class (:foreground ,pyrus-green))))
+   `(org-date ((,pyrus-class (:foreground ,pyrus-orange-subdued))))
 
    ;; window-divider
    `(window-divider ((,pyrus-class (:foreground ,pyrus-light-green))))
