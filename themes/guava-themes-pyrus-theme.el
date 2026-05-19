@@ -227,6 +227,7 @@
    `(org-hide ((,pyrus-class (:foreground ,pyrus-bg))))
    `(org-table ((,pyrus-class (:foreground ,pyrus-green))))
    `(org-date ((,pyrus-class (:foreground ,pyrus-orange-subdued))))
+   `(org-date-selected ((,pyrus-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,pyrus-class (:foreground ,pyrus-light-green))))

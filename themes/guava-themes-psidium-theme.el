@@ -223,6 +223,7 @@
    `(org-hide ((,psidium-class (:foreground ,psidium-bg))))
    `(org-table ((,psidium-class (:foreground ,psidium-deep-green))))
    `(org-date ((,psidium-class (:foreground ,psidium-pink))))
+   `(org-date-selected ((,psidium-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,psidium-class (:foreground ,psidium-green))))

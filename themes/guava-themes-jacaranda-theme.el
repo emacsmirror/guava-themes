@@ -225,6 +225,7 @@
    `(org-hide ((,jacaranda-class (:foreground ,jacaranda-bg))))
    `(org-table ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
    `(org-date ((,jacaranda-class (:foreground ,jacaranda-red))))
+   `(org-date-selected ((,jacaranda-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))

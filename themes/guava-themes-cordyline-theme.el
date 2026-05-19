@@ -228,6 +228,7 @@
    `(org-hide ((,cordyline-class (:foreground ,cordyline-bg))))
    `(org-table ((,cordyline-class (:foreground ,cordyline-light-purple))))
    `(org-date ((,cordyline-class (:foreground ,cordyline-orange-red))))
+   `(org-date-selected ((,cordyline-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))

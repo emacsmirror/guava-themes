@@ -226,6 +226,7 @@
    `(org-hide ((,prunus-class (:foreground ,prunus-bg))))
    `(org-table ((,prunus-class (:foreground ,prunus-pink))))
    `(org-date ((,prunus-class (:foreground ,prunus-red))))
+   `(org-date-selected ((,prunus-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,prunus-class (:foreground ,prunus-brown))))

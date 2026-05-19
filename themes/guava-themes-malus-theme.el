@@ -225,6 +225,7 @@
    `(org-hide ((,malus-class (:foreground ,malus-bg))))
    `(org-table ((,malus-class (:foreground ,malus-red-sweetango))))
    `(org-date ((,malus-class (:foreground ,malus-oceanic-blue))))
+   `(org-date-selected ((,malus-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,malus-class (:foreground ,malus-alt-red-sweetango))))

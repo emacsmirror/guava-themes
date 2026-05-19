@@ -230,6 +230,7 @@
    `(org-hide ((,ceiba-class (:foreground ,ceiba-bg))))
    `(org-table ((,ceiba-class (:foreground ,ceiba-brown-wood))))
    `(org-date ((,ceiba-class (:foreground ,ceiba-orange))))
+   `(org-date-selected ((,ceiba-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))

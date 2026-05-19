@@ -229,6 +229,7 @@
    `(org-hide ((,citrus-class (:foreground ,citrus-bg))))
    `(org-table ((,citrus-class (:foreground ,citrus-orange-red))))
    `(org-date ((,citrus-class (:foreground ,citrus-purple-red))))
+   `(org-date-selected ((,citrus-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))

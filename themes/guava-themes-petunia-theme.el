@@ -224,6 +224,7 @@
    `(org-hide ((,petunia-class (:foreground ,petunia-bg))))
    `(org-table ((,petunia-class (:foreground ,petunia-green-forest))))
    `(org-date ((,petunia-class (:foreground ,petunia-light-orange))))
+   `(org-date-selected ((,petunia-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,petunia-class (:foreground ,petunia-orange))))

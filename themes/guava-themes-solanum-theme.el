@@ -227,6 +227,7 @@
    `(org-hide ((,solanum-class (:foreground ,solanum-bg))))
    `(org-table ((,solanum-class (:foreground ,solanum-yellow-potato))))
    `(org-date ((,solanum-class (:foreground ,solanum-alt-light-green))))
+   `(org-date-selected ((,solanum-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))

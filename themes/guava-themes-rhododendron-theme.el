@@ -228,6 +228,7 @@
    `(org-hide ((,rhododendron-class (:foreground ,rhododendron-bg))))
    `(org-table ((,rhododendron-class (:foreground ,rhododendron-red))))
    `(org-date ((,rhododendron-class (:foreground ,rhododendron-red-orange))))
+   `(org-date-selected ((,rhododendron-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))

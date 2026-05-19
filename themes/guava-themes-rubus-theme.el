@@ -228,6 +228,7 @@
    `(org-hide ((,rubus-class (:foreground ,rubus-bg))))
    `(org-table ((,rubus-class (:foreground ,rubus-pink-cream))))
    `(org-date ((,rubus-class (:foreground ,rubus-green-blue))))
+   `(org-date-selected ((,rubus-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,rubus-class (:foreground ,rubus-alt-raspberry))))

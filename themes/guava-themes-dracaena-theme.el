@@ -231,6 +231,7 @@
    `(org-hide ((,dracaena-class (:foreground ,dracaena-bg))))
    `(org-table ((,dracaena-class (:foreground ,dracaena-light-orange))))
    `(org-date ((,dracaena-class (:foreground ,dracaena-orange))))
+   `(org-date-selected ((,dracaena-class (:foreground unspecified :inverse-video t :inherit org-date))))
 
    ;; window-divider
    `(window-divider ((,dracaena-class (:foreground ,dracaena-deep-orange))))
