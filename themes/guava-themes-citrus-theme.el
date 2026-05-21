@@ -260,12 +260,12 @@
    `(elfeed-search-unread-title-face ((,citrus-class (:weight bold :foreground ,citrus-green-blue))))
    `(elfeed-search-unread-count-face ((,citrus-class (:weight bold :foreground ,citrus-light-blue))))
 
-   `(elfeed-show-entry-header-face ((,citrus-class (:foreground ,citrus-red))))
-   `(elfeed-show-entry-author-face ((,citrus-class (:weight bold :foreground ,citrus-blue))))
-   `(elfeed-show-entry-title-face ((,citrus-class (:weight bold :foreground ,citrus-blue))))
-   `(elfeed-show-entry-date-face ((,citrus-class (:foreground ,citrus-orange-orange))))
-   `(elfeed-show-entry-feed-face ((,citrus-class (:foreground ,citrus-orange-orange))))
-   `(elfeed-show-entry-tags-face ((,citrus-class (:foreground ,citrus-brown))))
+   `(elfeed-show-header-face ((,citrus-class (:foreground ,citrus-red))))
+   `(elfeed-show-author-face ((,citrus-class (:weight bold :foreground ,citrus-blue))))
+   `(elfeed-show-title-face ((,citrus-class (:weight bold :foreground ,citrus-blue))))
+   `(elfeed-show-date-face ((,citrus-class (:foreground ,citrus-orange-orange))))
+   `(elfeed-show-feed-face ((,citrus-class (:foreground ,citrus-orange-orange))))
+   `(elfeed-show-tags-face ((,citrus-class (:foreground ,citrus-brown))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,citrus-class (:foreground ,citrus-purple-red :inherit italic))))

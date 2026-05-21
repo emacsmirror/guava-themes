@@ -259,12 +259,12 @@
    `(elfeed-search-unread-title-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-purple))))
    `(elfeed-search-unread-count-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-green))))
 
-   `(elfeed-show-entry-header-face ((,cordyline-class (:foreground ,cordyline-purple-red))))
-   `(elfeed-show-entry-author-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-blue))))
-   `(elfeed-show-entry-title-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-blue))))
-   `(elfeed-show-entry-date-face ((,cordyline-class (:foreground ,cordyline-dark-cyan))))
-   `(elfeed-show-entry-feed-face ((,cordyline-class (:foreground ,cordyline-dark-cyan))))
-   `(elfeed-show-entry-tags-face ((,cordyline-class (:foreground ,cordyline-orange-red))))
+   `(elfeed-show-header-face ((,cordyline-class (:foreground ,cordyline-purple-red))))
+   `(elfeed-show-author-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-blue))))
+   `(elfeed-show-title-face ((,cordyline-class (:weight bold :foreground ,cordyline-light-blue))))
+   `(elfeed-show-date-face ((,cordyline-class (:foreground ,cordyline-dark-cyan))))
+   `(elfeed-show-feed-face ((,cordyline-class (:foreground ,cordyline-dark-cyan))))
+   `(elfeed-show-tags-face ((,cordyline-class (:foreground ,cordyline-orange-red))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,cordyline-class (:foreground ,cordyline-steel-blue :inherit italic))))

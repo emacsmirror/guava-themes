@@ -257,12 +257,12 @@
    `(elfeed-search-unread-title-face ((,prunus-class (:weight bold :foreground ,prunus-green-forest))))
    `(elfeed-search-unread-count-face ((,prunus-class (:weight bold :foreground ,prunus-light-green))))
 
-   `(elfeed-show-entry-header-face ((,prunus-class (:foreground ,prunus-deep-purple))))
-   `(elfeed-show-entry-author-face ((,prunus-class (:weight bold :foreground ,prunus-purple-red))))
-   `(elfeed-show-entry-title-face ((,prunus-class (:weight bold :foreground ,prunus-purple-red))))
-   `(elfeed-show-entry-date-face ((,prunus-class (:foreground ,prunus-light-pink))))
-   `(elfeed-show-entry-feed-face ((,prunus-class (:foreground ,prunus-light-pink))))
-   `(elfeed-show-entry-tags-face ((,prunus-class (:foreground ,prunus-green-forest))))
+   `(elfeed-show-header-face ((,prunus-class (:foreground ,prunus-deep-purple))))
+   `(elfeed-show-author-face ((,prunus-class (:weight bold :foreground ,prunus-purple-red))))
+   `(elfeed-show-title-face ((,prunus-class (:weight bold :foreground ,prunus-purple-red))))
+   `(elfeed-show-date-face ((,prunus-class (:foreground ,prunus-light-pink))))
+   `(elfeed-show-feed-face ((,prunus-class (:foreground ,prunus-light-pink))))
+   `(elfeed-show-tags-face ((,prunus-class (:foreground ,prunus-green-forest))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,prunus-class (:foreground ,prunus-light-green :inherit italic))))

@@ -259,12 +259,12 @@
    `(elfeed-search-unread-title-face ((,rubus-class (:weight bold :foreground ,rubus-green-forest))))
    `(elfeed-search-unread-count-face ((,rubus-class (:weight bold :foreground ,rubus-purple))))
 
-   `(elfeed-show-entry-header-face ((,rubus-class (:foreground ,rubus-deep-purple))))
-   `(elfeed-show-entry-author-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
-   `(elfeed-show-entry-title-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
-   `(elfeed-show-entry-date-face ((,rubus-class (:foreground ,rubus-green-blue))))
-   `(elfeed-show-entry-feed-face ((,rubus-class (:foreground ,rubus-green-blue))))
-   `(elfeed-show-entry-tags-face ((,rubus-class (:foreground ,rubus-orange))))
+   `(elfeed-show-header-face ((,rubus-class (:foreground ,rubus-deep-purple))))
+   `(elfeed-show-author-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
+   `(elfeed-show-title-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
+   `(elfeed-show-date-face ((,rubus-class (:foreground ,rubus-green-blue))))
+   `(elfeed-show-feed-face ((,rubus-class (:foreground ,rubus-green-blue))))
+   `(elfeed-show-tags-face ((,rubus-class (:foreground ,rubus-orange))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,rubus-class (:foreground ,rubus-light-purple :inherit italic))))

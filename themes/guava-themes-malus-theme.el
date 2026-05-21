@@ -256,12 +256,12 @@
    `(elfeed-search-unread-title-face ((,malus-class (:weight bold :foreground ,malus-deep-red))))
    `(elfeed-search-unread-count-face ((,malus-class (:weight bold :foreground ,malus-purple))))
 
-   `(elfeed-show-entry-header-face ((,malus-class (:foreground ,malus-green-granny))))
-   `(elfeed-show-entry-author-face ((,malus-class (:weight bold :foreground ,malus-purple))))
-   `(elfeed-show-entry-title-face ((,malus-class (:weight bold :foreground ,malus-purple))))
-   `(elfeed-show-entry-date-face ((,malus-class (:foreground ,malus-red-sweetango))))
-   `(elfeed-show-entry-feed-face ((,malus-class (:foreground ,malus-red-sweetango))))
-   `(elfeed-show-entry-tags-face ((,malus-class (:foreground ,malus-yellow-subdued))))
+   `(elfeed-show-header-face ((,malus-class (:foreground ,malus-green-granny))))
+   `(elfeed-show-author-face ((,malus-class (:weight bold :foreground ,malus-purple))))
+   `(elfeed-show-title-face ((,malus-class (:weight bold :foreground ,malus-purple))))
+   `(elfeed-show-date-face ((,malus-class (:foreground ,malus-red-sweetango))))
+   `(elfeed-show-feed-face ((,malus-class (:foreground ,malus-red-sweetango))))
+   `(elfeed-show-tags-face ((,malus-class (:foreground ,malus-yellow-subdued))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,malus-class (:foreground ,malus-green-granny :inherit italic))))

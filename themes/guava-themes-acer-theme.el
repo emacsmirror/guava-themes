@@ -257,12 +257,12 @@
    `(elfeed-search-unread-title-face ((,acer-class (:weight bold :foreground ,acer-deep-green))))
    `(elfeed-search-unread-count-face ((,acer-class (:weight bold :foreground ,acer-green))))
 
-   `(elfeed-show-entry-header-face ((,acer-class (:foreground ,acer-deep-green))))
-   `(elfeed-show-entry-author-face ((,acer-class (:weight bold :foreground ,acer-purple))))
-   `(elfeed-show-entry-title-face ((,acer-class (:weight bold :foreground ,acer-purple))))
-   `(elfeed-show-entry-date-face ((,acer-class (:foreground ,acer-light-blue))))
-   `(elfeed-show-entry-feed-face ((,acer-class (:foreground ,acer-light-blue))))
-   `(elfeed-show-entry-tags-face ((,acer-class (:foreground ,acer-orange-pink))))
+   `(elfeed-show-header-face ((,acer-class (:foreground ,acer-deep-green))))
+   `(elfeed-show-author-face ((,acer-class (:weight bold :foreground ,acer-purple))))
+   `(elfeed-show-title-face ((,acer-class (:weight bold :foreground ,acer-purple))))
+   `(elfeed-show-date-face ((,acer-class (:foreground ,acer-light-blue))))
+   `(elfeed-show-feed-face ((,acer-class (:foreground ,acer-light-blue))))
+   `(elfeed-show-tags-face ((,acer-class (:foreground ,acer-orange-pink))))
 
    ;; doom-modeline
    `(doom-modeline-project-name ((,acer-class (:foreground ,acer-deep-purple :inherit italic))))
