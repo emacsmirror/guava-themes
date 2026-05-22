@@ -229,6 +229,8 @@
    `(org-table ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
    `(org-date ((,vaccinium-class (:foreground ,vaccinium-purple-pink))))
    `(org-date-selected ((,vaccinium-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,vaccinium-class (:foreground ,vaccinium-orderless-2))))
+   `(org-headline-done ((,vaccinium-class (:foreground ,vaccinium-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))

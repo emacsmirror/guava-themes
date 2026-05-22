@@ -224,6 +224,8 @@
    `(org-table ((,psidium-class (:foreground ,psidium-deep-green))))
    `(org-date ((,psidium-class (:foreground ,psidium-pink))))
    `(org-date-selected ((,psidium-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,psidium-class (:foreground ,psidium-orderless-2))))
+   `(org-headline-done ((,psidium-class (:foreground ,psidium-orderless-3))))
 
    ;; window-divider
    `(window-divider ((,psidium-class (:foreground ,psidium-green))))

@@ -232,6 +232,8 @@
    `(org-table ((,dracaena-class (:foreground ,dracaena-light-orange))))
    `(org-date ((,dracaena-class (:foreground ,dracaena-orange))))
    `(org-date-selected ((,dracaena-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,dracaena-class (:foreground ,dracaena-orderless-2))))
+   `(org-headline-done ((,dracaena-class (:foreground ,dracaena-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,dracaena-class (:foreground ,dracaena-deep-orange))))

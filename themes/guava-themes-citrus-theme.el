@@ -230,6 +230,8 @@
    `(org-table ((,citrus-class (:foreground ,citrus-orange-red))))
    `(org-date ((,citrus-class (:foreground ,citrus-purple-red))))
    `(org-date-selected ((,citrus-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,citrus-class (:foreground ,citrus-orderless-2))))
+   `(org-headline-done ((,citrus-class (:foreground ,citrus-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))

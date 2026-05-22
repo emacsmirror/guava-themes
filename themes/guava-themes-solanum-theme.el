@@ -228,6 +228,8 @@
    `(org-table ((,solanum-class (:foreground ,solanum-yellow-potato))))
    `(org-date ((,solanum-class (:foreground ,solanum-alt-light-green))))
    `(org-date-selected ((,solanum-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,solanum-class (:foreground ,solanum-orderless-2))))
+   `(org-headline-done ((,solanum-class (:foreground ,solanum-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))

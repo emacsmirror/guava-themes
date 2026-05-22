@@ -227,6 +227,8 @@
    `(org-table ((,acer-class (:foreground ,acer-deep-green))))
    `(org-date ((,acer-class (:foreground ,acer-light-blue))))
    `(org-date-selected ((,acer-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,acer-class (:foreground ,acer-orderless-0))))
+   `(org-headline-done ((,acer-class (:foreground ,acer-orderless-3))))
 
    ;; window-divider
    `(window-divider ((,acer-class (:foreground ,acer-purple-red))))

@@ -229,6 +229,8 @@
    `(org-table ((,rhododendron-class (:foreground ,rhododendron-red))))
    `(org-date ((,rhododendron-class (:foreground ,rhododendron-red-orange))))
    `(org-date-selected ((,rhododendron-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,rhododendron-class (:foreground ,rhododendron-orderless-0))))
+   `(org-headline-done ((,rhododendron-class (:foreground ,rhododendron-orderless-3))))
 
    ;; window-divider
    `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))

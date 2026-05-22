@@ -229,6 +229,8 @@
    `(org-table ((,cordyline-class (:foreground ,cordyline-light-purple))))
    `(org-date ((,cordyline-class (:foreground ,cordyline-orange-red))))
    `(org-date-selected ((,cordyline-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,cordyline-class (:foreground ,cordyline-orderless-2))))
+   `(org-headline-done ((,cordyline-class (:foreground ,cordyline-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))

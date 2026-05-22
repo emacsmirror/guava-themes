@@ -231,6 +231,8 @@
    `(org-table ((,ceiba-class (:foreground ,ceiba-brown-wood))))
    `(org-date ((,ceiba-class (:foreground ,ceiba-orange))))
    `(org-date-selected ((,ceiba-class (:foreground unspecified :inverse-video t :inherit org-date))))
+   `(org-headline-todo ((,ceiba-class (:foreground ,ceiba-orderless-2))))
+   `(org-headline-done ((,ceiba-class (:foreground ,ceiba-orderless-1))))
 
    ;; window-divider
    `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))
