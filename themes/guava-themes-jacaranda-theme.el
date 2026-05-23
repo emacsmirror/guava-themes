@@ -155,20 +155,20 @@
    `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
 
    ;; header-line
-   `(header-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
+   `(header-line ((,jacaranda-class (:inherit mode-line))))
    `(which-func ((,jacaranda-class (:foreground ,jacaranda-white))))
 
    ;; tab-bar
-   `(tab-bar ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple))))
-   `(tab-bar-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 1.0))))
+   `(tab-bar ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 1.0))))
+   `(tab-bar-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple))))
-   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-purple :weight bold :height 0.9))))
+   `(tab-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
+   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :inherit tab-line))))
+   `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-purple :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,jacaranda-class (:slant italic :weight bold :height 0.9))))
 

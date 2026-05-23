@@ -160,20 +160,20 @@
    `(vertical-border ((,ceiba-class (:foreground ,ceiba-green))))
 
    ;; header-line
-   `(header-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
+   `(header-line ((,ceiba-class (:inherit mode-line))))
    `(which-func ((,ceiba-class (:foreground ,ceiba-white))))
 
    ;; tab-bar
-   `(tab-bar ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))
-   `(tab-bar-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 1.0))))
+   `(tab-bar ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 1.0))))
+   `(tab-bar-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand))))
-   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-light-brown :weight bold :height 0.9))))
+   `(tab-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
+   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :inherit tab-line))))
+   `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-light-brown :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,ceiba-class (:foreground ,ceiba-purple-red :weight bold :height 0.9))))
    `(tab-line-tab-special ((,ceiba-class (:slant italic :weight bold :height 0.9))))
 

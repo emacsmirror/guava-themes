@@ -155,20 +155,20 @@
    `(vertical-border ((,malus-class (:foreground ,malus-red-sweetango))))
 
    ;; header-line
-   `(header-line ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango))))
+   `(header-line ((,malus-class (:inherit mode-line))))
    `(which-func ((,malus-class (:foreground ,malus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue))))
-   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 1.0))))
+   `(tab-bar ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 1.0))))
+   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue))))
-   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,malus-class (:foreground ,malus-white :background ,malus-deep-red :weight bold :height 0.9))))
+   `(tab-line ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 0.9))))
+   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango :inherit tab-line))))
+   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,malus-class (:foreground ,malus-white :background ,malus-deep-red :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,malus-class (:foreground ,malus-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,malus-class (:slant italic :weight bold :height 0.9))))
 

@@ -158,20 +158,20 @@
    `(vertical-border ((,citrus-class (:foreground ,citrus-green-lime))))
 
    ;; header-line
-   `(header-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
+   `(header-line ((,citrus-class (:background ,citrus-orange-red :inherit mode-line))))
    `(which-func ((,citrus-class (:foreground ,citrus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange))))
-   `(tab-bar-tab ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :weight bold :height 1.0))))
+   `(tab-bar ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :weight bold :height 1.0))))
+   `(tab-bar-tab ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange))))
-   `(tab-line-tab ((,citrus-class (:foreground ,citrus-white :background ,citrus-deep-red :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,citrus-class (:foreground ,citrus-white :background ,citrus-alt-orange :weight bold :height 0.9))))
+   `(tab-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :weight bold :height 0.9))))
+   `(tab-line-tab ((,citrus-class (:foreground ,citrus-white :background ,citrus-deep-red :inherit tab-line))))
+   `(tab-line-tab-current ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-orange :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,citrus-class (:foreground ,citrus-white :background ,citrus-alt-orange :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,citrus-class (:foreground ,citrus-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 

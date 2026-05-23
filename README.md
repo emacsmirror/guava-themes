@@ -141,6 +141,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 ## TODO
 - Add themes: Ficus, Eucalyptus.
+- Rework: Prunus (make the colors more consistent)
 - (Emacs 31) Add header-line-active and header-line-inactive faces
 - (Emacs 31) Add tab-line-active and tab-line-inactive faces
 

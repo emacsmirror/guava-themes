@@ -157,20 +157,20 @@
    `(vertical-border ((,solanum-class (:foreground ,solanum-dark-purple))))
 
    ;; header-line
-   `(header-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
+   `(header-line ((,solanum-class (:inherit mode-line))))
    `(which-func ((,solanum-class (:foreground ,solanum-white))))
 
    ;; tab-bar
-   `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black))))
-   `(tab-bar-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 1.0))))
+   `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 1.0))))
+   `(tab-bar-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black))))
-   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :weight bold :height 0.9))))
+   `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))
+   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :inherit tab-line))))
+   `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,solanum-class (:foreground ,solanum-red-tomato :weight bold :height 0.9))))
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
 

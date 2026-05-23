@@ -157,20 +157,20 @@
    `(vertical-border ((,pyrus-class (:foreground ,pyrus-deep-green))))
 
    ;; header-line
-   `(header-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green))))
+   `(header-line ((,pyrus-class (:inherit mode-line))))
    `(which-func ((,pyrus-class (:foreground ,pyrus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green))))
-   `(tab-bar-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 1.0))))
+   `(tab-bar ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 1.0))))
+   `(tab-bar-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green))))
-   `(tab-line-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green-subdued :weight bold :height 0.9))))
+   `(tab-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 0.9))))
+   `(tab-line-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green :inherit tab-line))))
+   `(tab-line-tab-current ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green-subdued :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,pyrus-class (:foreground ,pyrus-orange-pink :weight bold :height 0.9))))
    `(tab-line-tab-special ((,pyrus-class (:slant italic :weight bold :height 0.9))))
 

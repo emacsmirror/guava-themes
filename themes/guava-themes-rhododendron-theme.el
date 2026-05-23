@@ -158,20 +158,20 @@
    `(vertical-border ((,rhododendron-class (:foreground ,rhododendron-red))))
 
    ;; header-line
-   `(header-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
+   `(header-line ((,rhododendron-class (:inherit mode-line))))
    `(which-func ((,rhododendron-class (:foreground ,rhododendron-white))))
 
    ;; tab-bar
-   `(tab-bar ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
-   `(tab-bar-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 1.0))))
+   `(tab-bar ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 1.0))))
+   `(tab-bar-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
-   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-red :weight bold :height 0.9))))
+   `(tab-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 0.9))))
+   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :inherit tab-line))))
+   `(tab-line-tab-current ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-red :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,rhododendron-class (:slant italic :weight bold :height 0.9))))
 

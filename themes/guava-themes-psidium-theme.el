@@ -153,20 +153,20 @@
    `(vertical-border ((,psidium-class (:foreground ,psidium-pink))))
 
    ;; header-line
-   `(header-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
+   `(header-line ((,psidium-class (:inherit mode-line))))
    `(which-func ((,psidium-class (:foreground ,psidium-white))))
 
    ;; tab-bar
-   `(tab-bar ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
-   `(tab-bar-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 1.0))))
+   `(tab-bar ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 1.0))))
+   `(tab-bar-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green))))
-   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,psidium-class (:foreground ,psidium-white :background ,psidium-light-green :weight bold :height 0.9))))
+   `(tab-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
+   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :inherit tab-line))))
+   `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,psidium-class (:foreground ,psidium-white :background ,psidium-light-green :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,psidium-class (:foreground ,psidium-deep-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
 

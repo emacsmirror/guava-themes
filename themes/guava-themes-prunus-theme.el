@@ -156,20 +156,20 @@
    `(vertical-border ((,prunus-class (:foreground ,prunus-red))))
 
    ;; header-line
-   `(header-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
+   `(header-line ((,prunus-class (:inherit mode-line))))
    `(which-func ((,prunus-class (:foreground ,prunus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))
-   `(tab-bar-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :weight bold :height 1.0))))
-   `(tab-bar-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 1.0))))
+   `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 1.0))))
+   `(tab-bar-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :inherit tab-bar))))
 
    ;; tab-line
-   `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink))))
-   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :weight bold :height 0.9))))
-   `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :weight bold :height 0.9))))
-   `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
-   `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink :weight bold :height 0.9))))
+   `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :weight bold :height 0.9))))
+   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :inherit tab-line))))
+   `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-red :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-pink :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-indigo :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 
