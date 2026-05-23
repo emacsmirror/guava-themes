@@ -146,7 +146,7 @@
 
    ;; mode-line
    `(mode-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
-   `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown))))
+   `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :inherit mode-line))))
    `(guava-themes-visible-bell ((,prunus-class (:foreground ,prunus-white :background ,prunus-antarctic-blue))))
 
    ;; minibuffer

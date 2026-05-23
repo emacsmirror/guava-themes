@@ -151,7 +151,7 @@
 
    ;; mode-line
    `(mode-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-red))))
-   `(mode-line-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-orange))))
+   `(mode-line-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-deep-orange :inherit mode-line))))
    `(guava-themes-visible-bell ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; minibuffer

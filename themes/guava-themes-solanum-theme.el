@@ -147,7 +147,7 @@
 
    ;; mode-line
    `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
-   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue))))
+   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :inherit mode-line))))
    `(guava-themes-visible-bell ((,solanum-class (:foreground ,solanum-white :background ,solanum-orange))))
 
    ;; minibuffer

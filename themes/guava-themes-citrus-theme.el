@@ -148,7 +148,7 @@
 
    ;; mode-line
    `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-lime))))
-   `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-blue))))
+   `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-blue :inherit mode-line))))
    `(guava-themes-visible-bell ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
 
    ;; minibuffer

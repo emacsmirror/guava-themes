@@ -148,7 +148,7 @@
 
    ;; mode-line
    `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
-   `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-deep-purple))))
+   `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-deep-purple :inherit mode-line))))
    `(guava-themes-visible-bell ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-light-blue))))
 
    ;; minibuffer

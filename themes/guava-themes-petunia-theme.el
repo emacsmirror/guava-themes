@@ -144,7 +144,7 @@
 
    ;; mode-line
    `(mode-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple))))
-   `(mode-line-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-orange))))
+   `(mode-line-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-orange :inherit mode-line))))
    `(guava-themes-visible-bell ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green))))
 
    ;; minibuffer

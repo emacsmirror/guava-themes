@@ -145,7 +145,7 @@
 
    ;; mode-line
    `(mode-line ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango))))
-   `(mode-line-inactive ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango))))
+   `(mode-line-inactive ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango :inherit mode-line))))
    `(guava-themes-visible-bell ((,malus-class (:foreground ,malus-white :background ,malus-blue-subdued))))
 
    ;; minibuffer

@@ -147,7 +147,7 @@
 
    ;; mode-line
    `(mode-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green))))
-   `(mode-line-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green))))
+   `(mode-line-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green :inherit mode-line))))
    `(guava-themes-visible-bell ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-blue))))
 
    ;; minibuffer

@@ -145,7 +145,7 @@
 
    ;; mode-line
    `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
-   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple))))
+   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :inherit mode-line))))
    `(guava-themes-visible-bell ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orange))))
 
    ;; minibuffer

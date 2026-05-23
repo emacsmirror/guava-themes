@@ -143,7 +143,7 @@
 
    ;; mode-line
    `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
-   `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
+   `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :inherit mode-line))))
    `(guava-themes-visible-bell ((,psidium-class (:foreground ,psidium-white :background ,psidium-deep-green))))
 
    ;; minibuffer

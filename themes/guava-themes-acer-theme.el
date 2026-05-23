@@ -146,7 +146,7 @@
 
    ;; mode-line
    `(mode-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
-   `(mode-line-inactive ((,acer-class (:foreground ,acer-white :background ,acer-purple-red))))
+   `(mode-line-inactive ((,acer-class (:foreground ,acer-white :background ,acer-purple-red :inherit mode-line))))
    `(guava-themes-visible-bell ((,acer-class (:foreground ,acer-white :background ,acer-green))))
 
    ;; minibuffer

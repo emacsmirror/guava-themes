@@ -148,7 +148,7 @@
 
    ;; mode-line
    `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))
-   `(mode-line-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-blueberry))))
+   `(mode-line-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-blueberry :inherit mode-line))))
    `(guava-themes-visible-bell ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orange))))
 
    ;; minibuffer

@@ -148,7 +148,7 @@
 
    ;; mode-line
    `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
-   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red))))
+   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :inherit mode-line))))
    `(guava-themes-visible-bell ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-blue))))
 
    ;; minibuffer

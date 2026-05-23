@@ -148,7 +148,7 @@
 
    ;; mode-line
    `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry))))
-   `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-raspberry))))
+   `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-raspberry :inherit mode-line))))
    `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-purple))))
 
    ;; minibuffer

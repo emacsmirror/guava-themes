@@ -150,7 +150,7 @@
 
    ;; mode-line
    `(mode-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
-   `(mode-line-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue))))
+   `(mode-line-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :inherit mode-line))))
    `(guava-themes-visible-bell ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-steel-blue))))
 
    ;; minibuffer
