@@ -80,6 +80,7 @@
       (ceiba-diff-header               "#b4b4b4");737373
       (ceiba-diff-file-header          "#8c8c8c");999999
       (ceiba-diff-context              "#dcdcdc");999999
+      (ceiba-smerge-base               "#C8C8F0");888833
 
       (ceiba-orderless-0               "#af37b9")
       (ceiba-orderless-1               "#147828")
@@ -219,6 +220,14 @@
    `(diff-header ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-header :extend t))))
    `(diff-file-header ((,ceiba-class (:weight bold :foreground ,ceiba-black :background ,ceiba-diff-file-header :extend t))))
    `(diff-context ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,ceiba-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,ceiba-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,ceiba-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,ceiba-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,ceiba-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,ceiba-class (:foreground ,ceiba-black :background ,ceiba-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,ceiba-class (:foreground ,ceiba-vc-change :weight bold))))

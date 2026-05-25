@@ -77,6 +77,7 @@
       (pyrus-diff-header               "#b4b4b4");737373
       (pyrus-diff-file-header          "#8c8c8c");999999
       (pyrus-diff-context              "#dcdcdc");999999
+      (pyrus-smerge-base               "#C8C8F0");888833
 
       (pyrus-orderless-0               "#c846e6");af50c8,af46c8
       (pyrus-orderless-1               "#28a03c")
@@ -216,6 +217,14 @@
    `(diff-header ((,pyrus-class (:foreground ,pyrus-black :background ,pyrus-diff-header :extend t))))
    `(diff-file-header ((,pyrus-class (:weight bold :foreground ,pyrus-black :background ,pyrus-diff-file-header :extend t))))
    `(diff-context ((,pyrus-class (:foreground ,pyrus-black :background ,pyrus-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,pyrus-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,pyrus-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,pyrus-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,pyrus-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,pyrus-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,pyrus-class (:foreground ,pyrus-black :background ,pyrus-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,pyrus-class (:foreground ,pyrus-vc-change :weight bold))))

@@ -78,6 +78,7 @@
       (rhododendron-diff-header               "#b4b4b4");737373
       (rhododendron-diff-file-header          "#8c8c8c");999999
       (rhododendron-diff-context              "#dcdcdc");999999
+      (rhododendron-smerge-base               "#C8C8F0");888833
 
       (rhododendron-orderless-0               "#af50c8");af50b9
       (rhododendron-orderless-1               "#28a03c")
@@ -217,6 +218,14 @@
    `(diff-header ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-header :extend t))))
    `(diff-file-header ((,rhododendron-class (:weight bold :foreground ,rhododendron-black :background ,rhododendron-diff-file-header :extend t))))
    `(diff-context ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,rhododendron-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,rhododendron-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,rhododendron-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,rhododendron-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,rhododendron-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,rhododendron-class (:foreground ,rhododendron-vc-change :weight bold))))

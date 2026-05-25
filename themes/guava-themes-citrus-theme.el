@@ -78,6 +78,7 @@
       (citrus-diff-header               "#b4b4b4");737373
       (citrus-diff-file-header          "#8c8c8c");999999
       (citrus-diff-context              "#dcdcdc");999999
+      (citrus-smerge-base               "#C8C8F0");888833
 
       (citrus-orderless-0               "#af28b9")
       (citrus-orderless-1               "#28a03c")
@@ -217,6 +218,14 @@
    `(diff-header ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-header :extend t))))
    `(diff-file-header ((,citrus-class (:weight bold :foreground ,citrus-black :background ,citrus-diff-file-header :extend t))))
    `(diff-context ((,citrus-class (:foreground ,citrus-black :background ,citrus-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,citrus-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,citrus-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,citrus-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,citrus-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,citrus-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,citrus-class (:foreground ,citrus-black :background ,citrus-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,citrus-class (:foreground ,citrus-vc-change :weight bold))))

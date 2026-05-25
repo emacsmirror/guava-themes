@@ -78,6 +78,7 @@
       (vaccinium-diff-header               "#5a5a5a");737373
       (vaccinium-diff-file-header          "#3c3c3c");999999
       (vaccinium-diff-context              "#828282");999999
+      (vaccinium-smerge-base               "#5A5AA0");888833
 
       (vaccinium-orderless-0               "#af50c8");af50b9
       (vaccinium-orderless-1               "#28a03c")
@@ -217,6 +218,14 @@
    `(diff-header ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-header :extend t))))
    `(diff-file-header ((,vaccinium-class (:weight bold :foreground ,vaccinium-white :background ,vaccinium-diff-file-header :extend t))))
    `(diff-context ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,vaccinium-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,vaccinium-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,vaccinium-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,vaccinium-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,vaccinium-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,vaccinium-class (:foreground ,vaccinium-warning :weight bold))))

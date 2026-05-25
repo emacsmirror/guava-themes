@@ -78,6 +78,7 @@
       (cordyline-diff-header               "#5a5a5a");737373
       (cordyline-diff-file-header          "#3c3c3c");999999
       (cordyline-diff-context              "#828282");999999
+      (cordyline-smerge-base               "#5A5AA0");888833
 
       (cordyline-orderless-0               "#af50b9")
       (cordyline-orderless-1               "#28a03c")
@@ -217,6 +218,14 @@
    `(diff-header ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-header :extend t))))
    `(diff-file-header ((,cordyline-class (:weight bold :foreground ,cordyline-white :background ,cordyline-diff-file-header :extend t))))
    `(diff-context ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,cordyline-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,cordyline-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,cordyline-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,cordyline-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,cordyline-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))

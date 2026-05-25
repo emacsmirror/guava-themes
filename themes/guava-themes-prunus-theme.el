@@ -76,6 +76,7 @@
       (prunus-diff-header               "#5a5a5a");737373
       (prunus-diff-file-header          "#3c3c3c");999999
       (prunus-diff-context              "#828282");999999
+      (prunus-smerge-base               "#5A5AA0");888833
 
       (prunus-orderless-0               "#af50c8");af50b9
       (prunus-orderless-1               "#28a03c")
@@ -215,6 +216,14 @@
    `(diff-header ((,prunus-class (:foreground ,prunus-white :background ,prunus-diff-header :extend t))))
    `(diff-file-header ((,prunus-class (:weight bold :foreground ,prunus-white :background ,prunus-diff-file-header :extend t))))
    `(diff-context ((,prunus-class (:foreground ,prunus-white :background ,prunus-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,prunus-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,prunus-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,prunus-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,prunus-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,prunus-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,prunus-class (:foreground ,prunus-white :background ,prunus-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,prunus-class (:foreground ,prunus-warning :weight bold))))

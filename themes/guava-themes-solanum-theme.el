@@ -77,6 +77,7 @@
       (solanum-diff-header               "#5a5a5a");737373
       (solanum-diff-file-header          "#3c3c3c");999999
       (solanum-diff-context              "#828282");999999
+      (solanum-smerge-base               "#5A5AA0");888833
 
       (solanum-orderless-0               "#af50c8");af50b9
       (solanum-orderless-1               "#28a03c")
@@ -216,6 +217,14 @@
    `(diff-header ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-header :extend t))))
    `(diff-file-header ((,solanum-class (:weight bold :foreground ,solanum-white :background ,solanum-diff-file-header :extend t))))
    `(diff-context ((,solanum-class (:foreground ,solanum-white :background ,solanum-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,solanum-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,solanum-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,solanum-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,solanum-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,solanum-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,solanum-class (:foreground ,solanum-white :background ,solanum-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,solanum-class (:foreground ,solanum-warning :weight bold))))

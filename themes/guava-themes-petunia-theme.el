@@ -74,6 +74,7 @@
       (petunia-diff-header               "#5a5a5a");737373
       (petunia-diff-file-header          "#3c3c3c");999999
       (petunia-diff-context              "#828282");999999
+      (petunia-smerge-base               "#5A5AA0");888833
 
       (petunia-orderless-0               "#c878dc");af50c8
       (petunia-orderless-1               "#28b43c");28a03c
@@ -213,6 +214,14 @@
    `(diff-header ((,petunia-class (:foreground ,petunia-white :background ,petunia-diff-header :extend t))))
    `(diff-file-header ((,petunia-class (:weight bold :foreground ,petunia-white :background ,petunia-diff-file-header :extend t))))
    `(diff-context ((,petunia-class (:foreground ,petunia-white :background ,petunia-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,petunia-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,petunia-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,petunia-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,petunia-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,petunia-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,petunia-class (:foreground ,petunia-white :background ,petunia-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,petunia-class (:foreground ,petunia-warning :weight bold))))

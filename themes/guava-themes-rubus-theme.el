@@ -78,6 +78,7 @@
       (rubus-diff-header               "#5a5a5a");737373
       (rubus-diff-file-header          "#3c3c3c");999999
       (rubus-diff-context              "#828282");999999
+      (rubus-smerge-base               "#5A5AA0");888833
 
       (rubus-orderless-0               "#af50c8");af50b9
       (rubus-orderless-1               "#28a03c")
@@ -217,6 +218,14 @@
    `(diff-header ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-header :extend t))))
    `(diff-file-header ((,rubus-class (:weight bold :foreground ,rubus-white :background ,rubus-diff-file-header :extend t))))
    `(diff-context ((,rubus-class (:foreground ,rubus-white :background ,rubus-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,rubus-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,rubus-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,rubus-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,rubus-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,rubus-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,rubus-class (:foreground ,rubus-white :background ,rubus-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,rubus-class (:foreground ,rubus-warning :weight bold))))

@@ -73,6 +73,7 @@
       (psidium-diff-header               "#b4b4b4");737373
       (psidium-diff-file-header          "#8c8c8c");999999
       (psidium-diff-context              "#dcdcdc");999999
+      (psidium-smerge-base               "#C8C8F0");888833
 
       (psidium-orderless-0               "#af50c8");af50b9
       (psidium-orderless-1               "#28a03c")
@@ -212,6 +213,14 @@
    `(diff-header ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-header :extend t))))
    `(diff-file-header ((,psidium-class (:weight bold :foreground ,psidium-black :background ,psidium-diff-file-header :extend t))))
    `(diff-context ((,psidium-class (:foreground ,psidium-black :background ,psidium-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,psidium-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,psidium-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,psidium-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,psidium-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,psidium-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,psidium-class (:foreground ,psidium-black :background ,psidium-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,psidium-class (:foreground ,psidium-vc-change :weight bold))))

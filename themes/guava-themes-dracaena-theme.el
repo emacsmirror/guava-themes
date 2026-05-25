@@ -81,6 +81,7 @@
       (dracaena-diff-header               "#5a5a5a");737373
       (dracaena-diff-file-header          "#3c3c3c");999999
       (dracaena-diff-context              "#828282");999999
+      (dracaena-smerge-base               "#5A5AA0");888833
 
       (dracaena-orderless-0               "#af50b9")
       (dracaena-orderless-1               "#28a03c")
@@ -220,6 +221,14 @@
    `(diff-header ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-header :extend t))))
    `(diff-file-header ((,dracaena-class (:weight bold :foreground ,dracaena-white :background ,dracaena-diff-file-header :extend t))))
    `(diff-context ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,dracaena-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,dracaena-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,dracaena-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,dracaena-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,dracaena-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))

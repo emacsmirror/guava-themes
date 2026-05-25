@@ -75,6 +75,7 @@
       (malus-diff-header               "#5a5a5a");737373
       (malus-diff-file-header          "#3c3c3c");999999
       (malus-diff-context              "#828282");999999
+      (malus-smerge-base               "#5A5AA0");888833
 
       (malus-orderless-0               "#af50c8");af50b9
       (malus-orderless-1               "#28a03c")
@@ -214,6 +215,14 @@
    `(diff-header ((,malus-class (:foreground ,malus-white :background ,malus-diff-header :extend t))))
    `(diff-file-header ((,malus-class (:weight bold :foreground ,malus-white :background ,malus-diff-file-header :extend t))))
    `(diff-context ((,malus-class (:foreground ,malus-white :background ,malus-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,malus-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,malus-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,malus-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,malus-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,malus-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,malus-class (:foreground ,malus-white :background ,malus-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,malus-class (:foreground ,malus-warning :weight bold))))

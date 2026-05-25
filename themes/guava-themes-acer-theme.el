@@ -76,6 +76,7 @@
       (acer-diff-header               "#b4b4b4");737373
       (acer-diff-file-header          "#8c8c8c");999999
       (acer-diff-context              "#dcdcdc");999999
+      (acer-smerge-base               "#C8C8F0");888833
 
       (acer-orderless-0               "#af2ab9")
       (acer-orderless-1               "#28823c")
@@ -215,6 +216,14 @@
    `(diff-header ((,acer-class (:foreground ,acer-black :background ,acer-diff-header :extend t))))
    `(diff-file-header ((,acer-class (:weight bold :foreground ,acer-black :background ,acer-diff-file-header :extend t))))
    `(diff-context ((,acer-class (:foreground ,acer-black :background ,acer-diff-context :extend t))))
+
+   ;; smerge
+   `(smerge-lower ((,acer-class (:extend t :inherit diff-added))))
+   `(smerge-upper ((,acer-class (:extend t :inherit diff-removed))))
+   `(smerge-markers ((,acer-class (:extend t :inherit diff-context))))
+   `(smerge-refined-added ((,acer-class (:extend t :inherit diff-refine-added))))
+   `(smerge-refined-removed ((,acer-class (:extend t :inherit diff-refine-removed))))
+   `(smerge-base ((,acer-class (:foreground ,acer-black :background ,acer-smerge-base :extend t))))
 
    ;; completions
    `(completions-common-part ((,acer-class (:foreground ,acer-vc-change :weight bold))))
