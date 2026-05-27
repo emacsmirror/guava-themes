@@ -89,7 +89,7 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 - Guava Prunus Theme  
 
-<img src="https://lh3.googleusercontent.com/d/11kAMguzDj7t0FOL6jGrPUCeWo550Qeur=s2000?authuser=0" width="750" height="400" alt="guava-prunus-screenshot">
+<img src="https://lh3.googleusercontent.com/d/16e-TQTUgE5UuH2NR1IocsoCIIMZnZEM0=s2000?authuser=0" width="750" height="400" alt="guava-prunus-screenshot">
 
 - Guava Dracaena Theme  
 
@@ -141,7 +141,6 @@ And so, the package name became an Artifact Title, as is known in the tropes com
 
 ## TODO
 - Add themes: Ficus, Eucalyptus.
-- Rework: Prunus (make the colors more consistent)
 - (Emacs 31) Add header-line-active and header-line-inactive faces
 - (Emacs 31) Add tab-line-active and tab-line-inactive faces
 
