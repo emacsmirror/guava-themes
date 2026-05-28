@@ -161,7 +161,7 @@
    ;; tab-bar
    `(tab-bar ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 1.0))))
    `(tab-bar-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green :inherit tab-bar-tab))))
+   `(tab-bar-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 0.9))))
