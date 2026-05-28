@@ -242,6 +242,9 @@
    `(org-date-selected ((,ceiba-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,ceiba-class (:foreground ,ceiba-orderless-2))))
    `(org-headline-done ((,ceiba-class (:foreground ,ceiba-orderless-1))))
+   `(org-document-title ((,ceiba-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,ceiba-class (:inherit shadow))))
+   `(org-meta-line ((,ceiba-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))

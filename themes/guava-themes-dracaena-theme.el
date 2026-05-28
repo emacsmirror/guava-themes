@@ -243,6 +243,9 @@
    `(org-date-selected ((,dracaena-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,dracaena-class (:foreground ,dracaena-orderless-2))))
    `(org-headline-done ((,dracaena-class (:foreground ,dracaena-orderless-1))))
+   `(org-document-title ((,dracaena-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,dracaena-class (:inherit shadow))))
+   `(org-meta-line ((,dracaena-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,dracaena-class (:foreground ,dracaena-deep-orange))))

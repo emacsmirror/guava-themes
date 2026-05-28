@@ -235,6 +235,9 @@
    `(org-date-selected ((,psidium-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,psidium-class (:foreground ,psidium-orderless-2))))
    `(org-headline-done ((,psidium-class (:foreground ,psidium-orderless-3))))
+   `(org-document-title ((,psidium-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,psidium-class (:inherit shadow))))
+   `(org-meta-line ((,psidium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,psidium-class (:foreground ,psidium-green))))

@@ -240,6 +240,9 @@
    `(org-date-selected ((,citrus-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,citrus-class (:foreground ,citrus-orderless-2))))
    `(org-headline-done ((,citrus-class (:foreground ,citrus-orderless-1))))
+   `(org-document-title ((,citrus-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,citrus-class (:inherit shadow))))
+   `(org-meta-line ((,citrus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))

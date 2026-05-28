@@ -240,6 +240,9 @@
    `(org-date-selected ((,rhododendron-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,rhododendron-class (:foreground ,rhododendron-orderless-0))))
    `(org-headline-done ((,rhododendron-class (:foreground ,rhododendron-orderless-3))))
+   `(org-document-title ((,rhododendron-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,rhododendron-class (:inherit shadow))))
+   `(org-meta-line ((,rhododendron-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))

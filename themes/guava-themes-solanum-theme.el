@@ -239,6 +239,9 @@
    `(org-date-selected ((,solanum-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,solanum-class (:foreground ,solanum-orderless-2))))
    `(org-headline-done ((,solanum-class (:foreground ,solanum-orderless-1))))
+   `(org-document-title ((,solanum-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,solanum-class (:inherit shadow))))
+   `(org-meta-line ((,solanum-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))

@@ -240,6 +240,9 @@
    `(org-date-selected ((,rubus-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,rubus-class (:foreground ,rubus-orderless-2))))
    `(org-headline-done ((,rubus-class (:foreground ,rubus-orderless-1))))
+   `(org-document-title ((,rubus-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,rubus-class (:inherit shadow))))
+   `(org-meta-line ((,rubus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,rubus-class (:foreground ,rubus-alt-raspberry))))

@@ -237,6 +237,9 @@
    `(org-date-selected ((,jacaranda-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,jacaranda-class (:foreground ,jacaranda-orderless-2))))
    `(org-headline-done ((,jacaranda-class (:foreground ,jacaranda-orderless-1))))
+   `(org-document-title ((,jacaranda-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,jacaranda-class (:inherit shadow))))
+   `(org-meta-line ((,jacaranda-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))

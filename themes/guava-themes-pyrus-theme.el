@@ -239,6 +239,9 @@
    `(org-date-selected ((,pyrus-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,pyrus-class (:foreground ,pyrus-orderless-0))))
    `(org-headline-done ((,pyrus-class (:foreground ,pyrus-orderless-3))))
+   `(org-document-title ((,pyrus-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,pyrus-class (:inherit shadow))))
+   `(org-meta-line ((,pyrus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,pyrus-class (:foreground ,pyrus-light-green))))

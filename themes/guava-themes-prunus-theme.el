@@ -240,6 +240,9 @@
    `(org-date-selected ((,prunus-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,prunus-class (:foreground ,prunus-orderless-2))))
    `(org-headline-done ((,prunus-class (:foreground ,prunus-orderless-3))))
+   `(org-document-title ((,prunus-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,prunus-class (:inherit shadow))))
+   `(org-meta-line ((,prunus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,prunus-class (:foreground ,prunus-brown))))

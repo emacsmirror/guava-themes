@@ -240,6 +240,9 @@
    `(org-date-selected ((,vaccinium-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,vaccinium-class (:foreground ,vaccinium-orderless-2))))
    `(org-headline-done ((,vaccinium-class (:foreground ,vaccinium-orderless-1))))
+   `(org-document-title ((,vaccinium-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,vaccinium-class (:inherit shadow))))
+   `(org-meta-line ((,vaccinium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))

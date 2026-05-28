@@ -240,6 +240,9 @@
    `(org-date-selected ((,cordyline-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,cordyline-class (:foreground ,cordyline-orderless-2))))
    `(org-headline-done ((,cordyline-class (:foreground ,cordyline-orderless-1))))
+   `(org-document-title ((,cordyline-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,cordyline-class (:inherit shadow))))
+   `(org-meta-line ((,cordyline-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))

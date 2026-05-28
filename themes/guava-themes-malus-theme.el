@@ -237,6 +237,9 @@
    `(org-date-selected ((,malus-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,malus-class (:foreground ,malus-orderless-2))))
    `(org-headline-done ((,malus-class (:foreground ,malus-orderless-1))))
+   `(org-document-title ((,malus-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,malus-class (:inherit shadow))))
+   `(org-meta-line ((,malus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,malus-class (:foreground ,malus-alt-red-sweetango))))

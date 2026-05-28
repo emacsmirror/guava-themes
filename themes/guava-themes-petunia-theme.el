@@ -236,6 +236,9 @@
    `(org-date-selected ((,petunia-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,petunia-class (:foreground ,petunia-orderless-0))))
    `(org-headline-done ((,petunia-class (:foreground ,petunia-orderless-1))))
+   `(org-document-title ((,petunia-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,petunia-class (:inherit shadow))))
+   `(org-meta-line ((,petunia-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,petunia-class (:foreground ,petunia-orange))))

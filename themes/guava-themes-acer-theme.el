@@ -238,6 +238,9 @@
    `(org-date-selected ((,acer-class (:foreground unspecified :inverse-video t :inherit org-date))))
    `(org-headline-todo ((,acer-class (:foreground ,acer-orderless-0))))
    `(org-headline-done ((,acer-class (:foreground ,acer-orderless-3))))
+   `(org-document-title ((,acer-class (:inherit font-lock-keyword-face))))
+   `(org-document-info-keyword ((,acer-class (:inherit shadow))))
+   `(org-meta-line ((,acer-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
    `(window-divider ((,acer-class (:foreground ,acer-purple-red))))
