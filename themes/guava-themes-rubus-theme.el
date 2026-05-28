@@ -58,9 +58,9 @@
       (rubus-blue-subdued              "#1c81a1")
       (rubus-cyan                      "#00FFFF")
 
-      (rubus-light-purple              "#bdb3d7")
-      (rubus-purple                    "#a98fcd")
-      (rubus-deep-purple               "#8163e4")
+      (rubus-light-purple              "#beb4d7")
+      (rubus-purple                    "#8264e6")
+      (rubus-purple-pink               "#965087")
 
       (rubus-fg                        "#FFFFFF")
       (rubus-bg                        "#0e1216")
@@ -119,12 +119,12 @@
    ;; font-lock
    `(font-lock-comment-face ((,rubus-class (:foreground ,rubus-green-forest :weight medium))))
    `(font-lock-string-face ((,rubus-class (:foreground ,rubus-orange :weight medium))))
-   `(font-lock-keyword-face ((,rubus-class (:foreground ,rubus-deep-purple :weight medium))))
+   `(font-lock-keyword-face ((,rubus-class (:foreground ,rubus-red :weight medium))))
    `(font-lock-builtin-face ((,rubus-class (:foreground ,rubus-pink-cream :weight medium))))
    `(font-lock-warning-face ((,rubus-class (:foreground ,rubus-warning :weight bold))))
-   `(font-lock-type-face ((,rubus-class (:foreground ,rubus-red :weight medium))))
-   `(font-lock-constant-face ((,rubus-class (:foreground ,rubus-blue-subdued :weight medium))))
-   `(font-lock-function-name-face ((,rubus-class (:foreground ,rubus-purple :weight medium))))
+   `(font-lock-type-face ((,rubus-class (:foreground ,rubus-blue-subdued :weight medium))))
+   `(font-lock-constant-face ((,rubus-class (:foreground ,rubus-purple :weight medium))))
+   `(font-lock-function-name-face ((,rubus-class (:foreground ,rubus-purple-pink :weight medium))))
    `(font-lock-punctuation-face ((,rubus-class (:foreground ,rubus-light-purple :weight medium))))
    `(font-lock-variable-name-face ((,rubus-class (:foreground ,rubus-yellow :weight medium))))
    `(font-lock-negation-char-face ((,rubus-class (:foreground ,rubus-green-blue :weight medium))))
@@ -144,13 +144,13 @@
    ;; line-number
    `(line-number ((,rubus-class (:foreground ,rubus-fg :inherit default))))
    `(line-number-current-line ((,rubus-class (:foreground ,rubus-pink-cream :weight bold :inherit (highlight line-number)))))
-   `(line-number-minor-tick ((,rubus-class (:background ,rubus-purple :inherit line-number))))
-   `(line-number-major-tick ((,rubus-class (:background ,rubus-deep-purple :inherit line-number))))
+   `(line-number-minor-tick ((,rubus-class (:background ,rubus-purple-pink :inherit line-number))))
+   `(line-number-major-tick ((,rubus-class (:background ,rubus-purple :inherit line-number))))
 
    ;; mode-line
    `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry))))
    `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-raspberry :inherit mode-line))))
-   `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-purple))))
+   `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-purple-pink))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-raspberry))))
@@ -173,7 +173,7 @@
    `(tab-line-tab-current ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-pink-cream :inherit tab-line-tab))))
-   `(tab-line-tab-modified ((,rubus-class (:foreground ,rubus-deep-purple :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,rubus-class (:foreground ,rubus-purple :weight bold :height 0.9))))
    `(tab-line-tab-special ((,rubus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
@@ -191,7 +191,7 @@
    `(outline-1 ((,rubus-class (:foreground ,rubus-pink-cream :weight medium))))
    `(outline-2 ((,rubus-class (:foreground ,rubus-blue-subdued :weight medium))))
    `(outline-3 ((,rubus-class (:foreground ,rubus-green-forest :weight medium))))
-   `(outline-4 ((,rubus-class (:foreground ,rubus-deep-purple :weight medium))))
+   `(outline-4 ((,rubus-class (:foreground ,rubus-purple :weight medium))))
    `(outline-5 ((,rubus-class (:inherit outline-1))))
    `(outline-6 ((,rubus-class (:inherit outline-2))))
    `(outline-7 ((,rubus-class (:inherit outline-3))))
@@ -271,9 +271,9 @@
    `(elfeed-search-filter-face ((,rubus-class (:weight bold :foreground ,rubus-yellow))))
    `(elfeed-search-last-update-face ((,rubus-class (:weight bold :foreground ,rubus-light-purple))))
    `(elfeed-search-unread-title-face ((,rubus-class (:weight bold :foreground ,rubus-green-forest))))
-   `(elfeed-search-unread-count-face ((,rubus-class (:weight bold :foreground ,rubus-purple))))
+   `(elfeed-search-unread-count-face ((,rubus-class (:weight bold :foreground ,rubus-purple-pink))))
 
-   `(elfeed-show-header-face ((,rubus-class (:foreground ,rubus-deep-purple))))
+   `(elfeed-show-header-face ((,rubus-class (:foreground ,rubus-purple))))
    `(elfeed-show-author-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
    `(elfeed-show-title-face ((,rubus-class (:weight bold :foreground ,rubus-raspberry))))
    `(elfeed-show-date-face ((,rubus-class (:foreground ,rubus-green-blue))))
