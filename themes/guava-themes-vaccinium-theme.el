@@ -44,8 +44,8 @@
 
       (vaccinium-yellow                    "#fde8b9")
 
+      (vaccinium-light-green               "#41aa64")
       (vaccinium-green-forest              "#006e41")
-      (vaccinium-green-subdued             "#418c64")
 
       (vaccinium-blueberry                 "#5582d7")
       (vaccinium-alt-blueberry             "#3755a0")
@@ -119,7 +119,7 @@
    ;; font-lock
    `(font-lock-comment-face ((,vaccinium-class (:foreground ,vaccinium-green-forest :weight medium))))
    `(font-lock-string-face ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
-   `(font-lock-keyword-face ((,vaccinium-class (:foreground ,vaccinium-green-subdued :weight medium))))
+   `(font-lock-keyword-face ((,vaccinium-class (:foreground ,vaccinium-light-green :weight medium))))
    `(font-lock-builtin-face ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
    `(font-lock-warning-face ((,vaccinium-class (:foreground ,vaccinium-warning :weight bold))))
    `(font-lock-type-face ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
@@ -191,7 +191,7 @@
    `(outline-1 ((,vaccinium-class (:foreground ,vaccinium-blue :weight medium))))
    `(outline-2 ((,vaccinium-class (:foreground ,vaccinium-red :weight medium))))
    `(outline-3 ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
-   `(outline-4 ((,vaccinium-class (:foreground ,vaccinium-green-subdued :weight medium))))
+   `(outline-4 ((,vaccinium-class (:foreground ,vaccinium-light-green :weight medium))))
    `(outline-5 ((,vaccinium-class (:inherit outline-1))))
    `(outline-6 ((,vaccinium-class (:inherit outline-2))))
    `(outline-7 ((,vaccinium-class (:inherit outline-3))))
@@ -270,10 +270,10 @@
    `(elfeed-search-title-face ((,vaccinium-class (:foreground ,vaccinium-orange))))
    `(elfeed-search-filter-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
    `(elfeed-search-last-update-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-purple-red))))
-   `(elfeed-search-unread-title-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-green-subdued))))
+   `(elfeed-search-unread-title-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-light-green))))
    `(elfeed-search-unread-count-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-alt-blueberry))))
 
-   `(elfeed-show-header-face ((,vaccinium-class (:foreground ,vaccinium-green-subdued))))
+   `(elfeed-show-header-face ((,vaccinium-class (:foreground ,vaccinium-light-green))))
    `(elfeed-show-author-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-blueberry))))
    `(elfeed-show-title-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-blueberry))))
    `(elfeed-show-date-face ((,vaccinium-class (:foreground ,vaccinium-steel-blue))))
