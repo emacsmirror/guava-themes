@@ -38,25 +38,25 @@
       (petunia-black                     "#000000")
       (petunia-white                     "#FFFFFF")
 
-      (petunia-red                       "#e60046");dc2850
-      (petunia-pink                      "#be64aa");b40bc0,b44bc0
+      (petunia-red                       "#e60046")
+      (petunia-pink                      "#be64aa")
       (petunia-cream                     "#ffa0a0")
-      (petunia-light-orange              "#ffb478");ffa07a
-      (petunia-orange                    "#ff8728");ff6432,ff7332
+      (petunia-light-orange              "#ffb478")
+      (petunia-orange                    "#ff8728")
 
-      (petunia-yellow                    "#e6e678");fafd70
+      (petunia-yellow                    "#e6e678")
 
-      (petunia-light-green               "#78c878");6eb46e
-      (petunia-green-forest              "#008741");169b2f
+      (petunia-light-green               "#78c878")
+      (petunia-green-forest              "#008741")
 
-      (petunia-light-blue                "#00c3d7");00afd7
-      (petunia-alt-light-blue            "#32a0cd");328ccd
-      (petunia-blue                      "#3246cd");3232cd
-      (petunia-deep-blue                 "#004b82");323296
+      (petunia-light-blue                "#00c3d7")
+      (petunia-alt-light-blue            "#32a0cd")
+      (petunia-blue                      "#3246cd")
+      (petunia-deep-blue                 "#004b82")
       (petunia-cyan                      "#00ffff")
 
       (petunia-light-purple              "#a88dac")
-      (petunia-purple                    "#8a5aff");8a14fd,8a14e1,8a1eff,8a28ff
+      (petunia-purple                    "#8a5aff")
 
       (petunia-fg                        "#FFFFFF")
       (petunia-bg                        "#000000")
@@ -64,25 +64,25 @@
       (petunia-shadow                    "#b3b3b3")
 
       (petunia-error                     "#FF0000")
-      (petunia-warning                   "#ffff00");f6d909
-      (petunia-success                   "#00ff00");1ebe1e
+      (petunia-warning                   "#ffff00")
+      (petunia-success                   "#00ff00")
 
-      (petunia-diff-added                "#5aa05a");335533
-      (petunia-diff-removed              "#a05a5a");553333
-      (petunia-diff-refine-added         "#007800");22aa22
-      (petunia-diff-refine-removed       "#780000");aa2222
-      (petunia-diff-header               "#5a5a5a");737373
-      (petunia-diff-file-header          "#3c3c3c");999999
-      (petunia-diff-context              "#828282");999999
-      (petunia-smerge-base               "#5A5AA0");888833
+      (petunia-diff-added                "#5aa05a")
+      (petunia-diff-removed              "#a05a5a")
+      (petunia-diff-refine-added         "#007800")
+      (petunia-diff-refine-removed       "#780000")
+      (petunia-diff-header               "#5a5a5a")
+      (petunia-diff-file-header          "#3c3c3c")
+      (petunia-diff-context              "#828282")
+      (petunia-smerge-base               "#5A5AA0")
 
-      (petunia-orderless-0               "#c878dc");af50c8
-      (petunia-orderless-1               "#28b43c");28a03c
-      (petunia-orderless-2               "#ff7300");ff6400
-      (petunia-orderless-3               "#009bff");3c82ff
+      (petunia-orderless-0               "#c878dc")
+      (petunia-orderless-1               "#28b43c")
+      (petunia-orderless-2               "#ff7300")
+      (petunia-orderless-3               "#009bff")
 
-      (petunia-prescient-0               "#46C8A5");ad4553
-      (petunia-prescient-1               "#C84669");45ad9f
+      (petunia-prescient-0               "#46C8A5")
+      (petunia-prescient-1               "#C84669")
 
       (petunia-vc-change                 petunia-blue)
       (petunia-vc-insert                 petunia-success)

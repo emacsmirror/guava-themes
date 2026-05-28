@@ -39,54 +39,54 @@
       (cordyline-white                     "#FFFFFF")
 
       (cordyline-orange-red                "#ce462c")
-      (cordyline-pink-red                  "#cb646e");CB5F68
+      (cordyline-pink-red                  "#cb646e")
       (cordyline-pink-purple               "#da70d6")
-      (cordyline-deep-fuchsia              "#6e1551");69374e,741551
+      (cordyline-deep-fuchsia              "#6e1551")
 
       (cordyline-light-blue                "#5f70cb")
-      (cordyline-blue                      "#3150af");1330af
-      (cordyline-deep-blue                 "#214bd5");2134d5
+      (cordyline-blue                      "#3150af")
+      (cordyline-deep-blue                 "#214bd5")
       (cordyline-steel-blue                "#4f94cd")
       (cordyline-cyan                      "#00ffff")
       (cordyline-dark-cyan                 "#007896")
 
       (cordyline-light-green               "#c5ff6e")
-      (cordyline-alt-light-green           "#afd2b9");006455,00512c
-      (cordyline-green                     "#005f55");006455
+      (cordyline-alt-light-green           "#afd2b9")
+      (cordyline-green                     "#005f55")
 
-      (cordyline-light-purple              "#a25ad1");8b1cb0,9c1cbc,991cbc,a21cd1,a226d1,a246d1
+      (cordyline-light-purple              "#a25ad1")
       (cordyline-alt-light-purple          "#a29cf1")
-      (cordyline-purple                    "#7050af");54366d,583675,583683,583d83,59338f,673b94,703aaf,7044af
-      (cordyline-alt-purple                "#493d4e");433640,43364c,473b4c
-      (cordyline-deep-purple               "#3c193c");3f323c,392b38,3c2350
-      (cordyline-alt-deep-purple           "#231932");211730
-      (cordyline-purple-red                "#983251");8d2a46,982a46,982a51
+      (cordyline-purple                    "#7050af")
+      (cordyline-alt-purple                "#493d4e")
+      (cordyline-deep-purple               "#3c193c")
+      (cordyline-alt-deep-purple           "#231932")
+      (cordyline-purple-red                "#983251")
 
       (cordyline-fg                        "#FFFFFF")
-      (cordyline-bg                        "#392b38");3f323c
-      (cordyline-highlight                 "#251724");433640,43364c,473b4c,493d4e,4d3f4c,251724
+      (cordyline-bg                        "#392b38")
+      (cordyline-highlight                 "#251724")
       (cordyline-shadow                    "#b3b3b3")
 
       (cordyline-error                     "#FF0000")
-      (cordyline-warning                   "#f6d909");F68511
-      (cordyline-success                   "#23a334");239834
+      (cordyline-warning                   "#f6d909")
+      (cordyline-success                   "#23a334")
 
-      (cordyline-diff-added                "#5aa05a");335533
-      (cordyline-diff-removed              "#a05a5a");553333
-      (cordyline-diff-refine-added         "#007800");22aa22
-      (cordyline-diff-refine-removed       "#780000");aa2222
-      (cordyline-diff-header               "#5a5a5a");737373
-      (cordyline-diff-file-header          "#3c3c3c");999999
-      (cordyline-diff-context              "#828282");999999
-      (cordyline-smerge-base               "#5A5AA0");888833
+      (cordyline-diff-added                "#5aa05a")
+      (cordyline-diff-removed              "#a05a5a")
+      (cordyline-diff-refine-added         "#007800")
+      (cordyline-diff-refine-removed       "#780000")
+      (cordyline-diff-header               "#5a5a5a")
+      (cordyline-diff-file-header          "#3c3c3c")
+      (cordyline-diff-context              "#828282")
+      (cordyline-smerge-base               "#5A5AA0")
 
       (cordyline-orderless-0               "#af50b9")
       (cordyline-orderless-1               "#28a03c")
       (cordyline-orderless-2               "#ff6400")
       (cordyline-orderless-3               "#3c82ff")
 
-      (cordyline-prescient-0               "#46C8A5");ad4553
-      (cordyline-prescient-1               "#C84669");45ad9f
+      (cordyline-prescient-0               "#46C8A5")
+      (cordyline-prescient-1               "#C84669")
 
       (cordyline-vc-change                 cordyline-deep-blue)
       (cordyline-vc-insert                 cordyline-success)

@@ -44,49 +44,49 @@
 
       (vaccinium-yellow                    "#fde8b9")
 
-      (vaccinium-green-forest              "#006e41");007841
-      (vaccinium-green-subdued             "#418c64");378962
+      (vaccinium-green-forest              "#006e41")
+      (vaccinium-green-subdued             "#418c64")
 
-      (vaccinium-blueberry                 "#5582d7");77aff9,5587d2
-      (vaccinium-alt-blueberry             "#3755a0");77aff9,5587d2,3764b9
-      (vaccinium-blue                      "#0f69b4");0d62b2
-      (vaccinium-alt-blue                  "#1455f1");1559f1
-      (vaccinium-deep-blue                 "#1c5367");303053,1c3053,1c3f53
+      (vaccinium-blueberry                 "#5582d7")
+      (vaccinium-alt-blueberry             "#3755a0")
+      (vaccinium-blue                      "#0f69b4")
+      (vaccinium-alt-blue                  "#1455f1")
+      (vaccinium-deep-blue                 "#1c5367")
       (vaccinium-steel-blue                "#6a7e98")
       (vaccinium-alt-steel-blue            "#566a84")
       (vaccinium-cyan                      "#00ffff")
 
-      (vaccinium-light-purple              "#8282af");5978b9
+      (vaccinium-light-purple              "#8282af")
       (vaccinium-purple                    "#6464af")
-      (vaccinium-deep-purple               "#4b378c");8163e4
+      (vaccinium-deep-purple               "#4b378c")
       (vaccinium-purple-pink               "#aa78cf")
-      (vaccinium-purple-red                "#632a63");6816f3,5d2a74,632a63
+      (vaccinium-purple-red                "#632a63")
 
       (vaccinium-fg                        "#FFFFFF")
-      (vaccinium-bg                        "#1c1c26");202028
-      (vaccinium-highlight                 "#30303a");2b2b35
+      (vaccinium-bg                        "#1c1c26")
+      (vaccinium-highlight                 "#30303a")
       (vaccinium-shadow                    "#b3b3b3")
 
       (vaccinium-error                     "#FF0000")
-      (vaccinium-warning                   "#f6d909");F68511
-      (vaccinium-success                   "#1ebe1e");23a334
+      (vaccinium-warning                   "#f6d909")
+      (vaccinium-success                   "#1ebe1e")
 
-      (vaccinium-diff-added                "#5aa05a");335533
-      (vaccinium-diff-removed              "#a05a5a");553333
-      (vaccinium-diff-refine-added         "#007800");22aa22
-      (vaccinium-diff-refine-removed       "#780000");aa2222
-      (vaccinium-diff-header               "#5a5a5a");737373
-      (vaccinium-diff-file-header          "#3c3c3c");999999
-      (vaccinium-diff-context              "#828282");999999
-      (vaccinium-smerge-base               "#5A5AA0");888833
+      (vaccinium-diff-added                "#5aa05a")
+      (vaccinium-diff-removed              "#a05a5a")
+      (vaccinium-diff-refine-added         "#007800")
+      (vaccinium-diff-refine-removed       "#780000")
+      (vaccinium-diff-header               "#5a5a5a")
+      (vaccinium-diff-file-header          "#3c3c3c")
+      (vaccinium-diff-context              "#828282")
+      (vaccinium-smerge-base               "#5A5AA0")
 
-      (vaccinium-orderless-0               "#af50c8");af50b9
+      (vaccinium-orderless-0               "#af50c8")
       (vaccinium-orderless-1               "#28a03c")
       (vaccinium-orderless-2               "#ff6400")
       (vaccinium-orderless-3               "#3c82ff")
 
-      (vaccinium-prescient-0               "#46C8A5");ad4553
-      (vaccinium-prescient-1               "#C84669");45ad9f
+      (vaccinium-prescient-0               "#46C8A5")
+      (vaccinium-prescient-1               "#C84669")
 
       (vaccinium-vc-change                 vaccinium-alt-blue)
       (vaccinium-vc-insert                 vaccinium-success)

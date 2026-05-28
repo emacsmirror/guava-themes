@@ -52,7 +52,7 @@
       (pyrus-red                       "#dc2828")
       (pyrus-orange-pink               "#f38866")
 
-      (pyrus-light-blue                "#4ba5e6");4b91e6
+      (pyrus-light-blue                "#4ba5e6")
       (pyrus-blue                      "#2a4ad9")
       (pyrus-deep-blue                 "#483d8b")
       (pyrus-cyan                      "#0080ff")
@@ -61,31 +61,31 @@
       (pyrus-purple                    "#874be1")
       (pyrus-deep-magenta              "#782566")
 
-      (pyrus-fg                        "#780000");5a0f0f,822425,782525
-      (pyrus-bg                        "#f9fefd");fafffd,f9fefc
-      (pyrus-highlight                 "#e5eae9");e6ebe9
+      (pyrus-fg                        "#780000")
+      (pyrus-bg                        "#f9fefd")
+      (pyrus-highlight                 "#e5eae9")
       (pyrus-shadow                    "#7f7f7f")
 
       (pyrus-error                     "#ff0000")
       (pyrus-warning                   "#ffd200")
       (pyrus-success                   "#228B22")
 
-      (pyrus-diff-added                "#c8f0c8");335533
-      (pyrus-diff-removed              "#f0c8c8");553333
-      (pyrus-diff-refine-added         "#78f078");22aa22
-      (pyrus-diff-refine-removed       "#f07878");aa2222
-      (pyrus-diff-header               "#b4b4b4");737373
-      (pyrus-diff-file-header          "#8c8c8c");999999
-      (pyrus-diff-context              "#dcdcdc");999999
-      (pyrus-smerge-base               "#C8C8F0");888833
+      (pyrus-diff-added                "#c8f0c8")
+      (pyrus-diff-removed              "#f0c8c8")
+      (pyrus-diff-refine-added         "#78f078")
+      (pyrus-diff-refine-removed       "#f07878")
+      (pyrus-diff-header               "#b4b4b4")
+      (pyrus-diff-file-header          "#8c8c8c")
+      (pyrus-diff-context              "#dcdcdc")
+      (pyrus-smerge-base               "#C8C8F0")
 
-      (pyrus-orderless-0               "#c846e6");af50c8,af46c8
+      (pyrus-orderless-0               "#c846e6")
       (pyrus-orderless-1               "#28a03c")
       (pyrus-orderless-2               "#ff6400")
       (pyrus-orderless-3               "#3c82ff")
 
-      (pyrus-prescient-0               "#4680DE");ad4553
-      (pyrus-prescient-1               "#DE4680");45ad9f
+      (pyrus-prescient-0               "#4680DE")
+      (pyrus-prescient-1               "#DE4680")
 
       (pyrus-vc-change                 pyrus-blue)
       (pyrus-vc-insert                 pyrus-success)

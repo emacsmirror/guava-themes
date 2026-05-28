@@ -40,16 +40,16 @@
 
       (malus-brown                     "#826e5a")
 
-      (malus-yellow-subdued            "#d2c864");fafbb7,dcd264
+      (malus-yellow-subdued            "#d2c864")
 
-      (malus-green-subdued             "#788250");8c9632
-      (malus-alt-green-subdued         "#8c9632");788250
+      (malus-green-subdued             "#788250")
+      (malus-alt-green-subdued         "#8c9632")
       (malus-green-granny              "#96dc50")
       (malus-green-forest              "#27ab50")
 
       (malus-red-sweetango             "#cd5a5f")
       (malus-alt-red-sweetango         "#7d5a5f")
-      (malus-deep-red                  "#ab3227");6d120f,823232
+      (malus-deep-red                  "#ab3227")
 
       (malus-light-blue                "#50bebe")
       (malus-blue                      "#4548e3")
@@ -60,30 +60,30 @@
       (malus-purple                    "#8468ed")
 
       (malus-fg                        "#fafbb7")
-      (malus-bg                        "#1e0910");311217
+      (malus-bg                        "#1e0910")
       (malus-highlight                 "#321d24")
       (malus-shadow                    "#b3b3b3")
 
-      (malus-error                     "#d70000");FF0000,bc0000,890014
-      (malus-warning                   "#f6d911");F68511,ffc333,F68511
-      (malus-success                   "#23d723");228B22,007900
+      (malus-error                     "#d70000")
+      (malus-warning                   "#f6d911")
+      (malus-success                   "#23d723")
 
-      (malus-diff-added                "#5aa05a");335533
-      (malus-diff-removed              "#a05a5a");553333
-      (malus-diff-refine-added         "#007800");22aa22
-      (malus-diff-refine-removed       "#780000");aa2222
-      (malus-diff-header               "#5a5a5a");737373
-      (malus-diff-file-header          "#3c3c3c");999999
-      (malus-diff-context              "#828282");999999
-      (malus-smerge-base               "#5A5AA0");888833
+      (malus-diff-added                "#5aa05a")
+      (malus-diff-removed              "#a05a5a")
+      (malus-diff-refine-added         "#007800")
+      (malus-diff-refine-removed       "#780000")
+      (malus-diff-header               "#5a5a5a")
+      (malus-diff-file-header          "#3c3c3c")
+      (malus-diff-context              "#828282")
+      (malus-smerge-base               "#5A5AA0")
 
-      (malus-orderless-0               "#af50c8");af50b9
+      (malus-orderless-0               "#af50c8")
       (malus-orderless-1               "#28a03c")
       (malus-orderless-2               "#ff6400")
       (malus-orderless-3               "#3c82ff")
 
-      (malus-prescient-0               "#46C8A5");ad4553
-      (malus-prescient-1               "#C84669");45ad9f
+      (malus-prescient-0               "#46C8A5")
+      (malus-prescient-1               "#C84669")
 
       (malus-vc-change                 malus-blue)
       (malus-vc-insert                 malus-success)

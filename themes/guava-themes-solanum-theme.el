@@ -43,49 +43,49 @@
 
       (solanum-yellow-potato             "#fde8b9")
 
-      (solanum-light-green               "#4ec9b0");61ff96
-      (solanum-alt-light-green           "#61ff96");2a4ad9,2a8a6d,448a7a,288f7a
-      (solanum-green                     "#3a6b43");3f7a56,2f824b,2f822f,2d872d
-      (solanum-deep-green                "#007d37");0d6d4b,0d7c4b,207c31
+      (solanum-light-green               "#4ec9b0")
+      (solanum-alt-light-green           "#61ff96")
+      (solanum-green                     "#3a6b43")
+      (solanum-deep-green                "#007d37")
 
       (solanum-light-blue                "#8ec4de")
       (solanum-blue                      "#0d62b2")
       (solanum-cyan                      "#00ffff")
 
-      (solanum-light-purple              "#bec8ff");c4aeff,ccbcff,d4cbff
-      (solanum-purple                    "#9c69e8");9e7ae8,9c69e8
-      (solanum-alt-purple                "#a394ff");9e7ae8,9c69e8
-      (solanum-purple-pink               "#915d93");bb5d93,7d5d93
+      (solanum-light-purple              "#bec8ff")
+      (solanum-purple                    "#9c69e8")
+      (solanum-alt-purple                "#a394ff")
+      (solanum-purple-pink               "#915d93")
       (solanum-purple-blue               "#492b91")
-      (solanum-dark-purple               "#672b5f");41143d,672b5f
+      (solanum-dark-purple               "#672b5f")
       (solanum-purple-black              "#130d1a")
-      (solanum-alt-purple-black          "#3b3550");3b3542
+      (solanum-alt-purple-black          "#3b3550")
 
       (solanum-fg                        "#FFFFFF")
       (solanum-bg                        "#130d1a")
-      (solanum-highlight                 "#27212e");6a143d,64143d
+      (solanum-highlight                 "#27212e")
       (solanum-shadow                    "#b3b3b3")
 
       (solanum-error                     "#FF0000")
-      (solanum-warning                   "#f6d909");F68511
-      (solanum-success                   "#23a334");239834
+      (solanum-warning                   "#f6d909")
+      (solanum-success                   "#23a334")
 
-      (solanum-diff-added                "#5aa05a");335533
-      (solanum-diff-removed              "#a05a5a");553333
-      (solanum-diff-refine-added         "#007800");22aa22
-      (solanum-diff-refine-removed       "#780000");aa2222
-      (solanum-diff-header               "#5a5a5a");737373
-      (solanum-diff-file-header          "#3c3c3c");999999
-      (solanum-diff-context              "#828282");999999
-      (solanum-smerge-base               "#5A5AA0");888833
+      (solanum-diff-added                "#5aa05a")
+      (solanum-diff-removed              "#a05a5a")
+      (solanum-diff-refine-added         "#007800")
+      (solanum-diff-refine-removed       "#780000")
+      (solanum-diff-header               "#5a5a5a")
+      (solanum-diff-file-header          "#3c3c3c")
+      (solanum-diff-context              "#828282")
+      (solanum-smerge-base               "#5A5AA0")
 
-      (solanum-orderless-0               "#af50c8");af50b9
+      (solanum-orderless-0               "#af50c8")
       (solanum-orderless-1               "#28a03c")
       (solanum-orderless-2               "#ff6400")
       (solanum-orderless-3               "#3c82ff")
 
-      (solanum-prescient-0               "#46C8A5");ad4553
-      (solanum-prescient-1               "#C84669");45ad9f
+      (solanum-prescient-0               "#46C8A5")
+      (solanum-prescient-1               "#C84669")
 
       (solanum-vc-change                 solanum-blue)
       (solanum-vc-insert                 solanum-success)

@@ -38,53 +38,53 @@
       (acer-black                     "#000000")
       (acer-white                     "#FFFFFF")
 
-      (acer-green                     "#237c34");239834,237c34,3b7b27
+      (acer-green                     "#237c34")
       (acer-green-cyan                "#277a6a")
-      (acer-deep-green                "#006041");8a8a8a,828282,787878,746c72,747474,606060,60607e,59597e,505069
+      (acer-deep-green                "#006041")
 
-      (acer-orange                    "#e76144");fe7457,e76144,d75541
-      (acer-deep-orange               "#d44400");d44400,cd4100
-      (acer-orange-pink               "#cd475f");ec31a3,ff514a,ff474a,ff475f
-      (acer-autumn                    "#ff8c4e");c14c5c,f46157,db3d32,e14337,ed7038,f77b44,f3814f,e8674a,ed674a,f68b47
+      (acer-orange                    "#e76144")
+      (acer-deep-orange               "#d44400")
+      (acer-orange-pink               "#cd475f")
+      (acer-autumn                    "#ff8c4e")
 
-      (acer-cream                     "#dca56e");f68e64,dc8e64,dc9964,dc9964
-      (acer-brown                     "#c88550");7d4826,754014,a58464,a07f5f
-      (acer-deep-brown                "#8c6950");7d6250,6a4e39,8c6a50
+      (acer-cream                     "#dca56e")
+      (acer-brown                     "#c88550")
+      (acer-deep-brown                "#8c6950")
 
-      (acer-light-blue                "#3a9187");bacce4
+      (acer-light-blue                "#3a9187")
       (acer-blue                      "#2134d5")
       (acer-deep-blue                 "#1B3B4D")
 
       (acer-purple                    "#9e4d76")
-      (acer-deep-purple               "#60366e");663c6c,62386c
-      (acer-purple-red                "#9b234b");9f234b
-      (acer-purple-pink               "#5f2258");233e4d
+      (acer-deep-purple               "#60366e")
+      (acer-purple-red                "#9b234b")
+      (acer-purple-pink               "#5f2258")
 
       (acer-fg                        "#000000")
-      (acer-bg                        "#f7bb78");fca148,fca347,f5a24e,f5a44e,F7B36A,f7a95a,f7ac5f,f7bb78
-      (acer-highlight                 "#e3a764");e0bde7,d4b3cf
+      (acer-bg                        "#f7bb78")
+      (acer-highlight                 "#e3a764")
       (acer-shadow                    "#7f7f7f")
 
-      (acer-error                     "#d70000");FF0000,c80000
-      (acer-warning                   "#f0dc00");F68511,f2e16b,f0dc67
-      (acer-success                   "#28823c");23D734,239834,237c34,23d934,50b450
+      (acer-error                     "#d70000")
+      (acer-warning                   "#f0dc00")
+      (acer-success                   "#28823c")
 
-      (acer-diff-added                "#c8f0c8");335533
-      (acer-diff-removed              "#f0c8c8");553333
-      (acer-diff-refine-added         "#78f078");22aa22
-      (acer-diff-refine-removed       "#f07878");aa2222
-      (acer-diff-header               "#b4b4b4");737373
-      (acer-diff-file-header          "#8c8c8c");999999
-      (acer-diff-context              "#dcdcdc");999999
-      (acer-smerge-base               "#C8C8F0");888833
+      (acer-diff-added                "#c8f0c8")
+      (acer-diff-removed              "#f0c8c8")
+      (acer-diff-refine-added         "#78f078")
+      (acer-diff-refine-removed       "#f07878")
+      (acer-diff-header               "#b4b4b4")
+      (acer-diff-file-header          "#8c8c8c")
+      (acer-diff-context              "#dcdcdc")
+      (acer-smerge-base               "#C8C8F0")
 
       (acer-orderless-0               "#af2ab9")
       (acer-orderless-1               "#28823c")
       (acer-orderless-2               "#d44400")
       (acer-orderless-3               "#6496d7")
 
-      (acer-prescient-0               "#4680DE");ad4553
-      (acer-prescient-1               "#DE4680");45ad9f
+      (acer-prescient-0               "#4680DE")
+      (acer-prescient-1               "#DE4680")
 
       (acer-vc-change                 acer-blue)
       (acer-vc-insert                 acer-success)

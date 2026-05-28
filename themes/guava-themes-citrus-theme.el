@@ -36,57 +36,57 @@
 (let* (
       (citrus-class '((class color) (min-colors 257)))
       (citrus-black                     "#000000")
-      (citrus-white                     "#edf2ed");FFFFFF,eeeeee,f0eff5,f1f0f5,ebf0eb
+      (citrus-white                     "#edf2ed")
 
-      (citrus-light-green               "#6ea56e");589337,64a564
-      (citrus-green-lime                "#589337");589337
-      (citrus-deep-green                "#0a6b0a");2b5726,2b5b26
-      (citrus-green-blue                "#197d5a");136b16,198264
+      (citrus-light-green               "#6ea56e")
+      (citrus-green-lime                "#589337")
+      (citrus-deep-green                "#0a6b0a")
+      (citrus-green-blue                "#197d5a")
 
-      (citrus-yellow                    "#f5d49b");c3af50,dbaf50,dbb255
+      (citrus-yellow                    "#f5d49b")
 
-      (citrus-red                       "#df352c");a50000,960000
+      (citrus-red                       "#df352c")
       (citrus-deep-red                  "#a0352c")
-      (citrus-orange-red                "#ce462c");ce462c
+      (citrus-orange-red                "#ce462c")
       (citrus-orange-orange             "#f29a43")
       (citrus-alt-orange                "#f26e43")
-      (citrus-deep-orange               "#c85802");da5802
+      (citrus-deep-orange               "#c85802")
 
-      (citrus-brown                     "#735f50");86626f
+      (citrus-brown                     "#735f50")
 
-      (citrus-light-blue                "#4eb096");4e9496
+      (citrus-light-blue                "#4eb096")
       (citrus-blue                      "#3275a5")
-      (citrus-deep-blue                 "#2327dc");2246d2,443f8d,2327dc
+      (citrus-deep-blue                 "#2327dc")
       (citrus-light-purple              "#bec8ff")
       (citrus-deep-purple               "#6d4393")
       (citrus-purple-red                "#77003a")
-      (citrus-purple-blue               "#504993");6b4a82
+      (citrus-purple-blue               "#504993")
 
       (citrus-fg                        "#000000")
-      (citrus-bg                        "#edf2ed");FFFFFF,eeeeee,f0eff5,f1f0f5,ebf0eb
-      (citrus-highlight                 "#d9ded9");f5cb6d,f5d49b
+      (citrus-bg                        "#edf2ed")
+      (citrus-highlight                 "#d9ded9")
       (citrus-shadow                    "#7f7f7f")
 
       (citrus-error                     "#FF0000")
-      (citrus-warning                   "#ffbe00");F68511
-      (citrus-success                   "#2bdc26");2b5726,2b5b26
+      (citrus-warning                   "#ffbe00")
+      (citrus-success                   "#2bdc26")
 
-      (citrus-diff-added                "#c8f0c8");335533
-      (citrus-diff-removed              "#f0c8c8");553333
-      (citrus-diff-refine-added         "#78f078");22aa22
-      (citrus-diff-refine-removed       "#f07878");aa2222
-      (citrus-diff-header               "#b4b4b4");737373
-      (citrus-diff-file-header          "#8c8c8c");999999
-      (citrus-diff-context              "#dcdcdc");999999
-      (citrus-smerge-base               "#C8C8F0");888833
+      (citrus-diff-added                "#c8f0c8")
+      (citrus-diff-removed              "#f0c8c8")
+      (citrus-diff-refine-added         "#78f078")
+      (citrus-diff-refine-removed       "#f07878")
+      (citrus-diff-header               "#b4b4b4")
+      (citrus-diff-file-header          "#8c8c8c")
+      (citrus-diff-context              "#dcdcdc")
+      (citrus-smerge-base               "#C8C8F0")
 
       (citrus-orderless-0               "#af28b9")
       (citrus-orderless-1               "#28a03c")
       (citrus-orderless-2               "#ff6400")
       (citrus-orderless-3               "#3c82ff")
 
-      (citrus-prescient-0               "#4680DE");ad4553
-      (citrus-prescient-1               "#DE4680");45ad9f
+      (citrus-prescient-0               "#4680DE")
+      (citrus-prescient-1               "#DE4680")
 
       (citrus-vc-change                 citrus-deep-blue)
       (citrus-vc-insert                 citrus-success)

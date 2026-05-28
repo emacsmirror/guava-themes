@@ -40,53 +40,53 @@
 
       (prunus-light-brown               "#6e5041")
       (prunus-alt-light-brown           "#917364")
-      (prunus-brown                     "#553728");583c25,4A301B
+      (prunus-brown                     "#553728")
       (prunus-alt-brown                 "#50463c")
       (prunus-deep-brown                "#3c3228")
       (prunus-alt-deep-brown            "#4b3219")
 
-      (prunus-light-green               "#50a05f");52BC63
+      (prunus-light-green               "#50a05f")
       (prunus-green-forest              "#007341")
       (prunus-green-subdued             "#2d5519")
       (prunus-oxidized-green            "#4e584e")
 
       (prunus-red                       "#a01e14")
-      (prunus-deep-red                  "#781e14");cb001e,d2191e
+      (prunus-deep-red                  "#781e14")
       (prunus-light-pink                "#cd7888")
-      (prunus-pink                      "#cd3c88");dc6199,cd4f88,CD2788
+      (prunus-pink                      "#cd3c88")
 
-      (prunus-blue                      "#4650e1");4534e3,120cdc,4534E3,453ee3
+      (prunus-blue                      "#4650e1")
       (prunus-deep-blue                 "#4650af")
       (prunus-cyan                      "#00aaaa")
 
-      (prunus-purple                    "#7350a0");800080,740CBE,7420be,742fbe
-      (prunus-purple-red                "#8B2252");8B2252
+      (prunus-purple                    "#7350a0")
+      (prunus-purple-red                "#8B2252")
 
-      (prunus-fg                        "#ebafc8");fffef5,EBDCF5,DEA2BD
-      (prunus-bg                        "#190f05");E9E4F9,3F271D,2E1E03,281A04,1A0E05,1C0E06,1C0F07,1A0E05
-      (prunus-highlight                 "#2d2319");2b1f16
+      (prunus-fg                        "#ebafc8")
+      (prunus-bg                        "#190f05")
+      (prunus-highlight                 "#2d2319")
       (prunus-shadow                    "#b3b3b3")
 
-      (prunus-error                     "#FF0000");FF0000,bc0000,890014
-      (prunus-warning                   "#f6d911");F68511,ffc333,F68511
-      (prunus-success                   "#23D734");228B22,007900
+      (prunus-error                     "#FF0000")
+      (prunus-warning                   "#f6d911")
+      (prunus-success                   "#23D734")
 
-      (prunus-diff-added                "#5aa05a");335533
-      (prunus-diff-removed              "#a05a5a");553333
-      (prunus-diff-refine-added         "#007800");22aa22
-      (prunus-diff-refine-removed       "#780000");aa2222
-      (prunus-diff-header               "#5a5a5a");737373
-      (prunus-diff-file-header          "#3c3c3c");999999
-      (prunus-diff-context              "#828282");999999
-      (prunus-smerge-base               "#5A5AA0");888833
+      (prunus-diff-added                "#5aa05a")
+      (prunus-diff-removed              "#a05a5a")
+      (prunus-diff-refine-added         "#007800")
+      (prunus-diff-refine-removed       "#780000")
+      (prunus-diff-header               "#5a5a5a")
+      (prunus-diff-file-header          "#3c3c3c")
+      (prunus-diff-context              "#828282")
+      (prunus-smerge-base               "#5A5AA0")
 
-      (prunus-orderless-0               "#af50c8");af50b9
+      (prunus-orderless-0               "#af50c8")
       (prunus-orderless-1               "#28a03c")
       (prunus-orderless-2               "#ff6400")
       (prunus-orderless-3               "#3c82ff")
 
-      (prunus-prescient-0               "#46C8A5");ad4553
-      (prunus-prescient-1               "#C84669");45ad9f
+      (prunus-prescient-0               "#46C8A5")
+      (prunus-prescient-1               "#C84669")
 
       (prunus-vc-change                 prunus-blue)
       (prunus-vc-insert                 prunus-success)

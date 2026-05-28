@@ -35,14 +35,14 @@
 
 (let* (
       (rubus-class '((class color) (min-colors 257)))
-      (rubus-black                     "#000000");060a09
+      (rubus-black                     "#000000")
       (rubus-white                     "#FFFFFF")
 
       (rubus-raspberry                 "#aa3232")
-      (rubus-alt-raspberry             "#6e504b");964646,755653
-      (rubus-deep-raspberry            "#663a43");b17a66
+      (rubus-alt-raspberry             "#6e504b")
+      (rubus-deep-raspberry            "#663a43")
       (rubus-red                       "#c23f39")
-      (rubus-pink-cream                "#cd7378");d47980
+      (rubus-pink-cream                "#cd7378")
       (rubus-alt-pink-cream            "#aa5055")
       (rubus-orange                    "#ffa07a")
 
@@ -63,30 +63,30 @@
       (rubus-deep-purple               "#8163e4")
 
       (rubus-fg                        "#FFFFFF")
-      (rubus-bg                        "#0e1216");0e1216
-      (rubus-highlight                 "#22262a");1d2125
+      (rubus-bg                        "#0e1216")
+      (rubus-highlight                 "#22262a")
       (rubus-shadow                    "#b3b3b3")
 
-      (rubus-error                     "#ff1e00");FF0000
-      (rubus-warning                   "#f6d909");F68511
-      (rubus-success                   "#1ebe1e");23a334
+      (rubus-error                     "#ff1e00")
+      (rubus-warning                   "#f6d909")
+      (rubus-success                   "#1ebe1e")
 
-      (rubus-diff-added                "#5aa05a");335533
-      (rubus-diff-removed              "#a05a5a");553333
-      (rubus-diff-refine-added         "#007800");22aa22
-      (rubus-diff-refine-removed       "#780000");aa2222
-      (rubus-diff-header               "#5a5a5a");737373
-      (rubus-diff-file-header          "#3c3c3c");999999
-      (rubus-diff-context              "#828282");999999
-      (rubus-smerge-base               "#5A5AA0");888833
+      (rubus-diff-added                "#5aa05a")
+      (rubus-diff-removed              "#a05a5a")
+      (rubus-diff-refine-added         "#007800")
+      (rubus-diff-refine-removed       "#780000")
+      (rubus-diff-header               "#5a5a5a")
+      (rubus-diff-file-header          "#3c3c3c")
+      (rubus-diff-context              "#828282")
+      (rubus-smerge-base               "#5A5AA0")
 
-      (rubus-orderless-0               "#af50c8");af50b9
+      (rubus-orderless-0               "#af50c8")
       (rubus-orderless-1               "#28a03c")
       (rubus-orderless-2               "#ff6400")
       (rubus-orderless-3               "#3c82ff")
 
-      (rubus-prescient-0               "#46C8A5");ad4553
-      (rubus-prescient-1               "#C84669");45ad9f
+      (rubus-prescient-0               "#46C8A5")
+      (rubus-prescient-1               "#C84669")
 
       (rubus-vc-change                 rubus-blue)
       (rubus-vc-insert                 rubus-success)

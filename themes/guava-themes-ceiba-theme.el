@@ -38,57 +38,57 @@
       (ceiba-black                     "#000000")
       (ceiba-white                     "#FFFFFF")
 
-      ;; (ceiba-light-gray                "#bab49e");dcdcdc,d4d4d4
-      (ceiba-gray-blue                 "#798585");8c857b,8d8d8b,6d726a,656865
+      ;; (ceiba-light-gray                "#bab49e")
+      (ceiba-gray-blue                 "#798585")
 
       (ceiba-light-green               "#61ff96")
-      (ceiba-green                     "#5b6452");5a6352
-      (ceiba-deep-green                "#2b5535");375033,395235,3a5435,3a5835,385635,375535
+      (ceiba-green                     "#5b6452")
+      (ceiba-deep-green                "#2b5535")
       (ceiba-green-forest              "#006441")
-      (ceiba-green-blue                "#11645a");5a6352,116452
+      (ceiba-green-blue                "#11645a")
 
       (ceiba-light-orange              "#f1a147")
       (ceiba-orange                    "#ca6f39")
       (ceiba-deep-orange               "#a85639")
 
-      (ceiba-steel-blue                "#aabed8");b0c4de
+      (ceiba-steel-blue                "#aabed8")
       (ceiba-blue                      "#2327dc")
-      (ceiba-alt-blue                  "#2268a7");3a5ba7
+      (ceiba-alt-blue                  "#2268a7")
 
       (ceiba-light-purple              "#bec8ff")
-      (ceiba-purple                    "#4e466d");49206d
-      (ceiba-purple-red                "#762362");862060,892362
+      (ceiba-purple                    "#4e466d")
+      (ceiba-purple-red                "#762362")
 
       (ceiba-light-brown               "#a08c6e")
-      (ceiba-brown                     "#6d4b30");6b492e
-      (ceiba-brown-sand                "#826e51");796041
-      (ceiba-brown-wood                "#53453d");9c6d85,bf8987,514141,53423e
+      (ceiba-brown                     "#6d4b30")
+      (ceiba-brown-sand                "#826e51")
+      (ceiba-brown-wood                "#53453d")
 
       (ceiba-fg                        "#000000")
-      (ceiba-bg                        "#bab49e");8c857b,8d8d8b,8c7f76,817a68,817a6a
-      (ceiba-highlight                 "#a6a08a");dcdcdc,656865,7f7f89,787882,9d9d9d
+      (ceiba-bg                        "#bab49e")
+      (ceiba-highlight                 "#a6a08a")
       (ceiba-shadow                    "#7f7f7f")
 
-      (ceiba-error                     "#ff0000");ff0000,d70000
-      (ceiba-warning                   "#f6c911");F68511
-      (ceiba-success                   "#1ea01e");29c825
+      (ceiba-error                     "#ff0000")
+      (ceiba-warning                   "#f6c911")
+      (ceiba-success                   "#1ea01e")
 
-      (ceiba-diff-added                "#c8f0c8");335533
-      (ceiba-diff-removed              "#f0c8c8");553333
-      (ceiba-diff-refine-added         "#78f078");22aa22
-      (ceiba-diff-refine-removed       "#f07878");aa2222
-      (ceiba-diff-header               "#b4b4b4");737373
-      (ceiba-diff-file-header          "#8c8c8c");999999
-      (ceiba-diff-context              "#dcdcdc");999999
-      (ceiba-smerge-base               "#C8C8F0");888833
+      (ceiba-diff-added                "#c8f0c8")
+      (ceiba-diff-removed              "#f0c8c8")
+      (ceiba-diff-refine-added         "#78f078")
+      (ceiba-diff-refine-removed       "#f07878")
+      (ceiba-diff-header               "#b4b4b4")
+      (ceiba-diff-file-header          "#8c8c8c")
+      (ceiba-diff-context              "#dcdcdc")
+      (ceiba-smerge-base               "#C8C8F0")
 
       (ceiba-orderless-0               "#af37b9")
       (ceiba-orderless-1               "#147828")
       (ceiba-orderless-2               "#b45a00")
       (ceiba-orderless-3               "#3c82e6")
 
-      (ceiba-prescient-0               "#4680DE");ad4553
-      (ceiba-prescient-1               "#DE4680");45ad9f
+      (ceiba-prescient-0               "#4680DE")
+      (ceiba-prescient-1               "#DE4680")
 
       (ceiba-vc-change                 ceiba-blue)
       (ceiba-vc-insert                 ceiba-success)

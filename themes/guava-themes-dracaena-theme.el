@@ -46,50 +46,50 @@
 
       (dracaena-snakeplant-yellow         "#d9d389")
 
-      (dracaena-light-orange              "#ffb38f");ffae7a
-      (dracaena-orange                    "#e88e6b");ffa07a
+      (dracaena-light-orange              "#ffb38f")
+      (dracaena-orange                    "#e88e6b")
       (dracaena-deep-orange               "#c95909")
-      (dracaena-red                       "#c83233");c91628,cc192a,d7192a,ed2725,e92333,db2333,d32333,c82333
+      (dracaena-red                       "#c83233")
       (dracaena-alt-deep-red              "#751e1e")
       (dracaena-deep-red                  "#792725")
 
-      (dracaena-light-brown               "#a89d92");8b6c4d
+      (dracaena-light-brown               "#a89d92")
 
-      (dracaena-light-blue                "#4272d5");425fd5
-      (dracaena-blue                      "#2d44d5");2134d5
-      (dracaena-antarctic-blue            "#bacce4");4f62be
-      (dracaena-steel-blue                "#4f94cd");b0c4de
+      (dracaena-light-blue                "#4272d5")
+      (dracaena-blue                      "#2d44d5")
+      (dracaena-antarctic-blue            "#bacce4")
+      (dracaena-steel-blue                "#4f94cd")
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
 
-      (dracaena-purple-pink               "#aa4b6b");961250,b7125c,a5225c,a53c5c,a54666
-      (dracaena-deep-purple               "#7f78dd");8f1ac8,8a34d7,7f3edd,7f46dd,7f53dd,7f6ddd
+      (dracaena-purple-pink               "#aa4b6b")
+      (dracaena-deep-purple               "#7f78dd")
 
-      (dracaena-fg                        "#bacce4");4f62be
-      (dracaena-bg                        "#424845");404242,3e4040,3d3f3f,424545
-      (dracaena-highlight                 "#2e3431");4f4f4f,565c59
+      (dracaena-fg                        "#bacce4")
+      (dracaena-bg                        "#424845")
+      (dracaena-highlight                 "#2e3431")
       (dracaena-shadow                    "#b3b3b3")
 
       (dracaena-error                     "#FF0000")
-      (dracaena-warning                   "#f6be14");F68511,f6ad11
+      (dracaena-warning                   "#f6be14")
       (dracaena-success                   "#29d925")
 
-      (dracaena-diff-added                "#5aa05a");335533
-      (dracaena-diff-removed              "#a05a5a");553333
-      (dracaena-diff-refine-added         "#007800");22aa22
-      (dracaena-diff-refine-removed       "#780000");aa2222
-      (dracaena-diff-header               "#5a5a5a");737373
-      (dracaena-diff-file-header          "#3c3c3c");999999
-      (dracaena-diff-context              "#828282");999999
-      (dracaena-smerge-base               "#5A5AA0");888833
+      (dracaena-diff-added                "#5aa05a")
+      (dracaena-diff-removed              "#a05a5a")
+      (dracaena-diff-refine-added         "#007800")
+      (dracaena-diff-refine-removed       "#780000")
+      (dracaena-diff-header               "#5a5a5a")
+      (dracaena-diff-file-header          "#3c3c3c")
+      (dracaena-diff-context              "#828282")
+      (dracaena-smerge-base               "#5A5AA0")
 
       (dracaena-orderless-0               "#af50b9")
       (dracaena-orderless-1               "#28a03c")
       (dracaena-orderless-2               "#ff6400")
       (dracaena-orderless-3               "#3c82ff")
 
-      (dracaena-prescient-0               "#46E6A6");ad4553
-      (dracaena-prescient-1               "#E64686");45ad9f
+      (dracaena-prescient-0               "#46E6A6")
+      (dracaena-prescient-1               "#E64686")
 
       (dracaena-vc-change                 dracaena-blue)
       (dracaena-vc-insert                 dracaena-deep-green)

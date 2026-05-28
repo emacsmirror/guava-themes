@@ -38,50 +38,50 @@
       (psidium-black                     "#000000")
       (psidium-white                     "#FFFFFF")
 
-      (psidium-green                     "#599b48");599F48
-      (psidium-light-green               "#28bb6b");13765e,13845e,139570,3ab488,3ab992
-      (psidium-guava-green               "#aecd34");AECA41,AED234,AED734
-      (psidium-deep-green                "#097d2c");09662c
+      (psidium-green                     "#599b48")
+      (psidium-light-green               "#28bb6b")
+      (psidium-guava-green               "#aecd34")
+      (psidium-deep-green                "#097d2c")
 
-      (psidium-light-orange              "#ffbe9b");ffb49b
-      (psidium-red-orange                "#cd605f");ff605f,cd605f
-      (psidium-red                       "#c1153b");f02d1b
-      (psidium-pink                      "#F8767C");F84865,F8767C,F88686,F85A65
+      (psidium-light-orange              "#ffbe9b")
+      (psidium-red-orange                "#cd605f")
+      (psidium-red                       "#c1153b")
+      (psidium-pink                      "#F8767C")
 
-      (psidium-brown                     "#816249");7D5E45
+      (psidium-brown                     "#816249")
 
       (psidium-light-blue                "#41C3CA")
       (psidium-blue                      "#2a4ad9")
-      (psidium-deep-blue                 "#483d8b");004F5D
+      (psidium-deep-blue                 "#483d8b")
 
-      (psidium-light-purple              "#8cb4d1");817fb2,818fb2,819cb2,89a6d1,89afd1
-      (psidium-purple                    "#812db2");D7137C,C0137C,B00CE0,a62db2,8e2db2
+      (psidium-light-purple              "#8cb4d1")
+      (psidium-purple                    "#812db2")
 
       (psidium-fg                        "#000000")
-      (psidium-bg                        "#F1EECE");F7DEB6
-      (psidium-highlight                 "#dddaba");F8917C,FCD0C9
+      (psidium-bg                        "#F1EECE")
+      (psidium-highlight                 "#dddaba")
       (psidium-shadow                    "#7f7f7f")
 
       (psidium-error                     "#FF0000")
-      (psidium-warning                   "#d6c800");FF8C00,f08020,f68511,dfe300
+      (psidium-warning                   "#d6c800")
       (psidium-success                   "#228B22")
 
-      (psidium-diff-added                "#c8f0c8");335533
-      (psidium-diff-removed              "#f0c8c8");553333
-      (psidium-diff-refine-added         "#78f078");22aa22
-      (psidium-diff-refine-removed       "#f07878");aa2222
-      (psidium-diff-header               "#b4b4b4");737373
-      (psidium-diff-file-header          "#8c8c8c");999999
-      (psidium-diff-context              "#dcdcdc");999999
-      (psidium-smerge-base               "#C8C8F0");888833
+      (psidium-diff-added                "#c8f0c8")
+      (psidium-diff-removed              "#f0c8c8")
+      (psidium-diff-refine-added         "#78f078")
+      (psidium-diff-refine-removed       "#f07878")
+      (psidium-diff-header               "#b4b4b4")
+      (psidium-diff-file-header          "#8c8c8c")
+      (psidium-diff-context              "#dcdcdc")
+      (psidium-smerge-base               "#C8C8F0")
 
-      (psidium-orderless-0               "#af50c8");af50b9
+      (psidium-orderless-0               "#af50c8")
       (psidium-orderless-1               "#28a03c")
       (psidium-orderless-2               "#ff6400")
       (psidium-orderless-3               "#3c82ff")
 
-      (psidium-prescient-0               "#4680DE");ad4553
-      (psidium-prescient-1               "#DE4680");45ad9f
+      (psidium-prescient-0               "#4680DE")
+      (psidium-prescient-1               "#DE4680")
 
       (psidium-vc-change                 psidium-blue)
       (psidium-vc-insert                 psidium-success)

@@ -38,52 +38,52 @@
       (jacaranda-black                     "#000000")
       (jacaranda-white                     "#FFFFFF")
 
-      (jacaranda-light-green               "#52aa63");52bc63
+      (jacaranda-light-green               "#52aa63")
       (jacaranda-green                     "#8ec654")
       (jacaranda-deep-green                "#267a63")
-      (jacaranda-oceanic-green             "#10a575");3ab992
+      (jacaranda-oceanic-green             "#10a575")
 
-      (jacaranda-orange                    "#ff9f79");ff9535
-      (jacaranda-red                       "#af2a36");ca0036
+      (jacaranda-orange                    "#ff9f79")
+      (jacaranda-red                       "#af2a36")
 
       (jacaranda-brown                     "#8a7f74")
 
       (jacaranda-blue                      "#4534e3")
       (jacaranda-deep-blue                 "#655db0")
-      (jacaranda-antarctic-blue            "#8cb2e6");8caae6
-      (jacaranda-light-cyan                "#60a1ba");00aaaa
+      (jacaranda-antarctic-blue            "#8cb2e6")
+      (jacaranda-light-cyan                "#60a1ba")
       (jacaranda-cyan                      "#00778b")
 
-      (jacaranda-light-purple              "#be87e6");C0B4E4,beafe6
-      (jacaranda-purple                    "#aa69e6");984ee6
-      (jacaranda-deep-purple               "#640cbe");800080,740cbe
+      (jacaranda-light-purple              "#be87e6")
+      (jacaranda-purple                    "#aa69e6")
+      (jacaranda-deep-purple               "#640cbe")
       (jacaranda-purple-red                "#8b2252")
 
       (jacaranda-fg                        "#000000")
-      (jacaranda-bg                        "#e9d9f9");e9e4f9
-      (jacaranda-highlight                 "#d5c5e5");4f4f4f,565c59
+      (jacaranda-bg                        "#e9d9f9")
+      (jacaranda-highlight                 "#d5c5e5")
       (jacaranda-shadow                    "#7f7f7f")
 
-      (jacaranda-error                     "#FF0000");FF0000
-      (jacaranda-warning                   "#ebb515");F68511,ffc333
-      (jacaranda-success                   "#00c200");228B22,007900
+      (jacaranda-error                     "#FF0000")
+      (jacaranda-warning                   "#ebb515")
+      (jacaranda-success                   "#00c200")
 
-      (jacaranda-diff-added                "#c8f0c8");335533
-      (jacaranda-diff-removed              "#f0c8c8");553333
-      (jacaranda-diff-refine-added         "#78f078");22aa22
-      (jacaranda-diff-refine-removed       "#f07878");aa2222
-      (jacaranda-diff-header               "#b4b4b4");737373
-      (jacaranda-diff-file-header          "#8c8c8c");999999
-      (jacaranda-diff-context              "#dcdcdc");999999
-      (jacaranda-smerge-base               "#C8C8F0");888833
+      (jacaranda-diff-added                "#c8f0c8")
+      (jacaranda-diff-removed              "#f0c8c8")
+      (jacaranda-diff-refine-added         "#78f078")
+      (jacaranda-diff-refine-removed       "#f07878")
+      (jacaranda-diff-header               "#b4b4b4")
+      (jacaranda-diff-file-header          "#8c8c8c")
+      (jacaranda-diff-context              "#dcdcdc")
+      (jacaranda-smerge-base               "#C8C8F0")
 
       (jacaranda-orderless-0               "#af50b9")
       (jacaranda-orderless-1               "#28a03c")
       (jacaranda-orderless-2               "#ff6400")
       (jacaranda-orderless-3               "#3c82ff")
 
-      (jacaranda-prescient-0               "#4680DE");ad4553
-      (jacaranda-prescient-1               "#DE4680");45ad9f
+      (jacaranda-prescient-0               "#4680DE")
+      (jacaranda-prescient-1               "#DE4680")
 
       (jacaranda-vc-change                 jacaranda-blue)
       (jacaranda-vc-insert                 jacaranda-success)
