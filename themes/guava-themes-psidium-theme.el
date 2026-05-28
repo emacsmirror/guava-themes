@@ -263,9 +263,9 @@
    `(elfeed-search-date-face ((,psidium-class (:foreground ,psidium-light-blue))))
    `(elfeed-search-feed-face ((,psidium-class (:foreground ,psidium-brown))))
    `(elfeed-search-title-face ((,psidium-class (:foreground ,psidium-pink))))
-   `(elfeed-search-filter-face ((,psidium-class (:weight bold :foreground ,psidium-purple))))
-   `(elfeed-search-last-update-face ((,psidium-class (:weight bold :foreground ,psidium-blue))))
    `(elfeed-search-unread-title-face ((,psidium-class (:weight bold :foreground ,psidium-green))))
+   `(elfeed-search-filter-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
+   `(elfeed-search-last-update-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
    `(elfeed-search-unread-count-face ((,psidium-class (:weight bold :foreground ,psidium-deep-blue))))
 
    `(elfeed-show-header-face ((,psidium-class (:foreground ,psidium-deep-blue))))

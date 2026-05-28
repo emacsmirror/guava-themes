@@ -268,9 +268,9 @@
    `(elfeed-search-date-face ((,prunus-class (:foreground ,prunus-red))))
    `(elfeed-search-feed-face ((,prunus-class (:foreground ,prunus-purple-red))))
    `(elfeed-search-title-face ((,prunus-class (:foreground ,prunus-oxidized-green))))
-   `(elfeed-search-filter-face ((,prunus-class (:weight bold :foreground ,prunus-cyan))))
-   `(elfeed-search-last-update-face ((,prunus-class (:weight bold :foreground ,prunus-alt-light-brown))))
    `(elfeed-search-unread-title-face ((,prunus-class (:weight bold :foreground ,prunus-green-forest))))
+   `(elfeed-search-filter-face ((,prunus-class (:weight bold :foreground ,prunus-light-pink))))
+   `(elfeed-search-last-update-face ((,prunus-class (:weight bold :foreground ,prunus-light-pink))))
    `(elfeed-search-unread-count-face ((,prunus-class (:weight bold :foreground ,prunus-light-pink))))
 
    `(elfeed-show-header-face ((,prunus-class (:foreground ,prunus-alt-light-brown))))

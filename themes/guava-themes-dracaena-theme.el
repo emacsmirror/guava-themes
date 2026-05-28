@@ -271,9 +271,9 @@
    `(elfeed-search-date-face ((,dracaena-class (:foreground ,dracaena-light-blue))))
    `(elfeed-search-feed-face ((,dracaena-class (:foreground ,dracaena-purple-pink))))
    `(elfeed-search-title-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow))))
-   `(elfeed-search-filter-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-purple))))
-   `(elfeed-search-last-update-face ((,dracaena-class (:weight bold :foreground ,dracaena-light-orange))))
    `(elfeed-search-unread-title-face ((,dracaena-class (:weight bold :foreground ,dracaena-deep-green))))
+   `(elfeed-search-filter-face ((,dracaena-class (:weight bold :foreground ,dracaena-guava-green))))
+   `(elfeed-search-last-update-face ((,dracaena-class (:weight bold :foreground ,dracaena-guava-green))))
    `(elfeed-search-unread-count-face ((,dracaena-class (:weight bold :foreground ,dracaena-guava-green))))
 
    `(elfeed-show-header-face ((,dracaena-class (:foreground ,dracaena-purple-pink))))

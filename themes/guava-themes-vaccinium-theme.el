@@ -268,10 +268,10 @@
    `(elfeed-search-date-face ((,vaccinium-class (:foreground ,vaccinium-steel-blue))))
    `(elfeed-search-feed-face ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
    `(elfeed-search-title-face ((,vaccinium-class (:foreground ,vaccinium-orange))))
-   `(elfeed-search-filter-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
-   `(elfeed-search-last-update-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-purple-red))))
    `(elfeed-search-unread-title-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-light-green))))
-   `(elfeed-search-unread-count-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-alt-blueberry))))
+   `(elfeed-search-filter-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
+   `(elfeed-search-last-update-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
+   `(elfeed-search-unread-count-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-deep-blue))))
 
    `(elfeed-show-header-face ((,vaccinium-class (:foreground ,vaccinium-light-green))))
    `(elfeed-show-author-face ((,vaccinium-class (:weight bold :foreground ,vaccinium-blueberry))))

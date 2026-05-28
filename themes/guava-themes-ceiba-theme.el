@@ -270,10 +270,10 @@
    `(elfeed-search-date-face ((,ceiba-class (:foreground ,ceiba-purple-red))))
    `(elfeed-search-feed-face ((,ceiba-class (:foreground ,ceiba-green-blue))))
    `(elfeed-search-title-face ((,ceiba-class (:foreground ,ceiba-brown))))
-   `(elfeed-search-filter-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-orange))))
-   `(elfeed-search-last-update-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-purple))))
    `(elfeed-search-unread-title-face ((,ceiba-class (:weight bold :foreground ,ceiba-deep-green))))
-   `(elfeed-search-unread-count-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-green))))
+   `(elfeed-search-filter-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-orange))))
+   `(elfeed-search-last-update-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-orange))))
+   `(elfeed-search-unread-count-face ((,ceiba-class (:weight bold :foreground ,ceiba-light-orange))))
 
    `(elfeed-show-header-face ((,ceiba-class (:foreground ,ceiba-green-forest))))
    `(elfeed-show-author-face ((,ceiba-class (:weight bold :foreground ,ceiba-purple-red))))

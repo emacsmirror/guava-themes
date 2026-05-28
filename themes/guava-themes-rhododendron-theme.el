@@ -268,10 +268,10 @@
    `(elfeed-search-date-face ((,rhododendron-class (:foreground ,rhododendron-forest-green))))
    `(elfeed-search-feed-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue))))
    `(elfeed-search-title-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue))))
-   `(elfeed-search-filter-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-purple))))
-   `(elfeed-search-last-update-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-cream))))
    `(elfeed-search-unread-title-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-purple-red))))
-   `(elfeed-search-unread-count-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-green))))
+   `(elfeed-search-filter-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-purple))))
+   `(elfeed-search-last-update-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-purple))))
+   `(elfeed-search-unread-count-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-light-purple))))
 
    `(elfeed-show-header-face ((,rhododendron-class (:foreground ,rhododendron-purple-red))))
    `(elfeed-show-author-face ((,rhododendron-class (:weight bold :foreground ,rhododendron-deep-blue))))

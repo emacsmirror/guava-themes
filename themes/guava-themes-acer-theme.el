@@ -266,10 +266,10 @@
    `(elfeed-search-date-face ((,acer-class (:foreground ,acer-deep-orange))))
    `(elfeed-search-feed-face ((,acer-class (:foreground ,acer-deep-purple))))
    `(elfeed-search-title-face ((,acer-class (:foreground ,acer-deep-brown))))
-   `(elfeed-search-filter-face ((,acer-class (:weight bold :foreground ,acer-purple-pink))))
-   `(elfeed-search-last-update-face ((,acer-class (:weight bold :foreground ,acer-purple-red))))
    `(elfeed-search-unread-title-face ((,acer-class (:weight bold :foreground ,acer-deep-green))))
-   `(elfeed-search-unread-count-face ((,acer-class (:weight bold :foreground ,acer-green))))
+   `(elfeed-search-filter-face ((,acer-class (:weight bold :foreground ,acer-purple-pink))))
+   `(elfeed-search-last-update-face ((,acer-class (:weight bold :foreground ,acer-purple-pink))))
+   `(elfeed-search-unread-count-face ((,acer-class (:weight bold :foreground ,acer-purple-pink))))
 
    `(elfeed-show-header-face ((,acer-class (:foreground ,acer-deep-green))))
    `(elfeed-show-author-face ((,acer-class (:weight bold :foreground ,acer-purple))))
