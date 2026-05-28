@@ -59,7 +59,7 @@
 
       (pyrus-light-purple              "#8787e1")
       (pyrus-purple                    "#874be1")
-      (pyrus-deep-magenta              "#782566")
+      (pyrus-deep-magenta              "#642864")
 
       (pyrus-fg                        "#780000")
       (pyrus-bg                        "#f9fefd")
@@ -118,11 +118,11 @@
    ;; font-lock
    `(font-lock-comment-face ((,pyrus-class (:foreground ,pyrus-light-green :weight medium))))
    `(font-lock-string-face ((,pyrus-class (:foreground ,pyrus-deep-orange :weight medium))))
-   `(font-lock-keyword-face ((,pyrus-class (:foreground ,pyrus-light-purple :weight medium))))
+   `(font-lock-keyword-face ((,pyrus-class (:foreground ,pyrus-green-subdued :weight medium))))
    `(font-lock-builtin-face ((,pyrus-class (:foreground ,pyrus-deep-blue :weight medium))))
    `(font-lock-warning-face ((,pyrus-class (:foreground ,pyrus-warning :weight bold))))
    `(font-lock-type-face ((,pyrus-class (:foreground ,pyrus-green :weight medium))))
-   `(font-lock-constant-face ((,pyrus-class (:foreground ,pyrus-green-subdued :weight medium))))
+   `(font-lock-constant-face ((,pyrus-class (:foreground ,pyrus-light-purple :weight medium))))
    `(font-lock-function-name-face ((,pyrus-class (:foreground ,pyrus-red-pink :weight medium))))
    `(font-lock-punctuation-face ((,pyrus-class (:foreground ,pyrus-deep-magenta :weight medium))))
    `(font-lock-variable-name-face ((,pyrus-class (:foreground ,pyrus-orange-pink :weight medium))))
