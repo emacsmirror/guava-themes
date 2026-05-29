@@ -73,6 +73,18 @@
       (ceiba-warning                   "#f6c911")
       (ceiba-success                   "#1ea01e")
 
+      (ceiba-fl-comment                ceiba-deep-green)
+      (ceiba-fl-string                 ceiba-brown)
+      (ceiba-fl-keyword                ceiba-purple)
+      (ceiba-fl-builtin                ceiba-alt-blue)
+      (ceiba-fl-type                   ceiba-green-blue)
+      (ceiba-fl-function-name          ceiba-brown-wood)
+      (ceiba-fl-variable-name          ceiba-green)
+      (ceiba-fl-constant               ceiba-deep-orange)
+      (ceiba-fl-warning                ceiba-warning)
+      (ceiba-fl-punctuation            ceiba-green-forest)
+      (ceiba-fl-negation-char          ceiba-orange)
+
       (ceiba-diff-added                "#c8f0c8")
       (ceiba-diff-removed              "#f0c8c8")
       (ceiba-diff-refine-added         "#78f078")
@@ -119,17 +131,17 @@
    `(secondary-selection ((,ceiba-class (:background ,ceiba-brown-sand :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,ceiba-class (:foreground ,ceiba-deep-green :weight medium))))
-   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-brown :weight medium))))
-   `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-purple :weight medium))))
-   `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-alt-blue :weight medium))))
-   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-warning :weight bold))))
-   `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-green-blue :weight medium))))
-   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-deep-orange :weight medium))))
-   `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-brown-wood :weight medium))))
-   `(font-lock-punctuation-face ((,ceiba-class (:foreground ,ceiba-green-forest :weight medium))))
-   `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-green :weight medium))))
-   `(font-lock-negation-char-face ((,ceiba-class (:foreground ,ceiba-orange :weight medium))))
+   `(font-lock-comment-face ((,ceiba-class (:foreground ,ceiba-fl-comment :weight medium))))
+   `(font-lock-string-face ((,ceiba-class (:foreground ,ceiba-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,ceiba-class (:foreground ,ceiba-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,ceiba-class (:foreground ,ceiba-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,ceiba-class (:foreground ,ceiba-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,ceiba-class (:foreground ,ceiba-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,ceiba-class (:foreground ,ceiba-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,ceiba-class (:foreground ,ceiba-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,ceiba-class (:foreground ,ceiba-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,ceiba-class (:foreground ,ceiba-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,ceiba-class (:foreground ,ceiba-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

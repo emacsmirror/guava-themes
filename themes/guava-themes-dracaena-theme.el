@@ -74,6 +74,18 @@
       (dracaena-warning                   "#f6be14")
       (dracaena-success                   "#29d925")
 
+      (dracaena-fl-comment                dracaena-deep-green)
+      (dracaena-fl-string                 dracaena-snakeplant-yellow)
+      (dracaena-fl-keyword                dracaena-purple-pink)
+      (dracaena-fl-builtin                dracaena-red)
+      (dracaena-fl-type                   dracaena-guava-green)
+      (dracaena-fl-function-name          dracaena-light-orange)
+      (dracaena-fl-variable-name          dracaena-deep-purple)
+      (dracaena-fl-constant               dracaena-light-blue)
+      (dracaena-fl-warning                dracaena-warning)
+      (dracaena-fl-punctuation            dracaena-light-brown)
+      (dracaena-fl-negation-char          dracaena-orange)
+
       (dracaena-diff-added                "#5aa05a")
       (dracaena-diff-removed              "#a05a5a")
       (dracaena-diff-refine-added         "#007800")
@@ -120,17 +132,17 @@
    `(secondary-selection ((,dracaena-class (:background ,dracaena-dark-cyan :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,dracaena-class (:foreground ,dracaena-deep-green :weight medium))))
-   `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-snakeplant-yellow :weight medium))))
-   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-purple-pink :weight medium))))
-   `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-red :weight medium))))
-   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-warning :weight bold))))
-   `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-guava-green :weight medium))))
-   `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
-   `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
-   `(font-lock-punctuation-face ((,dracaena-class (:foreground ,dracaena-light-brown :weight medium))))
-   `(font-lock-variable-name-face ((,dracaena-class (:foreground ,dracaena-deep-purple :weight medium))))
-   `(font-lock-negation-char-face ((,dracaena-class (:foreground ,dracaena-orange :weight medium))))
+   `(font-lock-comment-face ((,dracaena-class (:foreground ,dracaena-fl-comment :weight medium))))
+   `(font-lock-string-face ((,dracaena-class (:foreground ,dracaena-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,dracaena-class (:foreground ,dracaena-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,dracaena-class (:foreground ,dracaena-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,dracaena-class (:foreground ,dracaena-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,dracaena-class (:foreground ,dracaena-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,dracaena-class (:foreground ,dracaena-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,dracaena-class (:foreground ,dracaena-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,dracaena-class (:foreground ,dracaena-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,dracaena-class (:foreground ,dracaena-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,dracaena-class (:foreground ,dracaena-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

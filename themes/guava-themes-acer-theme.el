@@ -69,6 +69,18 @@
       (acer-warning                   "#f0dc00")
       (acer-success                   "#28823c")
 
+      (acer-fl-comment                acer-deep-green)
+      (acer-fl-string                 acer-deep-orange)
+      (acer-fl-keyword                acer-deep-purple)
+      (acer-fl-builtin                acer-purple)
+      (acer-fl-type                   acer-green)
+      (acer-fl-function-name          acer-purple-red)
+      (acer-fl-variable-name          acer-orange-pink)
+      (acer-fl-constant               acer-green-cyan)
+      (acer-fl-warning                acer-warning)
+      (acer-fl-punctuation            acer-purple-pink)
+      (acer-fl-negation-char          acer-light-blue)
+
       (acer-diff-added                "#c8f0c8")
       (acer-diff-removed              "#f0c8c8")
       (acer-diff-refine-added         "#78f078")
@@ -115,17 +127,17 @@
    `(secondary-selection ((,acer-class (:background ,acer-orange :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,acer-class (:foreground ,acer-deep-green :weight medium))))
-   `(font-lock-string-face ((,acer-class (:foreground ,acer-deep-orange :weight medium))))
-   `(font-lock-keyword-face ((,acer-class (:foreground ,acer-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,acer-class (:foreground ,acer-purple :weight medium))))
-   `(font-lock-warning-face ((,acer-class (:foreground ,acer-warning :weight bold))))
-   `(font-lock-type-face ((,acer-class (:foreground ,acer-green :weight medium))))
-   `(font-lock-constant-face ((,acer-class (:foreground ,acer-green-cyan :weight medium))))
-   `(font-lock-function-name-face ((,acer-class (:foreground ,acer-purple-red :weight medium))))
-   `(font-lock-punctuation-face ((,acer-class (:foreground ,acer-purple-pink :weight medium))))
-   `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-orange-pink :weight medium))))
-   `(font-lock-negation-char-face ((,acer-class (:foreground ,acer-light-blue :weight medium))))
+   `(font-lock-comment-face ((,acer-class (:foreground ,acer-fl-comment :weight medium))))
+   `(font-lock-string-face ((,acer-class (:foreground ,acer-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,acer-class (:foreground ,acer-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,acer-class (:foreground ,acer-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,acer-class (:foreground ,acer-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,acer-class (:foreground ,acer-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,acer-class (:foreground ,acer-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,acer-class (:foreground ,acer-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,acer-class (:foreground ,acer-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,acer-class (:foreground ,acer-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,acer-class (:foreground ,acer-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

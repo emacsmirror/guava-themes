@@ -71,6 +71,18 @@
       (rhododendron-warning                   "#F68511")
       (rhododendron-success                   "#29b425")
 
+      (rhododendron-fl-comment                rhododendron-deep-green)
+      (rhododendron-fl-string                 rhododendron-purple-red)
+      (rhododendron-fl-keyword                rhododendron-bright-pink)
+      (rhododendron-fl-builtin                rhododendron-deep-blue)
+      (rhododendron-fl-type                   rhododendron-forest-green)
+      (rhododendron-fl-function-name          rhododendron-deep-pink)
+      (rhododendron-fl-variable-name          rhododendron-bright-orange)
+      (rhododendron-fl-constant               rhododendron-purple-blue)
+      (rhododendron-fl-warning                rhododendron-warning)
+      (rhododendron-fl-punctuation            rhododendron-red)
+      (rhododendron-fl-negation-char          rhododendron-red-orange)
+
       (rhododendron-diff-added                "#c8f0c8")
       (rhododendron-diff-removed              "#f0c8c8")
       (rhododendron-diff-refine-added         "#78f078")
@@ -117,17 +129,17 @@
    `(secondary-selection ((,rhododendron-class (:background ,rhododendron-light-green :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,rhododendron-class (:foreground ,rhododendron-deep-green :weight medium))))
-   `(font-lock-string-face ((,rhododendron-class (:foreground ,rhododendron-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,rhododendron-class (:foreground ,rhododendron-bright-pink :weight medium))))
-   `(font-lock-builtin-face ((,rhododendron-class (:foreground ,rhododendron-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-warning :weight bold))))
-   `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-forest-green :weight medium))))
-   `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight medium))))
-   `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-deep-pink :weight medium))))
-   `(font-lock-punctuation-face ((,rhododendron-class (:foreground ,rhododendron-red :weight medium))))
-   `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-bright-orange :weight medium))))
-   `(font-lock-negation-char-face ((,rhododendron-class (:foreground ,rhododendron-red-orange :weight medium))))
+   `(font-lock-comment-face ((,rhododendron-class (:foreground ,rhododendron-fl-comment :weight medium))))
+   `(font-lock-string-face ((,rhododendron-class (:foreground ,rhododendron-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,rhododendron-class (:foreground ,rhododendron-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,rhododendron-class (:foreground ,rhododendron-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,rhododendron-class (:foreground ,rhododendron-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,rhododendron-class (:foreground ,rhododendron-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,rhododendron-class (:foreground ,rhododendron-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,rhododendron-class (:foreground ,rhododendron-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,rhododendron-class (:foreground ,rhododendron-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,rhododendron-class (:foreground ,rhododendron-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,rhododendron-class (:foreground ,rhododendron-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

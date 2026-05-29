@@ -71,6 +71,18 @@
       (prunus-warning                   "#f6d911")
       (prunus-success                   "#23D734")
 
+      (prunus-fl-comment                prunus-green-forest)
+      (prunus-fl-string                 prunus-purple-red)
+      (prunus-fl-keyword                prunus-light-brown)
+      (prunus-fl-builtin                prunus-pink)
+      (prunus-fl-type                   prunus-alt-light-brown)
+      (prunus-fl-function-name          prunus-red)
+      (prunus-fl-variable-name          prunus-green-subdued)
+      (prunus-fl-constant               prunus-purple)
+      (prunus-fl-warning                prunus-warning)
+      (prunus-fl-punctuation            prunus-oxidized-green)
+      (prunus-fl-negation-char          prunus-deep-red)
+
       (prunus-diff-added                "#5aa05a")
       (prunus-diff-removed              "#a05a5a")
       (prunus-diff-refine-added         "#007800")
@@ -117,17 +129,17 @@
    `(secondary-selection ((,prunus-class (:background ,prunus-alt-brown :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,prunus-class (:foreground ,prunus-green-forest :weight medium))))
-   `(font-lock-string-face ((,prunus-class (:foreground ,prunus-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-light-brown :weight medium))))
-   `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-pink :weight medium))))
-   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-warning :weight bold))))
-   `(font-lock-type-face ((,prunus-class (:foreground ,prunus-alt-light-brown :weight medium))))
-   `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-purple :weight medium))))
-   `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-red :weight medium))))
-   `(font-lock-punctuation-face ((,prunus-class (:foreground ,prunus-oxidized-green :weight medium))))
-   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-green-subdued :weight medium))))
-   `(font-lock-negation-char-face ((,prunus-class (:foreground ,prunus-deep-red :weight medium))))
+   `(font-lock-comment-face ((,prunus-class (:foreground ,prunus-fl-comment :weight medium))))
+   `(font-lock-string-face ((,prunus-class (:foreground ,prunus-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,prunus-class (:foreground ,prunus-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,prunus-class (:foreground ,prunus-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,prunus-class (:foreground ,prunus-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,prunus-class (:foreground ,prunus-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,prunus-class (:foreground ,prunus-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,prunus-class (:foreground ,prunus-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,prunus-class (:foreground ,prunus-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,prunus-class (:foreground ,prunus-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,prunus-class (:foreground ,prunus-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

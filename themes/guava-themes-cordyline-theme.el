@@ -50,8 +50,7 @@
       (cordyline-cyan                      "#00ffff")
       (cordyline-dark-cyan                 "#007896")
 
-      (cordyline-light-green               "#c5ff6e")
-      (cordyline-alt-light-green           "#afd2b9")
+      (cordyline-light-green               "#afd2b9")
       (cordyline-green                     "#005f55")
 
       (cordyline-light-purple              "#a25ad1")
@@ -70,6 +69,18 @@
       (cordyline-error                     "#FF0000")
       (cordyline-warning                   "#f6d909")
       (cordyline-success                   "#23a334")
+
+      (cordyline-fl-comment                cordyline-light-blue)
+      (cordyline-fl-string                 cordyline-pink-red)
+      (cordyline-fl-keyword                cordyline-purple)
+      (cordyline-fl-builtin                cordyline-purple-red)
+      (cordyline-fl-type                   cordyline-light-purple)
+      (cordyline-fl-function-name          cordyline-pink-purple)
+      (cordyline-fl-variable-name          cordyline-blue)
+      (cordyline-fl-constant               cordyline-dark-cyan)
+      (cordyline-fl-warning                cordyline-warning)
+      (cordyline-fl-punctuation            cordyline-light-green)
+      (cordyline-fl-negation-char          cordyline-orange-red)
 
       (cordyline-diff-added                "#5aa05a")
       (cordyline-diff-removed              "#a05a5a")
@@ -117,17 +128,17 @@
    `(secondary-selection ((,cordyline-class (:background ,cordyline-green :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,cordyline-class (:foreground ,cordyline-light-blue :weight medium))))
-   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-pink-red :weight medium))))
-   `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-purple :weight medium))))
-   `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-purple-red :weight medium))))
-   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-warning :weight bold))))
-   `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-light-purple :weight medium))))
-   `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-dark-cyan :weight medium))))
-   `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-pink-purple :weight medium))))
-   `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-alt-light-green :weight medium))))
-   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-blue :weight medium))))
-   `(font-lock-negation-char-face ((,cordyline-class (:foreground ,cordyline-orange-red :weight medium))))
+   `(font-lock-comment-face ((,cordyline-class (:foreground ,cordyline-fl-comment :weight medium))))
+   `(font-lock-string-face ((,cordyline-class (:foreground ,cordyline-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,cordyline-class (:foreground ,cordyline-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,cordyline-class (:foreground ,cordyline-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,cordyline-class (:foreground ,cordyline-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,cordyline-class (:foreground ,cordyline-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,cordyline-class (:foreground ,cordyline-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,cordyline-class (:foreground ,cordyline-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,cordyline-class (:foreground ,cordyline-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,cordyline-class (:foreground ,cordyline-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,cordyline-class (:foreground ,cordyline-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
@@ -136,7 +147,7 @@
    `(cursor ((,cordyline-class (:foreground ,cordyline-fg :background ,cordyline-pink-red))))
 
    ;; fringe
-   `(fringe ((,cordyline-class (:foreground ,cordyline-light-green :background ,cordyline-bg))))
+   `(fringe ((,cordyline-class (:foreground ,cordyline-cyan :background ,cordyline-bg))))
    `(diff-hl-change ((,cordyline-class (:foreground ,cordyline-vc-change :background ,cordyline-vc-change))))
    `(diff-hl-insert ((,cordyline-class (:foreground ,cordyline-vc-insert :background ,cordyline-vc-insert))))
    `(diff-hl-delete ((,cordyline-class (:foreground ,cordyline-vc-delete :background ,cordyline-vc-delete))))

@@ -70,6 +70,18 @@
       (pyrus-warning                   "#ffd200")
       (pyrus-success                   "#228B22")
 
+      (pyrus-fl-comment                pyrus-light-green)
+      (pyrus-fl-string                 pyrus-deep-orange)
+      (pyrus-fl-keyword                pyrus-green-subdued)
+      (pyrus-fl-builtin                pyrus-deep-blue)
+      (pyrus-fl-type                   pyrus-green)
+      (pyrus-fl-function-name          pyrus-red-pink)
+      (pyrus-fl-variable-name          pyrus-orange-pink)
+      (pyrus-fl-constant               pyrus-light-purple)
+      (pyrus-fl-warning                pyrus-warning)
+      (pyrus-fl-punctuation            pyrus-deep-magenta)
+      (pyrus-fl-negation-char          pyrus-orange-subdued)
+
       (pyrus-diff-added                "#c8f0c8")
       (pyrus-diff-removed              "#f0c8c8")
       (pyrus-diff-refine-added         "#78f078")
@@ -116,17 +128,17 @@
    `(secondary-selection ((,pyrus-class (:background ,pyrus-yellow-green :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,pyrus-class (:foreground ,pyrus-light-green :weight medium))))
-   `(font-lock-string-face ((,pyrus-class (:foreground ,pyrus-deep-orange :weight medium))))
-   `(font-lock-keyword-face ((,pyrus-class (:foreground ,pyrus-green-subdued :weight medium))))
-   `(font-lock-builtin-face ((,pyrus-class (:foreground ,pyrus-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,pyrus-class (:foreground ,pyrus-warning :weight bold))))
-   `(font-lock-type-face ((,pyrus-class (:foreground ,pyrus-green :weight medium))))
-   `(font-lock-constant-face ((,pyrus-class (:foreground ,pyrus-light-purple :weight medium))))
-   `(font-lock-function-name-face ((,pyrus-class (:foreground ,pyrus-red-pink :weight medium))))
-   `(font-lock-punctuation-face ((,pyrus-class (:foreground ,pyrus-deep-magenta :weight medium))))
-   `(font-lock-variable-name-face ((,pyrus-class (:foreground ,pyrus-orange-pink :weight medium))))
-   `(font-lock-negation-char-face ((,pyrus-class (:foreground ,pyrus-orange-subdued :weight medium))))
+   `(font-lock-comment-face ((,pyrus-class (:foreground ,pyrus-fl-comment :weight medium))))
+   `(font-lock-string-face ((,pyrus-class (:foreground ,pyrus-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,pyrus-class (:foreground ,pyrus-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,pyrus-class (:foreground ,pyrus-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,pyrus-class (:foreground ,pyrus-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,pyrus-class (:foreground ,pyrus-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,pyrus-class (:foreground ,pyrus-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,pyrus-class (:foreground ,pyrus-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,pyrus-class (:foreground ,pyrus-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,pyrus-class (:foreground ,pyrus-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,pyrus-class (:foreground ,pyrus-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

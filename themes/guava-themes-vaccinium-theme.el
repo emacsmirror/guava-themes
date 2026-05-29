@@ -71,6 +71,18 @@
       (vaccinium-warning                   "#f6d909")
       (vaccinium-success                   "#1ebe1e")
 
+      (vaccinium-fl-comment                vaccinium-green-forest)
+      (vaccinium-fl-string                 vaccinium-orange)
+      (vaccinium-fl-keyword                vaccinium-light-green)
+      (vaccinium-fl-builtin                vaccinium-steel-blue)
+      (vaccinium-fl-type                   vaccinium-purple)
+      (vaccinium-fl-function-name          vaccinium-blue)
+      (vaccinium-fl-variable-name          vaccinium-red)
+      (vaccinium-fl-constant               vaccinium-pink)
+      (vaccinium-fl-warning                vaccinium-warning)
+      (vaccinium-fl-punctuation            vaccinium-light-purple)
+      (vaccinium-fl-negation-char          vaccinium-purple-pink)
+
       (vaccinium-diff-added                "#5aa05a")
       (vaccinium-diff-removed              "#a05a5a")
       (vaccinium-diff-refine-added         "#007800")
@@ -117,17 +129,17 @@
    `(secondary-selection ((,vaccinium-class (:background ,vaccinium-alt-blueberry :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,vaccinium-class (:foreground ,vaccinium-green-forest :weight medium))))
-   `(font-lock-string-face ((,vaccinium-class (:foreground ,vaccinium-orange :weight medium))))
-   `(font-lock-keyword-face ((,vaccinium-class (:foreground ,vaccinium-light-green :weight medium))))
-   `(font-lock-builtin-face ((,vaccinium-class (:foreground ,vaccinium-steel-blue :weight medium))))
-   `(font-lock-warning-face ((,vaccinium-class (:foreground ,vaccinium-warning :weight bold))))
-   `(font-lock-type-face ((,vaccinium-class (:foreground ,vaccinium-purple :weight medium))))
-   `(font-lock-constant-face ((,vaccinium-class (:foreground ,vaccinium-pink :weight medium))))
-   `(font-lock-function-name-face ((,vaccinium-class (:foreground ,vaccinium-blue :weight medium))))
-   `(font-lock-punctuation-face ((,vaccinium-class (:foreground ,vaccinium-light-purple :weight medium))))
-   `(font-lock-variable-name-face ((,vaccinium-class (:foreground ,vaccinium-red :weight medium))))
-   `(font-lock-negation-char-face ((,vaccinium-class (:foreground ,vaccinium-purple-pink :weight medium))))
+   `(font-lock-comment-face ((,vaccinium-class (:foreground ,vaccinium-fl-comment :weight medium))))
+   `(font-lock-string-face ((,vaccinium-class (:foreground ,vaccinium-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,vaccinium-class (:foreground ,vaccinium-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,vaccinium-class (:foreground ,vaccinium-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,vaccinium-class (:foreground ,vaccinium-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,vaccinium-class (:foreground ,vaccinium-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,vaccinium-class (:foreground ,vaccinium-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,vaccinium-class (:foreground ,vaccinium-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,vaccinium-class (:foreground ,vaccinium-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,vaccinium-class (:foreground ,vaccinium-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,vaccinium-class (:foreground ,vaccinium-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

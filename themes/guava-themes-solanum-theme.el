@@ -70,6 +70,18 @@
       (solanum-warning                   "#f6d909")
       (solanum-success                   "#23a334")
 
+      (solanum-fl-comment                solanum-red-tomato)
+      (solanum-fl-string                 solanum-yellow-potato)
+      (solanum-fl-keyword                solanum-deep-green)
+      (solanum-fl-builtin                solanum-light-blue)
+      (solanum-fl-type                   solanum-orange)
+      (solanum-fl-function-name          solanum-purple)
+      (solanum-fl-variable-name          solanum-light-green)
+      (solanum-fl-constant               solanum-light-purple)
+      (solanum-fl-warning                solanum-warning)
+      (solanum-fl-punctuation            solanum-purple-pink)
+      (solanum-fl-negation-char          solanum-alt-light-green)
+
       (solanum-diff-added                "#5aa05a")
       (solanum-diff-removed              "#a05a5a")
       (solanum-diff-refine-added         "#007800")
@@ -116,17 +128,17 @@
    `(secondary-selection ((,solanum-class (:background ,solanum-green :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,solanum-class (:foreground ,solanum-red-tomato :weight medium))))
-   `(font-lock-string-face ((,solanum-class (:foreground ,solanum-yellow-potato :weight medium))))
-   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-deep-green :weight medium))))
-   `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-light-blue :weight medium))))
-   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-warning :weight bold))))
-   `(font-lock-type-face ((,solanum-class (:foreground ,solanum-orange :weight medium))))
-   `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-light-purple :weight medium))))
-   `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-purple :weight medium))))
-   `(font-lock-punctuation-face ((,solanum-class (:foreground ,solanum-purple-pink :weight medium))))
-   `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-light-green :weight medium))))
-   `(font-lock-negation-char-face ((,solanum-class (:foreground ,solanum-alt-light-green :weight medium))))
+   `(font-lock-comment-face ((,solanum-class (:foreground ,solanum-fl-comment :weight medium))))
+   `(font-lock-string-face ((,solanum-class (:foreground ,solanum-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,solanum-class (:foreground ,solanum-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,solanum-class (:foreground ,solanum-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,solanum-class (:foreground ,solanum-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,solanum-class (:foreground ,solanum-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,solanum-class (:foreground ,solanum-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,solanum-class (:foreground ,solanum-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,solanum-class (:foreground ,solanum-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,solanum-class (:foreground ,solanum-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,solanum-class (:foreground ,solanum-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

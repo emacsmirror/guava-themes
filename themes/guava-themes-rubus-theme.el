@@ -71,6 +71,18 @@
       (rubus-warning                   "#f6d909")
       (rubus-success                   "#1ebe1e")
 
+      (rubus-fl-comment                rubus-green-forest)
+      (rubus-fl-string                 rubus-orange)
+      (rubus-fl-keyword                rubus-red)
+      (rubus-fl-builtin                rubus-pink-cream)
+      (rubus-fl-type                   rubus-blue-subdued)
+      (rubus-fl-function-name          rubus-purple-pink)
+      (rubus-fl-variable-name          rubus-yellow)
+      (rubus-fl-constant               rubus-purple)
+      (rubus-fl-warning                rubus-warning)
+      (rubus-fl-punctuation            rubus-light-purple)
+      (rubus-fl-negation-char          rubus-green-blue)
+
       (rubus-diff-added                "#5aa05a")
       (rubus-diff-removed              "#a05a5a")
       (rubus-diff-refine-added         "#007800")
@@ -117,17 +129,17 @@
    `(secondary-selection ((,rubus-class (:background ,rubus-alt-raspberry :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,rubus-class (:foreground ,rubus-green-forest :weight medium))))
-   `(font-lock-string-face ((,rubus-class (:foreground ,rubus-orange :weight medium))))
-   `(font-lock-keyword-face ((,rubus-class (:foreground ,rubus-red :weight medium))))
-   `(font-lock-builtin-face ((,rubus-class (:foreground ,rubus-pink-cream :weight medium))))
-   `(font-lock-warning-face ((,rubus-class (:foreground ,rubus-warning :weight bold))))
-   `(font-lock-type-face ((,rubus-class (:foreground ,rubus-blue-subdued :weight medium))))
-   `(font-lock-constant-face ((,rubus-class (:foreground ,rubus-purple :weight medium))))
-   `(font-lock-function-name-face ((,rubus-class (:foreground ,rubus-purple-pink :weight medium))))
-   `(font-lock-punctuation-face ((,rubus-class (:foreground ,rubus-light-purple :weight medium))))
-   `(font-lock-variable-name-face ((,rubus-class (:foreground ,rubus-yellow :weight medium))))
-   `(font-lock-negation-char-face ((,rubus-class (:foreground ,rubus-green-blue :weight medium))))
+   `(font-lock-comment-face ((,rubus-class (:foreground ,rubus-fl-comment :weight medium))))
+   `(font-lock-string-face ((,rubus-class (:foreground ,rubus-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,rubus-class (:foreground ,rubus-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,rubus-class (:foreground ,rubus-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,rubus-class (:foreground ,rubus-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,rubus-class (:foreground ,rubus-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,rubus-class (:foreground ,rubus-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,rubus-class (:foreground ,rubus-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,rubus-class (:foreground ,rubus-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,rubus-class (:foreground ,rubus-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,rubus-class (:foreground ,rubus-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

@@ -66,6 +66,18 @@
       (psidium-warning                   "#d6c800")
       (psidium-success                   "#228B22")
 
+      (psidium-fl-comment                psidium-green)
+      (psidium-fl-string                 psidium-brown)
+      (psidium-fl-keyword                psidium-red)
+      (psidium-fl-builtin                psidium-deep-blue)
+      (psidium-fl-type                   psidium-deep-green)
+      (psidium-fl-function-name          psidium-light-green)
+      (psidium-fl-variable-name          psidium-purple)
+      (psidium-fl-constant               psidium-blue)
+      (psidium-fl-warning                psidium-warning)
+      (psidium-fl-punctuation            psidium-red-orange)
+      (psidium-fl-negation-char          psidium-pink)
+
       (psidium-diff-added                "#c8f0c8")
       (psidium-diff-removed              "#f0c8c8")
       (psidium-diff-refine-added         "#78f078")
@@ -112,17 +124,17 @@
    `(secondary-selection ((,psidium-class (:background ,psidium-light-purple :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,psidium-class (:foreground ,psidium-green :weight medium))))
-   `(font-lock-string-face ((,psidium-class (:foreground ,psidium-brown :weight medium))))
-   `(font-lock-keyword-face ((,psidium-class (:foreground ,psidium-red :weight medium))))
-   `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-warning :weight bold))))
-   `(font-lock-type-face ((,psidium-class (:foreground ,psidium-deep-green :weight medium))))
-   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-blue :weight medium))))
-   `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-light-green :weight medium))))
-   `(font-lock-punctuation-face ((,psidium-class (:foreground ,psidium-red-orange :weight medium))))
-   `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-purple :weight medium))))
-   `(font-lock-negation-char-face ((,psidium-class (:foreground ,psidium-pink :weight medium))))
+   `(font-lock-comment-face ((,psidium-class (:foreground ,psidium-fl-comment :weight medium))))
+   `(font-lock-string-face ((,psidium-class (:foreground ,psidium-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,psidium-class (:foreground ,psidium-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,psidium-class (:foreground ,psidium-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,psidium-class (:foreground ,psidium-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,psidium-class (:foreground ,psidium-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,psidium-class (:foreground ,psidium-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,psidium-class (:foreground ,psidium-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,psidium-class (:foreground ,psidium-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,psidium-class (:foreground ,psidium-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,psidium-class (:foreground ,psidium-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

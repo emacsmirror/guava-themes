@@ -67,6 +67,18 @@
       (petunia-warning                   "#ffff00")
       (petunia-success                   "#00ff00")
 
+      (petunia-fl-comment                petunia-light-green)
+      (petunia-fl-string                 petunia-orange)
+      (petunia-fl-keyword                petunia-purple)
+      (petunia-fl-builtin                petunia-light-blue)
+      (petunia-fl-type                   petunia-yellow)
+      (petunia-fl-function-name          petunia-red)
+      (petunia-fl-variable-name          petunia-pink)
+      (petunia-fl-constant               petunia-green-forest)
+      (petunia-fl-warning                petunia-warning)
+      (petunia-fl-punctuation            petunia-light-purple)
+      (petunia-fl-negation-char          petunia-light-orange)
+
       (petunia-diff-added                "#5aa05a")
       (petunia-diff-removed              "#a05a5a")
       (petunia-diff-refine-added         "#007800")
@@ -113,17 +125,17 @@
    `(secondary-selection ((,petunia-class (:background ,petunia-alt-light-blue :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,petunia-class (:foreground ,petunia-light-green :weight medium))))
-   `(font-lock-string-face ((,petunia-class (:foreground ,petunia-orange :weight medium))))
-   `(font-lock-keyword-face ((,petunia-class (:foreground ,petunia-purple :weight medium))))
-   `(font-lock-builtin-face ((,petunia-class (:foreground ,petunia-light-blue :weight medium))))
-   `(font-lock-warning-face ((,petunia-class (:foreground ,petunia-warning :weight bold))))
-   `(font-lock-type-face ((,petunia-class (:foreground ,petunia-yellow :weight medium))))
-   `(font-lock-constant-face ((,petunia-class (:foreground ,petunia-green-forest :weight medium))))
-   `(font-lock-function-name-face ((,petunia-class (:foreground ,petunia-red :weight medium))))
-   `(font-lock-punctuation-face ((,petunia-class (:foreground ,petunia-light-purple :weight medium))))
-   `(font-lock-variable-name-face ((,petunia-class (:foreground ,petunia-pink :weight medium))))
-   `(font-lock-negation-char-face ((,petunia-class (:foreground ,petunia-light-orange :weight medium))))
+   `(font-lock-comment-face ((,petunia-class (:foreground ,petunia-fl-comment :weight medium))))
+   `(font-lock-string-face ((,petunia-class (:foreground ,petunia-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,petunia-class (:foreground ,petunia-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,petunia-class (:foreground ,petunia-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,petunia-class (:foreground ,petunia-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,petunia-class (:foreground ,petunia-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,petunia-class (:foreground ,petunia-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,petunia-class (:foreground ,petunia-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,petunia-class (:foreground ,petunia-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,petunia-class (:foreground ,petunia-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,petunia-class (:foreground ,petunia-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

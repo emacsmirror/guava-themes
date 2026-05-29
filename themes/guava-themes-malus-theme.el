@@ -49,7 +49,7 @@
 
       (malus-red-sweetango             "#cd5a5f")
       (malus-alt-red-sweetango         "#7d5a5f")
-      (malus-deep-red                  "#ab3227")
+      (malus-deep-red                  "#a03227")
 
       (malus-light-blue                "#50bebe")
       (malus-blue                      "#4548e3")
@@ -67,6 +67,18 @@
       (malus-error                     "#d70000")
       (malus-warning                   "#f6d911")
       (malus-success                   "#23d723")
+
+      (malus-fl-comment                malus-green-granny)
+      (malus-fl-string                 malus-red-sweetango)
+      (malus-fl-keyword                malus-green-forest)
+      (malus-fl-builtin                malus-light-blue)
+      (malus-fl-type                   malus-blue-subdued)
+      (malus-fl-function-name          malus-deep-red)
+      (malus-fl-variable-name          malus-yellow-subdued)
+      (malus-fl-constant               malus-purple)
+      (malus-fl-warning                malus-warning)
+      (malus-fl-punctuation            malus-brown)
+      (malus-fl-negation-char          malus-oceanic-blue)
 
       (malus-diff-added                "#5aa05a")
       (malus-diff-removed              "#a05a5a")
@@ -114,17 +126,17 @@
    `(secondary-selection ((,malus-class (:background ,malus-alt-green-subdued :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,malus-class (:foreground ,malus-green-granny :weight medium))))
-   `(font-lock-string-face ((,malus-class (:foreground ,malus-red-sweetango :weight medium))))
-   `(font-lock-keyword-face ((,malus-class (:foreground ,malus-blue-subdued :weight medium))))
-   `(font-lock-builtin-face ((,malus-class (:foreground ,malus-light-blue :weight medium))))
-   `(font-lock-warning-face ((,malus-class (:foreground ,malus-warning :weight bold))))
-   `(font-lock-type-face ((,malus-class (:foreground ,malus-green-forest :weight medium))))
-   `(font-lock-constant-face ((,malus-class (:foreground ,malus-purple :weight medium))))
-   `(font-lock-function-name-face ((,malus-class (:foreground ,malus-deep-red :weight medium))))
-   `(font-lock-punctuation-face ((,malus-class (:foreground ,malus-brown :weight medium))))
-   `(font-lock-variable-name-face ((,malus-class (:foreground ,malus-yellow-subdued :weight medium))))
-   `(font-lock-negation-char-face ((,malus-class (:foreground ,malus-oceanic-blue :weight medium))))
+   `(font-lock-comment-face ((,malus-class (:foreground ,malus-fl-comment :weight medium))))
+   `(font-lock-string-face ((,malus-class (:foreground ,malus-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,malus-class (:foreground ,malus-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,malus-class (:foreground ,malus-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,malus-class (:foreground ,malus-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,malus-class (:foreground ,malus-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,malus-class (:foreground ,malus-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,malus-class (:foreground ,malus-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,malus-class (:foreground ,malus-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,malus-class (:foreground ,malus-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,malus-class (:foreground ,malus-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors

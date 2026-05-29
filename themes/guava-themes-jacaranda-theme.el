@@ -68,6 +68,18 @@
       (jacaranda-warning                   "#ebb515")
       (jacaranda-success                   "#00c200")
 
+      (jacaranda-fl-comment                jacaranda-deep-green)
+      (jacaranda-fl-string                 jacaranda-purple-red)
+      (jacaranda-fl-keyword                jacaranda-deep-purple)
+      (jacaranda-fl-builtin                jacaranda-deep-blue)
+      (jacaranda-fl-type                   jacaranda-oceanic-green)
+      (jacaranda-fl-function-name          jacaranda-blue)
+      (jacaranda-fl-variable-name          jacaranda-light-cyan)
+      (jacaranda-fl-constant               jacaranda-cyan)
+      (jacaranda-fl-warning                jacaranda-warning)
+      (jacaranda-fl-punctuation            jacaranda-brown)
+      (jacaranda-fl-negation-char          jacaranda-red)
+
       (jacaranda-diff-added                "#c8f0c8")
       (jacaranda-diff-removed              "#f0c8c8")
       (jacaranda-diff-refine-added         "#78f078")
@@ -114,17 +126,17 @@
    `(secondary-selection ((,jacaranda-class (:background ,jacaranda-orange :extend t))))
 
    ;; font-lock
-   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-deep-green :weight medium))))
-   `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-purple-red :weight medium))))
-   `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-deep-purple :weight medium))))
-   `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-deep-blue :weight medium))))
-   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-warning :weight bold))))
-   `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-oceanic-green :weight medium))))
-   `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-cyan :weight medium))))
-   `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-blue :weight medium))))
-   `(font-lock-punctuation-face ((,jacaranda-class (:foreground ,jacaranda-brown :weight medium))))
-   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-light-cyan :weight medium))))
-   `(font-lock-negation-char-face ((,jacaranda-class (:foreground ,jacaranda-red :weight medium))))
+   `(font-lock-comment-face ((,jacaranda-class (:foreground ,jacaranda-fl-comment :weight medium))))
+   `(font-lock-string-face ((,jacaranda-class (:foreground ,jacaranda-fl-string :weight medium))))
+   `(font-lock-keyword-face ((,jacaranda-class (:foreground ,jacaranda-fl-keyword :weight medium))))
+   `(font-lock-builtin-face ((,jacaranda-class (:foreground ,jacaranda-fl-builtin :weight medium))))
+   `(font-lock-type-face ((,jacaranda-class (:foreground ,jacaranda-fl-type :weight medium))))
+   `(font-lock-function-name-face ((,jacaranda-class (:foreground ,jacaranda-fl-function-name :weight medium))))
+   `(font-lock-variable-name-face ((,jacaranda-class (:foreground ,jacaranda-fl-variable-name :weight medium))))
+   `(font-lock-constant-face ((,jacaranda-class (:foreground ,jacaranda-fl-constant :weight medium))))
+   `(font-lock-warning-face ((,jacaranda-class (:foreground ,jacaranda-fl-warning :weight bold))))
+   `(font-lock-punctuation-face ((,jacaranda-class (:foreground ,jacaranda-fl-punctuation :weight medium))))
+   `(font-lock-negation-char-face ((,jacaranda-class (:foreground ,jacaranda-fl-negation-char :weight medium))))
 
    ;; built-in faces
    ;; with non-unique colors
