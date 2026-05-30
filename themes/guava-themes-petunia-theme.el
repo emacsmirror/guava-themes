@@ -181,7 +181,7 @@
    `(tab-line-tab-current ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green :inherit tab-line-tab))))
-   `(tab-line-tab-modified ((,petunia-class (:foreground ,petunia-orange :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,petunia-class (:foreground ,petunia-light-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,petunia-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
