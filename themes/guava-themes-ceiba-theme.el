@@ -73,6 +73,9 @@
       (ceiba-warning                   "#f6c911")
       (ceiba-success                   "#1ea01e")
 
+      (ceiba-mode-line                 "#5b6452")
+      (ceiba-mode-line-inactive        "#798585")
+
       (ceiba-fl-comment                ceiba-deep-green)
       (ceiba-fl-string                 ceiba-brown)
       (ceiba-fl-keyword                ceiba-purple)
@@ -162,15 +165,15 @@
    `(line-number-major-tick ((,ceiba-class (:background ,ceiba-brown-sand :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green))))
-   `(mode-line-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :inherit mode-line))))
+   `(mode-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-mode-line))))
+   `(mode-line-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-steel-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,ceiba-class (:foreground ,ceiba-black))))
 
    ;; borders
-   `(vertical-border ((,ceiba-class (:foreground ,ceiba-green))))
+   `(vertical-border ((,ceiba-class (:foreground ,ceiba-mode-line))))
 
    ;; header-line
    `(header-line ((,ceiba-class (:inherit mode-line))))
@@ -178,13 +181,13 @@
 
    ;; tab-bar
    `(tab-bar ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 1.0))))
-   `(tab-bar-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :inherit tab-bar))))
+   `(tab-bar-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :weight bold :height 0.9))))
-   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-gray-blue :inherit tab-line))))
-   `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-green :inherit tab-line-tab))))
+   `(tab-line-tab ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-brown-sand :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-light-brown :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,ceiba-class (:foreground ,ceiba-purple-red :weight bold :height 0.9))))
@@ -259,9 +262,9 @@
    `(org-meta-line ((,ceiba-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,ceiba-class (:foreground ,ceiba-gray-blue))))
-   `(window-divider-first-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
-   `(window-divider-last-pixel ((,ceiba-class (:foreground ,ceiba-gray-blue))))
+   `(window-divider ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
+   `(window-divider-first-pixel ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
+   `(window-divider-last-pixel ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-2))))

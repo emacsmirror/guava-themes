@@ -71,6 +71,9 @@
       (vaccinium-warning                   "#f6d909")
       (vaccinium-success                   "#1ebe1e")
 
+      (vaccinium-mode-line                 "#5582d7")
+      (vaccinium-mode-line-inactive        "#3755a0")
+
       (vaccinium-fl-comment                vaccinium-green-forest)
       (vaccinium-fl-string                 vaccinium-orange)
       (vaccinium-fl-keyword                vaccinium-light-green)
@@ -160,15 +163,15 @@
    `(line-number-major-tick ((,vaccinium-class (:background ,vaccinium-deep-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry))))
-   `(mode-line-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-blueberry :inherit mode-line))))
+   `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line))))
+   `(mode-line-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orange))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
 
    ;; borders
-   `(vertical-border ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
+   `(vertical-border ((,vaccinium-class (:foreground ,vaccinium-mode-line))))
 
    ;; header-line
    `(header-line ((,vaccinium-class (:inherit mode-line))))
@@ -176,13 +179,13 @@
 
    ;; tab-bar
    `(tab-bar ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 1.0))))
-   `(tab-bar-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry :inherit tab-bar))))
+   `(tab-bar-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 0.9))))
-   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-blueberry :inherit tab-line))))
-   `(tab-line-tab-current ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-blueberry :inherit tab-line-tab))))
+   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-steel-blue :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,vaccinium-class (:foreground ,vaccinium-orange :weight bold :height 0.9))))
@@ -257,9 +260,9 @@
    `(org-meta-line ((,vaccinium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
-   `(window-divider-first-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
-   `(window-divider-last-pixel ((,vaccinium-class (:foreground ,vaccinium-alt-blueberry))))
+   `(window-divider ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
+   `(window-divider-first-pixel ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
+   `(window-divider-last-pixel ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-2))))

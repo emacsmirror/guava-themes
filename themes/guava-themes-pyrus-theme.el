@@ -44,7 +44,6 @@
       (pyrus-light-green               "#97ad24")
       (pyrus-green                     "#228b22")
       (pyrus-green-subdued             "#316355")
-      (pyrus-deep-green                "#295323")
 
       (pyrus-deep-orange               "#eb4b37")
       (pyrus-orange-subdued            "#c06747")
@@ -69,6 +68,9 @@
       (pyrus-error                     "#ff0000")
       (pyrus-warning                   "#ffd200")
       (pyrus-success                   "#228B22")
+
+      (pyrus-mode-line                 "#295323")
+      (pyrus-mode-line-inactive        "#97ad24")
 
       (pyrus-fl-comment                pyrus-light-green)
       (pyrus-fl-string                 pyrus-deep-orange)
@@ -159,15 +161,15 @@
    `(line-number-major-tick ((,pyrus-class (:background ,pyrus-orange-pink :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green))))
-   `(mode-line-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green :inherit mode-line))))
+   `(mode-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line))))
+   `(mode-line-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,pyrus-class (:foreground ,pyrus-deep-orange))))
 
    ;; borders
-   `(vertical-border ((,pyrus-class (:foreground ,pyrus-deep-green))))
+   `(vertical-border ((,pyrus-class (:foreground ,pyrus-mode-line))))
 
    ;; header-line
    `(header-line ((,pyrus-class (:inherit mode-line))))
@@ -175,13 +177,13 @@
 
    ;; tab-bar
    `(tab-bar ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 1.0))))
-   `(tab-bar-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :inherit tab-bar))))
+   `(tab-bar-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :weight bold :height 0.9))))
-   `(tab-line-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green :inherit tab-line))))
-   `(tab-line-tab-current ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-green :inherit tab-line-tab))))
+   `(tab-line-tab ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-green-subdued :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,pyrus-class (:foreground ,pyrus-orange-pink :weight bold :height 0.9))))
@@ -256,9 +258,9 @@
    `(org-meta-line ((,pyrus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,pyrus-class (:foreground ,pyrus-light-green))))
-   `(window-divider-first-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
-   `(window-divider-last-pixel ((,pyrus-class (:foreground ,pyrus-light-green))))
+   `(window-divider ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
+   `(window-divider-first-pixel ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
+   `(window-divider-last-pixel ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-2))))

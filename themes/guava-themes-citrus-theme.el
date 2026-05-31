@@ -71,6 +71,9 @@
       (citrus-warning                   "#ffbe00")
       (citrus-success                   "#2bdc26")
 
+      (citrus-mode-line                 "#589337")
+      (citrus-mode-line-inactive        "#197d5a")
+
       (citrus-fl-comment                citrus-green-blue)
       (citrus-fl-string                 citrus-light-green)
       (citrus-fl-keyword                citrus-red)
@@ -160,15 +163,15 @@
    `(line-number-major-tick ((,citrus-class (:background ,citrus-light-blue :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-lime))))
-   `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-blue :inherit mode-line))))
+   `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-mode-line))))
+   `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,citrus-class (:foreground ,citrus-black))))
 
    ;; borders
-   `(vertical-border ((,citrus-class (:foreground ,citrus-green-lime))))
+   `(vertical-border ((,citrus-class (:foreground ,citrus-mode-line))))
 
    ;; header-line
    `(header-line ((,citrus-class (:background ,citrus-orange-red :inherit mode-line))))

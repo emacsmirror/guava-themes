@@ -66,6 +66,9 @@
       (psidium-warning                   "#d6c800")
       (psidium-success                   "#228B22")
 
+      (psidium-mode-line                 "#F8767C")
+      (psidium-mode-line-inactive        "#599b48")
+
       (psidium-fl-comment                psidium-green)
       (psidium-fl-string                 psidium-brown)
       (psidium-fl-keyword                psidium-red)
@@ -155,15 +158,15 @@
    `(line-number-major-tick ((,psidium-class (:background ,psidium-light-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
-   `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :inherit mode-line))))
+   `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line))))
+   `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,psidium-class (:foreground ,psidium-white :background ,psidium-deep-green))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))
 
    ;; borders
-   `(vertical-border ((,psidium-class (:foreground ,psidium-pink))))
+   `(vertical-border ((,psidium-class (:foreground ,psidium-mode-line))))
 
    ;; header-line
    `(header-line ((,psidium-class (:inherit mode-line))))
@@ -171,13 +174,13 @@
 
    ;; tab-bar
    `(tab-bar ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 1.0))))
-   `(tab-bar-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :inherit tab-bar))))
+   `(tab-bar-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :weight bold :height 0.9))))
-   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-green :inherit tab-line))))
-   `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink :inherit tab-line-tab))))
+   `(tab-line-tab ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-guava-green :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,psidium-class (:foreground ,psidium-white :background ,psidium-light-green :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,psidium-class (:foreground ,psidium-deep-blue :weight bold :height 0.9))))
@@ -252,9 +255,9 @@
    `(org-meta-line ((,psidium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,psidium-class (:foreground ,psidium-green))))
-   `(window-divider-first-pixel ((,psidium-class (:foreground ,psidium-green))))
-   `(window-divider-last-pixel ((,psidium-class (:foreground ,psidium-green))))
+   `(window-divider ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
+   `(window-divider-first-pixel ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
+   `(window-divider-last-pixel ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-2))))

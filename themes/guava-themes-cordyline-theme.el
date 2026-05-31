@@ -58,7 +58,6 @@
       (cordyline-purple                    "#7050af")
       (cordyline-alt-purple                "#493d4e")
       (cordyline-deep-purple               "#3c193c")
-      (cordyline-alt-deep-purple           "#231932")
       (cordyline-purple-red                "#983251")
 
       (cordyline-fg                        "#FFFFFF")
@@ -69,6 +68,9 @@
       (cordyline-error                     "#FF0000")
       (cordyline-warning                   "#f6d909")
       (cordyline-success                   "#23a334")
+
+      (cordyline-mode-line                 "#983251")
+      (cordyline-mode-line-inactive        "#231932")
 
       (cordyline-fl-comment                cordyline-light-blue)
       (cordyline-fl-string                 cordyline-pink-red)
@@ -159,15 +161,15 @@
    `(line-number-major-tick ((,cordyline-class (:background ,cordyline-light-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red))))
-   `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-deep-purple :inherit mode-line))))
+   `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line))))
+   `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-light-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,cordyline-class (:foreground ,cordyline-white))))
 
    ;; borders
-   `(vertical-border ((,cordyline-class (:foreground ,cordyline-purple-red))))
+   `(vertical-border ((,cordyline-class (:foreground ,cordyline-mode-line))))
 
    ;; header-line
    `(header-line ((,cordyline-class (:inherit mode-line))))
@@ -175,13 +177,13 @@
 
    ;; tab-bar
    `(tab-bar ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 1.0))))
-   `(tab-bar-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red :inherit tab-bar))))
+   `(tab-bar-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 0.9))))
-   `(tab-line-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-deep-purple :inherit tab-line))))
-   `(tab-line-tab-current ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-purple-red :inherit tab-line-tab))))
+   `(tab-line-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-purple :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,cordyline-class (:foreground ,cordyline-steel-blue :weight bold :height 0.9))))
@@ -256,9 +258,9 @@
    `(org-meta-line ((,cordyline-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
-   `(window-divider-first-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
-   `(window-divider-last-pixel ((,cordyline-class (:foreground ,cordyline-alt-deep-purple))))
+   `(window-divider ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
+   `(window-divider-first-pixel ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
+   `(window-divider-last-pixel ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-2))))

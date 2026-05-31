@@ -69,6 +69,9 @@
       (acer-warning                   "#f0dc00")
       (acer-success                   "#28823c")
 
+      (acer-mode-line                 "#e76144")
+      (acer-mode-line-inactive        "#9b234b")
+
       (acer-fl-comment                acer-deep-green)
       (acer-fl-string                 acer-deep-orange)
       (acer-fl-keyword                acer-deep-purple)
@@ -158,15 +161,15 @@
    `(line-number-major-tick ((,acer-class (:background ,acer-deep-brown :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,acer-class (:foreground ,acer-white :background ,acer-orange))))
-   `(mode-line-inactive ((,acer-class (:foreground ,acer-white :background ,acer-purple-red :inherit mode-line))))
+   `(mode-line ((,acer-class (:foreground ,acer-white :background ,acer-mode-line))))
+   `(mode-line-inactive ((,acer-class (:foreground ,acer-white :background ,acer-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,acer-class (:foreground ,acer-white :background ,acer-green))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,acer-class (:foreground ,acer-black))))
 
    ;; borders
-   `(vertical-border ((,acer-class (:foreground ,acer-orange))))
+   `(vertical-border ((,acer-class (:foreground ,acer-mode-line))))
 
    ;; header-line
    `(header-line ((,acer-class (:inherit mode-line))))
@@ -174,13 +177,13 @@
 
    ;; tab-bar
    `(tab-bar ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 1.0))))
-   `(tab-bar-tab ((,acer-class (:foreground ,acer-white :background ,acer-orange :inherit tab-bar))))
+   `(tab-bar-tab ((,acer-class (:foreground ,acer-white :background ,acer-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 0.9))))
-   `(tab-line-tab ((,acer-class (:foreground ,acer-white :background ,acer-purple-red :inherit tab-line))))
-   `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-orange :inherit tab-line-tab))))
+   `(tab-line-tab ((,acer-class (:foreground ,acer-white :background ,acer-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,acer-class (:foreground ,acer-white :background ,acer-cream :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
@@ -255,9 +258,9 @@
    `(org-meta-line ((,acer-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,acer-class (:foreground ,acer-purple-red))))
-   `(window-divider-first-pixel ((,acer-class (:foreground ,acer-purple-red))))
-   `(window-divider-last-pixel ((,acer-class (:foreground ,acer-purple-red))))
+   `(window-divider ((,acer-class (:foreground ,acer-mode-line-inactive))))
+   `(window-divider-first-pixel ((,acer-class (:foreground ,acer-mode-line-inactive))))
+   `(window-divider-last-pixel ((,acer-class (:foreground ,acer-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,acer-class (:foreground ,acer-white :background ,acer-orderless-2))))

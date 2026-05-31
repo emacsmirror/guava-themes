@@ -70,6 +70,9 @@
       (solanum-warning                   "#f6d909")
       (solanum-success                   "#23a334")
 
+      (solanum-mode-line                 "#672b5f")
+      (solanum-mode-line-inactive        "#492b91")
+
       (solanum-fl-comment                solanum-red-tomato)
       (solanum-fl-string                 solanum-yellow-potato)
       (solanum-fl-keyword                solanum-deep-green)
@@ -159,15 +162,15 @@
    `(line-number-major-tick ((,solanum-class (:background ,solanum-purple-blue :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple))))
-   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :inherit mode-line))))
+   `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line))))
+   `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,solanum-class (:foreground ,solanum-white :background ,solanum-orange))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,solanum-class (:foreground ,solanum-yellow-potato))))
 
    ;; borders
-   `(vertical-border ((,solanum-class (:foreground ,solanum-dark-purple))))
+   `(vertical-border ((,solanum-class (:foreground ,solanum-mode-line))))
 
    ;; header-line
    `(header-line ((,solanum-class (:inherit mode-line))))
@@ -175,13 +178,13 @@
 
    ;; tab-bar
    `(tab-bar ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 1.0))))
-   `(tab-bar-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :inherit tab-bar))))
+   `(tab-bar-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :weight bold :height 0.9))))
-   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-blue :inherit tab-line))))
-   `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-dark-purple :inherit tab-line-tab))))
+   `(tab-line-tab ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-alt-purple-black :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,solanum-class (:foreground ,solanum-white :background ,solanum-purple-black :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,solanum-class (:foreground ,solanum-red-tomato :weight bold :height 0.9))))
@@ -256,9 +259,9 @@
    `(org-meta-line ((,solanum-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,solanum-class (:foreground ,solanum-purple-blue))))
-   `(window-divider-first-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
-   `(window-divider-last-pixel ((,solanum-class (:foreground ,solanum-purple-blue))))
+   `(window-divider ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
+   `(window-divider-first-pixel ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
+   `(window-divider-last-pixel ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-2))))

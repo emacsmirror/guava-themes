@@ -71,6 +71,9 @@
       (rubus-warning                   "#f6d909")
       (rubus-success                   "#1ebe1e")
 
+      (rubus-mode-line                 "#aa3232")
+      (rubus-mode-line-inactive        "#6e504b")
+
       (rubus-fl-comment                rubus-green-forest)
       (rubus-fl-string                 rubus-orange)
       (rubus-fl-keyword                rubus-red)
@@ -160,15 +163,15 @@
    `(line-number-major-tick ((,rubus-class (:background ,rubus-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry))))
-   `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-raspberry :inherit mode-line))))
+   `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line))))
+   `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-purple-pink))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-raspberry))))
 
    ;; borders
-   `(vertical-border ((,rubus-class (:foreground ,rubus-raspberry))))
+   `(vertical-border ((,rubus-class (:foreground ,rubus-mode-line))))
 
    ;; header-line
    `(header-line ((,rubus-class (:inherit mode-line))))
@@ -176,13 +179,13 @@
 
    ;; tab-bar
    `(tab-bar ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :weight bold :height 1.0))))
-   `(tab-bar-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry :inherit tab-bar))))
+   `(tab-bar-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :weight bold :height 0.9))))
-   `(tab-line-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-raspberry :inherit tab-line))))
-   `(tab-line-tab-current ((,rubus-class (:foreground ,rubus-white :background ,rubus-raspberry :inherit tab-line-tab))))
+   `(tab-line-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-pink-cream :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,rubus-class (:foreground ,rubus-purple :weight bold :height 0.9))))
@@ -257,9 +260,9 @@
    `(org-meta-line ((,rubus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,rubus-class (:foreground ,rubus-alt-raspberry))))
-   `(window-divider-first-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
-   `(window-divider-last-pixel ((,rubus-class (:foreground ,rubus-alt-raspberry))))
+   `(window-divider ((,rubus-class (:foreground ,rubus-mode-line-inactive))))
+   `(window-divider-first-pixel ((,rubus-class (:foreground ,rubus-mode-line-inactive))))
+   `(window-divider-last-pixel ((,rubus-class (:foreground ,rubus-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,rubus-class (:foreground ,rubus-white :background ,rubus-orderless-2))))

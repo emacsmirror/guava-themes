@@ -68,6 +68,9 @@
       (malus-warning                   "#f6d911")
       (malus-success                   "#23d723")
 
+      (malus-mode-line                 "#cd5a5f")
+      (malus-mode-line-inactive        "#7d5a5f")
+
       (malus-fl-comment                malus-green-granny)
       (malus-fl-string                 malus-red-sweetango)
       (malus-fl-keyword                malus-green-forest)
@@ -157,15 +160,15 @@
    `(line-number-major-tick ((,malus-class (:background ,malus-deep-red :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango))))
-   `(mode-line-inactive ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango :inherit mode-line))))
+   `(mode-line ((,malus-class (:foreground ,malus-white :background ,malus-mode-line))))
+   `(mode-line-inactive ((,malus-class (:foreground ,malus-white :background ,malus-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,malus-class (:foreground ,malus-white :background ,malus-blue-subdued))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,malus-class (:foreground ,malus-red-sweetango))))
 
    ;; borders
-   `(vertical-border ((,malus-class (:foreground ,malus-red-sweetango))))
+   `(vertical-border ((,malus-class (:foreground ,malus-mode-line))))
 
    ;; header-line
    `(header-line ((,malus-class (:inherit mode-line))))
@@ -173,13 +176,13 @@
 
    ;; tab-bar
    `(tab-bar ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 1.0))))
-   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :inherit tab-bar))))
+   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 0.9))))
-   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-alt-red-sweetango :inherit tab-line))))
-   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-red-sweetango :inherit tab-line-tab))))
+   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,malus-class (:foreground ,malus-white :background ,malus-deep-red :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,malus-class (:foreground ,malus-blue :weight bold :height 0.9))))
@@ -254,9 +257,9 @@
    `(org-meta-line ((,malus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,malus-class (:foreground ,malus-alt-red-sweetango))))
-   `(window-divider-first-pixel ((,malus-class (:foreground ,malus-alt-red-sweetango))))
-   `(window-divider-last-pixel ((,malus-class (:foreground ,malus-alt-red-sweetango))))
+   `(window-divider ((,malus-class (:foreground ,malus-mode-line-inactive))))
+   `(window-divider-first-pixel ((,malus-class (:foreground ,malus-mode-line-inactive))))
+   `(window-divider-last-pixel ((,malus-class (:foreground ,malus-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,malus-class (:foreground ,malus-white :background ,malus-orderless-2))))

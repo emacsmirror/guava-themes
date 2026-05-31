@@ -71,6 +71,9 @@
       (rhododendron-warning                   "#F68511")
       (rhododendron-success                   "#29b425")
 
+      (rhododendron-mode-line                 "#c00353")
+      (rhododendron-mode-line-inactive        "#7d2061")
+
       (rhododendron-fl-comment                rhododendron-deep-green)
       (rhododendron-fl-string                 rhododendron-purple-red)
       (rhododendron-fl-keyword                rhododendron-bright-pink)
@@ -160,15 +163,15 @@
    `(line-number-major-tick ((,rhododendron-class (:background ,rhododendron-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
-   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :inherit mode-line))))
+   `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line))))
+   `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-blue))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rhododendron-class (:foreground ,rhododendron-black))))
 
    ;; borders
-   `(vertical-border ((,rhododendron-class (:foreground ,rhododendron-red))))
+   `(vertical-border ((,rhododendron-class (:foreground ,rhododendron-mode-line))))
 
    ;; header-line
    `(header-line ((,rhododendron-class (:inherit mode-line))))
@@ -176,13 +179,13 @@
 
    ;; tab-bar
    `(tab-bar ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 1.0))))
-   `(tab-bar-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :inherit tab-bar))))
+   `(tab-bar-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :weight bold :height 0.9))))
-   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-dark-purple-red :inherit tab-line))))
-   `(tab-line-tab-current ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red :inherit tab-line-tab))))
+   `(tab-line-tab ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-red :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,rhododendron-class (:foreground ,rhododendron-purple-blue :weight bold :height 0.9))))
@@ -257,9 +260,9 @@
    `(org-meta-line ((,rhododendron-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
-   `(window-divider-first-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
-   `(window-divider-last-pixel ((,rhododendron-class (:foreground ,rhododendron-dark-purple-red))))
+   `(window-divider ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
+   `(window-divider-first-pixel ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
+   `(window-divider-last-pixel ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-2))))

@@ -68,6 +68,9 @@
       (jacaranda-warning                   "#ebb515")
       (jacaranda-success                   "#00c200")
 
+      (jacaranda-mode-line                 "#655db0")
+      (jacaranda-mode-line-inactive        "#640cbe")
+
       (jacaranda-fl-comment                jacaranda-deep-green)
       (jacaranda-fl-string                 jacaranda-purple-red)
       (jacaranda-fl-keyword                jacaranda-deep-purple)
@@ -157,15 +160,15 @@
    `(line-number-major-tick ((,jacaranda-class (:background ,jacaranda-purple :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue))))
-   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :inherit mode-line))))
+   `(mode-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-mode-line))))
+   `(mode-line-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orange))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,jacaranda-class (:foreground ,jacaranda-black))))
 
    ;; borders
-   `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-deep-blue))))
+   `(vertical-border ((,jacaranda-class (:foreground ,jacaranda-mode-line))))
 
    ;; header-line
    `(header-line ((,jacaranda-class (:inherit mode-line))))
@@ -173,13 +176,13 @@
 
    ;; tab-bar
    `(tab-bar ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 1.0))))
-   `(tab-bar-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :inherit tab-bar))))
+   `(tab-bar-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :weight bold :height 0.9))))
-   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-purple :inherit tab-line))))
-   `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-deep-blue :inherit tab-line-tab))))
+   `(tab-line-tab ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-purple :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-light-purple :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,jacaranda-class (:foreground ,jacaranda-orange :weight bold :height 0.9))))
@@ -254,9 +257,9 @@
    `(org-meta-line ((,jacaranda-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
-   `(window-divider-first-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
-   `(window-divider-last-pixel ((,jacaranda-class (:foreground ,jacaranda-deep-purple))))
+   `(window-divider ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
+   `(window-divider-first-pixel ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
+   `(window-divider-last-pixel ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-2))))

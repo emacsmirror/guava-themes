@@ -67,6 +67,9 @@
       (petunia-warning                   "#ffff00")
       (petunia-success                   "#00ff00")
 
+      (petunia-mode-line                 "#8a5aff")
+      (petunia-mode-line-inactive        "#ff8728")
+
       (petunia-fl-comment                petunia-light-green)
       (petunia-fl-string                 petunia-orange)
       (petunia-fl-keyword                petunia-purple)
@@ -156,15 +159,15 @@
    `(line-number-major-tick ((,petunia-class (:background ,petunia-blue :inherit line-number))))
 
    ;; mode-line
-   `(mode-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple))))
-   `(mode-line-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-orange :inherit mode-line))))
+   `(mode-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line))))
+   `(mode-line-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,petunia-class (:foreground ,petunia-orange))))
 
    ;; borders
-   `(vertical-border ((,petunia-class (:foreground ,petunia-purple))))
+   `(vertical-border ((,petunia-class (:foreground ,petunia-mode-line))))
 
    ;; header-line
    `(header-line ((,petunia-class (:inherit mode-line))))
@@ -172,13 +175,13 @@
 
    ;; tab-bar
    `(tab-bar ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 1.0))))
-   `(tab-bar-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple :inherit tab-bar))))
+   `(tab-bar-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line :inherit tab-bar))))
    `(tab-bar-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-bar-tab))))
 
    ;; tab-line
    `(tab-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 0.9))))
-   `(tab-line-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-orange :inherit tab-line))))
-   `(tab-line-tab-current ((,petunia-class (:foreground ,petunia-white :background ,petunia-purple :inherit tab-line-tab))))
+   `(tab-line-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line-inactive :inherit tab-line))))
+   `(tab-line-tab-current ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,petunia-class (:foreground ,petunia-light-blue :weight bold :height 0.9))))
@@ -253,9 +256,9 @@
    `(org-meta-line ((,petunia-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,petunia-class (:foreground ,petunia-orange))))
-   `(window-divider-first-pixel ((,petunia-class (:foreground ,petunia-orange))))
-   `(window-divider-last-pixel ((,petunia-class (:foreground ,petunia-orange))))
+   `(window-divider ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
+   `(window-divider-first-pixel ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
+   `(window-divider-last-pixel ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-2))))
