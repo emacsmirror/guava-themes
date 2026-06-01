@@ -48,7 +48,6 @@
 
       (dracaena-light-orange              "#ffb38f")
       (dracaena-orange                    "#e88e6b")
-      (dracaena-deep-orange               "#c95909")
       (dracaena-red                       "#c83233")
       (dracaena-alt-deep-red              "#751e1e")
       (dracaena-deep-red                  "#792725")
@@ -57,7 +56,6 @@
 
       (dracaena-light-blue                "#4272d5")
       (dracaena-blue                      "#2d44d5")
-      (dracaena-antarctic-blue            "#bacce4")
       (dracaena-steel-blue                "#4f94cd")
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
@@ -175,7 +173,7 @@
    `(guava-themes-visible-bell ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orange))))
 
    ;; minibuffer
-   `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-antarctic-blue))))
+   `(minibuffer-prompt ((,dracaena-class (:foreground ,dracaena-red))))
 
    ;; borders
    `(vertical-border ((,dracaena-class (:foreground ,dracaena-mode-line))))
