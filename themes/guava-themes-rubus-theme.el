@@ -72,7 +72,11 @@
       (rubus-success                   "#1ebe1e")
 
       (rubus-mode-line                 "#aa3232")
-      (rubus-mode-line-inactive        "#6e504b")
+      (rubus-mode-line-inactive        "#cd7378")
+
+      (rubus-tab-1                     rubus-mode-line)
+      (rubus-tab-2                     rubus-mode-line-inactive)
+      (rubus-tab-3                     rubus-alt-pink-cream)
 
       (rubus-fl-comment                rubus-green-forest)
       (rubus-fl-string                 rubus-orange)
@@ -178,16 +182,16 @@
    `(which-func ((,rubus-class (:foreground ,rubus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :weight bold :height 1.0))))
-   `(tab-bar-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :inherit tab-bar-tab))))
+   `(tab-bar ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :weight bold :height 0.9))))
-   `(tab-line-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-pink-cream :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,rubus-class (:foreground ,rubus-white :background ,rubus-alt-pink-cream :inherit tab-line-tab))))
+   `(tab-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,rubus-class (:foreground ,rubus-white :background ,rubus-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,rubus-class (:foreground ,rubus-purple :weight bold :height 0.9))))
    `(tab-line-tab-special ((,rubus-class (:slant italic :weight bold :height 0.9))))
 

@@ -68,7 +68,11 @@
       (petunia-success                   "#00ff00")
 
       (petunia-mode-line                 "#8a5aff")
-      (petunia-mode-line-inactive        "#ff8728")
+      (petunia-mode-line-inactive        "#008741")
+
+      (petunia-tab-1                     petunia-mode-line)
+      (petunia-tab-2                     petunia-mode-line-inactive)
+      (petunia-tab-3                     petunia-light-green)
 
       (petunia-fl-comment                petunia-light-green)
       (petunia-fl-string                 petunia-orange)
@@ -174,16 +178,16 @@
    `(which-func ((,petunia-class (:foreground ,petunia-white))))
 
    ;; tab-bar
-   `(tab-bar ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 1.0))))
-   `(tab-bar-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-bar-tab))))
+   `(tab-bar ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :weight bold :height 0.9))))
-   `(tab-line-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-green-forest :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green :inherit tab-line-tab))))
+   `(tab-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,petunia-class (:foreground ,petunia-white :background ,petunia-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,petunia-class (:foreground ,petunia-light-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,petunia-class (:slant italic :weight bold :height 0.9))))
 

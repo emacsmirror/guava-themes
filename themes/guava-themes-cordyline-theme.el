@@ -70,7 +70,11 @@
       (cordyline-success                   "#23a334")
 
       (cordyline-mode-line                 "#983251")
-      (cordyline-mode-line-inactive        "#231932")
+      (cordyline-mode-line-inactive        "#3c193c")
+
+      (cordyline-tab-1                     cordyline-mode-line)
+      (cordyline-tab-2                     cordyline-mode-line-inactive)
+      (cordyline-tab-3                     cordyline-alt-purple)
 
       (cordyline-fl-comment                cordyline-light-blue)
       (cordyline-fl-string                 cordyline-pink-red)
@@ -176,16 +180,16 @@
    `(which-func ((,cordyline-class (:foreground ,cordyline-white))))
 
    ;; tab-bar
-   `(tab-bar ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 1.0))))
-   `(tab-bar-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :inherit tab-bar-tab))))
+   `(tab-bar ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :weight bold :height 0.9))))
-   `(tab-line-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-deep-purple :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-alt-purple :inherit tab-line-tab))))
+   `(tab-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,cordyline-class (:foreground ,cordyline-steel-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,cordyline-class (:slant italic :weight bold :height 0.9))))
 

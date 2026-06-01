@@ -75,7 +75,11 @@
       (dracaena-success                   "#29d925")
 
       (dracaena-mode-line                 "#792725")
-      (dracaena-mode-line-inactive        "#c95909")
+      (dracaena-mode-line-inactive        "#353838")
+
+      (dracaena-tab-1                     dracaena-mode-line)
+      (dracaena-tab-2                     dracaena-mode-line-inactive)
+      (dracaena-tab-3                     dracaena-gray)
 
       (dracaena-fl-comment                dracaena-deep-green)
       (dracaena-fl-string                 dracaena-snakeplant-yellow)
@@ -181,16 +185,16 @@
    `(which-func ((,dracaena-class (:foreground ,dracaena-white))))
 
    ;; tab-bar
-   `(tab-bar ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 1.0))))
-   `(tab-bar-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :inherit tab-bar-tab))))
+   `(tab-bar ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :weight bold :height 0.9))))
-   `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-dark-gray :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-gray :inherit tab-line-tab))))
+   `(tab-line ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,dracaena-class (:foreground ,dracaena-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,dracaena-class (:slant italic :weight bold :height 0.9))))
 

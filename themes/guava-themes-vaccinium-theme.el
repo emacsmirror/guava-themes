@@ -72,7 +72,11 @@
       (vaccinium-success                   "#1ebe1e")
 
       (vaccinium-mode-line                 "#5582d7")
-      (vaccinium-mode-line-inactive        "#3755a0")
+      (vaccinium-mode-line-inactive        "#6a7e98")
+
+      (vaccinium-tab-1                     vaccinium-mode-line)
+      (vaccinium-tab-2                     vaccinium-mode-line-inactive)
+      (vaccinium-tab-3                     vaccinium-alt-steel-blue)
 
       (vaccinium-fl-comment                vaccinium-green-forest)
       (vaccinium-fl-string                 vaccinium-orange)
@@ -178,16 +182,16 @@
    `(which-func ((,vaccinium-class (:foreground ,vaccinium-white))))
 
    ;; tab-bar
-   `(tab-bar ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 1.0))))
-   `(tab-bar-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :inherit tab-bar-tab))))
+   `(tab-bar ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :weight bold :height 0.9))))
-   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-steel-blue :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-alt-steel-blue :inherit tab-line-tab))))
+   `(tab-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,vaccinium-class (:foreground ,vaccinium-orange :weight bold :height 0.9))))
    `(tab-line-tab-special ((,vaccinium-class (:slant italic :weight bold :height 0.9))))
 

@@ -42,7 +42,7 @@
       (prunus-alt-light-brown           "#917364")
       (prunus-brown                     "#553728")
       (prunus-alt-brown                 "#50463c")
-      (prunus-deep-brown            "#4b3219")
+      (prunus-deep-brown                "#4b3219")
 
       (prunus-light-green               "#50a05f")
       (prunus-green-forest              "#007341")
@@ -71,7 +71,11 @@
       (prunus-success                   "#23D734")
 
       (prunus-mode-line                 "#3c3228")
-      (prunus-mode-line-inactive        "#553728")
+      (prunus-mode-line-inactive        "#50463c")
+
+      (prunus-tab-1                     prunus-mode-line)
+      (prunus-tab-2                     prunus-mode-line-inactive)
+      (prunus-tab-3                     prunus-deep-brown)
 
       (prunus-fl-comment                prunus-green-forest)
       (prunus-fl-string                 prunus-purple-red)
@@ -163,7 +167,7 @@
 
    ;; mode-line
    `(mode-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line))))
-   `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :inherit mode-line))))
+   `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line-inactive :inherit mode-line))))
    `(guava-themes-visible-bell ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink))))
 
    ;; minibuffer
@@ -177,16 +181,16 @@
    `(which-func ((,prunus-class (:foreground ,prunus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-alt-brown :weight bold :height 1.0))))
-   `(tab-bar-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-alt-brown :inherit tab-bar))))
+   `(tab-bar ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-2 :inherit tab-bar))))
 
    ;; tab-line
-   `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-alt-brown :weight bold :height 0.9))))
-   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-brown :inherit tab-line))))
-   `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-alt-brown :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-deep-brown :inherit tab-line-tab))))
+   `(tab-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,prunus-class (:foreground ,prunus-white :background ,prunus-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,prunus-class (:foreground ,prunus-pink :weight bold :height 0.9))))
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 
@@ -259,9 +263,9 @@
    `(org-meta-line ((,prunus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,prunus-class (:foreground ,prunus-brown))))
-   `(window-divider-first-pixel ((,prunus-class (:foreground ,prunus-brown))))
-   `(window-divider-last-pixel ((,prunus-class (:foreground ,prunus-brown))))
+   `(window-divider ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
+   `(window-divider-first-pixel ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
+   `(window-divider-last-pixel ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,prunus-class (:foreground ,prunus-white :background ,prunus-orderless-2))))

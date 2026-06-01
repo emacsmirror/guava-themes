@@ -69,7 +69,11 @@
       (malus-success                   "#23d723")
 
       (malus-mode-line                 "#cd5a5f")
-      (malus-mode-line-inactive        "#7d5a5f")
+      (malus-mode-line-inactive        "#49835f")
+
+      (malus-tab-1                     malus-mode-line)
+      (malus-tab-2                     malus-mode-line-inactive)
+      (malus-tab-3                     malus-deep-red)
 
       (malus-fl-comment                malus-green-granny)
       (malus-fl-string                 malus-red-sweetango)
@@ -175,16 +179,16 @@
    `(which-func ((,malus-class (:foreground ,malus-white))))
 
    ;; tab-bar
-   `(tab-bar ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 1.0))))
-   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-bar-tab))))
+   `(tab-bar ((,malus-class (:foreground ,malus-white :background ,malus-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,malus-class (:foreground ,malus-white :background ,malus-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :weight bold :height 0.9))))
-   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-oceanic-blue :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,malus-class (:foreground ,malus-white :background ,malus-deep-red :inherit tab-line-tab))))
+   `(tab-line ((,malus-class (:foreground ,malus-white :background ,malus-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,malus-class (:foreground ,malus-white :background ,malus-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,malus-class (:foreground ,malus-white :background ,malus-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,malus-class (:foreground ,malus-white :background ,malus-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,malus-class (:foreground ,malus-white :background ,malus-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,malus-class (:foreground ,malus-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,malus-class (:slant italic :weight bold :height 0.9))))
 

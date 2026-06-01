@@ -70,7 +70,11 @@
       (acer-success                   "#28823c")
 
       (acer-mode-line                 "#e76144")
-      (acer-mode-line-inactive        "#9b234b")
+      (acer-mode-line-inactive        "#ff8c4e")
+
+      (acer-tab-1                     acer-mode-line)
+      (acer-tab-2                     acer-mode-line-inactive)
+      (acer-tab-3                     acer-cream)
 
       (acer-fl-comment                acer-deep-green)
       (acer-fl-string                 acer-deep-orange)
@@ -176,16 +180,16 @@
    `(which-func ((,acer-class (:foreground ,acer-white))))
 
    ;; tab-bar
-   `(tab-bar ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 1.0))))
-   `(tab-bar-tab ((,acer-class (:foreground ,acer-white :background ,acer-mode-line :inherit tab-bar))))
-   `(tab-bar-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :inherit tab-bar-tab))))
+   `(tab-bar ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :weight bold :height 1.0))))
+   `(tab-bar-tab ((,acer-class (:foreground ,acer-white :background ,acer-tab-1 :inherit tab-bar))))
+   `(tab-bar-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :inherit tab-bar-tab))))
 
    ;; tab-line
-   `(tab-line ((,acer-class (:foreground ,acer-white :background ,acer-autumn :weight bold :height 0.9))))
-   `(tab-line-tab ((,acer-class (:foreground ,acer-white :background ,acer-mode-line-inactive :inherit tab-line))))
-   `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-mode-line :inherit tab-line-tab))))
-   `(tab-line-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-autumn :inherit tab-line-tab))))
-   `(tab-line-tab-inactive-alternate ((,acer-class (:foreground ,acer-white :background ,acer-cream :inherit tab-line-tab))))
+   `(tab-line ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :weight bold :height 0.9))))
+   `(tab-line-tab ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :inherit tab-line))))
+   `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-tab-1 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :inherit tab-line-tab))))
+   `(tab-line-tab-inactive-alternate ((,acer-class (:foreground ,acer-white :background ,acer-tab-3 :inherit tab-line-tab))))
    `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
    `(tab-line-tab-special ((,acer-class (:slant italic :weight bold :height 0.9))))
 
