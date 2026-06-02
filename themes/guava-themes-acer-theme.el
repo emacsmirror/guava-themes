@@ -262,9 +262,9 @@
    `(org-meta-line ((,acer-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,acer-class (:foreground ,acer-mode-line-inactive))))
-   `(window-divider-first-pixel ((,acer-class (:foreground ,acer-mode-line-inactive))))
-   `(window-divider-last-pixel ((,acer-class (:foreground ,acer-mode-line-inactive))))
+   `(window-divider ((,acer-class (:foreground ,acer-tab-3))))
+   `(window-divider-first-pixel ((,acer-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,acer-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,acer-class (:foreground ,acer-white :background ,acer-orderless-2))))

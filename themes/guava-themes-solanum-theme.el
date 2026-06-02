@@ -262,9 +262,9 @@
    `(org-meta-line ((,solanum-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
-   `(window-divider-first-pixel ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
-   `(window-divider-last-pixel ((,solanum-class (:foreground ,solanum-mode-line-inactive))))
+   `(window-divider ((,solanum-class (:foreground ,solanum-tab-3))))
+   `(window-divider-first-pixel ((,solanum-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,solanum-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,solanum-class (:foreground ,solanum-white :background ,solanum-orderless-2))))

@@ -265,9 +265,9 @@
    `(org-meta-line ((,dracaena-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,dracaena-class (:foreground ,dracaena-mode-line-inactive))))
-   `(window-divider-first-pixel ((,dracaena-class (:foreground ,dracaena-mode-line-inactive))))
-   `(window-divider-last-pixel ((,dracaena-class (:foreground ,dracaena-mode-line-inactive))))
+   `(window-divider ((,dracaena-class (:foreground ,dracaena-tab-3))))
+   `(window-divider-first-pixel ((,dracaena-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,dracaena-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,dracaena-class (:foreground ,dracaena-white :background ,dracaena-orderless-2))))

@@ -262,9 +262,9 @@
    `(org-meta-line ((,pyrus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
-   `(window-divider-first-pixel ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
-   `(window-divider-last-pixel ((,pyrus-class (:foreground ,pyrus-mode-line-inactive))))
+   `(window-divider ((,pyrus-class (:foreground ,pyrus-tab-3))))
+   `(window-divider-first-pixel ((,pyrus-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,pyrus-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-orderless-2))))

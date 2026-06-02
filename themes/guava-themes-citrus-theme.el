@@ -264,9 +264,9 @@
    `(org-meta-line ((,citrus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,citrus-class (:foreground ,citrus-deep-red))))
-   `(window-divider-first-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
-   `(window-divider-last-pixel ((,citrus-class (:foreground ,citrus-deep-red))))
+   `(window-divider ((,citrus-class (:foreground ,citrus-tab-3))))
+   `(window-divider-first-pixel ((,citrus-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,citrus-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,citrus-class (:foreground ,citrus-white :background ,citrus-orderless-2))))

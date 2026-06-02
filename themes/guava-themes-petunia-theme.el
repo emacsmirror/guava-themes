@@ -260,9 +260,9 @@
    `(org-meta-line ((,petunia-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
-   `(window-divider-first-pixel ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
-   `(window-divider-last-pixel ((,petunia-class (:foreground ,petunia-mode-line-inactive))))
+   `(window-divider ((,petunia-class (:foreground ,petunia-tab-3))))
+   `(window-divider-first-pixel ((,petunia-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,petunia-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,petunia-class (:foreground ,petunia-white :background ,petunia-orderless-2))))

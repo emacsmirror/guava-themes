@@ -264,9 +264,9 @@
    `(org-meta-line ((,vaccinium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
-   `(window-divider-first-pixel ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
-   `(window-divider-last-pixel ((,vaccinium-class (:foreground ,vaccinium-mode-line-inactive))))
+   `(window-divider ((,vaccinium-class (:foreground ,vaccinium-tab-3))))
+   `(window-divider-first-pixel ((,vaccinium-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,vaccinium-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orderless-2))))

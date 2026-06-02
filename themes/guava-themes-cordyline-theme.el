@@ -262,9 +262,9 @@
    `(org-meta-line ((,cordyline-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
-   `(window-divider-first-pixel ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
-   `(window-divider-last-pixel ((,cordyline-class (:foreground ,cordyline-mode-line-inactive))))
+   `(window-divider ((,cordyline-class (:foreground ,cordyline-tab-3))))
+   `(window-divider-first-pixel ((,cordyline-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,cordyline-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-orderless-2))))

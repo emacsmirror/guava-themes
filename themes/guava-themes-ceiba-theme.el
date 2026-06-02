@@ -266,9 +266,9 @@
    `(org-meta-line ((,ceiba-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
-   `(window-divider-first-pixel ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
-   `(window-divider-last-pixel ((,ceiba-class (:foreground ,ceiba-mode-line-inactive))))
+   `(window-divider ((,ceiba-class (:foreground ,ceiba-tab-3))))
+   `(window-divider-first-pixel ((,ceiba-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,ceiba-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,ceiba-class (:foreground ,ceiba-white :background ,ceiba-orderless-2))))

@@ -261,9 +261,9 @@
    `(org-meta-line ((,jacaranda-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
-   `(window-divider-first-pixel ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
-   `(window-divider-last-pixel ((,jacaranda-class (:foreground ,jacaranda-mode-line-inactive))))
+   `(window-divider ((,jacaranda-class (:foreground ,jacaranda-tab-3))))
+   `(window-divider-first-pixel ((,jacaranda-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,jacaranda-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,jacaranda-class (:foreground ,jacaranda-white :background ,jacaranda-orderless-2))))

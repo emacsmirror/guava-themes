@@ -259,9 +259,9 @@
    `(org-meta-line ((,psidium-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
-   `(window-divider-first-pixel ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
-   `(window-divider-last-pixel ((,psidium-class (:foreground ,psidium-mode-line-inactive))))
+   `(window-divider ((,psidium-class (:foreground ,psidium-tab-3))))
+   `(window-divider-first-pixel ((,psidium-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,psidium-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,psidium-class (:foreground ,psidium-white :background ,psidium-orderless-2))))

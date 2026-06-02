@@ -263,9 +263,9 @@
    `(org-meta-line ((,prunus-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
-   `(window-divider-first-pixel ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
-   `(window-divider-last-pixel ((,prunus-class (:foreground ,prunus-mode-line-inactive))))
+   `(window-divider ((,prunus-class (:foreground ,prunus-tab-3))))
+   `(window-divider-first-pixel ((,prunus-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,prunus-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,prunus-class (:foreground ,prunus-white :background ,prunus-orderless-2))))

@@ -264,9 +264,9 @@
    `(org-meta-line ((,rhododendron-class (:inherit font-lock-comment-face))))
 
    ;; window-divider
-   `(window-divider ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
-   `(window-divider-first-pixel ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
-   `(window-divider-last-pixel ((,rhododendron-class (:foreground ,rhododendron-mode-line-inactive))))
+   `(window-divider ((,rhododendron-class (:foreground ,rhododendron-tab-3))))
+   `(window-divider-first-pixel ((,rhododendron-class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,rhododendron-class (:inherit window-divider))))
 
    ;; isearch (use "M-x isearch-forward-regexp foo-\([0-9]+\)\([a-z]+\)" to check the group faces)
    `(isearch ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-orderless-2))))
