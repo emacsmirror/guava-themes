@@ -58,7 +58,7 @@
       (solanum-purple-pink               "#915d93")
       (solanum-purple-blue               "#492b91")
       (solanum-dark-purple               "#672b5f")
-      (solanum-purple-black              "#130d1a")
+      (solanum-alt-dark-purple           "#59536e")
 
       (solanum-fg                        "#FFFFFF")
       (solanum-bg                        "#130d1a")
@@ -74,7 +74,7 @@
 
       (solanum-tab-1                     solanum-mode-line)
       (solanum-tab-2                     solanum-mode-line-inactive)
-      (solanum-tab-3                     solanum-purple-black)
+      (solanum-tab-3                     solanum-alt-dark-purple)
 
       (solanum-fl-comment                solanum-red-tomato)
       (solanum-fl-string                 solanum-yellow-potato)
