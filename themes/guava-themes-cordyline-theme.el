@@ -58,7 +58,7 @@
       (cordyline-purple                    "#7050af")
       (cordyline-alt-purple                "#493d4e")
       (cordyline-deep-purple               "#3c193c")
-      (cordyline-purple-red                "#983251")
+      (cordyline-purple-red                "#a03c5a")
 
       (cordyline-fg                        "#FFFFFF")
       (cordyline-bg                        "#392b38")
@@ -69,7 +69,7 @@
       (cordyline-warning                   "#f6d909")
       (cordyline-success                   "#23a334")
 
-      (cordyline-mode-line                 "#983251")
+      (cordyline-mode-line                 "#a03c5a")
       (cordyline-mode-line-inactive        "#3c193c")
 
       (cordyline-tab-1                     cordyline-mode-line)
