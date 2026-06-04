@@ -63,8 +63,8 @@
       (dracaena-dark-cyan                 "#005f55")
 
       (dracaena-fg                        "#becee6")
-      (dracaena-bg                        "#404643")
-      (dracaena-highlight                 "#2c322f")
+      (dracaena-bg                        "#3e4441")
+      (dracaena-highlight                 "#2a302d")
       (dracaena-shadow                    "#b3b3b3")
 
       (dracaena-error                     "#FF0000")
