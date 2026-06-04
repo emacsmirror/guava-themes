@@ -41,27 +41,27 @@
       (dracaena-gray                      "#4f4f4f")
       (dracaena-dark-gray                 "#353838")
 
-      (dracaena-light-green               "#8cb446")
+      (dracaena-light-green               "#78be78")
       (dracaena-green                     "#288c23")
 
-      (dracaena-snakeplant-yellow         "#d7d287")
+      (dracaena-snakeplant-yellow         "#dcd78c")
 
       (dracaena-light-orange              "#ffb38f")
       (dracaena-orange                    "#e6825f")
       (dracaena-red                       "#d23c46")
       (dracaena-alt-deep-red              "#751e1e")
       (dracaena-deep-red                  "#792725")
-      (dracaena-pink                      "#c35a7d")
+      (dracaena-pink                      "#cd6eaf")
 
       (dracaena-light-brown               "#a89d92")
 
-      (dracaena-light-blue                "#5082dc")
+      (dracaena-light-blue                "#5a8ce6")
       (dracaena-blue                      "#2d50d5")
       (dracaena-steel-blue                "#4f94cd")
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
 
-      (dracaena-purple                    "#7f78dd")
+      (dracaena-orange-red                "#f06464")
 
       (dracaena-fg                        "#becee6")
       (dracaena-bg                        "#404643")
@@ -81,11 +81,11 @@
 
       (dracaena-fl-comment                dracaena-green)
       (dracaena-fl-string                 dracaena-snakeplant-yellow)
-      (dracaena-fl-keyword                dracaena-pink)
+      (dracaena-fl-keyword                dracaena-light-green)
       (dracaena-fl-builtin                dracaena-red)
-      (dracaena-fl-type                   dracaena-light-green)
+      (dracaena-fl-type                   dracaena-pink)
       (dracaena-fl-function-name          dracaena-light-orange)
-      (dracaena-fl-variable-name          dracaena-purple)
+      (dracaena-fl-variable-name          dracaena-orange-red)
       (dracaena-fl-constant               dracaena-light-blue)
       (dracaena-fl-warning                dracaena-warning)
       (dracaena-fl-punctuation            dracaena-light-brown)
@@ -209,9 +209,9 @@
 
    ;; outline
    `(outline-1 ((,dracaena-class (:foreground ,dracaena-light-orange :weight medium))))
-   `(outline-2 ((,dracaena-class (:foreground ,dracaena-purple :weight medium))))
+   `(outline-2 ((,dracaena-class (:foreground ,dracaena-light-green :weight medium))))
    `(outline-3 ((,dracaena-class (:foreground ,dracaena-pink :weight medium))))
-   `(outline-4 ((,dracaena-class (:foreground ,dracaena-green :weight medium))))
+   `(outline-4 ((,dracaena-class (:foreground ,dracaena-light-blue :weight medium))))
    `(outline-5 ((,dracaena-class (:inherit outline-1))))
    `(outline-6 ((,dracaena-class (:inherit outline-2))))
    `(outline-7 ((,dracaena-class (:inherit outline-3))))
