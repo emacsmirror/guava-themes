@@ -48,7 +48,8 @@
 
       (dracaena-light-orange              "#ffb38f")
       (dracaena-orange                    "#e6825f")
-      (dracaena-red                       "#d23c46")
+      (dracaena-orange-red                "#f06e6e")
+      (dracaena-red                       "#d24650")
       (dracaena-alt-deep-red              "#751e1e")
       (dracaena-deep-red                  "#792725")
       (dracaena-pink                      "#cd6eaf")
@@ -60,8 +61,6 @@
       (dracaena-steel-blue                "#4f94cd")
       (dracaena-cyan                      "#00ffff")
       (dracaena-dark-cyan                 "#005f55")
-
-      (dracaena-orange-red                "#f06464")
 
       (dracaena-fg                        "#becee6")
       (dracaena-bg                        "#404643")
