@@ -38,11 +38,11 @@
       ;;(prunus-black                     "#000000")
       (prunus-white                     "#FFFFFF")
 
-      (prunus-light-brown               "#6e5041")
-      (prunus-alt-light-brown           "#917364")
-      (prunus-brown                     "#553728")
-      (prunus-alt-brown                 "#50463c")
-      (prunus-deep-brown                "#4b3219")
+      (prunus-light-brown               "#785a4b")
+      (prunus-alt-light-brown           "#9b7d6e")
+      (prunus-brown                     "#5f4132")
+      (prunus-alt-brown                 "#5a5046")
+      (prunus-deep-brown                "#553c23")
 
       (prunus-light-green               "#50a05f")
       (prunus-green-forest              "#007341")
@@ -70,8 +70,8 @@
       (prunus-warning                   "#f6d911")
       (prunus-success                   "#23D734")
 
-      (prunus-mode-line                 "#3c3228")
-      (prunus-mode-line-inactive        "#50463c")
+      (prunus-mode-line                 "#463c32")
+      (prunus-mode-line-inactive        "#5a5046")
 
       (prunus-tab-1                     prunus-mode-line)
       (prunus-tab-2                     prunus-mode-line-inactive)
