@@ -48,7 +48,7 @@
       (psidium-red                       "#c1153b")
       (psidium-pink                      "#F8767C")
 
-      (psidium-brown                     "#816249")
+      (psidium-brown                     "#785f46")
 
       (psidium-light-blue                "#41C3CA")
       (psidium-blue                      "#2a4ad9")
