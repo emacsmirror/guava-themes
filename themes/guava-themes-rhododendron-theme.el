@@ -52,7 +52,7 @@
       (rhododendron-deep-blue                 "#3e3d8b")
 
       (rhododendron-bright-pink               "#fd3aae")
-      (rhododendron-alt-bright-pink           "#f197f5")
+      (rhododendron-alt-bright-pink           "#e78deb")
       (rhododendron-deep-pink                 "#c00e88")
 
       (rhododendron-light-purple              "#e0bde7")
@@ -76,7 +76,7 @@
 
       (rhododendron-tab-1                     rhododendron-mode-line)
       (rhododendron-tab-2                     rhododendron-mode-line-inactive)
-      (rhododendron-tab-3                     rhododendron-purple-red)
+      (rhododendron-tab-3                     rhododendron-alt-bright-pink)
 
       (rhododendron-fl-comment                rhododendron-deep-green)
       (rhododendron-fl-string                 rhododendron-purple-red)
