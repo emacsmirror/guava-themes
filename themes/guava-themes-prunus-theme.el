@@ -72,6 +72,7 @@
 
       (prunus-mode-line                 "#463c32")
       (prunus-mode-line-inactive        "#5a5046")
+      (prunus-bell                      "#324646")
 
       (prunus-tab-1                     prunus-mode-line)
       (prunus-tab-2                     prunus-mode-line-inactive)
@@ -151,7 +152,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,prunus-class (:foreground ,prunus-white :background ,prunus-red))))
+   `(cursor ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line))))
 
    ;; fringe
    `(fringe ((,prunus-class (:foreground ,prunus-cyan :background ,prunus-bg))))
@@ -168,7 +169,7 @@
    ;; mode-line
    `(mode-line ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line))))
    `(mode-line-inactive ((,prunus-class (:foreground ,prunus-white :background ,prunus-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,prunus-class (:foreground ,prunus-white :background ,prunus-light-pink))))
+   `(guava-themes-visible-bell ((,prunus-class (:foreground ,prunus-white :background ,prunus-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,prunus-class (:foreground ,prunus-white))))
@@ -195,8 +196,8 @@
    `(tab-line-tab-special ((,prunus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-deep-blue))))
-   `(show-paren-mismatch ((,prunus-class (:foreground ,prunus-white :background ,prunus-error))))
+   `(show-paren-match ((,prunus-class (:foreground ,prunus-white :background ,prunus-bell))))
+   `(show-paren-mismatch ((,prunus-class (:foreground ,prunus-white :background ,prunus-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,prunus-class (:background ,prunus-error))))

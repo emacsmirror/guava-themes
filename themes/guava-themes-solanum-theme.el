@@ -71,6 +71,7 @@
 
       (solanum-mode-line                 "#672b5f")
       (solanum-mode-line-inactive        "#3b3550")
+      (solanum-bell                      "#41672B")
 
       (solanum-tab-1                     solanum-mode-line)
       (solanum-tab-2                     solanum-mode-line-inactive)
@@ -150,7 +151,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,solanum-class (:foreground ,solanum-black :background ,solanum-yellow-potato))))
+   `(cursor ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line))))
 
    ;; fringe
    `(fringe ((,solanum-class (:foreground ,solanum-red-tomato :background ,solanum-bg))))
@@ -167,7 +168,7 @@
    ;; mode-line
    `(mode-line ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line))))
    `(mode-line-inactive ((,solanum-class (:foreground ,solanum-white :background ,solanum-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,solanum-class (:foreground ,solanum-white :background ,solanum-orange))))
+   `(guava-themes-visible-bell ((,solanum-class (:foreground ,solanum-white :background ,solanum-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,solanum-class (:foreground ,solanum-yellow-potato))))
@@ -194,8 +195,8 @@
    `(tab-line-tab-special ((,solanum-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,solanum-class (:foreground ,solanum-black :background ,solanum-light-purple))))
-   `(show-paren-mismatch ((,solanum-class (:foreground ,solanum-white :background ,solanum-error))))
+   `(show-paren-match ((,solanum-class (:foreground ,solanum-white :background ,solanum-bell))))
+   `(show-paren-mismatch ((,solanum-class (:foreground ,solanum-white :background ,solanum-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,solanum-class (:background ,solanum-error))))

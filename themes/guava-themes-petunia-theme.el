@@ -69,6 +69,7 @@
 
       (petunia-mode-line                 "#8a5aff")
       (petunia-mode-line-inactive        "#008741")
+      (petunia-bell                      "#FFDB5A")
 
       (petunia-tab-1                     petunia-mode-line)
       (petunia-tab-2                     petunia-mode-line-inactive)
@@ -148,7 +149,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,petunia-class (:foreground ,petunia-black :background ,petunia-light-blue))))
+   `(cursor ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line))))
 
    ;; fringe
    `(fringe ((,petunia-class (:foreground ,petunia-red :background ,petunia-bg))))
@@ -165,7 +166,7 @@
    ;; mode-line
    `(mode-line ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line))))
    `(mode-line-inactive ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,petunia-class (:foreground ,petunia-white :background ,petunia-light-green))))
+   `(guava-themes-visible-bell ((,petunia-class (:foreground ,petunia-white :background ,petunia-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,petunia-class (:foreground ,petunia-orange))))
@@ -192,8 +193,8 @@
    `(tab-line-tab-special ((,petunia-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,petunia-class (:foreground ,petunia-black :background ,petunia-light-orange))))
-   `(show-paren-mismatch ((,petunia-class (:foreground ,petunia-white :background ,petunia-error))))
+   `(show-paren-match ((,petunia-class (:foreground ,petunia-black :background ,petunia-bell))))
+   `(show-paren-mismatch ((,petunia-class (:foreground ,petunia-white :background ,petunia-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,petunia-class (:background ,petunia-error))))

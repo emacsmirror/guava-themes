@@ -73,6 +73,7 @@
 
       (vaccinium-mode-line                 "#5582d7")
       (vaccinium-mode-line-inactive        "#6a7e98")
+      (vaccinium-bell                      "#D76955")
 
       (vaccinium-tab-1                     vaccinium-mode-line)
       (vaccinium-tab-2                     vaccinium-mode-line-inactive)
@@ -152,7 +153,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,vaccinium-class (:foreground ,vaccinium-black :background ,vaccinium-blueberry))))
+   `(cursor ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line))))
 
    ;; fringe
    `(fringe ((,vaccinium-class (:foreground ,vaccinium-red :background ,vaccinium-bg))))
@@ -169,7 +170,7 @@
    ;; mode-line
    `(mode-line ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line))))
    `(mode-line-inactive ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-orange))))
+   `(guava-themes-visible-bell ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,vaccinium-class (:foreground ,vaccinium-blueberry))))
@@ -196,8 +197,8 @@
    `(tab-line-tab-special ((,vaccinium-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,vaccinium-class (:foreground ,vaccinium-black :background ,vaccinium-orange))))
-   `(show-paren-mismatch ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-error))))
+   `(show-paren-match ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-bell))))
+   `(show-paren-mismatch ((,vaccinium-class (:foreground ,vaccinium-white :background ,vaccinium-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,vaccinium-class (:background ,vaccinium-error))))

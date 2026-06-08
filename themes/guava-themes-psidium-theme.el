@@ -68,6 +68,7 @@
 
       (psidium-mode-line                 "#F8767C")
       (psidium-mode-line-inactive        "#aecd34")
+      (psidium-bell                      "#76BEF8")
 
       (psidium-tab-1                     psidium-mode-line)
       (psidium-tab-2                     psidium-mode-line-inactive)
@@ -147,7 +148,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,psidium-class (:foreground ,psidium-white :background ,psidium-green))))
+   `(cursor ((,psidium-class (:foreground ,psidium-black :background ,psidium-mode-line))))
 
    ;; fringe
    `(fringe ((,psidium-class (:foreground ,psidium-blue :background ,psidium-bg))))
@@ -164,7 +165,7 @@
    ;; mode-line
    `(mode-line ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line))))
    `(mode-line-inactive ((,psidium-class (:foreground ,psidium-white :background ,psidium-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,psidium-class (:foreground ,psidium-white :background ,psidium-deep-green))))
+   `(guava-themes-visible-bell ((,psidium-class (:foreground ,psidium-white :background ,psidium-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,psidium-class (:foreground ,psidium-black))))
@@ -191,8 +192,8 @@
    `(tab-line-tab-special ((,psidium-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,psidium-class (:foreground ,psidium-white :background ,psidium-pink))))
-   `(show-paren-mismatch ((,psidium-class (:foreground ,psidium-white :background ,psidium-error))))
+   `(show-paren-match ((,psidium-class (:foreground ,psidium-black :background ,psidium-bell))))
+   `(show-paren-mismatch ((,psidium-class (:foreground ,psidium-black :background ,psidium-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,psidium-class (:background ,psidium-error))))

@@ -73,6 +73,7 @@
 
       (rhododendron-mode-line                 "#c00353")
       (rhododendron-mode-line-inactive        "#fd3aae")
+      (rhododendron-bell                      "#03C013")
 
       (rhododendron-tab-1                     rhododendron-mode-line)
       (rhododendron-tab-2                     rhododendron-mode-line-inactive)
@@ -152,7 +153,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-red))))
+   `(cursor ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-mode-line))))
 
    ;; fringe
    `(fringe ((,rhododendron-class (:foreground ,rhododendron-red :background ,rhododendron-bg))))
@@ -169,7 +170,7 @@
    ;; mode-line
    `(mode-line ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line))))
    `(mode-line-inactive ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-purple-blue))))
+   `(guava-themes-visible-bell ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rhododendron-class (:foreground ,rhododendron-black))))
@@ -196,8 +197,8 @@
    `(tab-line-tab-special ((,rhododendron-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-bright-pink))))
-   `(show-paren-mismatch ((,rhododendron-class (:foreground ,rhododendron-white :background ,rhododendron-error))))
+   `(show-paren-match ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-bell))))
+   `(show-paren-mismatch ((,rhododendron-class (:foreground ,rhododendron-black :background ,rhododendron-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,rhododendron-class (:background ,rhododendron-error))))

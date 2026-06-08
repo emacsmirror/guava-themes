@@ -73,6 +73,7 @@
 
       (citrus-mode-line                 "#589337")
       (citrus-mode-line-inactive        "#6ea56e")
+      (citrus-bell                      "#933787")
 
       (citrus-tab-1                     citrus-orange-red)
       (citrus-tab-2                     citrus-orange-orange)
@@ -152,7 +153,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,citrus-class (:foreground ,citrus-fg :background ,citrus-alt-orange))))
+   `(cursor ((,citrus-class (:foreground ,citrus-white :background ,citrus-mode-line))))
 
    ;; fringe
    `(fringe ((,citrus-class (:foreground ,citrus-red :background ,citrus-bg))))
@@ -169,7 +170,7 @@
    ;; mode-line
    `(mode-line ((,citrus-class (:foreground ,citrus-white :background ,citrus-mode-line))))
    `(mode-line-inactive ((,citrus-class (:foreground ,citrus-white :background ,citrus-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,citrus-class (:foreground ,citrus-white :background ,citrus-orange-red))))
+   `(guava-themes-visible-bell ((,citrus-class (:foreground ,citrus-white :background ,citrus-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,citrus-class (:foreground ,citrus-black))))
@@ -196,8 +197,8 @@
    `(tab-line-tab-special ((,citrus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-green-lime))))
-   `(show-paren-mismatch ((,citrus-class (:foreground ,citrus-white :background ,citrus-error))))
+   `(show-paren-match ((,citrus-class (:foreground ,citrus-white :background ,citrus-bell))))
+   `(show-paren-mismatch ((,citrus-class (:foreground ,citrus-white :background ,citrus-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,citrus-class (:background ,citrus-error))))

@@ -73,6 +73,7 @@
 
       (rubus-mode-line                 "#aa3232")
       (rubus-mode-line-inactive        "#cd7378")
+      (rubus-bell                      "#326EAA")
 
       (rubus-tab-1                     rubus-mode-line)
       (rubus-tab-2                     rubus-mode-line-inactive)
@@ -152,7 +153,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,rubus-class (:foreground ,rubus-black :background ,rubus-raspberry))))
+   `(cursor ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line))))
 
    ;; fringe
    `(fringe ((,rubus-class (:foreground ,rubus-yellow :background ,rubus-bg))))
@@ -169,7 +170,7 @@
    ;; mode-line
    `(mode-line ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line))))
    `(mode-line-inactive ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-purple-pink))))
+   `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-raspberry))))
@@ -196,8 +197,8 @@
    `(tab-line-tab-special ((,rubus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,rubus-class (:foreground ,rubus-black :background ,rubus-orange))))
-   `(show-paren-mismatch ((,rubus-class (:foreground ,rubus-white :background ,rubus-error))))
+   `(show-paren-match ((,rubus-class (:foreground ,rubus-white :background ,rubus-bell))))
+   `(show-paren-mismatch ((,rubus-class (:foreground ,rubus-white :background ,rubus-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,rubus-class (:background ,rubus-error))))

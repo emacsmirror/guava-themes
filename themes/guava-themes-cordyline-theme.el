@@ -71,6 +71,7 @@
 
       (cordyline-mode-line                 "#a03c5a")
       (cordyline-mode-line-inactive        "#3c193c")
+      (cordyline-bell                      "#3C8CA0")
 
       (cordyline-tab-1                     cordyline-mode-line)
       (cordyline-tab-2                     cordyline-mode-line-inactive)
@@ -150,7 +151,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,cordyline-class (:foreground ,cordyline-fg :background ,cordyline-pink-red))))
+   `(cursor ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line))))
 
    ;; fringe
    `(fringe ((,cordyline-class (:foreground ,cordyline-cyan :background ,cordyline-bg))))
@@ -167,7 +168,7 @@
    ;; mode-line
    `(mode-line ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line))))
    `(mode-line-inactive ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-light-blue))))
+   `(guava-themes-visible-bell ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,cordyline-class (:foreground ,cordyline-white))))
@@ -194,8 +195,8 @@
    `(tab-line-tab-special ((,cordyline-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-steel-blue))))
-   `(show-paren-mismatch ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-error))))
+   `(show-paren-match ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-bell))))
+   `(show-paren-mismatch ((,cordyline-class (:foreground ,cordyline-white :background ,cordyline-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,cordyline-class (:background ,cordyline-error))))

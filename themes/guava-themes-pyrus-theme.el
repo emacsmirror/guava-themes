@@ -71,6 +71,7 @@
 
       (pyrus-mode-line                 "#295323")
       (pyrus-mode-line-inactive        "#228b22")
+      (pyrus-bell                      "#532341")
 
       (pyrus-tab-1                     pyrus-mode-line)
       (pyrus-tab-2                     pyrus-mode-line-inactive)
@@ -150,7 +151,7 @@
    ;; with non-unique colors
 
    ;; cursor
-   `(cursor ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-deep-blue))))
+   `(cursor ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line))))
 
    ;; fringe
    `(fringe ((,pyrus-class (:foreground ,pyrus-blue :background ,pyrus-bg))))
@@ -167,7 +168,7 @@
    ;; mode-line
    `(mode-line ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line))))
    `(mode-line-inactive ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-mode-line-inactive :inherit mode-line))))
-   `(guava-themes-visible-bell ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-blue))))
+   `(guava-themes-visible-bell ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-bell))))
 
    ;; minibuffer
    `(minibuffer-prompt ((,pyrus-class (:foreground ,pyrus-deep-orange))))
@@ -194,8 +195,8 @@
    `(tab-line-tab-special ((,pyrus-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
-   `(show-paren-match ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-light-green))))
-   `(show-paren-mismatch ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-error))))
+   `(show-paren-match ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-bell))))
+   `(show-paren-mismatch ((,pyrus-class (:foreground ,pyrus-white :background ,pyrus-error :inherit show-paren-match))))
 
    ;; trailing whitespaces
    `(trailing-whitespace ((,pyrus-class (:background ,pyrus-error))))
