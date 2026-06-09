@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2025-2026
 
-;; Author: Geralld Borbón <eternalmangocean@gmail.com>
+;; Author: Geralld Borbón <geralldborbon@gmail.com>
 ;; Created: Mar 27, 2026
 ;; Version: 0.17.0
 ;; Keywords: themes, faces, color
