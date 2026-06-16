@@ -60,7 +60,6 @@
       (vaccinium-purple                    "#6464af")
       (vaccinium-deep-purple               "#4b378c")
       (vaccinium-purple-pink               "#aa78cf")
-      (vaccinium-purple-red                "#632a63")
 
       (vaccinium-fg                        "#FFFFFF")
       (vaccinium-bg                        "#1c1c26")
@@ -301,8 +300,8 @@
    `(elfeed-show-tags-face ((,vaccinium-class (:foreground ,vaccinium-orange))))
 
    ;; doom-modeline
-   `(doom-modeline-project-name ((,vaccinium-class (:foreground ,vaccinium-purple-red :inherit italic))))
-   `(doom-modeline-project-parent-dir ((,vaccinium-class (:foreground ,vaccinium-purple-red))))
+   `(doom-modeline-project-name ((,vaccinium-class (:foreground ,vaccinium-deep-purple :inherit italic))))
+   `(doom-modeline-project-parent-dir ((,vaccinium-class (:foreground ,vaccinium-deep-purple))))
    `(doom-modeline-buffer-minor-mode ((,vaccinium-class (:foreground ,vaccinium-yellow))))
 
    ;; corfu
