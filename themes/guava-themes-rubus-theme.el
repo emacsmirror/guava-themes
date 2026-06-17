@@ -42,7 +42,7 @@
       (rubus-alt-raspberry             "#6e504b")
       (rubus-deep-raspberry            "#663a43")
       (rubus-red                       "#c23f39")
-      (rubus-pink-cream                "#cd7378")
+      (rubus-pink-cream                "#cd7d78")
       (rubus-alt-pink-cream            "#aa5055")
       (rubus-orange                    "#ffa07a")
 
@@ -59,7 +59,7 @@
       (rubus-cyan                      "#00FFFF")
 
       (rubus-light-purple              "#beb4d7")
-      (rubus-purple                    "#8264e6")
+      (rubus-purple                    "#826ee6")
       (rubus-purple-pink               "#965087")
 
       (rubus-fg                        "#FFFFFF")
