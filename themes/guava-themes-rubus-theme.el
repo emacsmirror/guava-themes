@@ -42,8 +42,8 @@
       (rubus-alt-raspberry             "#6e504b")
       (rubus-deep-raspberry            "#663a43")
       (rubus-red                       "#c23f39")
-      (rubus-pink-cream                "#cd7d78")
-      (rubus-alt-pink-cream            "#aa5055")
+      (rubus-pink-cream                "#c87873")
+      (rubus-alt-pink-cream            "#aa5550")
       (rubus-orange                    "#ffa07a")
 
       (rubus-yellow                    "#fde8b9")
@@ -60,7 +60,7 @@
 
       (rubus-light-purple              "#beb4d7")
       (rubus-purple                    "#826ee6")
-      (rubus-purple-pink               "#965087")
+      (rubus-purple-pink               "#aa649b")
 
       (rubus-fg                        "#FFFFFF")
       (rubus-bg                        "#0e1216")
@@ -173,7 +173,7 @@
    `(guava-themes-visible-bell ((,rubus-class (:foreground ,rubus-white :background ,rubus-bell))))
 
    ;; minibuffer
-   `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-raspberry))))
+   `(minibuffer-prompt ((,rubus-class (:foreground ,rubus-red))))
 
    ;; borders
    `(vertical-border ((,rubus-class (:foreground ,rubus-mode-line))))
