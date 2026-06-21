@@ -63,7 +63,7 @@
       (acer-fg                        "#000000")
       (acer-bg                        "#f7bb78")
       (acer-highlight                 "#e3a764")
-      (acer-shadow                    "#7f7f7f")
+      (acer-shadow                    "#717171")
 
       (acer-error                     "#d70000")
       (acer-warning                   "#f0dc00")
