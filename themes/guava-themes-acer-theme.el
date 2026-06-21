@@ -191,7 +191,7 @@
    `(tab-line-tab-current ((,acer-class (:foreground ,acer-white :background ,acer-tab-1 :inherit tab-line-tab))))
    `(tab-line-tab-inactive ((,acer-class (:foreground ,acer-white :background ,acer-tab-2 :inherit tab-line-tab))))
    `(tab-line-tab-inactive-alternate ((,acer-class (:foreground ,acer-white :background ,acer-tab-3 :inherit tab-line-tab))))
-   `(tab-line-tab-modified ((,acer-class (:foreground ,acer-blue :weight bold :height 0.9))))
+   `(tab-line-tab-modified ((,acer-class (:foreground ,acer-green-cyan :weight bold :height 0.9))))
    `(tab-line-tab-special ((,acer-class (:slant italic :weight bold :height 0.9))))
 
    ;; parentheses
