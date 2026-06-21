@@ -71,7 +71,7 @@
 
       (acer-mode-line                 "#e76144")
       (acer-mode-line-inactive        "#ff8c4e")
-      (acer-bell                      "#44E7B3")
+      (acer-bell                      "#4478E7")
 
       (acer-tab-1                     acer-mode-line)
       (acer-tab-2                     acer-mode-line-inactive)
