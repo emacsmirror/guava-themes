@@ -62,7 +62,7 @@
       (jacaranda-fg                        "#000000")
       (jacaranda-bg                        "#e9d9f9")
       (jacaranda-highlight                 "#d5c5e5")
-      (jacaranda-shadow                    "#7f7f7f")
+      (jacaranda-shadow                    "#898989")
 
       (jacaranda-error                     "#FF0000")
       (jacaranda-warning                   "#ebb515")
