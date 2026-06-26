@@ -65,7 +65,7 @@
       (citrus-fg                        "#000000")
       (citrus-bg                        "#edf2ed")
       (citrus-highlight                 "#d9ded9")
-      (citrus-shadow                    "#7f7f7f")
+      (citrus-shadow                    "#6b6b6b")
 
       (citrus-error                     "#FF0000")
       (citrus-warning                   "#ffbe00")
