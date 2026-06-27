@@ -280,6 +280,9 @@
    `(query-replace ((,citrus-class (:inherit isearch))))
    `(match ((,citrus-class (:inherit lazy-highlight))))
 
+   ;; custom-button
+   `(custom-button ((,citrus-class (:foreground ,citrus-white :background ,citrus-tab-1 :box (:line-width 2 :style released-button)))))
+
 
    ;; external packages
 

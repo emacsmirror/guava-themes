@@ -280,6 +280,9 @@
    `(query-replace ((,rubus-class (:inherit isearch))))
    `(match ((,rubus-class (:inherit lazy-highlight))))
 
+   ;; custom-button
+   `(custom-button ((,rubus-class (:foreground ,rubus-white :background ,rubus-mode-line :box (:line-width 2 :style released-button)))))
+
 
    ;; external packages
 

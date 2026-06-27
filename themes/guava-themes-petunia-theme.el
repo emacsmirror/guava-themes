@@ -276,6 +276,9 @@
    `(query-replace ((,petunia-class (:inherit isearch))))
    `(match ((,petunia-class (:inherit lazy-highlight))))
 
+   ;; custom-button
+   `(custom-button ((,petunia-class (:foreground ,petunia-white :background ,petunia-mode-line :box (:line-width 2 :style released-button)))))
+
 
    ;; external packages
 
