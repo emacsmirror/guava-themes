@@ -63,7 +63,7 @@
       (pyrus-fg                        "#780000")
       (pyrus-bg                        "#f9fefd")
       (pyrus-highlight                 "#e5eae9")
-      (pyrus-shadow                    "#7f7f7f")
+      (pyrus-shadow                    "#898989")
 
       (pyrus-error                     "#ff0000")
       (pyrus-warning                   "#ffd200")
