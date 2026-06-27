@@ -65,7 +65,7 @@
       (rhododendron-fg                        "#000000")
       (rhododendron-bg                        "#e8c7e3")
       (rhododendron-highlight                 "#d4b3cf")
-      (rhododendron-shadow                    "#7f7f7f")
+      (rhododendron-shadow                    "#898989")
 
       (rhododendron-error                     "#FF0000")
       (rhododendron-warning                   "#F68511")
